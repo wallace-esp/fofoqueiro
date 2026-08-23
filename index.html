@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Fofoqueiro do Mercado</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f5f7;
+      color: #202124;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 28px 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: #cbd5e1;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .status {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+
+    .status strong {
+      font-size: 18px;
+    }
+
+    .noticias {
+      display: grid;
+      gap: 16px;
+    }
+
+    .noticia {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+
+    .noticia h2 {
+      margin: 8px 0;
+      font-size: 19px;
+    }
+
+    .noticia h2 a {
+      color: #111827;
+      text-decoration: none;
+    }
+
+    .noticia h2 a:hover {
+      text-decoration: underline;
+    }
+
+    .veiculo {
+      font-size: 13px;
+      font-weight: bold;
+      color: #2563eb;
+    }
+
+    .data {
+      font-size: 13px;
+      color: #6b7280;
+    }
+
+    .erro {
+      background: #fee2e2;
+      color: #991b1b;
+      padding: 16px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Fofoqueiro do Mercado</h1>
+    <p>Radar de notícias e movimentos do mercado</p>
+  </header>
+
+  <main>
+
+    <div class="status" id="status">
+      Carregando dados...
+    </div>
+
+    <section class="noticias" id="noticias"></section>
+
+  </main>
+
+  <script>
+
+    async function carregarNoticias() {
+
+      const status = document.getElementById("status");
+      const container = document.getElementById("noticias");
+
+      try {
+
+        const resposta = await fetch(
+          "./data/oncologia-fortaleza.json"
+        );
+
+        if (!resposta.ok) {
+          throw new Error("Não foi possível carregar os dados.");
+        }
+
+        const dados = await resposta.json();
+
+        status.innerHTML = `
+          <strong>${dados.nome}</strong><br>
+          Atualizado em: ${dados.atualizadoEm}<br>
+          Notícias encontradas: ${dados.noticias.length}
+        `;
+
+        container.innerHTML = "";
+
+        dados.noticias
+          .filter(noticia => noticia.incluir !== false)
+          .forEach(noticia => {
+
+            const item = document.createElement("article");
+
+            item.className = "noticia";
+
+            item.innerHTML = `
+              <div class="veiculo">
+                ${noticia.veiculo || "Fonte não informada"}
+              </div>
+
+              <h2>
+                <a
+                  href="${noticia.url}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ${noticia.titulo}
+                </a>
+              </h2>
+
+              <div class="data">
+                ${noticia.data || ""}
+              </div>
+            `;
+
+            container.appendChild(item);
+
+          });
+
+      } catch (erro) {
+
+        status.innerHTML = `
+          <div class="erro">
+            Erro ao carregar os dados: ${erro.message}
+          </div>
+        `;
+
+      }
+
+    }
+
+    carregarNoticias();
+
+  </script>
+
+</body>
+</html>
