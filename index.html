@@ -375,7 +375,7 @@
       <div class="filtros" id="filtros-busca"></div>
       <div class="tabela-wrap">
         <table id="tab-busca">
-          <thead><tr><th>Termo</th><th>Tendência (90d)</th><th>Volume</th><th>Incremento</th><th>Sinal</th></tr></thead>
+          <thead><tr><th>Termo</th><th>Tendência (90d)</th><th>Índice (0-100)</th><th>Incremento</th><th>Sinal</th><th>Origem</th></tr></thead>
           <tbody id="tabela-busca"></tbody>
         </table>
       </div>
@@ -450,6 +450,12 @@
           <label>Secundária <input type="color" id="cor-secundaria" value="#2E8B57" onchange="aplicarCores()"></label>
           <label>Destaque <input type="color" id="cor-destaque" value="#E8A33D" onchange="aplicarCores()"></label>
         </div>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>📤 Sincronizar com o pipeline</h4>
+        <p>Os termos e concorrentes cadastrados aqui vivem só no navegador. Para que o pipeline diário/semanal (GitHub Actions) use essa lista, exporte o config e cole no arquivo <code>data/&lt;id&gt;-config.json</code> do repositório.</p>
+        <button class="btn azul" onclick="exportarConfig()">📤 Exportar Config (para pipeline)</button>
       </div>
 
       <div class="setup-bloco">
@@ -1079,9 +1085,12 @@ function renderResumo(){
     card(m.concorrentes.length, 'Concorrentes', '', 'flat') +
     card(altos, 'Impacto ALTO', '', 'flat');
 
-  var topEng = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
-  var topGmn = m.concorrentes.slice().sort(function(a,b){ return b.gmn - a.gmn; })[0];
-  var topTermo = m.termosBusca[0];
+  // Compat: menções (dado real) tem prioridade sobre engajamento (seed)
+  function metricR(c, chave, fb){ return (c.indicadores && c.indicadores[chave] && c.indicadores[chave].valor != null) ? c.indicadores[chave].valor : (c[fb] || 0); }
+  var topEng = m.concorrentes.slice().sort(function(a,b){ return metricR(b,'mencoes30d','eng') - metricR(a,'mencoes30d','eng'); })[0] || {nome:'—',eng:0,url:''};
+  var topGmn = m.concorrentes.slice().sort(function(a,b){ return (b.gmn||0) - (a.gmn||0); })[0] || {nome:'—',gmn:'—',url:''};
+  var topTermo = m.termosBusca[0] || {termo:'—',incremento:0,volume:0};
+  function idxT(t){ return (t.indiceInteresse != null) ? t.indiceInteresse : t.volume; }
 
   var html = '';
   html += '<div class="bloco"><h4>⚖️ É LEI</h4><ul>';
@@ -1107,21 +1116,22 @@ function renderResumo(){
   html += '</ul></div>';
 
   html += '<div class="bloco"><h4>🏆 É CONCORRÊNCIA</h4><ul>';
-  html += '<li>🥇 Líder GMN: <a href="'+escapeHtml(topGmn.url)+'" target="_blank" rel="noopener">'+escapeHtml(topGmn.nome)+'</a> ('+topGmn.gmn+' ⭐)</li>';
-  html += '<li>💬 Líder engajamento: <a href="'+escapeHtml(topEng.url)+'" target="_blank" rel="noopener">'+escapeHtml(topEng.nome)+'</a> ('+topEng.eng+'%)</li>';
+  html += '<li>🥇 GMN (histórico): <a href="'+escapeHtml(topGmn.url||'#')+'" target="_blank" rel="noopener">'+escapeHtml(topGmn.nome)+'</a> ('+(topGmn.gmn||'—')+' ⭐)</li>';
+  html += '<li>💬 Mais mencionado (30d): <a href="'+escapeHtml(topEng.url||'#')+'" target="_blank" rel="noopener">'+escapeHtml(topEng.nome)+'</a> ('+metricR(topEng,'mencoes30d','eng')+' menções)</li>';
   html += '<li>📊 '+m.concorrentes.length+' players monitorados</li>';
   html += '</ul></div>';
 
   html += '<div class="bloco"><h4>🔍 É BUSCA</h4><ul>';
   for(var p=0;p<m.termosBusca.length;p++){
     var t = m.termosBusca[p];
-    html += '<li><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a> — volume '+t.volume+' <span class="'+deltaCls(t.incremento)+'">'+deltaHtml(t.incremento)+'</span></li>';
+    var v = idxT(t); var vTxt = (v == null) ? 'sem dado' : ('índice '+v);
+    html += '<li><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a> — '+vTxt+' <span class="'+deltaCls(t.incremento||0)+'">'+deltaHtml(t.incremento||0)+'</span></li>';
   }
   html += '</ul></div>';
 
   html += '<div class="bloco" style="background:var(--insight-bg);border-left:4px solid var(--destaque);"><h4 style="color:var(--tag-medio-fg);border-color:var(--destaque);">💡 Insights Estratégicos</h4><ul>';
-  html += '<li>📈 "'+escapeHtml(topTermo.termo)+'" cresceu '+topTermo.incremento+'% — demanda reprimida.</li>';
-  html += '<li>🏆 '+escapeHtml(topEng.nome)+' lidera engajamento ('+topEng.eng+'%) — benchmark de conteúdo.</li>';
+  html += '<li>📈 "'+escapeHtml(topTermo.termo)+'" — variação de '+(topTermo.incremento||0)+'% no interesse.</li>';
+  html += '<li>🏆 '+escapeHtml(topEng.nome)+' concentra menções na imprensa ('+metricR(topEng,'mencoes30d','eng')+' em 30d).</li>';
   if(altos > 0) html += '<li>⚖️ '+altos+' ato(s) de impacto ALTO exigem revisão de conformidade.</li>';
   html += '</ul></div>';
 
@@ -1290,29 +1300,118 @@ function renderNegocio(){
 // ============================================================
 function renderConcorrencia(){
   var m = getMercado();
-  var topGmn = m.concorrentes.slice().sort(function(a,b){ return b.gmn - a.gmn; })[0];
-  var topSeg = m.concorrentes.slice().sort(function(a,b){ return b.seg - a.seg; })[0];
-  var topEng = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
-  document.getElementById('cards-concorrencia').innerHTML =
-    card(topGmn.gmn+' ⭐', 'Líder GMN', '', 'flat') +
-    card(topSeg.seg.toLocaleString('pt-BR'), 'Líder seguidores', '', 'flat') +
-    card(topEng.eng+'%', 'Líder engajamento', '', 'flat') +
-    card(m.concorrentes.length, 'Players', '', 'flat');
+  // Compat: cada concorrente pode vir no formato antigo (flat: gmn/seg/eng)
+  // ou no novo (Fase 2.1: indicadores.mencoes30d/interesseTrends/googleMaps/...)
+  function ind(c, chave){
+    return (c.indicadores && c.indicadores[chave]) || null;
+  }
+  function badgeConf(nivel){
+    if(!nivel) return '';
+    var cls = nivel === 'ALTA' ? 'baixo' : (nivel === 'MEDIA' ? 'medio' : (nivel === 'SEM_DADO' ? 'neu' : 'alto'));
+    var lbl = nivel === 'SEM_DADO' ? 'sem dado' : nivel.toLowerCase();
+    return ' <span class="tag '+cls+'" title="Confiabilidade do dado">'+lbl+'</span>';
+  }
+  function valOrDash(x){ return (x === null || x === undefined || x === '') ? '—' : x; }
+  function fmtVar(delta){
+    if(!delta || delta.pct === null || delta.pct === undefined) return '';
+    var cls = delta.pct > 0 ? 'up' : (delta.pct < 0 ? 'down' : 'flat');
+    var sinal = delta.pct > 0 ? '+' : '';
+    return ' <small class="'+cls+'" style="font-size:10px;">'+sinal+delta.pct+'% /'+delta.diasEntre+'d</small>';
+  }
+  function celValor(indic, opts){
+    opts = opts || {};
+    if(!indic) return '<td>—</td>';
+    if(indic.confiabilidade === 'SEM_DADO' || indic.valor === null || indic.valor === undefined){
+      return '<td title="'+escapeHtml(indic.motivo || 'sem dado')+'"><span style="color:var(--texto-tenue);">sem dado</span></td>';
+    }
+    var v = indic.valor;
+    var display = '';
+    if(opts.tipo === 'gmn'){
+      // Google Maps: {avaliacao, reviews}
+      var av = v.avaliacao != null ? v.avaliacao+' ⭐' : '—';
+      var rv = v.reviews != null ? '<br><small style="color:var(--texto-tenue);">'+v.reviews.toLocaleString('pt-BR')+' reviews</small>' : '';
+      display = av + rv;
+    } else if(opts.tipo === 'instagram'){
+      // Instagram: {seguidores, publicacoes}
+      var sg = v.seguidores != null ? v.seguidores.toLocaleString('pt-BR') : '—';
+      var pb = v.publicacoes != null ? '<br><small style="color:var(--texto-tenue);">'+v.publicacoes.toLocaleString('pt-BR')+' posts</small>' : '';
+      display = sg + pb;
+    } else {
+      display = (opts.format ? opts.format(v) : v);
+    }
+    return '<td>'+display+fmtVar(opts.delta)+badgeConf(indic.confiabilidade)+'</td>';
+  }
+
+  // Métricas de topo — usa menções e interesse (dados reais)
+  var maxMen = 0, maxInt = 0, nomeMaxMen = '—', nomeMaxInt = '—';
+  for(var k=0;k<m.concorrentes.length;k++){
+    var c = m.concorrentes[k];
+    var men = (ind(c,'mencoes30d') || {}).valor || 0;
+    var it = (ind(c,'interesseTrends') || {}).valor || 0;
+    if(men > maxMen){ maxMen = men; nomeMaxMen = c.nome.split('(')[0].trim(); }
+    if(it > maxInt){ maxInt = it;  nomeMaxInt = c.nome.split('(')[0].trim(); }
+  }
+  // Se ainda não migrou (dados antigos flat), fallback
+  var usarNovo = m.concorrentes.some(function(c){ return c.indicadores; });
+  if(usarNovo){
+    document.getElementById('cards-concorrencia').innerHTML =
+      card(maxMen, 'Menções 30d — '+nomeMaxMen.slice(0,20), '', 'flat') +
+      card(maxInt || '—', 'Interesse Trends — '+nomeMaxInt.slice(0,20), '', 'flat') +
+      card(m.concorrentes.length, 'Players monitorados', '', 'flat');
+  } else {
+    var topGmn = m.concorrentes.slice().sort(function(a,b){ return (b.gmn||0) - (a.gmn||0); })[0];
+    var topSeg = m.concorrentes.slice().sort(function(a,b){ return (b.seg||0) - (a.seg||0); })[0];
+    var topEng = m.concorrentes.slice().sort(function(a,b){ return (b.eng||0) - (a.eng||0); })[0];
+    document.getElementById('cards-concorrencia').innerHTML =
+      card((topGmn.gmn||'—')+' ⭐', 'Líder GMN (seed)', '', 'flat') +
+      card((topSeg.seg||0).toLocaleString('pt-BR'), 'Líder seguidores (seed)', '', 'flat') +
+      card((topEng.eng||'—')+'%', 'Líder engajamento (seed)', '', 'flat') +
+      card(m.concorrentes.length, 'Players', '', 'flat');
+  }
+
+  // Tabela — nova ordem: menções (real), interesse Trends (real), GMN histórico, seguidores histórico
+  var thead = usarNovo
+    ? '<tr><th>#</th><th>Concorrente</th><th>Grupo</th><th>Menções 30d</th><th>Interesse Trends</th><th>Google Maps ⭐</th><th>Instagram</th><th>GMN (seed)</th></tr>'
+    : '<tr><th>#</th><th>Concorrente</th><th>Grupo</th><th>GMN ⭐</th><th>R. Aqui</th><th>Seguidores</th><th>Engaj.</th></tr>';
+  var tabEl = document.querySelector('#tab-concorrencia thead');
+  if(tabEl) tabEl.innerHTML = thead;
+
   var html = '';
   for(var i=0;i<m.concorrentes.length;i++){
     var c = m.concorrentes[i];
-    var seg = c.seg ? c.seg.toLocaleString('pt-BR') : '—';
-    var eng = c.eng ? c.eng+'%' : '—';
     var nome = c.url ? '<a href="'+escapeHtml(c.url)+'" target="_blank" rel="noopener">'+escapeHtml(c.nome)+'</a>' : escapeHtml(c.nome);
-    html += '<tr>'
-         +  '<td>'+(i+1)+'</td>'
-         +  '<td><strong>'+nome+'</strong></td>'
-         +  '<td>'+escapeHtml(c.grupo)+'</td>'
-         +  '<td>'+(c.gmn || '—')+'</td>'
-         +  '<td>'+escapeHtml(c.ra)+'</td>'
-         +  '<td>'+seg+'</td>'
-         +  '<td>'+eng+'</td>'
-         +  '</tr>';
+    if(usarNovo){
+      var men = ind(c,'mencoes30d');
+      var it  = ind(c,'interesseTrends');
+      var gm  = ind(c,'googleMaps');
+      var ig  = ind(c,'instagramFollowers');
+      var hm  = (c.indicadores && c.indicadores.historicoManual) || {};
+      var ev  = c.evolucao30d || {};
+      var gmnHist = hm.gmn && hm.gmn.valor != null ? hm.gmn.valor+' ⭐ <span class="tag neu" title="valor histórico manual — data original desconhecida">seed</span>' : '—';
+      html += '<tr>'
+           +  '<td>'+(i+1)+'</td>'
+           +  '<td><strong>'+nome+'</strong></td>'
+           +  '<td>'+escapeHtml(c.grupo || '—')+'</td>'
+           +  celValor(men, { delta: ev.mencoes })
+           +  celValor(it,  { delta: ev.interesseTrends })
+           +  celValor(gm,  { tipo: 'gmn', delta: ev.gmnReviews })
+           +  celValor(ig,  { tipo: 'instagram', delta: ev.instagramFollowers })
+           +  '<td>'+gmnHist+'</td>'
+           +  '</tr>';
+    } else {
+      // formato antigo (flat)
+      var seg = c.seg ? c.seg.toLocaleString('pt-BR') : '—';
+      var eng = c.eng ? c.eng+'%' : '—';
+      html += '<tr>'
+           +  '<td>'+(i+1)+'</td>'
+           +  '<td><strong>'+nome+'</strong></td>'
+           +  '<td>'+escapeHtml(c.grupo)+'</td>'
+           +  '<td>'+(c.gmn || '—')+'</td>'
+           +  '<td>'+escapeHtml(c.ra)+'</td>'
+           +  '<td>'+seg+'</td>'
+           +  '<td>'+eng+'</td>'
+           +  '</tr>';
+    }
   }
   document.getElementById('tabela-concorrencia').innerHTML = html;
 }
@@ -1322,12 +1421,26 @@ function renderConcorrencia(){
 // ============================================================
 function renderBusca(){
   var m = getMercado();
-  var altas = 0;
-  for(var i=0;i<m.termosBusca.length;i++) if(m.termosBusca[i].tendencia === 'alta') altas++;
+  // helper: valor preferido para "índice"
+  function idx(t){
+    if(t.indiceInteresse !== undefined && t.indiceInteresse !== null) return t.indiceInteresse;
+    return t.volume;
+  }
+  var altas = 0, semDado = 0, stale = 0;
+  for(var i=0;i<m.termosBusca.length;i++){
+    var tt = m.termosBusca[i];
+    if(tt.tendencia === 'alta') altas++;
+    if(tt.confiabilidade === 'SEM_DADO') semDado++;
+    if(tt.stale) stale++;
+  }
+  var top = m.termosBusca[0] || {};
+  var topIdx = idx(top);
   document.getElementById('cards-busca').innerHTML =
-    card(m.termosBusca[0].volume, 'Volume top termo', deltaHtml(m.termosBusca[0].incremento), deltaCls(m.termosBusca[0].incremento)) +
+    card(topIdx == null ? '—' : topIdx, 'Índice top termo (0-100)', top.incremento != null ? deltaHtml(top.incremento) : '', deltaCls(top.incremento || 0)) +
     card(altas, 'Termos em alta', '', 'flat') +
-    card(m.termosBusca.length, 'Termos monitorados', '', 'flat');
+    card(m.termosBusca.length, 'Termos monitorados', '', 'flat') +
+    (semDado ? card(semDado, 'Sem dado (Trends indispon.)', '', 'flat') : '') +
+    (stale ? card(stale, 'Dados stale (último válido)', '', 'flat') : '');
 
   var f = filtros.busca.tendencia;
   document.getElementById('filtros-busca').innerHTML =
@@ -1343,15 +1456,24 @@ function renderBusca(){
     if(f !== 'todos' && t.tendencia !== f) continue;
     var tCls = t.tendencia === 'alta' ? 'pos' : (t.tendencia === 'queda' ? 'neg' : 'neu');
     var spark = sparkline(t.serie, 90, 26);
+    var valor = idx(t);
+    var valorCel = (valor == null) ? '<span style="color:var(--texto-tenue);">sem dado</span>' : valor;
+    var incCel = (t.incremento == null) ? '—' : '<span class="'+deltaCls(t.incremento)+'">'+deltaHtml(t.incremento)+'</span>';
+    var badges = '';
+    if(t.stale) badges += ' <span class="tag medio" title="Google Trends indisponível na última tentativa — mostrando último valor válido">stale</span>';
+    if(t.confiabilidade === 'SEM_DADO') badges += ' <span class="tag neu">sem dado</span>';
+    var origem = t.fonte ? escapeHtml(t.fonte) : 'local';
+    if(t.geo) origem += ' · '+escapeHtml(t.geo);
     html += '<tr>'
-         +  '<td><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a></td>'
+         +  '<td><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a>'+badges+'</td>'
          +  '<td>'+spark+'</td>'
-         +  '<td>'+t.volume+'</td>'
-         +  '<td class="'+deltaCls(t.incremento)+'">'+deltaHtml(t.incremento)+'</td>'
+         +  '<td>'+valorCel+'</td>'
+         +  '<td>'+incCel+'</td>'
          +  '<td><span class="tag '+tCls+'">'+t.tendencia+'</span></td>'
+         +  '<td style="font-size:11px;color:var(--texto-tenue);">'+origem+'</td>'
          +  '</tr>';
   }
-  if(!html) html = '<tr><td colspan="5" style="color:var(--texto-tenue);text-align:center;padding:20px;">Nenhum termo no filtro.</td></tr>';
+  if(!html) html = '<tr><td colspan="6" style="color:var(--texto-tenue);text-align:center;padding:20px;">Nenhum termo no filtro.</td></tr>';
   document.getElementById('tabela-busca').innerHTML = html;
 }
 
@@ -1528,13 +1650,55 @@ function aplicarCores(){
   toast('Identidade atualizada');
 }
 
+// Gera o JSON do config atual (termos + concorrentes cadastrados aqui no navegador)
+// no formato que o pipeline consome em data/<id>-config.json.
+function exportarConfig(){
+  var m = getMercado();
+  var config = {
+    id: m.id,
+    nome: m.nome,
+    _readme: "Config editável do mercado. Este arquivo é a fonte de verdade dos termos e concorrentes usados pelo pipeline.",
+    geoTrendsPrincipal: 'BR-' + (m.estado || 'CE').toUpperCase(),
+    geoTrendsFallback: 'BR',
+    termosBusca: (m.termosBusca || []).map(function(t){ return t.termo; }),
+    concorrentesMonitorados: (m.concorrentes || []).map(function(c){
+      return {
+        nome: (c.nome || '').replace(/\s*\([^)]*\)\s*/,'').trim() || c.nome,
+        alias: (c.nome && c.nome.match(/\(([^)]+)\)/)) ? [c.nome.match(/\(([^)]+)\)/)[1]] : [],
+        grupo: c.grupo || '',
+        url: c.url || '',
+        instagramHandle: (c.instagram || '').replace(/^@/,'').replace(/[^a-zA-Z0-9_\.]/g,''),
+        googleMapsUrl: ''
+      };
+    })
+  };
+  var txt = JSON.stringify(config, null, 2);
+  try {
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){
+        toast('Config copiado! Cole em data/'+m.id+'-config.json no repositório.');
+      }, function(){ window.prompt('Copie o config abaixo e cole em data/'+m.id+'-config.json:', txt); });
+    } else {
+      window.prompt('Copie o config abaixo e cole em data/'+m.id+'-config.json:', txt);
+    }
+  } catch(e){
+    window.prompt('Copie o config abaixo e cole em data/'+m.id+'-config.json:', txt);
+  }
+}
+
 // ============================================================
 // NEWSLETTER
 // ============================================================
 function gerarNewsletter(){
   var m = getMercado();
-  var topGmn = m.concorrentes.slice().sort(function(a,b){ return b.gmn - a.gmn; })[0];
-  var topEng = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
+  // Compat: prioriza indicadores novos (Fase 2.1), cai em campos flat antigos
+  function metric(c, chave, fallbackFlat){
+    if(c.indicadores && c.indicadores[chave] && c.indicadores[chave].valor != null) return c.indicadores[chave].valor;
+    return c[fallbackFlat];
+  }
+  var topMen = m.concorrentes.slice().sort(function(a,b){ return (metric(b,'mencoes30d','mencoes30d')||0) - (metric(a,'mencoes30d','mencoes30d')||0); })[0] || m.concorrentes[0];
+  var topGmn = m.concorrentes.slice().sort(function(a,b){ return (b.gmn||0) - (a.gmn||0); })[0] || m.concorrentes[0];
+  var topEng = m.concorrentes.slice().sort(function(a,b){ return (b.eng||0) - (a.eng||0); })[0] || m.concorrentes[0];
   var incluidas = [];
   for(var i=0;i<m.noticias.length;i++) if(m.noticias[i].incluir) incluidas.push(m.noticias[i]);
 
@@ -1567,8 +1731,8 @@ function gerarNewsletter(){
   html += '</ul>';
 
   html += '<h4>🏆 É CONCORRÊNCIA</h4><ul>';
-  html += '<li>🥇 <strong>Líder GMN:</strong> <a href="'+escapeHtml(topGmn.url)+'" target="_blank" rel="noopener">'+escapeHtml(topGmn.nome)+'</a> ('+topGmn.gmn+' ⭐)</li>';
-  html += '<li>💬 <strong>Líder engajamento:</strong> <a href="'+escapeHtml(topEng.url)+'" target="_blank" rel="noopener">'+escapeHtml(topEng.nome)+'</a> ('+topEng.eng+'%)</li>';
+  html += '<li>🥇 <strong>GMN (histórico):</strong> <a href="'+escapeHtml(topGmn.url||'#')+'" target="_blank" rel="noopener">'+escapeHtml(topGmn.nome)+'</a> ('+(topGmn.gmn||'—')+' ⭐)</li>';
+  html += '<li>💬 <strong>Mais mencionado (30d):</strong> <a href="'+escapeHtml(topMen.url||'#')+'" target="_blank" rel="noopener">'+escapeHtml(topMen.nome)+'</a> ('+metric(topMen,'mencoes30d','eng')+' menções)</li>';
   html += '</ul>';
 
   html += '<h4>🔍 É BUSCA</h4><ul>';
@@ -1578,7 +1742,8 @@ function gerarNewsletter(){
   }
   html += '</ul>';
 
-  html += '<div class="insight"><strong>💡 Insights da semana:</strong> Demanda em alta para "'+escapeHtml(m.termosBusca[0].termo)+'" ('+deltaHtml(m.termosBusca[0].incremento)+'). '+escapeHtml(topEng.nome)+' lidera engajamento — benchmark de conteúdo. Recomenda-se ativar campanha de conversão para as buscas em alta.</div>';
+  var termo0 = m.termosBusca[0] || {termo:'—',incremento:0};
+  html += '<div class="insight"><strong>💡 Insights da semana:</strong> Variação de interesse para "'+escapeHtml(termo0.termo)+'" ('+deltaHtml(termo0.incremento||0)+'). '+escapeHtml(topMen.nome)+' concentra mídia — benchmark de comunicação. Recomenda-se ativar campanha nos termos em alta.</div>';
 
   html += '</div>';
   html += '<div class="foot">MEATO Consultoria · Inteligência de Mercado · Dados com fontes verificáveis · Não responda este e-mail</div>';
