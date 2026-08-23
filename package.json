@@ -1,0 +1,17 @@
+{
+  "name": "fofoqueiro-ingest",
+  "version": "2.0.0",
+  "description": "Motor de ingestão do painel Fofoqueiro do Mercado (MEATO Consultoria).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs"
+  },
+  "dependencies": {
+    "google-trends-api": "^4.9.2",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -779,6 +779,7 @@ function dadosOncologiaFortaleza(){
       {tipo:"Recuperação Extrajudicial", empresas:"Kora Saúde e Alliança avançam no processo", link:"https://www.korasaude.com.br/", texto:"korasaude.com.br", origem:"auto"},
       {tipo:"Inovação", empresas:"Fortaleza + ICC + Ministério da Saúde — IA no rastreamento oncológico", link:"https://www.fortaleza.ce.gov.br/", texto:"fortaleza.ce.gov.br", origem:"curado"}
     ],
+    oportunidades: [],
     termosBusca: [
       {termo:"tratamento de câncer Fortaleza", volume:78, incremento:12.4, tendencia:"alta",    serie:[42,48,55,60,58,65,70,68,72,74,76,78], url:"https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR"},
       {termo:"oncologia Fortaleza",             volume:65, incremento:5.2,  tendencia:"alta",    serie:[52,54,53,58,60,59,62,63,61,64,63,65], url:"https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR"},
@@ -854,6 +855,7 @@ function tentarFetchRemoto(){
       if(Array.isArray(dados.concorrentes)  && dados.concorrentes.length)  m.concorrentes  = dados.concorrentes;
       if(Array.isArray(dados.canais)        && dados.canais.length)        m.canais        = dados.canais;
       if(Array.isArray(dados.fontesLegais)  && dados.fontesLegais.length)  m.fontesLegais  = dados.fontesLegais;
+      if(Array.isArray(dados.oportunidades) && dados.oportunidades.length) m.oportunidades = dados.oportunidades;
       if(dados.atualizadoEm)  m.atualizadoEm  = dados.atualizadoEm;
       if(dados.proximaAtualizacao) m.proximaAtualizacao = dados.proximaAtualizacao;
       salvarEstado();
@@ -1360,6 +1362,23 @@ function renderOportunidades(){
   var m = getMercado();
   var ops = [];
 
+  // Se o pipeline (Fase 2) já entregou oportunidades no JSON remoto,
+  // preferimos a versão do servidor (usa sinais frescos de Trends,
+  // Câmara/Senado, notícias curadas). Mapeamos para o formato de card local.
+  if(Array.isArray(m.oportunidades) && m.oportunidades.length){
+    var htmlR = '';
+    for(var r=0;r<m.oportunidades.length;r++){
+      var o = m.oportunidades[r];
+      var prio = o.prioridade ? ' <span class="tag '+(o.prioridade==='ALTA'?'alto':(o.prioridade==='MÉDIA'?'medio':'baixo'))+'">'+o.prioridade+'</span>' : '';
+      var refsTxt = 'Tipo: ' + (o.tipo || '—');
+      if(o.recomendacao) refsTxt += ' · ' + o.recomendacao;
+      htmlR += '<div class="oportunidade"><div class="tit">🎯 '+escapeHtml(o.titulo)+prio+'</div><div class="desc">'+escapeHtml(o.descricao)+'</div><div class="refs">'+escapeHtml(refsTxt)+'</div></div>';
+    }
+    document.getElementById('lista-oportunidades').innerHTML = htmlR;
+    return;
+  }
+
+  // Fallback: cálculo local a partir dos dados presentes no mercado.
   // 1. Termos em alta
   for(var i=0;i<m.termosBusca.length;i++){
     var t = m.termosBusca[i];
