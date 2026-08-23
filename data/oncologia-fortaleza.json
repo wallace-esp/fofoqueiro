@@ -1,7 +1,7 @@
 {
   "id": "oncologia-fortaleza",
   "nome": "Oncologia · Fortaleza (CE)",
-  "atualizadoEm": "2026-08-23T03:52:21.162Z",
+  "atualizadoEm": "2026-08-23T09:56:06.868Z",
   "proximaAtualizacao": "diária, 09h UTC",
   "noticias": [
     {
@@ -44,15 +44,14 @@
       "incluir": true
     },
     {
-      "veiculo": "Google News",
-      "titulo": "OPA bilionária da Oncoclínicas vai parar em arbitragem às vésperas de decisão da CVM - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
-      "data": "2026-08-22",
+      "veiculo": "G1 Ceará",
+      "titulo": "Vestibular da USP em Fortaleza gera debate nas redes sociais; entenda escolha da Fuvest",
+      "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/08/23/vestibular-da-usp-em-fortaleza-gera-debate-nas-redes-sociais-entenda-escolha-da-fuvest.ghtml",
+      "data": "2026-08-23",
       "tom": "Neutro",
       "origem": "auto",
-      "termo": "Oncoclínicas",
       "veiculos": [
-        "Google News"
+        "G1 Ceará"
       ],
       "incluir": true
     },
@@ -71,8 +70,8 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Goldman Sachs e Centaurus reconhecem derrota no caso Oncoclínicas - Brasil 247",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNWFFSXVwRHFhWGpoMEtLTnpmWnk4dUFvMkZwU2FOSXZHdkxSXzRmaVdzVFplN3lDdEtCMlFJUFB6OTg5SVE5RTNSc185RFZsYTRhTUxrQ3ViQ196cF94bXl0dzh3eHpmb1lNSlpYTWtyZWQ2VGZJb0ZfYzVPdGZZdXNRYmpTc0Jpdi1RLXBnT0s3QTZqb0J3cFdDTGlWOXEza084?oc=5",
+      "titulo": "O plano dos minoritários da Oncoclínicas para o pós-julgamento da OPA - O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
       "data": "2026-08-22",
       "tom": "Neutro",
       "origem": "auto",
@@ -97,8 +96,21 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "O plano dos minoritários da Oncoclínicas para o pós-julgamento da OPA - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
+      "titulo": "Goldman Sachs e Centaurus reconhecem derrota no caso Oncoclínicas - Brasil 247",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNWFFSXVwRHFhWGpoMEtLTnpmWnk4dUFvMkZwU2FOSXZHdkxSXzRmaVdzVFplN3lDdEtCMlFJUFB6OTg5SVE5RTNSc185RFZsYTRhTUxrQ3ViQ196cF94bXl0dzh3eHpmb1lNSlpYTWtyZWQ2VGZJb0ZfYzVPdGZZdXNRYmpTc0Jpdi1RLXBnT0s3QTZqb0J3cFdDTGlWOXEza084?oc=5",
+      "data": "2026-08-22",
+      "tom": "Neutro",
+      "origem": "auto",
+      "termo": "Oncoclínicas",
+      "veiculos": [
+        "Google News"
+      ],
+      "incluir": true
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "OPA bilionária da Oncoclínicas vai parar em arbitragem às vésperas de decisão da CVM - O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
       "data": "2026-08-22",
       "tom": "Neutro",
       "origem": "auto",
@@ -618,18 +630,6 @@
       "veiculo": "G1 Ceará",
       "titulo": "Redemoinho de poeira surpreende trabalhadores de canteiro de obras no interior do Ceará; veja vídeo",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/redemoinho-de-poeira-ceara-video.ghtml",
-      "data": "2026-08-21",
-      "tom": "Neutro",
-      "origem": "auto",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "incluir": true
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Facção cobrou R$ 200 mil para aliados de prefeito realizarem campanha eleitoral em município do Ceará ",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/faccao-cobrou-r-200-mil-para-aliados-de-prefeito-realizarem-campanha-eleitoral-em-municipio-do-ceara.ghtml",
       "data": "2026-08-21",
       "tom": "Neutro",
       "origem": "auto",
