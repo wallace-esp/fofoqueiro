@@ -5,7 +5,7 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-08-23T13:33:07.663Z",
+  "atualizadoEm": "2026-08-23T14:07:13.210Z",
   "proximaAtualizacao": "diária, 09h UTC",
   "noticias": [
     {
@@ -475,8 +475,8 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões - Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXNEdEliTnFORUt0S09GbHU2UmVuc1EwQjY4WGs2QW0ydkcxc2JzRk5kdzV3QVZwTC1GM1F2R0Z6R2wxd1M5YWo0S2M0NHhQcnBKUm5QX3c2LWVJakxoMm5iUnRGUVpPc0xLbEJFMnppMGowMWoyeXpOc09WazdyWl85WF92MTFqelpQSF9oYWpMaEFVX2NZcU5POW5JdWIzUkxFbmNsOF9pNWtPSHNBd3FoZG1BRW5PRGpDVm1FSkRHTjNz?oc=5",
+      "titulo": "Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões - Forbes Brasil",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0FOSG04M05QSVZUN2JvZUEwOWkwSkI4VlJfRHk3cFBsOENJTkRkQlBPVXVWdVVEcGc1eGw3NjM0eUM2bEtWMFdiTVlFNC1PVmhvay1GMmFyWVhiZWd3QkFvN2Z3OUdNOUEyVUVyM2l0QUctMS1OZXUtUTRYNFRFZzdPZmxqOWJmbkRTUg?oc=5",
       "data": "2026-08-21",
       "termo": "Oncoclínicas",
       "veiculos": [
@@ -486,7 +486,7 @@
       "incluir": true,
       "score": 5,
       "tema": "negócio",
-      "tom": "Neutro"
+      "tom": "Negativo"
     },
     {
       "veiculo": "Google News",
@@ -505,8 +505,8 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões - Forbes Brasil",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0FOSG04M05QSVZUN2JvZUEwOWkwSkI4VlJfRHk3cFBsOENJTkRkQlBPVXVWdVVEcGc1eGw3NjM0eUM2bEtWMFdiTVlFNC1PVmhvay1GMmFyWVhiZWd3QkFvN2Z3OUdNOUEyVUVyM2l0QUctMS1OZXUtUTRYNFRFZzdPZmxqOWJmbkRTUg?oc=5",
+      "titulo": "Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões - InvestNews",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVk9tYktfeXVMRTN0U01mRW4zTVFiOWdNTEVHRUxpOERiaHp5SVd6ZHRrd2dUWkVnOF8xcW01WTV0VXQzeC1pbE0wYmFRZXRsV3JYZ0QzaVpSZ3NzcVFBRlpNVE4temt0QmRham5Ib281MnRETzh0TFJCek03M3ZBWFhnUWZVcXJ3b0t6OGJPaVdSekhSN3dfWndaM3ZCSk85YzBweVhaQ2NoVl9pTHRzcFdiSE9PeWlJUEZiYnNYb9IBxAFBVV95cUxPY1RqaTNuNElmUXQ3TGpyd0Z6NTdHX3pxYUtRZDdGZE96WG9fYndJcWRUMVZWM1FLUDJJQWNHNXBjcHktNWZVcjFrbE1YTzRDc3YwblFGS0xNYWg3Y3o4amdmS3k1ZnRaZXR5SkRnd0dTMS1Ub2hDdUZJYW1iMHk5QjZVV19rUl9VcEFMbzF4dGNjWEhlY1ZqdFZJUEl1YVBuSGVrclg0ZHllSU5fUWdmd2ZWYWUwRTlKSmJ6ZjBMNlRPejVi?oc=5",
       "data": "2026-08-21",
       "termo": "Oncoclínicas",
       "veiculos": [
@@ -516,12 +516,12 @@
       "incluir": true,
       "score": 5,
       "tema": "negócio",
-      "tom": "Negativo"
+      "tom": "Neutro"
     },
     {
       "veiculo": "Google News",
-      "titulo": "Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões - InvestNews",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVk9tYktfeXVMRTN0U01mRW4zTVFiOWdNTEVHRUxpOERiaHp5SVd6ZHRrd2dUWkVnOF8xcW01WTV0VXQzeC1pbE0wYmFRZXRsV3JYZ0QzaVpSZ3NzcVFBRlpNVE4temt0QmRham5Ib281MnRETzh0TFJCek03M3ZBWFhnUWZVcXJ3b0t6OGJPaVdSekhSN3dfWndaM3ZCSk85YzBweVhaQ2NoVl9pTHRzcFdiSE9PeWlJUEZiYnNYb9IBxAFBVV95cUxPY1RqaTNuNElmUXQ3TGpyd0Z6NTdHX3pxYUtRZDdGZE96WG9fYndJcWRUMVZWM1FLUDJJQWNHNXBjcHktNWZVcjFrbE1YTzRDc3YwblFGS0xNYWg3Y3o4amdmS3k1ZnRaZXR5SkRnd0dTMS1Ub2hDdUZJYW1iMHk5QjZVV19rUl9VcEFMbzF4dGNjWEhlY1ZqdFZJUEl1YVBuSGVrclg0ZHllSU5fUWdmd2ZWYWUwRTlKSmJ6ZjBMNlRPejVi?oc=5",
+      "titulo": "Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões - Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXNEdEliTnFORUt0S09GbHU2UmVuc1EwQjY4WGs2QW0ydkcxc2JzRk5kdzV3QVZwTC1GM1F2R0Z6R2wxd1M5YWo0S2M0NHhQcnBKUm5QX3c2LWVJakxoMm5iUnRGUVpPc0xLbEJFMnppMGowMWoyeXpOc09WazdyWl85WF92MTFqelpQSF9oYWpMaEFVX2NZcU5POW5JdWIzUkxFbmNsOF9pNWtPSHNBd3FoZG1BRW5PRGpDVm1FSkRHTjNz?oc=5",
       "data": "2026-08-21",
       "termo": "Oncoclínicas",
       "veiculos": [
@@ -550,7 +550,7 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "CVM confirma data para julgamento sobre OPA da Oncoclínicas - Times Brasil | CNBC",
+      "titulo": "CVM confirma data para julgamento sobre OPA da Oncoclínicas - timesbrasil.com.br",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV09GQWdnRHR1UC1tVjFaN0paTFNvNW1LeVduZlVWTGV3ZjlydjYyaVdnbUxxUVFXSklYaVltRHkyTmdETmdRMVlHNFhpd3VfU1pNRUFEaEZPbkI3VVQyRlBIb0wwbFl6Wjh4eDVKTUVrVWs2bTlQU2M4NnpqWFV1aFMxc3FJVnBuNWZCWHRFa1M3a0k0Z2hNbFlFZ1JuVzZya2pEQnFWdmtQSms?oc=5",
       "data": "2026-08-21",
       "termo": "Oncoclínicas",
@@ -625,21 +625,6 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Colegiado da CVM pauta recurso da Latache em Oncoclínicas - Pipeline",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2MtaGRvaEszWW5hNkVVRkgtaUNPMUJNZFRqYkR0SXZZaW53ZFp5Vi1yZjZqaHFjLU9zM2tzVXlHQnBXd2h0UzhPM0xRZzBEZ2JmdVhSNEo3RXhKWlp6U3ZLVDFFSjlZUmQ4TGE2cHdHMnpaX2RGWFFGN2RmbnhFVmFUNWxwS0FGMDExeFpBeThwSXE0MWRLSlN0LU8yemhXMC1nNDFnR0l3VDhUV09BUzFn0gHAAUFVX3lxTFBrMVZCVVB5dGIzX09oZTd1VDU0Z2VOb1ptLV9LeHRSdzQ1THZLalpRQ2VBbVhST3VkWnoyS0Q1R2U2dTdMcWRwQzE0VkdOcldqV3ZMQjFnR0xPb0MzamJRTllTaDJfQ2xzUTl0ci0zWlc3OTFoQkx5ZEtkMWEyMzhjdFNvbXFyVW1sZTUyWi1TYlZiRzJsQXh2Y3J4YTQwRl9EZTQwVGYxUmdkNVotYzN4by1UVl90M2hpSWRxMnZFVA?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
       "titulo": "Oncoclínicas (ONCO11) - trademap.com.br",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yUGRzUmpwNkdFcnZhWTlZRGZ2VHl2NzQwTHNvb21ZTmNvOFRMUkdKQ3RNbzd5RXFrbVRJbGROM1pyV19SYWpEVXBFR1RKQQ?oc=5",
       "data": "2026-08-21",
@@ -672,6 +657,21 @@
       "veiculo": "Google News",
       "titulo": "CVM confirma julgamento do caso Oncoclínicas para o dia 25 - Valor Econômico",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNlJNeXZIM3BoR1pqU2xLUm1Jemt0N0pQdUFYVS15OGpQS0ZzYmZOMmVUcFFWMWdXcHhDRE5mcmx3WFhnWlBJZTc0Mkhuc2d4Q3RESWc0YnY1Nml2T1dnU0kwb0xVa21vZ2tmamVkSjNRd1NCOTR6RUxvbFhhRkpSdzl5aFFEREZVMy1qVXBPRThxRk5CVEd0U3Fwa2l1WkxvcWxuaGxYNWJwQ3VNYTBwQ3BQWlhPd9IBxAFBVV95cUxOZlgxRlpPazNncUNIZzYyZm9JN2p1ZFdZempMUFg3dUNQeTRTN1RWb1lJc0tHY01WVE00c1ZkTjBCSmZjYy1LVURiZUdrTFdaRm1zaWJHczlpNkQ1dENLYlRtMl90SGNVbnBOd1hVOThIcF8tRlNfbTBmakVxVm9QOVpPcFFZemZQYTNKd2puQkthcTFfZFNjRlFBU0FqUWFoQjk3a3ZnMV8wQzg4MzdUN3dYbEp1bjR1V19oNEJfcjlIMThp?oc=5",
+      "data": "2026-08-21",
+      "termo": "Oncoclínicas",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Colegiado da CVM pauta recurso da Latache em Oncoclínicas - Pipeline",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2MtaGRvaEszWW5hNkVVRkgtaUNPMUJNZFRqYkR0SXZZaW53ZFp5Vi1yZjZqaHFjLU9zM2tzVXlHQnBXd2h0UzhPM0xRZzBEZ2JmdVhSNEo3RXhKWlp6U3ZLVDFFSjlZUmQ4TGE2cHdHMnpaX2RGWFFGN2RmbnhFVmFUNWxwS0FGMDExeFpBeThwSXE0MWRLSlN0LU8yemhXMC1nNDFnR0l3VDhUV09BUzFn0gHAAUFVX3lxTFBrMVZCVVB5dGIzX09oZTd1VDU0Z2VOb1ptLV9LeHRSdzQ1THZLalpRQ2VBbVhST3VkWnoyS0Q1R2U2dTdMcWRwQzE0VkdOcldqV3ZMQjFnR0xPb0MzamJRTllTaDJfQ2xzUTl0ci0zWlc3OTFoQkx5ZEtkMWEyMzhjdFNvbXFyVW1sZTUyWi1TYlZiRzJsQXh2Y3J4YTQwRl9EZTQwVGYxUmdkNVotYzN4by1UVl90M2hpSWRxMnZFVA?oc=5",
       "data": "2026-08-21",
       "termo": "Oncoclínicas",
       "veiculos": [
@@ -914,6 +914,15 @@
       "origem": "auto"
     },
     {
+      "titulo": "Ministério da Saúde e hospitais parceiros planejam novo ciclo do Proadi-SUS - Bastidores do Poder",
+      "fonte": "Ministério da Saúde",
+      "data": "2026-08-21",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV2tCbUp5SkFLWDcxdVJVTDZzbWlsZ1NvVnVMQUxPbFZVZjRDaTVZRmdNLUEtX0RGT2dMbkkzMkVfWG05RnNqanY5OGgycUN3aWMzeWpLdHVoRUh5VGZPN3k2ajd6aFFfOWZUelBhRXlyMVNLVVlMY2RKa3RNeWpmR1JaNzk1TFZhcTdRUEdwYXB4NEdQd1ZLOURZaVpEb2xTZzgyWThOc204ODZuVFE?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
       "titulo": "Oferta de medicamentos oncológicos inicia em outubro e avançará conforme capacidade da indústria, diz diretor Nélio de Aquino, do Ministério - Futuro da Saúde",
       "fonte": "Ministério da Saúde",
       "data": "2026-08-20",
@@ -1146,15 +1155,6 @@
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa libera novo tratamento para pacientes com câncer de pulmão - Repórter Ceará",
-      "fonte": "Anvisa",
-      "data": "2026-07-28",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjBhVFpyZFAwS0tqaG1UeE5EUFpGWDJIQ180QmVTaVFfMU9wYUV1dFZJM0tnNWtVOUVrRWRBX1pueWstd0l1eTVTaVowd0pCZE5zQ2FFdHdMWWZKS3hfcjN6Qms3akRLblpkOG5UNGlHVm83WTdoaTVqaVVJd3BUaWpWYkhBbWFUSF9XclpfVjZXM3NXNTBYcUZXUEtGWkRLN25sRXNfSEdaUdIBqgFBVV95cUxNZjBhVFpyZFAwS0tqaG1UeE5EUFpGWDJIQ180QmVTaVFfMU9wYUV1dFZJM0tnNWtVOUVrRWRBX1pueWstd0l1eTVTaVowd0pCZE5zQ2FFdHdMWWZKS3hfcjN6Qms3akRLblpkOG5UNGlHVm83WTdoaTVqaVVJd3BUaWpWYkhBbWFUSF9XclpfVjZXM3NXNTBYcUZXUEtGWkRLN25sRXNfSEdaUQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
     }
   ],
   "movimentacoes": [
@@ -1224,10 +1224,10 @@
     },
     {
       "tipo": "Joint Venture",
-      "empresas": "Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões",
+      "empresas": "Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões",
       "texto": "Google News",
       "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXNEdEliTnFORUt0S09GbHU2UmVuc1EwQjY4WGs2QW0ydkcxc2JzRk5kdzV3QVZwTC1GM1F2R0Z6R2wxd1M5YWo0S2M0NHhQcnBKUm5QX3c2LWVJakxoMm5iUnRGUVpPc0xLbEJFMnppMGowMWoyeXpOc09WazdyWl85WF92MTFqelpQSF9oYWpMaEFVX2NZcU5POW5JdWIzUkxFbmNsOF9pNWtPSHNBd3FoZG1BRW5PRGpDVm1FSkRHTjNz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0FOSG04M05QSVZUN2JvZUEwOWkwSkI4VlJfRHk3cFBsOENJTkRkQlBPVXVWdVVEcGc1eGw3NjM0eUM2bEtWMFdiTVlFNC1PVmhvay1GMmFyWVhiZWd3QkFvN2Z3OUdNOUEyVUVyM2l0QUctMS1OZXUtUTRYNFRFZzdPZmxqOWJmbkRTUg?oc=5",
       "origem": "auto"
     },
     {
@@ -1240,18 +1240,18 @@
     },
     {
       "tipo": "Joint Venture",
-      "empresas": "Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0FOSG04M05QSVZUN2JvZUEwOWkwSkI4VlJfRHk3cFBsOENJTkRkQlBPVXVWdVVEcGc1eGw3NjM0eUM2bEtWMFdiTVlFNC1PVmhvay1GMmFyWVhiZWd3QkFvN2Z3OUdNOUEyVUVyM2l0QUctMS1OZXUtUTRYNFRFZzdPZmxqOWJmbkRTUg?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "Joint Venture",
       "empresas": "Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões",
       "texto": "Google News",
       "data": "2026-08-21",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVk9tYktfeXVMRTN0U01mRW4zTVFiOWdNTEVHRUxpOERiaHp5SVd6ZHRrd2dUWkVnOF8xcW01WTV0VXQzeC1pbE0wYmFRZXRsV3JYZ0QzaVpSZ3NzcVFBRlpNVE4temt0QmRham5Ib281MnRETzh0TFJCek03M3ZBWFhnUWZVcXJ3b0t6OGJPaVdSekhSN3dfWndaM3ZCSk85YzBweVhaQ2NoVl9pTHRzcFdiSE9PeWlJUEZiYnNYb9IBxAFBVV95cUxPY1RqaTNuNElmUXQ3TGpyd0Z6NTdHX3pxYUtRZDdGZE96WG9fYndJcWRUMVZWM1FLUDJJQWNHNXBjcHktNWZVcjFrbE1YTzRDc3YwblFGS0xNYWg3Y3o4amdmS3k1ZnRaZXR5SkRnd0dTMS1Ub2hDdUZJYW1iMHk5QjZVV19rUl9VcEFMbzF4dGNjWEhlY1ZqdFZJUEl1YVBuSGVrclg0ZHllSU5fUWdmd2ZWYWUwRTlKSmJ6ZjBMNlRPejVi?oc=5",
+      "origem": "auto"
+    },
+    {
+      "tipo": "Joint Venture",
+      "empresas": "Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões",
+      "texto": "Google News",
+      "data": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXNEdEliTnFORUt0S09GbHU2UmVuc1EwQjY4WGs2QW0ydkcxc2JzRk5kdzV3QVZwTC1GM1F2R0Z6R2wxd1M5YWo0S2M0NHhQcnBKUm5QX3c2LWVJakxoMm5iUnRGUVpPc0xLbEJFMnppMGowMWoyeXpOc09WazdyWl85WF92MTFqelpQSF9oYWpMaEFVX2NZcU5POW5JdWIzUkxFbmNsOF9pNWtPSHNBd3FoZG1BRW5PRGpDVm1FSkRHTjNz?oc=5",
       "origem": "auto"
     },
     {
@@ -1264,7 +1264,7 @@
     },
     {
       "tipo": "OPA",
-      "empresas": "CVM confirma data para julgamento sobre OPA da Oncoclínicas - Times Brasil",
+      "empresas": "CVM confirma data para julgamento sobre OPA da Oncoclínicas",
       "texto": "Google News",
       "data": "2026-08-21",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV09GQWdnRHR1UC1tVjFaN0paTFNvNW1LeVduZlVWTGV3ZjlydjYyaVdnbUxxUVFXSklYaVltRHkyTmdETmdRMVlHNFhpd3VfU1pNRUFEaEZPbkI3VVQyRlBIb0wwbFl6Wjh4eDVKTUVrVWs2bTlQU2M4NnpqWFV1aFMxc3FJVnBuNWZCWHRFa1M3a0k0Z2hNbFlFZ1JuVzZya2pEQnFWdmtQSms?oc=5",
@@ -1309,7 +1309,76 @@
       ],
       "url": "https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR-CE",
       "origem": "auto",
-      "atualizadoEm": "2026-08-23T13:33:07.323Z"
+      "atualizadoEm": "2026-08-23T14:07:11.706Z"
+    },
+    {
+      "termo": "tratamento de câncer Fortaleza",
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "url": "https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR-CE",
+      "origem": "auto",
+      "atualizadoEm": "2026-08-23T14:07:11.706Z"
+    },
+    {
+      "termo": "quimioterapia Fortaleza",
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "url": "https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR-CE",
+      "origem": "auto",
+      "atualizadoEm": "2026-08-23T14:07:11.706Z"
+    },
+    {
+      "termo": "radioterapia Fortaleza",
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE",
+      "origem": "auto",
+      "atualizadoEm": "2026-08-23T14:07:11.706Z"
     }
   ],
   "concorrentes": [
@@ -1324,7 +1393,7 @@
       "seg": 12000,
       "eng": 2.1,
       "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T13:33:07.659Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.208Z",
       "origem": "curado"
     },
     {
@@ -1338,7 +1407,7 @@
       "seg": 45000,
       "eng": 1.8,
       "mencoes30d": 31,
-      "dataAtualizacao": "2026-08-23T13:33:07.659Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.208Z",
       "origem": "curado"
     },
     {
@@ -1352,7 +1421,7 @@
       "seg": 1800,
       "eng": 3.2,
       "mencoes30d": 2,
-      "dataAtualizacao": "2026-08-23T13:33:07.659Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.208Z",
       "origem": "curado"
     },
     {
@@ -1366,7 +1435,7 @@
       "seg": 29400,
       "eng": 2.8,
       "mencoes30d": 2,
-      "dataAtualizacao": "2026-08-23T13:33:07.660Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.208Z",
       "origem": "curado"
     },
     {
@@ -1380,7 +1449,7 @@
       "seg": 0,
       "eng": 0,
       "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T13:33:07.660Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.209Z",
       "origem": "curado"
     },
     {
@@ -1394,7 +1463,7 @@
       "seg": 8000,
       "eng": 1.5,
       "mencoes30d": 1,
-      "dataAtualizacao": "2026-08-23T13:33:07.661Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.209Z",
       "origem": "curado"
     },
     {
@@ -1408,7 +1477,7 @@
       "seg": 3700,
       "eng": 4.1,
       "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T13:33:07.661Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.209Z",
       "origem": "curado"
     },
     {
@@ -1422,7 +1491,7 @@
       "seg": 5200,
       "eng": 2.4,
       "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T13:33:07.662Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.209Z",
       "origem": "curado"
     },
     {
@@ -1436,7 +1505,7 @@
       "seg": 2900,
       "eng": 3,
       "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T13:33:07.662Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.209Z",
       "origem": "curado"
     },
     {
@@ -1450,7 +1519,7 @@
       "seg": 11000,
       "eng": 1.9,
       "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T13:33:07.662Z",
+      "dataAtualizacao": "2026-08-23T14:07:13.210Z",
       "origem": "curado"
     }
   ],
