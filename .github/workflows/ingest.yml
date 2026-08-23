@@ -2,7 +2,7 @@ name: Fofoqueiro — ingestão diária
 
 on:
   schedule:
-    - cron: "0 9 * * *"    # 09:00 UTC = 06:00 America/Fortaleza
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,22 +11,28 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with: { node-version: "20" }
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
 
-      - name: Install deps
-        run: npm i rss-parser
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run ingestion
         run: node scripts/ingest.mjs
 
       - name: Commit updated data
         run: |
-          git config user.name  "fofoqueiro-bot"
-          git config user.email "bot@meato.consulting"
+          git config user.name "fofoqueiro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/*.json
-          git diff --cached --quiet || git commit -m "chore(data): daily ingest $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "chore(data): daily ingest"
           git push
