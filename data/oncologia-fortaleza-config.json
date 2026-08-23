@@ -1,0 +1,53 @@
+{
+  "id": "oncologia-fortaleza",
+  "nome": "Oncologia · Fortaleza (CE)",
+  "_readme": "Config editável do mercado. Este arquivo é a fonte de verdade dos termos e concorrentes usados pelo pipeline. Sincronize com o painel usando 'Exportar config' em Configuração e cole o resultado aqui.",
+  "geoTrendsPrincipal": "BR-CE",
+  "geoTrendsFallback": "BR",
+  "termosBusca": [
+    "oncologia Fortaleza",
+    "tratamento de câncer Fortaleza",
+    "quimioterapia Fortaleza",
+    "radioterapia Fortaleza",
+    "ICC Fortaleza",
+    "Oncoclínicas Fortaleza",
+    "CRIO Fortaleza",
+    "hospital oncológico Fortaleza",
+    "câncer de mama Fortaleza",
+    "câncer de próstata Fortaleza",
+    "biópsia Fortaleza",
+    "imunoterapia Fortaleza",
+    "PET scan Fortaleza",
+    "medicamento oncológico SUS",
+    "plano de saúde oncologia Ceará",
+    "onco Ceará",
+    "câncer infantil Fortaleza"
+  ],
+  "concorrentesMonitorados": [
+    { "nome": "Instituto do Câncer do Ceará", "alias": ["ICC", "Haroldo Juaçaba"], "grupo": "Rede ICC Saúde", "url": "https://www.icc.org.br/",           "instagramHandle": "haroldojuacaba",     "googleMapsUrl": "" },
+    { "nome": "Oncoclínicas Fortaleza",       "alias": ["Oncoclínicas"],           "grupo": "Grupo Oncoclínicas","url": "https://oncoclinicas.com/",          "instagramHandle": "grupooncoclinicas",  "googleMapsUrl": "" },
+    { "nome": "Oncologia D'Or Fujiday",       "alias": ["Fujiday", "D'Or"],        "grupo": "Rede D'Or",         "url": "https://www.rededor.com.br/",        "instagramHandle": "oncologiadorfujiday","googleMapsUrl": "" },
+    { "nome": "Centro de Oncologia CRIO",     "alias": ["CRIO"],                   "grupo": "CRIO",              "url": "https://www.crio.med.br/",           "instagramHandle": "centrodeoncologiacrio","googleMapsUrl": "" },
+    { "nome": "Quimioclinic",                 "alias": [],                          "grupo": "Quimioclinic",      "url": "https://quimioclinic.com.br/",       "instagramHandle": "",                    "googleMapsUrl": "" },
+    { "nome": "Hospital Cura d'Ars",          "alias": ["São Camilo Fortaleza"],   "grupo": "Rede São Camilo",   "url": "https://www.saocamilo.com/",         "instagramHandle": "saocamilofortaleza", "googleMapsUrl": "" },
+    { "nome": "ATO Oncologia",                "alias": ["ATO"],                     "grupo": "ATO Terapias",      "url": "https://atooncologia.com.br/",       "instagramHandle": "atooncologia",       "googleMapsUrl": "" },
+    { "nome": "Pronutrir Oncologia",          "alias": ["Pronutrir"],              "grupo": "Pronutrir",         "url": "https://pronutrir.com.br/",          "instagramHandle": "pronutriroficial",   "googleMapsUrl": "" },
+    { "nome": "Oncovie",                       "alias": [],                          "grupo": "Oncovie",           "url": "https://oncovie.com.br/",            "instagramHandle": "clinicaoncovie",     "googleMapsUrl": "" },
+    { "nome": "OTO Oncologia",                "alias": ["Rede Oto", "Kora Saúde"], "grupo": "Rede Oto / Kora",   "url": "https://www.korasaude.com.br/",      "instagramHandle": "",                    "googleMapsUrl": "" }
+  ],
+  "seedHistorico": {
+    "_readme": "Valores manuais fornecidos originalmente. Preservados aqui como referência histórica. NUNCA são apresentados como dado atual no frontend — o campo 'confiabilidade' será 'BAIXA' e a fonte 'seed-manual'.",
+    "concorrentes": [
+      { "nome": "Instituto do Câncer do Ceará", "gmn": 4.6, "seg": 12000, "eng": 2.1 },
+      { "nome": "Oncoclínicas Fortaleza",       "gmn": 4.4, "seg": 45000, "eng": 1.8 },
+      { "nome": "Oncologia D'Or Fujiday",       "gmn": 4.5, "seg": 1800,  "eng": 3.2 },
+      { "nome": "Centro de Oncologia CRIO",     "gmn": 4.7, "seg": 29400, "eng": 2.8 },
+      { "nome": "Quimioclinic",                 "gmn": 4.3, "seg": 0,     "eng": 0 },
+      { "nome": "Hospital Cura d'Ars",          "gmn": 4.2, "seg": 8000,  "eng": 1.5 },
+      { "nome": "ATO Oncologia",                "gmn": 4.8, "seg": 3700,  "eng": 4.1 },
+      { "nome": "Pronutrir Oncologia",          "gmn": 4.5, "seg": 5200,  "eng": 2.4 },
+      { "nome": "Oncovie",                       "gmn": 4.4, "seg": 2900,  "eng": 3.0 },
+      { "nome": "OTO Oncologia",                "gmn": 4.3, "seg": 11000, "eng": 1.9 }
+    ]
+  }
+}

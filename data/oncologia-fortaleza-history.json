@@ -1,0 +1,5 @@
+{
+  "id": "oncologia-fortaleza",
+  "_readme": "Snapshots semanais dos indicadores de concorrência. Mantém aproximadamente 5 pontos (30 dias). Snapshots antigos são descartados automaticamente pelo pipeline.",
+  "snapshots": []
+}
