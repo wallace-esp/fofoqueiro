@@ -448,51 +448,42 @@ async function coletarTrends(termos, geo) {
   const out = [];
   const start = diasAtras(90);
 
-  // Google Trends permite comparar até 5 termos por consulta.
-  // Fazemos lotes para reduzir throttling e manter o pipeline resiliente.
-  const lotes = [];
-
-  for (let i = 0; i < termos.length; i += 5) {
-    lotes.push(termos.slice(i, i + 5));
-  }
-
-  for (const lote of lotes) {
-    await safeRun(`Trends:${lote.join(" | ")}`, async () => {
-      const raw = await googleTrends.interestOverTime({
-        keyword: lote,
-        startTime: start,
-        geo: geo || "BR-CE",
-        hl: "pt-BR"
-      });
-
-      const json = JSON.parse(raw);
-      const pts = json?.default?.timelineData || [];
-
-      if (!pts.length) {
-        throw new Error("Google Trends retornou série vazia");
-      }
-
-      /*
-       * Quando vários termos são consultados juntos,
-       * cada ponto contém um valor para cada termo.
-       */
-      const seriesPorTermo = lote.map(() => []);
-
-      for (const p of pts) {
-        const values = Array.isArray(p.value) ? p.value : [];
-
-        lote.forEach((termo, index) => {
-          const valor = Number(values[index] ?? 0);
-          seriesPorTermo[index].push(valor);
+  // Google Trends funciona melhor com uma consulta por termo.
+  // Evita que a comparação entre vários termos distorça os resultados
+  // e permite identificar exatamente quais consultas retornaram dados.
+  for (const termo of termos) {
+    await safeRun(`Trends:${termo}`, async () => {
+      try {
+        const raw = await googleTrends.interestOverTime({
+          keyword: termo,
+          startTime: start,
+          geo: geo || "BR-CE",
+          hl: "pt-BR"
         });
-      }
 
-      lote.forEach((termo, index) => {
-        const serie = seriesPorTermo[index];
+        const json = JSON.parse(raw);
+        const pts = json?.default?.timelineData || [];
 
-        if (!serie.length) return;
+        if (!pts.length) {
+          console.warn(`[Trends] sem dados: ${termo}`);
+          return;
+        }
 
-        // Reduz para aproximadamente 12 pontos representativos.
+        const serie = pts.map(p => {
+          const value = p?.value?.[0];
+          return Number.isFinite(Number(value)) ? Number(value) : 0;
+        });
+
+        // Remove consultas que retornaram apenas zeros.
+        const temDados = serie.some(v => v > 0);
+
+        if (!temDados) {
+          console.warn(`[Trends] série zerada ignorada: ${termo}`);
+          return;
+        }
+
+        // Reduz a série para aproximadamente 12 pontos,
+        // mantendo uma leitura simples da tendência de 90 dias.
         const stride = Math.max(1, Math.floor(serie.length / 12));
         const serieAmostrada = [];
 
@@ -512,7 +503,7 @@ async function coletarTrends(termos, geo) {
 
         const incremento =
           anterior > 0
-            ? Number((((volume - anterior) / anterior) * 100).toFixed(1))
+            ? (((volume - anterior) / anterior) * 100).toFixed(1)
             : 0;
 
         let tendencia = "estável";
@@ -526,21 +517,31 @@ async function coletarTrends(termos, geo) {
         out.push({
           termo,
           volume,
-          incremento,
+          incremento: Number(incremento),
           tendencia,
           serie: serieAmostrada,
           url:
             "https://trends.google.com/trends/explore?q=" +
             encodeURIComponent(termo) +
             "&geo=" +
-            (geo || "BR"),
-          origem: "auto",
+            (geo || "BR-CE"),
+          origem: "google-trends",
           atualizadoEm: hojeISO()
         });
-      });
+
+        console.log(
+          `[Trends] OK: ${termo} | volume=${volume} | tendência=${tendencia}`
+        );
+
+      } catch (err) {
+        console.warn(
+          `[Trends] falha em "${termo}":`,
+          err?.message || err
+        );
+      }
     });
 
-    // Pequena pausa entre lotes para reduzir risco de throttling.
+    // Pequena pausa para reduzir risco de throttling.
     await new Promise(resolve => setTimeout(resolve, 1500));
   }
 
