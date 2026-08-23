@@ -447,41 +447,103 @@ function extrairMovimentacoes(noticias) {
 async function coletarTrends(termos, geo) {
   const out = [];
   const start = diasAtras(90);
-  for (const termo of termos) {
-    await safeRun(`Trends:${termo}`, async () => {
-      const raw = await googleTrends.interestOverTime({
-        keyword: termo,
-        startTime: start,
-        geo: geo || "BR"
-      });
-      const j = JSON.parse(raw);
-      const pts = j?.default?.timelineData || [];
-      if (!pts.length) throw new Error("sem série");
-      const serie = pts.map(p => (p.value && p.value[0]) || 0);
-      // sampling: reduz para ~12 pontos (representativo do trimestre)
-      const stride = Math.max(1, Math.floor(serie.length / 12));
-      const serieAmostrada = [];
-      for (let i = 0; i < serie.length; i += stride) serieAmostrada.push(serie[i]);
-      if (serieAmostrada.length > 12) serieAmostrada.length = 12;
-      const volume = serieAmostrada[serieAmostrada.length - 1] || 0;
-      const anterior = serieAmostrada[serieAmostrada.length - 2] || 0;
-      const incremento = anterior > 0 ? +(((volume - anterior) / anterior) * 100).toFixed(1) : 0;
-      let tendencia = "estável";
-      if (incremento > 5) tendencia = "alta";
-      else if (incremento < -5) tendencia = "queda";
-      out.push({
-        termo,
-        volume,
-        incremento,
-        tendencia,
-        serie: serieAmostrada,
-        url: "https://trends.google.com/trends/explore?q=" + encodeURIComponent(termo) + "&geo=" + (geo || "BR"),
-        origem: "auto",
-        atualizadoEm: hojeISO()
-      });
-      return serieAmostrada;
-    });
+
+  // Google Trends permite comparar até 5 termos por consulta.
+  // Fazemos lotes para reduzir throttling e manter o pipeline resiliente.
+  const lotes = [];
+
+  for (let i = 0; i < termos.length; i += 5) {
+    lotes.push(termos.slice(i, i + 5));
   }
+
+  for (const lote of lotes) {
+    await safeRun(`Trends:${lote.join(" | ")}`, async () => {
+      const raw = await googleTrends.interestOverTime({
+        keyword: lote,
+        startTime: start,
+        geo: geo || "BR-CE",
+        hl: "pt-BR"
+      });
+
+      const json = JSON.parse(raw);
+      const pts = json?.default?.timelineData || [];
+
+      if (!pts.length) {
+        throw new Error("Google Trends retornou série vazia");
+      }
+
+      /*
+       * Quando vários termos são consultados juntos,
+       * cada ponto contém um valor para cada termo.
+       */
+      const seriesPorTermo = lote.map(() => []);
+
+      for (const p of pts) {
+        const values = Array.isArray(p.value) ? p.value : [];
+
+        lote.forEach((termo, index) => {
+          const valor = Number(values[index] ?? 0);
+          seriesPorTermo[index].push(valor);
+        });
+      }
+
+      lote.forEach((termo, index) => {
+        const serie = seriesPorTermo[index];
+
+        if (!serie.length) return;
+
+        // Reduz para aproximadamente 12 pontos representativos.
+        const stride = Math.max(1, Math.floor(serie.length / 12));
+        const serieAmostrada = [];
+
+        for (let i = 0; i < serie.length; i += stride) {
+          serieAmostrada.push(serie[i]);
+        }
+
+        if (serieAmostrada.length > 12) {
+          serieAmostrada.length = 12;
+        }
+
+        const volume =
+          serieAmostrada[serieAmostrada.length - 1] || 0;
+
+        const anterior =
+          serieAmostrada[serieAmostrada.length - 2] || 0;
+
+        const incremento =
+          anterior > 0
+            ? Number((((volume - anterior) / anterior) * 100).toFixed(1))
+            : 0;
+
+        let tendencia = "estável";
+
+        if (incremento > 5) {
+          tendencia = "alta";
+        } else if (incremento < -5) {
+          tendencia = "queda";
+        }
+
+        out.push({
+          termo,
+          volume,
+          incremento,
+          tendencia,
+          serie: serieAmostrada,
+          url:
+            "https://trends.google.com/trends/explore?q=" +
+            encodeURIComponent(termo) +
+            "&geo=" +
+            (geo || "BR"),
+          origem: "auto",
+          atualizadoEm: hojeISO()
+        });
+      });
+    });
+
+    // Pequena pausa entre lotes para reduzir risco de throttling.
+    await new Promise(resolve => setTimeout(resolve, 1500));
+  }
+
   return out;
 }
 
