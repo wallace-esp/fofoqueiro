@@ -1,194 +1,1826 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fofoqueiro do Mercado</title>
+<style>
+  /* ============= TOKENS — LIGHT ============= */
+  :root{
+    --primaria:#0F4C81;
+    --primaria-hover:#0d426f;
+    --secundaria:#2E8B57;
+    --destaque:#E8A33D;
+    --texto:#1A1A1A;
+    --texto-suave:#555;
+    --texto-tenue:#777;
+    --superficie:#FFFFFF;
+    --superficie-2:#F7F9FC;
+    --fundo:#F1F4F8;
+    --borda:#E1E6EE;
+    --borda-forte:#C9D2DE;
+    --sombra:0 1px 3px rgba(15,76,129,.06);
+    --sombra-elevada:0 4px 16px rgba(15,76,129,.10);
+    --tag-alto-bg:#FDE8E8; --tag-alto-fg:#C0392B;
+    --tag-medio-bg:#FFF4E0; --tag-medio-fg:#B9770E;
+    --tag-baixo-bg:#E8F5E9; --tag-baixo-fg:#2E7D32;
+    --tag-pos-bg:#E8F5E9; --tag-pos-fg:#2E7D32;
+    --tag-neg-bg:#FDE8E8; --tag-neg-fg:#C0392B;
+    --tag-neu-bg:#EEEEEE; --tag-neu-fg:#555;
+    --insight-bg:#FFF9EE;
+    --nav-bg:#FFFFFF;
+    --header-bg:#0F4C81;
+    --header-tabs-bg:#0a3a63;
+    --spark-line:#0F4C81;
+    --spark-fill:rgba(15,76,129,.12);
+    --spark-grid:#E1E6EE;
+  }
+  /* ============= TOKENS — DARK ============= */
+  :root[data-theme="dark"]{
+    --primaria:#5AA3D9;
+    --primaria-hover:#78B5E2;
+    --secundaria:#4FC985;
+    --destaque:#F5B95A;
+    --texto:#E8ECF2;
+    --texto-suave:#B4BDCB;
+    --texto-tenue:#8A94A5;
+    --superficie:#1B2331;
+    --superficie-2:#232D3F;
+    --fundo:#0F141D;
+    --borda:#2E394E;
+    --borda-forte:#3F4C64;
+    --sombra:0 1px 3px rgba(0,0,0,.4);
+    --sombra-elevada:0 4px 16px rgba(0,0,0,.5);
+    --tag-alto-bg:#4A1F1F; --tag-alto-fg:#F5A9A9;
+    --tag-medio-bg:#4A3820; --tag-medio-fg:#F5C879;
+    --tag-baixo-bg:#1F3D28; --tag-baixo-fg:#8FD9A0;
+    --tag-pos-bg:#1F3D28; --tag-pos-fg:#8FD9A0;
+    --tag-neg-bg:#4A1F1F; --tag-neg-fg:#F5A9A9;
+    --tag-neu-bg:#2E394E; --tag-neu-fg:#B4BDCB;
+    --insight-bg:#2A2416;
+    --nav-bg:#1B2331;
+    --header-bg:#0a2540;
+    --header-tabs-bg:#08192b;
+    --spark-line:#5AA3D9;
+    --spark-fill:rgba(90,163,217,.18);
+    --spark-grid:#2E394E;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;}
+  body{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;color:var(--texto);background:var(--fundo);line-height:1.5;font-size:14px;-webkit-font-smoothing:antialiased;}
+  a{color:var(--primaria);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  button{font-family:inherit;}
 
-  <title>Fofoqueiro do Mercado</title>
+  /* ============= HEADER ============= */
+  header{background:var(--header-bg);color:#fff;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+  .marca h1{font-size:20px;letter-spacing:.5px;font-weight:800;}
+  .marca h1 span{color:var(--destaque);}
+  .marca .sub{font-size:11px;opacity:.85;margin-top:2px;letter-spacing:.3px;}
+  .header-dir{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .badge{background:var(--secundaria);color:#fff;padding:5px 12px;border-radius:20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;white-space:nowrap;}
+  .frescor{font-size:11px;color:rgba(255,255,255,.85);display:flex;align-items:center;gap:6px;}
+  .frescor .dot{width:7px;height:7px;background:var(--destaque);border-radius:50%;box-shadow:0 0 0 3px rgba(232,163,61,.25);animation:pulso 2s ease-in-out infinite;}
+  @keyframes pulso{50%{box-shadow:0 0 0 6px rgba(232,163,61,0);}}
+  .ctrl-btn{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.15);padding:6px 10px;border-radius:6px;font-size:12px;cursor:pointer;display:flex;align-items:center;gap:5px;}
+  .ctrl-btn:hover{background:rgba(255,255,255,.18);}
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  /* ============= ABAS DE MERCADO ============= */
+  .abas-mercado{background:var(--header-tabs-bg);padding:0 24px;display:flex;align-items:center;gap:4px;overflow-x:auto;border-bottom:2px solid var(--destaque);}
+  .aba-mercado{background:transparent;color:rgba(255,255,255,.7);border:none;padding:11px 14px;cursor:pointer;font-size:12px;font-weight:600;border-bottom:3px solid transparent;display:flex;align-items:center;gap:8px;white-space:nowrap;transition:.15s;}
+  .aba-mercado:hover{color:#fff;background:rgba(255,255,255,.04);}
+  .aba-mercado.ativa{color:#fff;border-bottom-color:var(--destaque);background:rgba(255,255,255,.06);}
+  .aba-mercado .fechar{background:rgba(255,255,255,.15);color:#fff;border:none;width:16px;height:16px;border-radius:50%;font-size:10px;cursor:pointer;padding:0;line-height:1;}
+  .aba-mercado .fechar:hover{background:#C0392B;}
+  .btn-novo-mercado{background:var(--destaque);color:#1A1A1A;border:none;padding:6px 12px;border-radius:5px;font-weight:700;cursor:pointer;font-size:11px;margin-left:auto;white-space:nowrap;text-transform:uppercase;letter-spacing:.4px;}
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f5f7;
-      color: #202124;
-    }
+  /* ============= LAYOUT ============= */
+  .container{display:flex;min-height:calc(100vh - 130px);}
+  nav{width:220px;background:var(--nav-bg);border-right:1px solid var(--borda);padding:12px 0;flex-shrink:0;}
+  nav button{display:block;width:100%;text-align:left;padding:10px 20px;border:none;background:none;cursor:pointer;font-size:13px;color:var(--texto-suave);border-left:3px solid transparent;transition:.12s;}
+  nav button:hover{background:var(--superficie-2);color:var(--texto);}
+  nav button.ativo{background:var(--superficie-2);border-left-color:var(--primaria);color:var(--primaria);font-weight:700;}
+  main{flex:1;padding:22px 28px;overflow-y:auto;min-width:0;background:var(--fundo);}
+  .painel{display:none;animation:fade .2s ease-out;}
+  .painel.ativo{display:block;}
+  @keyframes fade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
 
-    header {
-      background: #111827;
-      color: white;
-      padding: 28px 40px;
-    }
+  h2{color:var(--texto);margin-bottom:4px;font-size:20px;font-weight:700;letter-spacing:-.2px;}
+  h3{color:var(--texto);margin-bottom:10px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;}
+  .subtitulo-painel{color:var(--texto-suave);font-size:13px;margin-bottom:18px;}
 
-    header h1 {
-      margin: 0;
-      font-size: 30px;
-    }
+  /* ============= CARDS DE MÉTRICAS ============= */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:20px;}
+  .card{background:var(--superficie);border:1px solid var(--borda);border-radius:8px;padding:14px 16px;box-shadow:var(--sombra);}
+  .card .num{font-size:24px;font-weight:800;color:var(--primaria);line-height:1.1;font-variant-numeric:tabular-nums;}
+  .card .lbl{font-size:10px;color:var(--texto-tenue);margin-top:4px;text-transform:uppercase;letter-spacing:.5px;font-weight:600;}
+  .card .delta{font-size:11px;font-weight:700;margin-top:6px;font-variant-numeric:tabular-nums;}
+  .up{color:var(--secundaria);}
+  .down{color:#C0392B;}
+  :root[data-theme="dark"] .down{color:#F5A9A9;}
+  .flat{color:var(--texto-tenue);}
 
-    header p {
-      margin: 8px 0 0;
-      color: #cbd5e1;
-    }
+  /* ============= FILTROS (CHIPS) ============= */
+  .filtros{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;align-items:center;}
+  .filtros .rotulo{font-size:11px;color:var(--texto-tenue);text-transform:uppercase;letter-spacing:.5px;margin-right:6px;font-weight:600;}
+  .chip{background:var(--superficie);border:1px solid var(--borda);color:var(--texto-suave);padding:5px 11px;border-radius:14px;font-size:11px;cursor:pointer;font-weight:600;transition:.12s;}
+  .chip:hover{border-color:var(--borda-forte);color:var(--texto);}
+  .chip.ativo{background:var(--primaria);color:#fff;border-color:var(--primaria);}
+  .busca-inline{margin-left:auto;padding:6px 10px;border:1px solid var(--borda);border-radius:6px;background:var(--superficie);color:var(--texto);font-size:12px;min-width:180px;}
 
-    main {
-      max-width: 1200px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
+  /* ============= TABELAS ============= */
+  .tabela-wrap{overflow-x:auto;background:var(--superficie);border-radius:8px;box-shadow:var(--sombra);border:1px solid var(--borda);}
+  table{width:100%;border-collapse:collapse;}
+  th{background:var(--superficie-2);color:var(--texto-suave);text-align:left;padding:10px 12px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--borda);}
+  td{padding:11px 12px;border-bottom:1px solid var(--borda);font-size:13px;vertical-align:top;color:var(--texto);}
+  tr:last-child td{border-bottom:none;}
+  tr:hover td{background:var(--superficie-2);}
+  .compacto td{padding:6px 12px;font-size:12px;}
+  .compacto th{padding:7px 12px;}
 
-    .status {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 25px;
-      box-shadow: 0 2px 8px rgba(0,0,0,.06);
-    }
+  /* ============= BOTÕES ============= */
+  .btn{background:var(--secundaria);color:#fff;border:none;padding:9px 15px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:700;transition:.15s;text-transform:uppercase;letter-spacing:.3px;}
+  .btn:hover{filter:brightness(1.05);}
+  .btn.ambar{background:var(--destaque);color:#1A1A1A;}
+  .btn.azul{background:var(--primaria);}
+  .btn.pequeno{padding:4px 9px;font-size:10px;text-transform:none;letter-spacing:0;}
+  .btn.perigo{background:#C0392B;}
+  .btn.fantasma{background:transparent;color:var(--texto-suave);border:1px solid var(--borda);}
+  .btn.fantasma:hover{border-color:var(--primaria);color:var(--primaria);}
 
-    .status strong {
-      font-size: 18px;
-    }
+  /* ============= FORMULÁRIOS ============= */
+  .form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:12px;}
+  .form-grid input,.form-grid select,.form-grid textarea{width:100%;padding:8px 10px;border:1px solid var(--borda);border-radius:6px;font-size:12px;font-family:inherit;background:var(--superficie);color:var(--texto);}
+  .form-grid input:focus,.form-grid select:focus{outline:none;border-color:var(--primaria);box-shadow:0 0 0 3px rgba(15,76,129,.15);}
+  .form-grid label{font-size:11px;color:var(--texto-tenue);display:flex;flex-direction:column;gap:4px;text-transform:uppercase;letter-spacing:.3px;font-weight:600;}
+  .form-grid input[type="color"]{height:36px;padding:2px;cursor:pointer;}
 
-    .noticias {
-      display: grid;
-      gap: 16px;
-    }
+  /* ============= TAGS ============= */
+  .tag{display:inline-block;padding:2px 9px;border-radius:12px;font-size:10px;font-weight:700;white-space:nowrap;text-transform:uppercase;letter-spacing:.4px;}
+  .tag.alto{background:var(--tag-alto-bg);color:var(--tag-alto-fg);}
+  .tag.medio{background:var(--tag-medio-bg);color:var(--tag-medio-fg);}
+  .tag.baixo{background:var(--tag-baixo-bg);color:var(--tag-baixo-fg);}
+  .tag.pos{background:var(--tag-pos-bg);color:var(--tag-pos-fg);}
+  .tag.neg{background:var(--tag-neg-bg);color:var(--tag-neg-fg);}
+  .tag.neu{background:var(--tag-neu-bg);color:var(--tag-neu-fg);}
+  .badge-dedup{background:var(--superficie-2);color:var(--texto-suave);border:1px solid var(--borda);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;margin-left:6px;}
+  .prov{display:inline-block;font-size:11px;margin-left:6px;cursor:help;}
 
-    .noticia {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,.06);
-    }
+  /* ============= SPARKLINE ============= */
+  .spark-cell{display:flex;align-items:center;gap:10px;}
+  .spark{width:80px;height:24px;flex-shrink:0;}
 
-    .noticia h2 {
-      margin: 8px 0;
-      font-size: 19px;
-    }
+  /* ============= TIMELINE ============= */
+  .timeline{position:relative;margin-left:20px;padding-left:24px;border-left:2px solid var(--borda);}
+  .tl-item{position:relative;background:var(--superficie);border:1px solid var(--borda);border-radius:8px;padding:12px 14px;margin-bottom:14px;box-shadow:var(--sombra);}
+  .tl-item::before{content:"";position:absolute;left:-32px;top:16px;width:14px;height:14px;border-radius:50%;background:var(--superficie);border:3px solid var(--primaria);}
+  .tl-item.lei::before{border-color:var(--destaque);}
+  .tl-item.neg::before{border-color:var(--secundaria);}
+  .tl-data{font-size:10px;color:var(--texto-tenue);text-transform:uppercase;letter-spacing:.4px;font-weight:600;margin-bottom:4px;}
+  .tl-titulo{font-size:14px;font-weight:600;color:var(--texto);margin-bottom:4px;}
+  .tl-meta{font-size:11px;color:var(--texto-suave);}
 
-    .noticia h2 a {
-      color: #111827;
-      text-decoration: none;
-    }
+  /* ============= NEWSLETTER ============= */
+  .newsletter-preview{background:var(--superficie);border:1px solid var(--borda);border-radius:10px;overflow:hidden;max-width:680px;margin:0 auto;display:block;box-shadow:var(--sombra-elevada);}
+  .newsletter-preview .top{background:var(--primaria);color:#fff;padding:26px;text-align:center;}
+  .newsletter-preview .top h3{color:#fff;font-size:22px;margin-bottom:4px;letter-spacing:.5px;text-transform:none;}
+  .newsletter-preview .top p{font-size:12px;opacity:.9;letter-spacing:.3px;}
+  .newsletter-preview .body{padding:24px;display:block;column-count:1 !important;}
+  .newsletter-preview .body h4{color:var(--secundaria);border-bottom:2px solid var(--secundaria);padding-bottom:5px;margin:20px 0 10px;font-size:13px;font-weight:700;display:block;text-transform:uppercase;letter-spacing:.4px;}
+  .newsletter-preview .body h4:first-child{margin-top:0;}
+  .newsletter-preview .body ul{display:block;column-count:1 !important;list-style:none;padding:0;margin:0;}
+  .newsletter-preview .body li{display:block;padding:8px 0;border-bottom:1px dashed var(--borda);font-size:13px;line-height:1.5;color:var(--texto);}
+  .newsletter-preview .body li:last-child{border-bottom:none;}
+  .newsletter-preview .body p{font-size:13px;margin:8px 0;display:block;color:var(--texto);}
+  .newsletter-preview .insight{background:var(--insight-bg);border-left:4px solid var(--destaque);padding:12px 14px;margin:14px 0;font-size:12px;border-radius:0 6px 6px 0;display:block;color:var(--texto);}
+  .newsletter-preview .foot{background:var(--superficie-2);padding:14px;text-align:center;font-size:10px;color:var(--texto-tenue);}
 
-    .noticia h2 a:hover {
-      text-decoration: underline;
-    }
+  /* ============= RESUMO COLUNA ============= */
+  .resumo-coluna{max-width:680px;margin:0 auto;display:block;column-count:1 !important;}
+  .resumo-coluna .bloco{background:var(--superficie);border:1px solid var(--borda);border-radius:8px;padding:16px;margin-bottom:12px;display:block;box-shadow:var(--sombra);}
+  .resumo-coluna .bloco h4{color:var(--secundaria);font-size:11px;border-bottom:2px solid var(--secundaria);padding-bottom:5px;margin-bottom:10px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;}
+  .resumo-coluna .bloco ul{list-style:none;padding:0;margin:0;display:block;column-count:1 !important;}
+  .resumo-coluna .bloco li{padding:7px 0;border-bottom:1px dashed var(--borda);font-size:12px;display:block;line-height:1.5;color:var(--texto);}
+  .resumo-coluna .bloco li:last-child{border-bottom:none;}
+  .btn-gerar{display:block;margin:18px auto;}
 
-    .veiculo {
-      font-size: 13px;
-      font-weight: bold;
-      color: #2563eb;
-    }
+  /* ============= WIZARD ============= */
+  .wizard-steps{display:flex;gap:6px;margin-bottom:22px;flex-wrap:wrap;}
+  .wizard-step{flex:1;min-width:110px;padding:9px 12px;background:var(--superficie);border:1px solid var(--borda);border-radius:6px;font-size:11px;color:var(--texto-tenue);text-align:center;font-weight:600;}
+  .wizard-step.ativo{background:var(--primaria);color:#fff;border-color:var(--primaria);}
+  .wizard-step.concluido{background:var(--secundaria);color:#fff;border-color:var(--secundaria);}
+  .wizard-conteudo{background:var(--superficie);border:1px solid var(--borda);border-radius:8px;padding:22px;margin-bottom:14px;box-shadow:var(--sombra);}
+  .wizard-conteudo p.desc{color:var(--texto-suave);margin-bottom:14px;font-size:12px;}
+  .sugestao-item{background:var(--superficie-2);padding:8px 12px;border-radius:6px;margin-bottom:6px;display:flex;align-items:center;gap:10px;font-size:12px;color:var(--texto);}
+  .sugestao-item input[type="checkbox"]{width:14px;height:14px;cursor:pointer;flex-shrink:0;}
+  .sugestao-item label{cursor:pointer;flex:1;}
+  .wizard-nav{display:flex;justify-content:space-between;gap:10px;}
 
-    .data {
-      font-size: 13px;
-      color: #6b7280;
-    }
+  /* ============= SETUP AUTOMAÇÃO ============= */
+  .setup-bloco{background:var(--superficie);border:1px solid var(--borda);border-radius:8px;padding:16px;margin-bottom:14px;box-shadow:var(--sombra);}
+  .setup-bloco h4{font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:var(--primaria);margin-bottom:8px;font-weight:700;}
+  .setup-bloco p{font-size:12px;color:var(--texto-suave);margin-bottom:10px;}
+  pre{background:var(--fundo);border:1px solid var(--borda);border-radius:6px;padding:12px 14px;overflow-x:auto;font-family:'SF Mono','Consolas','Monaco',monospace;font-size:11px;line-height:1.55;color:var(--texto);position:relative;}
+  .pre-wrap{position:relative;margin-bottom:8px;}
+  .btn-copiar-pre{position:absolute;top:8px;right:8px;background:var(--primaria);color:#fff;border:none;padding:4px 10px;border-radius:4px;font-size:10px;cursor:pointer;font-weight:600;text-transform:uppercase;letter-spacing:.3px;}
+  .passo{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed var(--borda);align-items:flex-start;}
+  .passo:last-child{border-bottom:none;}
+  .passo-num{background:var(--primaria);color:#fff;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;}
+  .passo-txt{font-size:12px;color:var(--texto);line-height:1.55;}
 
-    .erro {
-      background: #fee2e2;
-      color: #991b1b;
-      padding: 16px;
-      border-radius: 10px;
-    }
-  </style>
+  /* ============= OPORTUNIDADES ============= */
+  .oportunidade{background:var(--superficie);border:1px solid var(--borda);border-left:4px solid var(--destaque);border-radius:8px;padding:14px 16px;margin-bottom:10px;box-shadow:var(--sombra);}
+  .oportunidade .tit{font-size:13px;font-weight:700;color:var(--texto);margin-bottom:4px;}
+  .oportunidade .desc{font-size:12px;color:var(--texto-suave);line-height:1.55;}
+  .oportunidade .refs{font-size:10px;color:var(--texto-tenue);margin-top:6px;text-transform:uppercase;letter-spacing:.3px;}
+
+  /* ============= TOAST ============= */
+  .toast{position:fixed;bottom:20px;right:20px;background:var(--primaria);color:#fff;padding:11px 18px;border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.25);opacity:0;transform:translateY(20px);transition:.25s;z-index:1000;font-size:12px;font-weight:600;}
+  .toast.show{opacity:1;transform:translateY(0);}
+
+  /* ============= RESPONSIVO ============= */
+  @media(max-width:900px){
+    header{padding:10px 14px;}
+    .marca h1{font-size:17px;}
+    .abas-mercado{padding:0 10px;}
+    .container{flex-direction:column;}
+    nav{width:100%;border-right:none;border-bottom:1px solid var(--borda);display:flex;overflow-x:auto;padding:0;}
+    nav button{white-space:nowrap;border-left:none;border-bottom:3px solid transparent;flex-shrink:0;padding:10px 12px;font-size:12px;}
+    nav button.ativo{border-left-color:transparent;border-bottom-color:var(--primaria);}
+    main{padding:14px;}
+    .btn-novo-mercado{margin-left:0;}
+    .busca-inline{margin-left:0;width:100%;}
+  }
+
+  /* ============= PRINT ============= */
+  @media print{
+    header,.abas-mercado,nav,.toast,.btn,.btn-gerar,#painel-newsletter > h2,#painel-newsletter > .subtitulo-painel,#painel-newsletter > div:first-of-type{display:none !important;}
+    body{background:#fff;color:#000;}
+    main{padding:0;}
+    .newsletter-preview{max-width:100%;box-shadow:none;border:none;}
+  }
+</style>
 </head>
-
 <body>
 
-  <header>
-    <h1>Fofoqueiro do Mercado</h1>
-    <p>Radar de notícias e movimentos do mercado</p>
-  </header>
+<header>
+  <div class="marca">
+    <h1>FOFOQUEIRO <span>DO MERCADO</span></h1>
+    <div class="sub">MEATO Consultoria · Inteligência de Marketing e Comunicação Estratégica</div>
+  </div>
+  <div class="header-dir">
+    <div class="frescor" id="frescor" title="Última atualização do painel"><span class="dot"></span><span id="frescor-txt">—</span></div>
+    <div class="badge" id="badge-mercado">Oncologia · Fortaleza</div>
+    <button class="ctrl-btn" onclick="alternarDensidade()" title="Alternar densidade (comfortável / compacta)"><span id="ico-densidade">◧</span></button>
+    <button class="ctrl-btn" onclick="alternarTema()" title="Alternar tema claro / escuro"><span id="ico-tema">🌙</span></button>
+  </div>
+</header>
+
+<div class="abas-mercado" id="abas-mercado"></div>
+
+<div class="container">
+  <nav id="menu">
+    <button class="ativo" data-painel="resumo">📊 Resumo</button>
+    <button data-painel="timeline">📅 Timeline</button>
+    <button data-painel="lei">⚖️ É LEI</button>
+    <button data-painel="noticia">📰 É NOTÍCIA</button>
+    <button data-painel="negocio">💼 É NEGÓCIO</button>
+    <button data-painel="concorrencia">🏆 É CONCORRÊNCIA</button>
+    <button data-painel="busca">🔍 É BUSCA</button>
+    <button data-painel="oportunidades">🎯 Oportunidades</button>
+    <button data-painel="config">⚙️ Configuração</button>
+    <button data-painel="setup">🔧 Setup Automação</button>
+    <button data-painel="newsletter">📧 Newsletter</button>
+    <button data-painel="novo">🚀 Novo Mercado</button>
+  </nav>
 
   <main>
 
-    <div class="status" id="status">
-      Carregando dados...
-    </div>
+    <!-- RESUMO -->
+    <section class="painel ativo" id="painel-resumo">
+      <h2>Resumo da Semana</h2>
+      <p class="subtitulo-painel">Prévia consolidada dos cinco painéis de monitoramento — ponto de partida para a newsletter.</p>
+      <div class="cards" id="cards-resumo"></div>
+      <div class="resumo-coluna" id="resumo-coluna"></div>
+      <button class="btn ambar btn-gerar" onclick="irParaNewsletter()">📧 Gerar Newsletter</button>
+    </section>
 
-    <section class="noticias" id="noticias"></section>
+    <!-- TIMELINE -->
+    <section class="painel" id="painel-timeline">
+      <h2>Timeline</h2>
+      <p class="subtitulo-painel">Atos legais, notícias e movimentações misturados no eixo do tempo — o enredo da semana.</p>
+      <div class="filtros" id="filtros-timeline"></div>
+      <div class="timeline" id="timeline-cont"></div>
+    </section>
+
+    <!-- É LEI -->
+    <section class="painel" id="painel-lei">
+      <h2>⚖️ É LEI</h2>
+      <p class="subtitulo-painel">Monitoramento legislativo — DOU, DOE, DOM e cortes superiores. Score de impacto por Alcance × Reversibilidade × Prazo.</p>
+      <div class="cards" id="cards-lei"></div>
+      <div class="filtros" id="filtros-lei"></div>
+      <div class="tabela-wrap">
+        <table id="tab-lei">
+          <thead><tr><th>Título do Ato</th><th>Fonte</th><th>Data</th><th>Impacto</th><th>Orig.</th></tr></thead>
+          <tbody id="tabela-lei"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- É NOTÍCIA -->
+    <section class="painel" id="painel-noticia">
+      <h2>📰 É NOTÍCIA</h2>
+      <p class="subtitulo-painel">Clipping de imprensa com deduplicação por conteúdo — matérias replicadas viram uma linha só com contador.</p>
+      <div class="cards" id="cards-noticia"></div>
+      <div class="filtros" id="filtros-noticia"></div>
+      <div class="tabela-wrap">
+        <table id="tab-noticia">
+          <thead><tr><th>Veículo</th><th>Manchete</th><th>Data</th><th>Tom</th><th>Incluir</th><th>Orig.</th><th>Copiar</th></tr></thead>
+          <tbody id="tabela-noticia"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- É NEGÓCIO -->
+    <section class="painel" id="painel-negocio">
+      <h2>💼 É NEGÓCIO</h2>
+      <p class="subtitulo-painel">Movimentações de mercado — M&A, recuperação judicial, expansões, healthtechs e inovação.</p>
+      <div class="cards" id="cards-negocio"></div>
+      <div class="tabela-wrap">
+        <table id="tab-negocio">
+          <thead><tr><th>Tipo</th><th>Empresas</th><th>Link</th><th>Orig.</th></tr></thead>
+          <tbody id="tabela-negocio"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- É CONCORRÊNCIA -->
+    <section class="painel" id="painel-concorrencia">
+      <h2>🏆 É CONCORRÊNCIA</h2>
+      <p class="subtitulo-painel">Benchmarking dos players — Google Meu Negócio, Reclame Aqui, seguidores e taxa de engajamento nos últimos 15 dias.</p>
+      <div class="cards" id="cards-concorrencia"></div>
+      <div class="tabela-wrap">
+        <table id="tab-concorrencia">
+          <thead><tr><th>#</th><th>Concorrente</th><th>Grupo</th><th>GMN ⭐</th><th>R. Aqui</th><th>Seguidores</th><th>Engaj.</th></tr></thead>
+          <tbody id="tabela-concorrencia"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- É BUSCA -->
+    <section class="painel" id="painel-busca">
+      <h2>🔍 É BUSCA</h2>
+      <p class="subtitulo-painel">Interesse e demanda no Google Trends — sparkline dos últimos três meses ao lado de cada termo.</p>
+      <div class="cards" id="cards-busca"></div>
+      <div class="filtros" id="filtros-busca"></div>
+      <div class="tabela-wrap">
+        <table id="tab-busca">
+          <thead><tr><th>Termo</th><th>Tendência (90d)</th><th>Volume</th><th>Incremento</th><th>Sinal</th></tr></thead>
+          <tbody id="tabela-busca"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- OPORTUNIDADES -->
+    <section class="painel" id="painel-oportunidades">
+      <h2>🎯 Oportunidades</h2>
+      <p class="subtitulo-painel">Cruzamentos entre demanda, concorrência e agenda regulatória — recomendações práticas para o cliente da MEATO.</p>
+      <div id="lista-oportunidades"></div>
+    </section>
+
+    <!-- CONFIGURAÇÃO -->
+    <section class="painel" id="painel-config">
+      <h2>⚙️ Configuração do Painel</h2>
+      <p class="subtitulo-painel">Fontes de dados, período, entidades monitoradas e identidade visual do mercado ativo.</p>
+
+      <div class="setup-bloco">
+        <h4>🔗 Fonte de dados remota</h4>
+        <p>Se este mercado for atualizado por um pipeline (GitHub Actions, Apps Script, etc.), cole aqui a URL do JSON gerado. O painel tentará carregá-lo no início de cada sessão e, em caso de falha, usará os dados locais como fallback.</p>
+        <div class="form-grid">
+          <input id="cfg-dataurl" placeholder="https://raw.githubusercontent.com/usuario/repo/main/data/oncologia-fortaleza.json">
+          <button class="btn azul" onclick="salvarDataUrl()">Salvar & Recarregar</button>
+        </div>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>📅 Período de análise</h4>
+        <div class="form-grid">
+          <label>De <input type="date" id="periodo-de"></label>
+          <label>Até <input type="date" id="periodo-ate"></label>
+        </div>
+        <button class="btn azul" onclick="salvarPeriodo()">Salvar Período</button>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>➕ Adicionar concorrente</h4>
+        <div class="form-grid">
+          <input id="c-nome" placeholder="Nome do concorrente">
+          <input id="c-grupo" placeholder="Grupo">
+          <input id="c-instagram" placeholder="Instagram (@handle)">
+          <input id="c-facebook" placeholder="Facebook">
+          <input id="c-gmn" placeholder="Nota GMN (4.5)">
+          <input id="c-seguidores" placeholder="Seguidores">
+        </div>
+        <button class="btn azul" onclick="adicionarConcorrente()">Adicionar</button>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>📢 Adicionar canal de notícia</h4>
+        <div class="form-grid">
+          <input id="canal-nome" placeholder="Nome do veículo">
+          <input id="canal-url" placeholder="URL base do veículo">
+          <input id="canal-rss" placeholder="URL do RSS (opcional)">
+        </div>
+        <button class="btn azul" onclick="adicionarCanal()">Adicionar</button>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>🔍 Adicionar termo de busca</h4>
+        <div class="form-grid">
+          <input id="termo-nome" placeholder="Termo de busca">
+          <input id="termo-volume" placeholder="Volume estimado">
+        </div>
+        <button class="btn azul" onclick="adicionarTermo()">Adicionar</button>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>🎨 Identidade visual</h4>
+        <div class="form-grid">
+          <label>Primária <input type="color" id="cor-primaria" value="#0F4C81" onchange="aplicarCores()"></label>
+          <label>Secundária <input type="color" id="cor-secundaria" value="#2E8B57" onchange="aplicarCores()"></label>
+          <label>Destaque <input type="color" id="cor-destaque" value="#E8A33D" onchange="aplicarCores()"></label>
+        </div>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>📋 Itens configurados</h4>
+        <div class="tabela-wrap">
+          <table><thead><tr><th>Tipo</th><th>Item</th><th>Detalhe</th><th>Ação</th></tr></thead>
+          <tbody id="tabela-config"></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SETUP AUTOMAÇÃO -->
+    <section class="painel" id="painel-setup">
+      <h2>🔧 Setup da Automação — Custo Zero</h2>
+      <p class="subtitulo-painel">Pipeline de ingestão diária: GitHub Actions coleta RSS e publica JSON versionado que este painel consome.</p>
+
+      <div class="setup-bloco">
+        <h4>Como funciona</h4>
+        <div class="passo"><div class="passo-num">1</div><div class="passo-txt"><strong>Repositório GitHub</strong> — crie um repositório público (ou privado com Actions habilitado). Ele será a "spinning brain" — hospeda o script de ingestão, roda o cron diário e publica o JSON de saída.</div></div>
+        <div class="passo"><div class="passo-num">2</div><div class="passo-txt"><strong>Workflow diário</strong> — o arquivo <code>.github/workflows/ingest.yml</code> abaixo agenda a rodada para 09h UTC (06h Fortaleza) todos os dias. Cota: 2.000 minutos/mês grátis — sobra muito.</div></div>
+        <div class="passo"><div class="passo-num">3</div><div class="passo-txt"><strong>Script de ingestão</strong> — <code>scripts/ingest.mjs</code> consome os feeds RSS (DOU, Google News por termo, veículos regionais), aplica deduplicação por hash de título+domínio, classifica tom heurístico e grava em <code>data/&lt;mercado&gt;.json</code>.</div></div>
+        <div class="passo"><div class="passo-num">4</div><div class="passo-txt"><strong>Publicar como raw</strong> — o painel consome via <code>https://raw.githubusercontent.com/&lt;usuario&gt;/&lt;repo&gt;/main/data/oncologia-fortaleza.json</code> (CORS liberado). Cole essa URL em <em>Configuração → Fonte de dados remota</em>.</div></div>
+        <div class="passo"><div class="passo-num">5</div><div class="passo-txt"><strong>Newsletter com link permanente</strong> — o botão "🔗 Copiar link desta edição" gera uma URL com hash desta versão (mercado + data) que abre este painel no mesmo estado — pronto para enviar por e-mail, LinkedIn ou colar em qualquer lugar.</div></div>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>Arquivo 1 — <code>.github/workflows/ingest.yml</code></h4>
+        <p>Cron diário às 09h UTC (06h em Fortaleza). Também expõe <code>workflow_dispatch</code> para rodar manualmente.</p>
+        <div class="pre-wrap">
+          <button class="btn-copiar-pre" onclick="copiarBloco('bloco-yml')">Copiar</button>
+          <pre id="bloco-yml">name: Fofoqueiro — ingestão diária
+
+on:
+  schedule:
+    - cron: "0 9 * * *"    # 09:00 UTC = 06:00 America/Fortaleza
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+
+      - name: Install deps
+        run: npm i rss-parser
+
+      - name: Run ingestion
+        run: node scripts/ingest.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "fofoqueiro-bot"
+          git config user.email "bot@meato.consulting"
+          git add data/*.json
+          git diff --cached --quiet || git commit -m "chore(data): daily ingest $(date -u +%Y-%m-%d)"
+          git push
+</pre>
+        </div>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>Arquivo 2 — <code>scripts/ingest.mjs</code></h4>
+        <p>Consome RSS de imprensa, DOU e Google News por termo. Deduplica, classifica tom e grava JSON.</p>
+        <div class="pre-wrap">
+          <button class="btn-copiar-pre" onclick="copiarBloco('bloco-js')">Copiar</button>
+          <pre id="bloco-js">// scripts/ingest.mjs — coleta diária Fofoqueiro do Mercado
+import Parser from "rss-parser";
+import { writeFile, mkdir, readFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+
+const parser = new Parser({ timeout: 15000 });
+const hash = s =&gt; createHash("sha1").update(s).digest("hex").slice(0, 12);
+const norm = s =&gt; (s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+
+// ============ CONFIGURE POR MERCADO ============
+const MERCADOS = [
+  {
+    id: "oncologia-fortaleza",
+    nome: "Oncologia · Fortaleza (CE)",
+    termosGoogleNews: [
+      "oncologia Fortaleza",
+      "tratamento câncer Fortaleza",
+      "ICC Fortaleza",
+      "Oncoclínicas",
+      "Rede D'Or oncologia"
+    ],
+    feedsImprensa: [
+      { veiculo: "G1 Ceará",         url: "https://g1.globo.com/rss/g1/ce/ceara/" },
+      { veiculo: "Diário do Nordeste", url: "https://diariodonordeste.verdesmares.com.br/rss" },
+      { veiculo: "O Povo",           url: "https://www.opovo.com.br/rss.xml" }
+    ],
+    feedsLegais: [
+      { fonte: "DOU",   url: "https://www.in.gov.br/leiturajornal?data=hoje" }
+    ]
+  }
+];
+
+// heurística leve de tom (pode ser substituída por LLM local depois)
+const NEG = ["recuperação","dívida","fraude","denúncia","queda","risco","alerta","escassez","greve","processo"];
+const POS = ["expansão","parceria","inauguração","cresce","recorde","aprovação","liderança","investimento","inovação","pioneir"];
+function classificarTom(t){
+  const s = norm(t);
+  let np = 0, nn = 0;
+  POS.forEach(p =&gt; { if (s.includes(p)) np++; });
+  NEG.forEach(p =&gt; { if (s.includes(p)) nn++; });
+  if (np &gt; nn) return "Positivo";
+  if (nn &gt; np) return "Negativo";
+  return "Neutro";
+}
+
+async function coletarGoogleNews(termos){
+  const out = [];
+  for (const t of termos) {
+    const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(t) + "&amp;hl=pt-BR&amp;gl=BR&amp;ceid=BR:pt-419";
+    try {
+      const feed = await parser.parseURL(url);
+      for (const it of feed.items || []) {
+        out.push({
+          veiculo:  (it.source &amp;&amp; it.source._) || "Google News",
+          titulo:   it.title,
+          url:      it.link,
+          data:     (it.isoDate || it.pubDate || new Date().toISOString()).slice(0, 10),
+          tom:      classificarTom(it.title),
+          origem:   "auto",
+          termo:    t
+        });
+      }
+    } catch (e) { console.error("GNews fail", t, e.message); }
+  }
+  return out;
+}
+
+async function coletarImprensa(feeds){
+  const out = [];
+  for (const f of feeds) {
+    try {
+      const feed = await parser.parseURL(f.url);
+      for (const it of feed.items || []) {
+        out.push({
+          veiculo: f.veiculo,
+          titulo:  it.title,
+          url:     it.link,
+          data:    (it.isoDate || it.pubDate || new Date().toISOString()).slice(0, 10),
+          tom:     classificarTom(it.title),
+          origem:  "auto"
+        });
+      }
+    } catch (e) { console.error("RSS fail", f.veiculo, e.message); }
+  }
+  return out;
+}
+
+function dedup(noticias){
+  const grupos = new Map();
+  for (const n of noticias) {
+    const key = hash(norm(n.titulo).slice(0, 60));
+    if (!grupos.has(key)) grupos.set(key, { ...n, veiculos: [n.veiculo], incluir: true });
+    else {
+      const g = grupos.get(key);
+      if (!g.veiculos.includes(n.veiculo)) g.veiculos.push(n.veiculo);
+    }
+  }
+  return [...grupos.values()].sort((a, b) =&gt; b.data.localeCompare(a.data));
+}
+
+async function processarMercado(m){
+  const gnews    = await coletarGoogleNews(m.termosGoogleNews);
+  const imprensa = await coletarImprensa(m.feedsImprensa);
+  const noticias = dedup([...gnews, ...imprensa]).slice(0, 50);
+
+  // preserva overrides manuais anteriores (curadoria)
+  let previo = null;
+  try { previo = JSON.parse(await readFile("data/" + m.id + ".json", "utf8")); } catch {}
+  const curados = (previo &amp;&amp; previo.noticiasCuradas) || [];
+
+  const payload = {
+    id: m.id,
+    nome: m.nome,
+    atualizadoEm: new Date().toISOString(),
+    proximaAtualizacao: "diária, 09h UTC",
+    noticias,
+    noticiasCuradas: curados,   // preservado entre runs
+    origem: { motor: "ingest.mjs", versao: "1.0" }
+  };
+
+  await mkdir("data", { recursive: true });
+  await writeFile("data/" + m.id + ".json", JSON.stringify(payload, null, 2), "utf8");
+  console.log(m.id, "→", noticias.length, "notícias após dedup");
+}
+
+for (const m of MERCADOS) await processarMercado(m);
+</pre>
+        </div>
+      </div>
+
+      <div class="setup-bloco">
+        <h4>Extensões da Fase 2 (custo zero) já contempladas no script</h4>
+        <p>Adicione as chamadas na função <code>processarMercado</code> para incorporar mais fontes:</p>
+        <ul style="padding-left:20px;font-size:12px;color:var(--texto);line-height:1.7;">
+          <li><strong>Google Trends:</strong> use <code>google-trends-api</code> (npm, gratuito) para popular <code>termosBusca[i].serie</code> com 90 dias de dados — o sparkline no painel já consome esse campo.</li>
+          <li><strong>Reclame Aqui:</strong> fetch simples da URL do concorrente + regex para nota; roda uma vez ao dia, sem risco de bloqueio.</li>
+          <li><strong>ANS Rol:</strong> RSS oficial de atualizações; entra em <code>atosLei</code> com fonte "ANS".</li>
+          <li><strong>Câmara/Senado:</strong> LexML API pública — projetos de lei sobre oncologia federal e estadual.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="painel" id="painel-newsletter">
+      <h2>📧 Newsletter Semanal</h2>
+      <p class="subtitulo-painel">Consolidação para envio por e-mail, LinkedIn ou link público permanente.</p>
+      <div style="text-align:center;margin-bottom:18px;display:flex;justify-content:center;gap:8px;flex-wrap:wrap;">
+        <button class="btn ambar" onclick="gerarNewsletter()">🔄 Gerar</button>
+        <button class="btn azul" onclick="copiarPermalink()">🔗 Copiar link desta edição</button>
+        <button class="btn" onclick="baixarNewsletter()">⬇️ Baixar HTML</button>
+        <button class="btn fantasma" onclick="exportarPDF()">📄 Imprimir/PDF</button>
+      </div>
+      <div id="newsletter-saida"></div>
+    </section>
+
+    <!-- NOVO MERCADO -->
+    <section class="painel" id="painel-novo">
+      <h2>🚀 Novo Mercado</h2>
+      <p class="subtitulo-painel">Wizard de onboarding — sugestões contextuais por segmento, cidade e UF. Período inicial de 1 mês.</p>
+      <div class="wizard-steps" id="wizard-steps">
+        <div class="wizard-step ativo">1. Mercado</div>
+        <div class="wizard-step">2. Concorrentes</div>
+        <div class="wizard-step">3. Canais</div>
+        <div class="wizard-step">4. Fontes Legais</div>
+        <div class="wizard-step">5. Termos SEO</div>
+        <div class="wizard-step">6. Aprovar</div>
+      </div>
+      <div class="wizard-conteudo" id="wizard-conteudo"></div>
+      <div class="wizard-nav">
+        <button class="btn fantasma" id="btn-voltar" onclick="wizardVoltar()">← Voltar</button>
+        <button class="btn azul" id="btn-avancar" onclick="wizardAvancar()">Avançar →</button>
+      </div>
+    </section>
 
   </main>
+</div>
 
-  <script>
+<div class="toast" id="toast"></div>
 
-    async function carregarNoticias() {
+<script>
+// ============================================================
+// FRESCOR & CONFIG GLOBAL
+// ============================================================
+var STORAGE_KEY = 'meato_fofoqueiro_v2';
+var mercados = [];
+var mercadoAtivo = null;
+var wizardEtapa = 0;
+var wizardDados = null;
+var densidade = 'confortavel';
+var tema = 'claro';
 
-      const status = document.getElementById("status");
-      const container = document.getElementById("noticias");
+// filtros por painel (estado runtime)
+var filtros = {
+  timeline: { tipo: 'todos' },
+  lei:      { impacto: 'todos' },
+  noticia:  { tom: 'todos', busca: '' },
+  busca:    { tendencia: 'todos' }
+};
 
-      try {
+// ============================================================
+// DADOS-BASE DO MERCADO PADRÃO
+// ============================================================
+function dadosOncologiaFortaleza(){
+  return {
+    id: 'oncologia-fortaleza',
+    nome: 'Oncologia · Fortaleza (CE)',
+    setor: 'Saúde',
+    segmento: 'Oncologia',
+    cidade: 'Fortaleza',
+    estado: 'CE',
+    periodo: { de: '2026-07-21', ate: '2026-08-20' },
+    dataUrl: 'https://raw.githubusercontent.com/wallace-esp/fofoqueiro/main/data/oncologia-fortaleza.json',
+    atualizadoEm: '2026-08-20T09:00:00Z',
+    proximaAtualizacao: 'diária, 09h UTC',
+    concorrentes: [
+      {nome:"Instituto do Câncer do Ceará (ICC)", grupo:"Rede ICC Saúde", instagram:"@haroldojuacaba", facebook:"hospitalharoldojuacaba", gmn:4.6, ra:"—", seg:12000, eng:2.1, url:"https://www.icc.org.br/"},
+      {nome:"Oncoclínicas Fortaleza", grupo:"Grupo Oncoclínicas", instagram:"@grupooncoclinicas", facebook:"GrupoOncoclinicas", gmn:4.4, ra:"—", seg:45000, eng:1.8, url:"https://oncoclinicas.com/"},
+      {nome:"Oncologia D'Or Fujiday", grupo:"Rede D'Or", instagram:"@oncologiadorfujiday", facebook:"clinicafujidayoncologiador", gmn:4.5, ra:"7.0", seg:1800, eng:3.2, url:"https://www.rededor.com.br/"},
+      {nome:"Centro de Oncologia CRIO", grupo:"CRIO", instagram:"@centrodeoncologiacrio", facebook:"centrodeoncologia.crio", gmn:4.7, ra:"—", seg:29400, eng:2.8, url:"https://www.crio.med.br/"},
+      {nome:"Quimioclinic", grupo:"Quimioclinic", instagram:"—", facebook:"—", gmn:4.3, ra:"—", seg:0, eng:0, url:"https://quimioclinic.com.br/"},
+      {nome:"Hospital Cura d'Ars", grupo:"Rede São Camilo", instagram:"@saocamilofortaleza", facebook:"hospitalsaocamilofor", gmn:4.2, ra:"—", seg:8000, eng:1.5, url:"https://www.saocamilo.com/"},
+      {nome:"ATO Oncologia", grupo:"ATO Terapias", instagram:"@atooncologia", facebook:"atooncologia", gmn:4.8, ra:"—", seg:3700, eng:4.1, url:"https://atooncologia.com.br/"},
+      {nome:"Pronutrir Oncologia", grupo:"Pronutrir", instagram:"@pronutriroficial", facebook:"pronutriroficial", gmn:4.5, ra:"—", seg:5200, eng:2.4, url:"https://pronutrir.com.br/"},
+      {nome:"Oncovie", grupo:"Oncovie", instagram:"@clinicaoncovie", facebook:"—", gmn:4.4, ra:"sem selo", seg:2900, eng:3.0, url:"https://oncovie.com.br/"},
+      {nome:"OTO Oncologia", grupo:"Rede Oto / Kora Saúde", instagram:"via Rede Oto", facebook:"via Rede Oto", gmn:4.3, ra:"—", seg:11000, eng:1.9, url:"https://www.korasaude.com.br/"}
+    ],
+    canais: [
+      {nome:"Diário do Nordeste", url:"https://diariodonordeste.verdesmares.com.br/", rss:"https://diariodonordeste.verdesmares.com.br/rss"},
+      {nome:"O Povo", url:"https://www.opovo.com.br/", rss:"https://www.opovo.com.br/rss.xml"},
+      {nome:"G1 Ceará", url:"https://g1.globo.com/ce/ceara/", rss:"https://g1.globo.com/rss/g1/ce/ceara/"},
+      {nome:"UOL", url:"https://www.uol.com.br/", rss:""},
+      {nome:"Extra", url:"https://extra.globo.com/", rss:""}
+    ],
+    fontesLegais: [
+      {nome:"DOU", url:"https://www.in.gov.br/"},
+      {nome:"DOE-CE", url:"https://www.doe.seplag.ce.gov.br/"},
+      {nome:"DOM Fortaleza", url:"https://transparencia.fortaleza.ce.gov.br/"},
+      {nome:"STF", url:"https://portal.stf.jus.br/"},
+      {nome:"ANS", url:"https://www.gov.br/ans/"}
+    ],
+    atosLei: [
+      {titulo:"Portaria AF-Onco: MS atualiza regras da Assistência Farmacêutica oncológica", fonte:"DOU", data:"2026-06-18", impacto:"ALTO", origem:"curado", url:"https://www.in.gov.br/"},
+      {titulo:"STF Tema 1234: fornecimento de medicamentos oncológicos no SUS", fonte:"STF", data:"2026-07-03", impacto:"ALTO", origem:"curado", url:"https://portal.stf.jus.br/"},
+      {titulo:"ANS inclui Olaparibe no Rol para câncer de próstata metastático", fonte:"ANS", data:"2026-05-20", impacto:"MÉDIO", origem:"auto", url:"https://www.gov.br/ans/"}
+    ],
+    noticias: [
+      {veiculo:"UOL", titulo:"Oncoclínicas ratifica recuperação extrajudicial após aval da Justiça", data:"2026-08-10", tom:"Negativo", incluir:true, origem:"auto", veiculos:["UOL","Valor","Folha"], url:"https://www.uol.com.br/economia/"},
+      {veiculo:"O Povo", titulo:"ICC abre inscrições para mestrado em oncologia", data:"2026-08-19", tom:"Positivo", incluir:true, origem:"auto", veiculos:["O Povo"], url:"https://www.opovo.com.br/"},
+      {veiculo:"Prefeitura de Fortaleza", titulo:"Fortaleza é pioneira em IA para rastreamento de pacientes oncológicos", data:"2026-07-21", tom:"Positivo", incluir:true, origem:"curado", veiculos:["Prefeitura","G1","O Povo"], url:"https://www.fortaleza.ce.gov.br/"},
+      {veiculo:"G1", titulo:"Oncoclínicas entra com pedido de recuperação extrajudicial para renegociar R$ 5,1 bi", data:"2026-07-14", tom:"Negativo", incluir:true, origem:"auto", veiculos:["G1","Valor","Estadão"], url:"https://g1.globo.com/economia/"},
+      {veiculo:"Extra", titulo:"ANS inclui novo medicamento para câncer de próstata no rol obrigatório", data:"2026-05-20", tom:"Positivo", incluir:true, origem:"auto", veiculos:["Extra","O Globo"], url:"https://extra.globo.com/"},
+      {veiculo:"G1", titulo:"Pílula contra câncer aplaudida no maior congresso de oncologia (fora de escopo)", data:"2026-06-02", tom:"Positivo", incluir:false, origem:"ia", veiculos:["G1"], url:"https://g1.globo.com/saude/"}
+    ],
+    movimentacoes: [
+      {tipo:"Recuperação Extrajudicial", empresas:"Oncoclínicas — dívida de R$ 5,1 bi", link:"https://oncoclinicas.com/", texto:"oncoclinicas.com", origem:"auto"},
+      {tipo:"Recuperação Extrajudicial", empresas:"Kora Saúde e Alliança avançam no processo", link:"https://www.korasaude.com.br/", texto:"korasaude.com.br", origem:"auto"},
+      {tipo:"Inovação", empresas:"Fortaleza + ICC + Ministério da Saúde — IA no rastreamento oncológico", link:"https://www.fortaleza.ce.gov.br/", texto:"fortaleza.ce.gov.br", origem:"curado"}
+    ],
+    termosBusca: [
+      {termo:"tratamento de câncer Fortaleza", volume:78, incremento:12.4, tendencia:"alta",    serie:[42,48,55,60,58,65,70,68,72,74,76,78], url:"https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR"},
+      {termo:"oncologia Fortaleza",             volume:65, incremento:5.2,  tendencia:"alta",    serie:[52,54,53,58,60,59,62,63,61,64,63,65], url:"https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR"},
+      {termo:"quimioterapia Fortaleza",         volume:52, incremento:-3.1, tendencia:"queda",   serie:[60,58,57,55,56,54,53,54,52,53,51,52], url:"https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR"},
+      {termo:"radioterapia Fortaleza",          volume:41, incremento:1.8,  tendencia:"estável", serie:[38,40,39,41,40,42,41,40,42,41,40,41], url:"https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR"}
+    ]
+  };
+}
 
-        const resposta = await fetch(
-          "./data/oncologia-fortaleza.json"
-        );
-
-        if (!resposta.ok) {
-          throw new Error("Não foi possível carregar os dados.");
-        }
-
-        const dados = await resposta.json();
-
-        status.innerHTML = `
-          <strong>${dados.nome}</strong><br>
-          Atualizado em: ${dados.atualizadoEm}<br>
-          Notícias encontradas: ${dados.noticias.length}
-        `;
-
-        container.innerHTML = "";
-
-        dados.noticias
-          .filter(noticia => noticia.incluir !== false)
-          .forEach(noticia => {
-
-            const item = document.createElement("article");
-
-            item.className = "noticia";
-
-            item.innerHTML = `
-              <div class="veiculo">
-                ${noticia.veiculo || "Fonte não informada"}
-              </div>
-
-              <h2>
-                <a
-                  href="${noticia.url}"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ${noticia.titulo}
-                </a>
-              </h2>
-
-              <div class="data">
-                ${noticia.data || ""}
-              </div>
-            `;
-
-            container.appendChild(item);
-
-          });
-
-      } catch (erro) {
-
-        status.innerHTML = `
-          <div class="erro">
-            Erro ao carregar os dados: ${erro.message}
-          </div>
-        `;
-
+// ============================================================
+// PERSISTÊNCIA
+// ============================================================
+function salvarEstado(){
+  try{
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      mercados: mercados, ativo: mercadoAtivo, densidade: densidade, tema: tema
+    }));
+  }catch(e){}
+}
+function carregarEstado(){
+  try{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if(raw){
+      var dados = JSON.parse(raw);
+      if(dados && dados.mercados && dados.mercados.length){
+        mercados = dados.mercados;
+        mercadoAtivo = dados.ativo || dados.mercados[0].id;
+        densidade = dados.densidade || 'confortavel';
+        tema = dados.tema || 'claro';
+        migrarEstado();
+        return;
       }
-
     }
+  }catch(e){}
+  mercados = [ dadosOncologiaFortaleza() ];
+  mercadoAtivo = mercados[0].id;
+}
+// migração leve: garante que o mercado padrão já venha com dataUrl remota
+// mesmo que o localStorage antigo tenha sido salvo sem ela.
+function migrarEstado(){
+  var URL_PADRAO = 'https://raw.githubusercontent.com/wallace-esp/fofoqueiro/main/data/oncologia-fortaleza.json';
+  var mudou = false;
+  for(var i=0;i<mercados.length;i++){
+    if(mercados[i].id === 'oncologia-fortaleza' && !mercados[i].dataUrl){
+      mercados[i].dataUrl = URL_PADRAO;
+      mudou = true;
+    }
+  }
+  if(mudou) salvarEstado();
+}
+function getMercado(){
+  for(var i=0;i<mercados.length;i++){ if(mercados[i].id === mercadoAtivo) return mercados[i]; }
+  return mercados[0];
+}
 
-    carregarNoticias();
+// ============================================================
+// FETCH REMOTO (Fase 1)
+// ============================================================
+function tentarFetchRemoto(){
+  var m = getMercado();
+  if(!m.dataUrl) return;
+  toast('Buscando dados atualizados…');
+  fetch(m.dataUrl, { cache: 'no-store' })
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(function(dados){
+      // merge conservador: só substitui listas que vieram COM CONTEÚDO.
+      // Se o pipeline ainda não gera um determinado painel (ex: atosLei),
+      // preserva o fallback local em vez de zerar a interface.
+      if(Array.isArray(dados.noticias)      && dados.noticias.length)      m.noticias      = normalizarNoticias(dados.noticias);
+      if(Array.isArray(dados.atosLei)       && dados.atosLei.length)       m.atosLei       = dados.atosLei;
+      if(Array.isArray(dados.movimentacoes) && dados.movimentacoes.length) m.movimentacoes = dados.movimentacoes;
+      if(Array.isArray(dados.termosBusca)   && dados.termosBusca.length)   m.termosBusca   = dados.termosBusca;
+      if(Array.isArray(dados.concorrentes)  && dados.concorrentes.length)  m.concorrentes  = dados.concorrentes;
+      if(Array.isArray(dados.canais)        && dados.canais.length)        m.canais        = dados.canais;
+      if(Array.isArray(dados.fontesLegais)  && dados.fontesLegais.length)  m.fontesLegais  = dados.fontesLegais;
+      if(dados.atualizadoEm)  m.atualizadoEm  = dados.atualizadoEm;
+      if(dados.proximaAtualizacao) m.proximaAtualizacao = dados.proximaAtualizacao;
+      salvarEstado();
+      renderTudo();
+      toast('Dados atualizados do servidor');
+    })
+    .catch(function(e){
+      toast('Falha ao carregar remoto — usando dados locais');
+    });
+}
+function normalizarNoticias(arr){
+  // garante campos veiculos[] e origem para dados vindos do servidor
+  for(var i=0;i<arr.length;i++){
+    if(!arr[i].veiculos) arr[i].veiculos = [arr[i].veiculo];
+    if(!arr[i].origem) arr[i].origem = 'auto';
+    if(typeof arr[i].incluir === 'undefined') arr[i].incluir = true;
+  }
+  return arr;
+}
 
-  </script>
+// ============================================================
+// FRESCOR
+// ============================================================
+function atualizarFrescor(){
+  var m = getMercado();
+  var txt = '';
+  if(m.atualizadoEm){
+    var d = new Date(m.atualizadoEm);
+    var hoje = new Date();
+    var diff = Math.floor((hoje - d) / (1000*60*60));
+    if(diff < 1) txt = 'atualizado agora';
+    else if(diff < 24) txt = 'atualizado há ' + diff + 'h';
+    else txt = 'atualizado em ' + formatarData(d.toISOString().slice(0,10));
+  } else {
+    txt = 'sem atualização remota';
+  }
+  document.getElementById('frescor-txt').textContent = txt;
+}
+
+// ============================================================
+// ABAS DE MERCADO
+// ============================================================
+function renderAbas(){
+  var cont = document.getElementById('abas-mercado');
+  var html = '';
+  for(var i=0;i<mercados.length;i++){
+    var m = mercados[i];
+    var ativa = m.id === mercadoAtivo ? ' ativa' : '';
+    html += '<button class="aba-mercado'+ativa+'" onclick="trocarMercado(\''+m.id+'\')">'
+         +  '<span>'+escapeHtml(m.nome)+'</span>';
+    if(mercados.length > 1){
+      html += '<button class="fechar" onclick="event.stopPropagation();removerMercado(\''+m.id+'\')" title="Remover mercado">✕</button>';
+    }
+    html += '</button>';
+  }
+  html += '<button class="btn-novo-mercado" onclick="irParaNovoMercado()">+ Novo Mercado</button>';
+  cont.innerHTML = html;
+  document.getElementById('badge-mercado').textContent = getMercado().nome;
+}
+function trocarMercado(id){ mercadoAtivo = id; salvarEstado(); renderTudo(); tentarFetchRemoto(); }
+function removerMercado(id){
+  if(mercados.length <= 1){ toast('É preciso manter ao menos um mercado.'); return; }
+  var novos = [];
+  for(var i=0;i<mercados.length;i++){ if(mercados[i].id !== id) novos.push(mercados[i]); }
+  mercados = novos;
+  if(mercadoAtivo === id) mercadoAtivo = mercados[0].id;
+  salvarEstado(); renderTudo(); toast('Mercado removido');
+}
+function irParaNovoMercado(){ ativarPainel('novo'); }
+function irParaNewsletter(){ ativarPainel('newsletter'); gerarNewsletter(); }
+
+// ============================================================
+// NAVEGAÇÃO
+// ============================================================
+function ativarPainel(nome){
+  var btns = document.querySelectorAll('#menu button');
+  for(var i=0;i<btns.length;i++){
+    if(btns[i].getAttribute('data-painel') === nome) btns[i].classList.add('ativo');
+    else btns[i].classList.remove('ativo');
+  }
+  var ps = document.querySelectorAll('.painel');
+  for(var j=0;j<ps.length;j++) ps[j].classList.remove('ativo');
+  var alvo = document.getElementById('painel-'+nome);
+  if(alvo) alvo.classList.add('ativo');
+  if(nome === 'novo' && !wizardDados) iniciarWizard();
+  if(nome === 'oportunidades') renderOportunidades();
+  if(nome === 'timeline') renderTimeline();
+}
+function ligarMenu(){
+  var btns = document.querySelectorAll('#menu button');
+  for(var i=0;i<btns.length;i++){
+    btns[i].onclick = function(){ ativarPainel(this.getAttribute('data-painel')); };
+  }
+}
+
+// ============================================================
+// TEMA & DENSIDADE
+// ============================================================
+function alternarTema(){
+  tema = tema === 'claro' ? 'escuro' : 'claro';
+  aplicarTema();
+  salvarEstado();
+}
+function aplicarTema(){
+  if(tema === 'escuro'){
+    document.documentElement.setAttribute('data-theme','dark');
+    document.getElementById('ico-tema').textContent = '☀';
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    document.getElementById('ico-tema').textContent = '🌙';
+  }
+}
+function alternarDensidade(){
+  densidade = densidade === 'confortavel' ? 'compacta' : 'confortavel';
+  aplicarDensidade();
+  salvarEstado();
+  toast('Densidade: ' + densidade);
+}
+function aplicarDensidade(){
+  var tabs = document.querySelectorAll('.tabela-wrap table');
+  for(var i=0;i<tabs.length;i++){
+    if(densidade === 'compacta') tabs[i].classList.add('compacto');
+    else tabs[i].classList.remove('compacto');
+  }
+}
+
+// ============================================================
+// HELPERS
+// ============================================================
+function escapeHtml(s){
+  if(s === null || s === undefined) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function card(num, lbl, delta, cls){
+  var d = delta ? '<div class="delta '+cls+'">'+delta+'</div>' : '';
+  return '<div class="card"><div class="num">'+num+'</div><div class="lbl">'+lbl+'</div>'+d+'</div>';
+}
+function deltaHtml(v){ v = Number(v); if(v>0) return '▲ '+v+'%'; if(v<0) return '▼ '+Math.abs(v)+'%'; return '—'; }
+function deltaCls(v){ v = Number(v); if(v>0) return 'up'; if(v<0) return 'down'; return 'flat'; }
+function tomTag(tom){
+  var cls = tom === 'Positivo' ? 'pos' : (tom === 'Negativo' ? 'neg' : 'neu');
+  return '<span class="tag '+cls+'">'+tom+'</span>';
+}
+function formatarData(d){
+  if(!d) return '—';
+  var p = d.split('-'); if(p.length !== 3) return d;
+  return p[2]+'/'+p[1]+'/'+p[0];
+}
+function toast(msg){
+  var t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(function(){ t.classList.remove('show'); }, 2500);
+}
+function provIcone(origem){
+  if(origem === 'curado') return '<span class="prov" title="Curado pelo analista">✋</span>';
+  if(origem === 'ia')     return '<span class="prov" title="Sugestão de IA — aguardando revisão">✨</span>';
+  return '<span class="prov" title="Coletado automaticamente">🤖</span>';
+}
+function chip(rotulo, valor, ativoValor, grupo, callback){
+  var cls = valor === ativoValor ? 'chip ativo' : 'chip';
+  return '<button class="'+cls+'" onclick="setFiltro(\''+grupo+'\',\''+valor+'\')">'+rotulo+'</button>';
+}
+function setFiltro(grupo, valor){
+  if(grupo === 'lei-imp')       filtros.lei.impacto = valor;
+  else if(grupo === 'not-tom')  filtros.noticia.tom = valor;
+  else if(grupo === 'busca-tend') filtros.busca.tendencia = valor;
+  else if(grupo === 'tl-tipo')  filtros.timeline.tipo = valor;
+  renderTudo();
+}
+function copiarBloco(id){
+  var el = document.getElementById(id);
+  var txt = el.textContent;
+  try{
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('Copiado!'); }, function(){ window.prompt('Copie manualmente:', txt); });
+    } else {
+      window.prompt('Copie manualmente:', txt);
+    }
+  } catch(e){ window.prompt('Copie manualmente:', txt); }
+}
+
+// ============================================================
+// SPARKLINE
+// ============================================================
+function sparkline(serie, largura, altura){
+  if(!serie || serie.length < 2) return '';
+  var w = largura || 80, h = altura || 24;
+  var min = Math.min.apply(null, serie), max = Math.max.apply(null, serie);
+  var range = max - min || 1;
+  var step = w / (serie.length - 1);
+  var pontos = [];
+  for(var i=0;i<serie.length;i++){
+    var x = i * step;
+    var y = h - ((serie[i] - min) / range) * (h - 4) - 2;
+    pontos.push(x.toFixed(1) + ',' + y.toFixed(1));
+  }
+  var linha = pontos.join(' ');
+  var poly = '0,'+h+' ' + linha + ' ' + w + ',' + h;
+  var ult = pontos[pontos.length-1].split(',');
+  return '<svg class="spark" viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none">'
+       + '<polygon points="'+poly+'" fill="var(--spark-fill)" />'
+       + '<polyline points="'+linha+'" fill="none" stroke="var(--spark-line)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />'
+       + '<circle cx="'+ult[0]+'" cy="'+ult[1]+'" r="2.2" fill="var(--spark-line)" />'
+       + '</svg>';
+}
+
+// ============================================================
+// RESUMO
+// ============================================================
+function renderResumo(){
+  var m = getMercado();
+  var incluidas = 0;
+  for(var i=0;i<m.noticias.length;i++) if(m.noticias[i].incluir) incluidas++;
+  var altos = 0;
+  for(var j=0;j<m.atosLei.length;j++) if(m.atosLei[j].impacto === 'ALTO') altos++;
+
+  document.getElementById('cards-resumo').innerHTML =
+    card(m.atosLei.length, 'Atos legislativos', deltaHtml(8), 'up') +
+    card(incluidas, 'Notícias selecionadas', deltaHtml(15), 'up') +
+    card(m.movimentacoes.length, 'Movimentações', deltaHtml(0), 'flat') +
+    card(m.concorrentes.length, 'Concorrentes', '', 'flat') +
+    card(altos, 'Impacto ALTO', '', 'flat');
+
+  var topEng = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
+  var topGmn = m.concorrentes.slice().sort(function(a,b){ return b.gmn - a.gmn; })[0];
+  var topTermo = m.termosBusca[0];
+
+  var html = '';
+  html += '<div class="bloco"><h4>⚖️ É LEI</h4><ul>';
+  for(var a=0;a<m.atosLei.length;a++){
+    var at = m.atosLei[a];
+    html += '<li><a href="'+escapeHtml(at.url)+'" target="_blank" rel="noopener">'+escapeHtml(at.titulo)+'</a> '+provIcone(at.origem||'auto')+' <span class="tag '+at.impacto.toLowerCase()+'">'+at.impacto+'</span><br><small style="color:var(--texto-tenue);">'+escapeHtml(at.fonte)+' · '+formatarData(at.data)+'</small></li>';
+  }
+  html += '</ul></div>';
+
+  html += '<div class="bloco"><h4>📰 É NOTÍCIA</h4><ul>';
+  for(var k=0;k<m.noticias.length;k++){
+    var n = m.noticias[k]; if(!n.incluir) continue;
+    var dedup = (n.veiculos && n.veiculos.length > 1) ? '<span class="badge-dedup">+'+ (n.veiculos.length-1) +' veíc.</span>' : '';
+    html += '<li><a href="'+escapeHtml(n.url)+'" target="_blank" rel="noopener">'+escapeHtml(n.titulo)+'</a> '+dedup+' '+provIcone(n.origem||'auto')+'<br><small style="color:var(--texto-tenue);">'+escapeHtml(n.veiculo)+' · '+formatarData(n.data)+'</small> '+tomTag(n.tom)+'</li>';
+  }
+  html += '</ul></div>';
+
+  html += '<div class="bloco"><h4>💼 É NEGÓCIO</h4><ul>';
+  for(var l=0;l<m.movimentacoes.length;l++){
+    var mv = m.movimentacoes[l];
+    html += '<li><strong>'+escapeHtml(mv.tipo)+':</strong> <a href="'+escapeHtml(mv.link)+'" target="_blank" rel="noopener">'+escapeHtml(mv.empresas)+'</a> '+provIcone(mv.origem||'auto')+'</li>';
+  }
+  html += '</ul></div>';
+
+  html += '<div class="bloco"><h4>🏆 É CONCORRÊNCIA</h4><ul>';
+  html += '<li>🥇 Líder GMN: <a href="'+escapeHtml(topGmn.url)+'" target="_blank" rel="noopener">'+escapeHtml(topGmn.nome)+'</a> ('+topGmn.gmn+' ⭐)</li>';
+  html += '<li>💬 Líder engajamento: <a href="'+escapeHtml(topEng.url)+'" target="_blank" rel="noopener">'+escapeHtml(topEng.nome)+'</a> ('+topEng.eng+'%)</li>';
+  html += '<li>📊 '+m.concorrentes.length+' players monitorados</li>';
+  html += '</ul></div>';
+
+  html += '<div class="bloco"><h4>🔍 É BUSCA</h4><ul>';
+  for(var p=0;p<m.termosBusca.length;p++){
+    var t = m.termosBusca[p];
+    html += '<li><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a> — volume '+t.volume+' <span class="'+deltaCls(t.incremento)+'">'+deltaHtml(t.incremento)+'</span></li>';
+  }
+  html += '</ul></div>';
+
+  html += '<div class="bloco" style="background:var(--insight-bg);border-left:4px solid var(--destaque);"><h4 style="color:var(--tag-medio-fg);border-color:var(--destaque);">💡 Insights Estratégicos</h4><ul>';
+  html += '<li>📈 "'+escapeHtml(topTermo.termo)+'" cresceu '+topTermo.incremento+'% — demanda reprimida.</li>';
+  html += '<li>🏆 '+escapeHtml(topEng.nome)+' lidera engajamento ('+topEng.eng+'%) — benchmark de conteúdo.</li>';
+  if(altos > 0) html += '<li>⚖️ '+altos+' ato(s) de impacto ALTO exigem revisão de conformidade.</li>';
+  html += '</ul></div>';
+
+  document.getElementById('resumo-coluna').innerHTML = html;
+}
+
+// ============================================================
+// TIMELINE
+// ============================================================
+function renderTimeline(){
+  var m = getMercado();
+  var itens = [];
+  var f = filtros.timeline.tipo;
+  if(f === 'todos' || f === 'lei'){
+    for(var i=0;i<m.atosLei.length;i++){
+      var a = m.atosLei[i];
+      itens.push({ tipo:'lei', data:a.data, titulo:a.titulo, meta:a.fonte+' · Impacto '+a.impacto, url:a.url, origem:a.origem||'auto' });
+    }
+  }
+  if(f === 'todos' || f === 'noticia'){
+    for(var j=0;j<m.noticias.length;j++){
+      var n = m.noticias[j];
+      itens.push({ tipo:'noticia', data:n.data, titulo:n.titulo, meta:n.veiculo+' · '+n.tom, url:n.url, origem:n.origem||'auto' });
+    }
+  }
+  if(f === 'todos' || f === 'negocio'){
+    for(var k=0;k<m.movimentacoes.length;k++){
+      var mv = m.movimentacoes[k];
+      itens.push({ tipo:'neg', data:'2026-08-01', titulo:mv.tipo+' — '+mv.empresas, meta:mv.texto||mv.link, url:mv.link, origem:mv.origem||'auto' });
+    }
+  }
+  itens.sort(function(a,b){ return b.data.localeCompare(a.data); });
+
+  var chips = '<span class="rotulo">Tipo:</span>'
+            + chip('Tudo','todos',f,'tl-tipo')
+            + chip('Lei','lei',f,'tl-tipo')
+            + chip('Notícia','noticia',f,'tl-tipo')
+            + chip('Negócio','negocio',f,'tl-tipo');
+  document.getElementById('filtros-timeline').innerHTML = chips;
+
+  var html = '';
+  for(var x=0;x<itens.length;x++){
+    var it = itens[x];
+    var cls = it.tipo === 'lei' ? 'lei' : (it.tipo === 'neg' ? 'neg' : '');
+    html += '<div class="tl-item '+cls+'">'
+         +  '<div class="tl-data">'+formatarData(it.data)+'</div>'
+         +  '<div class="tl-titulo"><a href="'+escapeHtml(it.url)+'" target="_blank" rel="noopener">'+escapeHtml(it.titulo)+'</a> '+provIcone(it.origem)+'</div>'
+         +  '<div class="tl-meta">'+escapeHtml(it.meta)+'</div>'
+         +  '</div>';
+  }
+  if(!itens.length) html = '<div style="color:var(--texto-tenue);padding:20px;text-align:center;">Sem eventos no filtro atual.</div>';
+  document.getElementById('timeline-cont').innerHTML = html;
+}
+
+// ============================================================
+// É LEI
+// ============================================================
+function renderLei(){
+  var m = getMercado();
+  var altos = 0;
+  for(var i=0;i<m.atosLei.length;i++) if(m.atosLei[i].impacto === 'ALTO') altos++;
+  document.getElementById('cards-lei').innerHTML =
+    card(m.atosLei.length, 'Total de atos', deltaHtml(8), 'up') +
+    card(altos, 'Impacto ALTO', '', 'flat') +
+    card(m.fontesLegais.length, 'Fontes monitoradas', '', 'flat');
+
+  var f = filtros.lei.impacto;
+  document.getElementById('filtros-lei').innerHTML =
+      '<span class="rotulo">Impacto:</span>'
+    + chip('Todos','todos',f,'lei-imp')
+    + chip('ALTO','ALTO',f,'lei-imp')
+    + chip('MÉDIO','MÉDIO',f,'lei-imp')
+    + chip('BAIXO','BAIXO',f,'lei-imp');
+
+  var html = '';
+  for(var j=0;j<m.atosLei.length;j++){
+    var a = m.atosLei[j];
+    if(f !== 'todos' && a.impacto !== f) continue;
+    html += '<tr>'
+         +  '<td><a href="'+escapeHtml(a.url)+'" target="_blank" rel="noopener">'+escapeHtml(a.titulo)+'</a></td>'
+         +  '<td>'+escapeHtml(a.fonte)+'</td>'
+         +  '<td>'+formatarData(a.data)+'</td>'
+         +  '<td><span class="tag '+a.impacto.toLowerCase()+'">'+a.impacto+'</span></td>'
+         +  '<td>'+provIcone(a.origem||'auto')+'</td>'
+         +  '</tr>';
+  }
+  if(!html) html = '<tr><td colspan="5" style="color:var(--texto-tenue);text-align:center;padding:20px;">Nenhum ato no filtro atual.</td></tr>';
+  document.getElementById('tabela-lei').innerHTML = html;
+}
+
+// ============================================================
+// É NOTÍCIA
+// ============================================================
+function renderNoticia(){
+  var m = getMercado();
+  var pos = 0, neg = 0;
+  for(var i=0;i<m.noticias.length;i++){
+    if(m.noticias[i].tom === 'Positivo') pos++;
+    if(m.noticias[i].tom === 'Negativo') neg++;
+  }
+  document.getElementById('cards-noticia').innerHTML =
+    card(m.noticias.length, 'Notícias (dedup.)', deltaHtml(15), 'up') +
+    card(pos, 'Tom positivo', '', 'flat') +
+    card(neg, 'Tom negativo', '', 'flat');
+
+  var ft = filtros.noticia.tom;
+  document.getElementById('filtros-noticia').innerHTML =
+      '<span class="rotulo">Tom:</span>'
+    + chip('Todos','todos',ft,'not-tom')
+    + chip('Positivo','Positivo',ft,'not-tom')
+    + chip('Neutro','Neutro',ft,'not-tom')
+    + chip('Negativo','Negativo',ft,'not-tom');
+
+  var html = '';
+  for(var j=0;j<m.noticias.length;j++){
+    var n = m.noticias[j];
+    if(ft !== 'todos' && n.tom !== ft) continue;
+    var vs = n.veiculos || [n.veiculo];
+    var dedup = vs.length > 1 ? '<span class="badge-dedup" title="'+escapeHtml(vs.join(', '))+'">+'+(vs.length-1)+' veíc.</span>' : '';
+    html += '<tr>'
+         +  '<td>'+escapeHtml(n.veiculo)+dedup+'</td>'
+         +  '<td><a href="'+escapeHtml(n.url)+'" target="_blank" rel="noopener">'+escapeHtml(n.titulo)+'</a></td>'
+         +  '<td>'+formatarData(n.data)+'</td>'
+         +  '<td>'+tomTag(n.tom)+'</td>'
+         +  '<td><input type="checkbox" '+(n.incluir?'checked':'')+' onchange="toggleNoticia('+j+')"></td>'
+         +  '<td>'+provIcone(n.origem||'auto')+'</td>'
+         +  '<td><button class="btn pequeno" onclick="copiarLink('+j+')">📋</button></td>'
+         +  '</tr>';
+  }
+  if(!html) html = '<tr><td colspan="7" style="color:var(--texto-tenue);text-align:center;padding:20px;">Nenhuma notícia no filtro.</td></tr>';
+  document.getElementById('tabela-noticia').innerHTML = html;
+}
+function toggleNoticia(idx){ getMercado().noticias[idx].incluir = !getMercado().noticias[idx].incluir; salvarEstado(); }
+function copiarLink(idx){
+  var url = getMercado().noticias[idx].url;
+  try{
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){ toast('Link copiado!'); }, function(){ window.prompt('Copie:', url); });
+    } else { window.prompt('Copie:', url); }
+  } catch(e){ window.prompt('Copie:', url); }
+}
+
+// ============================================================
+// É NEGÓCIO
+// ============================================================
+function renderNegocio(){
+  var m = getMercado();
+  document.getElementById('cards-negocio').innerHTML =
+    card(m.movimentacoes.length, 'Movimentações', deltaHtml(0), 'flat') +
+    card(2, 'Healthtechs mapeadas', '', 'flat');
+  var html = '';
+  for(var i=0;i<m.movimentacoes.length;i++){
+    var mv = m.movimentacoes[i];
+    html += '<tr>'
+         +  '<td><strong>'+escapeHtml(mv.tipo)+'</strong></td>'
+         +  '<td>'+escapeHtml(mv.empresas)+'</td>'
+         +  '<td><a href="'+escapeHtml(mv.link)+'" target="_blank" rel="noopener">'+escapeHtml(mv.texto||mv.link)+'</a></td>'
+         +  '<td>'+provIcone(mv.origem||'auto')+'</td>'
+         +  '</tr>';
+  }
+  document.getElementById('tabela-negocio').innerHTML = html;
+}
+
+// ============================================================
+// É CONCORRÊNCIA
+// ============================================================
+function renderConcorrencia(){
+  var m = getMercado();
+  var topGmn = m.concorrentes.slice().sort(function(a,b){ return b.gmn - a.gmn; })[0];
+  var topSeg = m.concorrentes.slice().sort(function(a,b){ return b.seg - a.seg; })[0];
+  var topEng = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
+  document.getElementById('cards-concorrencia').innerHTML =
+    card(topGmn.gmn+' ⭐', 'Líder GMN', '', 'flat') +
+    card(topSeg.seg.toLocaleString('pt-BR'), 'Líder seguidores', '', 'flat') +
+    card(topEng.eng+'%', 'Líder engajamento', '', 'flat') +
+    card(m.concorrentes.length, 'Players', '', 'flat');
+  var html = '';
+  for(var i=0;i<m.concorrentes.length;i++){
+    var c = m.concorrentes[i];
+    var seg = c.seg ? c.seg.toLocaleString('pt-BR') : '—';
+    var eng = c.eng ? c.eng+'%' : '—';
+    var nome = c.url ? '<a href="'+escapeHtml(c.url)+'" target="_blank" rel="noopener">'+escapeHtml(c.nome)+'</a>' : escapeHtml(c.nome);
+    html += '<tr>'
+         +  '<td>'+(i+1)+'</td>'
+         +  '<td><strong>'+nome+'</strong></td>'
+         +  '<td>'+escapeHtml(c.grupo)+'</td>'
+         +  '<td>'+(c.gmn || '—')+'</td>'
+         +  '<td>'+escapeHtml(c.ra)+'</td>'
+         +  '<td>'+seg+'</td>'
+         +  '<td>'+eng+'</td>'
+         +  '</tr>';
+  }
+  document.getElementById('tabela-concorrencia').innerHTML = html;
+}
+
+// ============================================================
+// É BUSCA
+// ============================================================
+function renderBusca(){
+  var m = getMercado();
+  var altas = 0;
+  for(var i=0;i<m.termosBusca.length;i++) if(m.termosBusca[i].tendencia === 'alta') altas++;
+  document.getElementById('cards-busca').innerHTML =
+    card(m.termosBusca[0].volume, 'Volume top termo', deltaHtml(m.termosBusca[0].incremento), deltaCls(m.termosBusca[0].incremento)) +
+    card(altas, 'Termos em alta', '', 'flat') +
+    card(m.termosBusca.length, 'Termos monitorados', '', 'flat');
+
+  var f = filtros.busca.tendencia;
+  document.getElementById('filtros-busca').innerHTML =
+      '<span class="rotulo">Tendência:</span>'
+    + chip('Todos','todos',f,'busca-tend')
+    + chip('Alta','alta',f,'busca-tend')
+    + chip('Estável','estável',f,'busca-tend')
+    + chip('Queda','queda',f,'busca-tend');
+
+  var html = '';
+  for(var j=0;j<m.termosBusca.length;j++){
+    var t = m.termosBusca[j];
+    if(f !== 'todos' && t.tendencia !== f) continue;
+    var tCls = t.tendencia === 'alta' ? 'pos' : (t.tendencia === 'queda' ? 'neg' : 'neu');
+    var spark = sparkline(t.serie, 90, 26);
+    html += '<tr>'
+         +  '<td><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a></td>'
+         +  '<td>'+spark+'</td>'
+         +  '<td>'+t.volume+'</td>'
+         +  '<td class="'+deltaCls(t.incremento)+'">'+deltaHtml(t.incremento)+'</td>'
+         +  '<td><span class="tag '+tCls+'">'+t.tendencia+'</span></td>'
+         +  '</tr>';
+  }
+  if(!html) html = '<tr><td colspan="5" style="color:var(--texto-tenue);text-align:center;padding:20px;">Nenhum termo no filtro.</td></tr>';
+  document.getElementById('tabela-busca').innerHTML = html;
+}
+
+// ============================================================
+// OPORTUNIDADES (cruzamento de sinais)
+// ============================================================
+function renderOportunidades(){
+  var m = getMercado();
+  var ops = [];
+
+  // 1. Termos em alta
+  for(var i=0;i<m.termosBusca.length;i++){
+    var t = m.termosBusca[i];
+    if(t.tendencia === 'alta' && t.incremento > 5){
+      ops.push({
+        tit: 'Capturar demanda em alta — "' + t.termo + '"',
+        desc: 'Termo com incremento de ' + t.incremento + '% e volume ' + t.volume + '. Recomenda-se ativar campanha de conversão (SEO local + Google Ads) e revisar landing page com esse termo como âncora H1.',
+        refs: 'Fonte: Google Trends'
+      });
+    }
+  }
+
+  // 2. Ato ALTO impacto → conformidade
+  for(var j=0;j<m.atosLei.length;j++){
+    var a = m.atosLei[j];
+    if(a.impacto === 'ALTO'){
+      ops.push({
+        tit: 'Revisar conformidade — ' + a.titulo.slice(0, 60) + '…',
+        desc: 'Ato regulatório de impacto ALTO. Recomenda-se rodada com jurídico e comunicação do cliente para adaptar materiais, contratos e comunicação com pacientes.',
+        refs: 'Fonte: ' + a.fonte + ' · ' + formatarData(a.data)
+      });
+    }
+  }
+
+  // 3. Concorrente com engajamento fraco vs. líder
+  var lider = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
+  for(var k=0;k<m.concorrentes.length;k++){
+    var c = m.concorrentes[k];
+    if(c !== lider && c.eng > 0 && c.eng < lider.eng * 0.5){
+      // só o primeiro, para não poluir
+      ops.push({
+        tit: 'Gap de engajamento vs. ' + lider.nome.split('(')[0].trim(),
+        desc: c.nome + ' tem taxa de engajamento de ' + c.eng + '% vs. ' + lider.eng + '% do líder. Se ele for cliente MEATO, há espaço claro para plano de conteúdo. Se for concorrente do cliente, é vulnerabilidade explorável.',
+        refs: 'Base: engajamento Instagram últimos 15d'
+      });
+      break;
+    }
+  }
+
+  // 4. Notícia negativa sobre grande player
+  for(var l=0;l<m.noticias.length;l++){
+    var n = m.noticias[l];
+    if(n.tom === 'Negativo' && n.incluir){
+      ops.push({
+        tit: 'Janela de posicionamento — repercussão negativa no mercado',
+        desc: '"' + n.titulo + '" (' + n.veiculo + ') gerou repercussão. Momento de reforçar mensagens de solidez, segurança do paciente e continuidade assistencial no cliente MEATO.',
+        refs: 'Fonte: ' + n.veiculo + ' · ' + formatarData(n.data)
+      });
+      break;
+    }
+  }
+
+  var html = '';
+  for(var x=0;x<ops.length;x++){
+    html += '<div class="oportunidade"><div class="tit">🎯 '+escapeHtml(ops[x].tit)+'</div><div class="desc">'+escapeHtml(ops[x].desc)+'</div><div class="refs">'+escapeHtml(ops[x].refs)+'</div></div>';
+  }
+  if(!ops.length) html = '<div style="color:var(--texto-tenue);padding:20px;text-align:center;">Sem oportunidades cruzadas no momento.</div>';
+  document.getElementById('lista-oportunidades').innerHTML = html;
+}
+
+// ============================================================
+// CONFIGURAÇÃO
+// ============================================================
+function renderConfig(){
+  var m = getMercado();
+  document.getElementById('periodo-de').value = m.periodo.de;
+  document.getElementById('periodo-ate').value = m.periodo.ate;
+  document.getElementById('cfg-dataurl').value = m.dataUrl || '';
+  var html = '';
+  for(var i=0;i<m.concorrentes.length;i++){
+    html += '<tr><td>Concorrente</td><td>'+escapeHtml(m.concorrentes[i].nome)+'</td><td>'+escapeHtml(m.concorrentes[i].grupo)+'</td>'
+         + '<td><button class="btn pequeno perigo" onclick="removerConcorrente('+i+')">Remover</button></td></tr>';
+  }
+  for(var j=0;j<m.canais.length;j++){
+    html += '<tr><td>Canal</td><td>'+escapeHtml(m.canais[j].nome)+'</td><td>'+escapeHtml(m.canais[j].url)+'</td>'
+         + '<td><button class="btn pequeno perigo" onclick="removerCanal('+j+')">Remover</button></td></tr>';
+  }
+  for(var k=0;k<m.termosBusca.length;k++){
+    html += '<tr><td>Termo</td><td>'+escapeHtml(m.termosBusca[k].termo)+'</td><td>vol. '+m.termosBusca[k].volume+'</td>'
+         + '<td><button class="btn pequeno perigo" onclick="removerTermo('+k+')">Remover</button></td></tr>';
+  }
+  document.getElementById('tabela-config').innerHTML = html;
+}
+function salvarDataUrl(){
+  var m = getMercado();
+  m.dataUrl = document.getElementById('cfg-dataurl').value.replace(/^\s+|\s+$/g,'');
+  salvarEstado();
+  toast('URL salva — recarregando…');
+  tentarFetchRemoto();
+}
+function salvarPeriodo(){
+  var m = getMercado();
+  m.periodo.de = document.getElementById('periodo-de').value || m.periodo.de;
+  m.periodo.ate = document.getElementById('periodo-ate').value || m.periodo.ate;
+  salvarEstado(); toast('Período salvo');
+}
+function adicionarConcorrente(){
+  var nome = document.getElementById('c-nome').value.replace(/^\s+|\s+$/g,'');
+  if(!nome){ toast('Informe o nome'); return; }
+  getMercado().concorrentes.push({
+    nome: nome,
+    grupo: document.getElementById('c-grupo').value.replace(/^\s+|\s+$/g,'') || '—',
+    instagram: document.getElementById('c-instagram').value.replace(/^\s+|\s+$/g,'') || '—',
+    facebook: document.getElementById('c-facebook').value.replace(/^\s+|\s+$/g,'') || '—',
+    gmn: parseFloat(document.getElementById('c-gmn').value) || null,
+    ra: '—',
+    seg: parseInt(document.getElementById('c-seguidores').value, 10) || 0,
+    eng: 0, url: ''
+  });
+  var ids = ['c-nome','c-grupo','c-instagram','c-facebook','c-gmn','c-seguidores'];
+  for(var i=0;i<ids.length;i++) document.getElementById(ids[i]).value = '';
+  salvarEstado(); renderConcorrencia(); renderConfig(); toast('Concorrente adicionado');
+}
+function removerConcorrente(idx){ getMercado().concorrentes.splice(idx,1); salvarEstado(); renderConcorrencia(); renderConfig(); }
+function adicionarCanal(){
+  var nome = document.getElementById('canal-nome').value.replace(/^\s+|\s+$/g,'');
+  if(!nome){ toast('Informe o nome'); return; }
+  getMercado().canais.push({
+    nome: nome,
+    url: document.getElementById('canal-url').value.replace(/^\s+|\s+$/g,'') || '#',
+    rss: document.getElementById('canal-rss').value.replace(/^\s+|\s+$/g,'') || ''
+  });
+  document.getElementById('canal-nome').value = '';
+  document.getElementById('canal-url').value = '';
+  document.getElementById('canal-rss').value = '';
+  salvarEstado(); renderConfig(); toast('Canal adicionado');
+}
+function removerCanal(idx){ getMercado().canais.splice(idx,1); salvarEstado(); renderConfig(); }
+function adicionarTermo(){
+  var termo = document.getElementById('termo-nome').value.replace(/^\s+|\s+$/g,'');
+  if(!termo){ toast('Informe o termo'); return; }
+  getMercado().termosBusca.push({
+    termo: termo, volume: parseInt(document.getElementById('termo-volume').value,10) || 0,
+    incremento: 0, tendencia:'estável', serie:[10,10,10,10,10,10,10,10,10,10,10,10],
+    url: 'https://trends.google.com/trends/explore?q=' + encodeURIComponent(termo) + '&geo=BR'
+  });
+  document.getElementById('termo-nome').value = '';
+  document.getElementById('termo-volume').value = '';
+  salvarEstado(); renderBusca(); renderConfig(); toast('Termo adicionado');
+}
+function removerTermo(idx){ getMercado().termosBusca.splice(idx,1); salvarEstado(); renderBusca(); renderConfig(); }
+function aplicarCores(){
+  var r = document.documentElement.style;
+  r.setProperty('--primaria', document.getElementById('cor-primaria').value);
+  r.setProperty('--secundaria', document.getElementById('cor-secundaria').value);
+  r.setProperty('--destaque', document.getElementById('cor-destaque').value);
+  toast('Identidade atualizada');
+}
+
+// ============================================================
+// NEWSLETTER
+// ============================================================
+function gerarNewsletter(){
+  var m = getMercado();
+  var topGmn = m.concorrentes.slice().sort(function(a,b){ return b.gmn - a.gmn; })[0];
+  var topEng = m.concorrentes.slice().sort(function(a,b){ return b.eng - a.eng; })[0];
+  var incluidas = [];
+  for(var i=0;i<m.noticias.length;i++) if(m.noticias[i].incluir) incluidas.push(m.noticias[i]);
+
+  var html = '<div class="newsletter-preview">';
+  html += '<div class="top"><h3>FOFOQUEIRO DO MERCADO</h3><p>'+escapeHtml(m.nome)+' · Edição de '+formatarData(m.periodo.de)+' a '+formatarData(m.periodo.ate)+'</p></div>';
+  html += '<div class="body">';
+  html += '<p><strong>Resumo executivo:</strong> '+m.atosLei.length+' atos legislativos, '+incluidas.length+' notícias em destaque, '+m.movimentacoes.length+' movimentações e '+m.concorrentes.length+' players monitorados.</p>';
+
+  html += '<h4>⚖️ É LEI</h4><ul>';
+  for(var a=0;a<m.atosLei.length;a++){
+    var at = m.atosLei[a];
+    html += '<li><a href="'+escapeHtml(at.url)+'" target="_blank" rel="noopener">'+escapeHtml(at.titulo)+'</a> <span class="tag '+at.impacto.toLowerCase()+'">'+at.impacto+'</span><br><small style="color:var(--texto-tenue);">'+escapeHtml(at.fonte)+' · '+formatarData(at.data)+'</small></li>';
+  }
+  html += '</ul>';
+
+  html += '<h4>📰 É NOTÍCIA</h4><ul>';
+  for(var b=0;b<incluidas.length;b++){
+    var n = incluidas[b];
+    var vs = n.veiculos || [n.veiculo];
+    var dedup = vs.length > 1 ? ' <span style="color:var(--texto-tenue);">(+'+(vs.length-1)+' veíc.)</span>' : '';
+    html += '<li><a href="'+escapeHtml(n.url)+'" target="_blank" rel="noopener"><strong>'+escapeHtml(n.veiculo)+':</strong> '+escapeHtml(n.titulo)+'</a>'+dedup+'<br><small style="color:var(--texto-tenue);">'+formatarData(n.data)+'</small> '+tomTag(n.tom)+'</li>';
+  }
+  html += '</ul>';
+
+  html += '<h4>💼 É NEGÓCIO</h4><ul>';
+  for(var c=0;c<m.movimentacoes.length;c++){
+    var mv = m.movimentacoes[c];
+    html += '<li><strong>'+escapeHtml(mv.tipo)+':</strong> <a href="'+escapeHtml(mv.link)+'" target="_blank" rel="noopener">'+escapeHtml(mv.empresas)+'</a></li>';
+  }
+  html += '</ul>';
+
+  html += '<h4>🏆 É CONCORRÊNCIA</h4><ul>';
+  html += '<li>🥇 <strong>Líder GMN:</strong> <a href="'+escapeHtml(topGmn.url)+'" target="_blank" rel="noopener">'+escapeHtml(topGmn.nome)+'</a> ('+topGmn.gmn+' ⭐)</li>';
+  html += '<li>💬 <strong>Líder engajamento:</strong> <a href="'+escapeHtml(topEng.url)+'" target="_blank" rel="noopener">'+escapeHtml(topEng.nome)+'</a> ('+topEng.eng+'%)</li>';
+  html += '</ul>';
+
+  html += '<h4>🔍 É BUSCA</h4><ul>';
+  for(var d=0;d<m.termosBusca.length;d++){
+    var t = m.termosBusca[d];
+    html += '<li><a href="'+escapeHtml(t.url)+'" target="_blank" rel="noopener">'+escapeHtml(t.termo)+'</a> — volume '+t.volume+' <span class="'+deltaCls(t.incremento)+'">'+deltaHtml(t.incremento)+'</span></li>';
+  }
+  html += '</ul>';
+
+  html += '<div class="insight"><strong>💡 Insights da semana:</strong> Demanda em alta para "'+escapeHtml(m.termosBusca[0].termo)+'" ('+deltaHtml(m.termosBusca[0].incremento)+'). '+escapeHtml(topEng.nome)+' lidera engajamento — benchmark de conteúdo. Recomenda-se ativar campanha de conversão para as buscas em alta.</div>';
+
+  html += '</div>';
+  html += '<div class="foot">MEATO Consultoria · Inteligência de Mercado · Dados com fontes verificáveis · Não responda este e-mail</div>';
+  html += '</div>';
+  document.getElementById('newsletter-saida').innerHTML = html;
+}
+
+function copiarPermalink(){
+  var m = getMercado();
+  var hash = '#mercado='+encodeURIComponent(m.id)+'&view=newsletter&data='+encodeURIComponent(m.periodo.ate);
+  var url = window.location.origin + window.location.pathname + hash;
+  try{
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){ toast('Permalink copiado!'); }, function(){ window.prompt('Copie o link:', url); });
+    } else { window.prompt('Copie o link:', url); }
+  } catch(e){ window.prompt('Copie o link:', url); }
+}
+function aplicarHashInicial(){
+  if(!window.location.hash) return;
+  var h = window.location.hash.substring(1);
+  var params = {};
+  var partes = h.split('&');
+  for(var i=0;i<partes.length;i++){
+    var kv = partes[i].split('=');
+    if(kv.length === 2) params[kv[0]] = decodeURIComponent(kv[1]);
+  }
+  if(params.mercado){
+    for(var j=0;j<mercados.length;j++){ if(mercados[j].id === params.mercado){ mercadoAtivo = params.mercado; break; } }
+  }
+  if(params.view === 'newsletter'){
+    setTimeout(function(){ ativarPainel('newsletter'); gerarNewsletter(); }, 100);
+  }
+}
+function baixarNewsletter(){
+  var el = document.getElementById('newsletter-saida');
+  if(!el.innerHTML) gerarNewsletter();
+  var estilos = '<style>body{font-family:Arial,sans-serif;background:#F1F4F8;margin:0;padding:20px;color:#1A1A1A;}'
+    + '.newsletter-preview{background:#fff;border:1px solid #E1E6EE;border-radius:10px;overflow:hidden;max-width:680px;margin:0 auto;}'
+    + '.newsletter-preview .top{background:#0F4C81;color:#fff;padding:26px;text-align:center;}'
+    + '.newsletter-preview .top h3{color:#fff;font-size:22px;margin:0 0 4px;}'
+    + '.newsletter-preview .top p{font-size:12px;opacity:.9;margin:0;}'
+    + '.newsletter-preview .body{padding:24px;}'
+    + '.newsletter-preview .body h4{color:#2E8B57;border-bottom:2px solid #2E8B57;padding-bottom:5px;margin:20px 0 10px;font-size:13px;text-transform:uppercase;letter-spacing:.4px;}'
+    + '.newsletter-preview .body ul{list-style:none;padding:0;margin:0;}'
+    + '.newsletter-preview .body li{padding:8px 0;border-bottom:1px dashed #E1E6EE;font-size:13px;line-height:1.5;}'
+    + '.newsletter-preview .insight{background:#FFF9EE;border-left:4px solid #E8A33D;padding:12px 14px;margin:14px 0;font-size:12px;border-radius:0 6px 6px 0;}'
+    + '.newsletter-preview .foot{background:#F7F9FC;padding:14px;text-align:center;font-size:10px;color:#777;}'
+    + '.tag{display:inline-block;padding:2px 9px;border-radius:12px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;}'
+    + '.tag.alto{background:#FDE8E8;color:#C0392B;} .tag.medio{background:#FFF4E0;color:#B9770E;} .tag.baixo{background:#E8F5E9;color:#2E7D32;}'
+    + '.tag.pos{background:#E8F5E9;color:#2E7D32;} .tag.neg{background:#FDE8E8;color:#C0392B;} .tag.neu{background:#EEEEEE;color:#555;}'
+    + 'a{color:#0F4C81;} .up{color:#2E8B57;} .down{color:#C0392B;} .flat{color:#777;}</style>';
+  var doc = '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>Newsletter FOFOQUEIRO — MEATO</title>'+estilos+'</head><body>'+el.innerHTML+'</body></html>';
+  var blob = new Blob([doc], { type:'text/html' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'newsletter_fofoqueiro_' + getMercado().id + '.html';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  toast('Download iniciado');
+}
+function exportarPDF(){
+  var el = document.getElementById('newsletter-saida');
+  if(!el.innerHTML) gerarNewsletter();
+  setTimeout(function(){ window.print(); }, 200);
+}
+
+// ============================================================
+// WIZARD NOVO MERCADO
+// ============================================================
+function iniciarWizard(){
+  wizardEtapa = 0;
+  wizardDados = { setor:'', segmento:'', cidade:'', estado:'', concorrentes:[], canais:[], fontes:[], termos:[] };
+  renderWizard();
+}
+function renderWizard(){
+  var steps = document.querySelectorAll('#wizard-steps .wizard-step');
+  for(var i=0;i<steps.length;i++){
+    steps[i].classList.remove('ativo'); steps[i].classList.remove('concluido');
+    if(i < wizardEtapa) steps[i].classList.add('concluido');
+    if(i === wizardEtapa) steps[i].classList.add('ativo');
+  }
+  var cont = document.getElementById('wizard-conteudo');
+  document.getElementById('btn-voltar').style.visibility = wizardEtapa === 0 ? 'hidden' : 'visible';
+  document.getElementById('btn-avancar').textContent = wizardEtapa === 5 ? '✔ Aprovar & Iniciar' : 'Avançar →';
+
+  var html = '';
+  if(wizardEtapa === 0){
+    html += '<h3>Definir mercado</h3><p class="desc">Setor, segmento e localização. Período inicial: 1 mês a partir de hoje.</p>';
+    html += '<div class="form-grid">';
+    html += '<label>Setor <input id="w-setor" value="'+escapeHtml(wizardDados.setor)+'" placeholder="Ex: Saúde"></label>';
+    html += '<label>Segmento <input id="w-segmento" value="'+escapeHtml(wizardDados.segmento)+'" placeholder="Ex: Oncologia"></label>';
+    html += '<label>Cidade <input id="w-cidade" value="'+escapeHtml(wizardDados.cidade)+'" placeholder="Ex: Fortaleza"></label>';
+    html += '<label>UF <input id="w-estado" maxlength="2" value="'+escapeHtml(wizardDados.estado)+'" placeholder="CE"></label>';
+    html += '</div>';
+  } else if(wizardEtapa === 1){
+    var sug = sugerirConcorrentes(wizardDados);
+    html += '<h3>Concorrentes</h3><p class="desc">Selecione players sugeridos para <strong>'+escapeHtml(wizardDados.segmento || '—')+'</strong>.</p>';
+    for(var s=0;s<sug.length;s++){
+      var c = wizardDados.concorrentes.indexOf(sug[s]) >= 0 ? 'checked' : '';
+      html += '<div class="sugestao-item"><input type="checkbox" id="conc-'+s+'" '+c+'><label for="conc-'+s+'">'+escapeHtml(sug[s])+'</label></div>';
+    }
+    html += '<input type="hidden" id="w-conc-total" value="'+sug.length+'">';
+  } else if(wizardEtapa === 2){
+    var sug2 = sugerirCanais(wizardDados);
+    html += '<h3>Canais</h3><p class="desc">Veículos para clipping em '+escapeHtml(wizardDados.cidade)+'/'+escapeHtml(wizardDados.estado)+'.</p>';
+    for(var s2=0;s2<sug2.length;s2++){
+      var c2 = wizardDados.canais.indexOf(sug2[s2]) >= 0 ? 'checked' : '';
+      html += '<div class="sugestao-item"><input type="checkbox" id="can-'+s2+'" '+c2+'><label for="can-'+s2+'">'+escapeHtml(sug2[s2])+'</label></div>';
+    }
+    html += '<input type="hidden" id="w-can-total" value="'+sug2.length+'">';
+  } else if(wizardEtapa === 3){
+    var sug3 = sugerirFontesLegais(wizardDados);
+    html += '<h3>Fontes legais</h3><p class="desc">Diários oficiais e órgãos reguladores.</p>';
+    for(var s3=0;s3<sug3.length;s3++){
+      var c3 = wizardDados.fontes.indexOf(sug3[s3]) >= 0 ? 'checked' : '';
+      html += '<div class="sugestao-item"><input type="checkbox" id="font-'+s3+'" '+c3+'><label for="font-'+s3+'">'+escapeHtml(sug3[s3])+'</label></div>';
+    }
+    html += '<input type="hidden" id="w-font-total" value="'+sug3.length+'">';
+  } else if(wizardEtapa === 4){
+    var sug4 = sugerirTermos(wizardDados);
+    html += '<h3>Termos SEO</h3><p class="desc">Termos para monitoramento no Google Trends.</p>';
+    for(var s4=0;s4<sug4.length;s4++){
+      var c4 = wizardDados.termos.indexOf(sug4[s4]) >= 0 ? 'checked' : '';
+      html += '<div class="sugestao-item"><input type="checkbox" id="term-'+s4+'" '+c4+'><label for="term-'+s4+'">'+escapeHtml(sug4[s4])+'</label></div>';
+    }
+    html += '<input type="hidden" id="w-term-total" value="'+sug4.length+'">';
+  } else if(wizardEtapa === 5){
+    html += '<h3>Aprovar & iniciar</h3><p class="desc">Revise o resumo. Ao aprovar, o mercado será criado com período inicial de 1 mês.</p>';
+    html += '<div class="sugestao-item"><strong>Mercado:</strong>&nbsp;'+escapeHtml(wizardDados.segmento)+' · '+escapeHtml(wizardDados.cidade)+' ('+escapeHtml(wizardDados.estado)+')</div>';
+    html += '<div class="sugestao-item"><strong>Concorrentes:</strong>&nbsp;'+wizardDados.concorrentes.length+' selecionados</div>';
+    html += '<div class="sugestao-item"><strong>Canais:</strong>&nbsp;'+wizardDados.canais.length+' selecionados</div>';
+    html += '<div class="sugestao-item"><strong>Fontes legais:</strong>&nbsp;'+wizardDados.fontes.length+' selecionadas</div>';
+    html += '<div class="sugestao-item"><strong>Termos SEO:</strong>&nbsp;'+wizardDados.termos.length+' selecionados</div>';
+    html += '<div class="sugestao-item"><strong>Período inicial:</strong>&nbsp;1 mês a partir de hoje</div>';
+  }
+  cont.innerHTML = html;
+}
+function wizardCapturar(){
+  if(wizardEtapa === 0){
+    wizardDados.setor = document.getElementById('w-setor').value.replace(/^\s+|\s+$/g,'');
+    wizardDados.segmento = document.getElementById('w-segmento').value.replace(/^\s+|\s+$/g,'');
+    wizardDados.cidade = document.getElementById('w-cidade').value.replace(/^\s+|\s+$/g,'');
+    wizardDados.estado = document.getElementById('w-estado').value.replace(/^\s+|\s+$/g,'').toUpperCase();
+    if(!wizardDados.segmento || !wizardDados.cidade){ toast('Informe segmento e cidade'); return false; }
+  } else if(wizardEtapa === 1){
+    var totalC = parseInt(document.getElementById('w-conc-total').value,10);
+    var sugC = sugerirConcorrentes(wizardDados); wizardDados.concorrentes = [];
+    for(var i=0;i<totalC;i++) if(document.getElementById('conc-'+i).checked) wizardDados.concorrentes.push(sugC[i]);
+  } else if(wizardEtapa === 2){
+    var totalCn = parseInt(document.getElementById('w-can-total').value,10);
+    var sugCn = sugerirCanais(wizardDados); wizardDados.canais = [];
+    for(var j=0;j<totalCn;j++) if(document.getElementById('can-'+j).checked) wizardDados.canais.push(sugCn[j]);
+  } else if(wizardEtapa === 3){
+    var totalF = parseInt(document.getElementById('w-font-total').value,10);
+    var sugF = sugerirFontesLegais(wizardDados); wizardDados.fontes = [];
+    for(var k=0;k<totalF;k++) if(document.getElementById('font-'+k).checked) wizardDados.fontes.push(sugF[k]);
+  } else if(wizardEtapa === 4){
+    var totalT = parseInt(document.getElementById('w-term-total').value,10);
+    var sugT = sugerirTermos(wizardDados); wizardDados.termos = [];
+    for(var l=0;l<totalT;l++) if(document.getElementById('term-'+l).checked) wizardDados.termos.push(sugT[l]);
+  }
+  return true;
+}
+function wizardAvancar(){ if(!wizardCapturar()) return; if(wizardEtapa === 5){ finalizarWizard(); return; } wizardEtapa++; renderWizard(); }
+function wizardVoltar(){ if(wizardEtapa === 0) return; wizardEtapa--; renderWizard(); }
+function finalizarWizard(){
+  var hoje = new Date(); var mais30 = new Date(hoje.getTime() + 30*24*60*60*1000);
+  function fmt(d){ var y=d.getFullYear(); var mo=String(d.getMonth()+1); if(mo.length<2) mo='0'+mo; var dd=String(d.getDate()); if(dd.length<2) dd='0'+dd; return y+'-'+mo+'-'+dd; }
+  var slug = (wizardDados.segmento+'-'+wizardDados.cidade).toLowerCase().replace(/[^a-z0-9]+/g,'-')+'-'+(hoje.getTime()%100000);
+  var concObj=[], canObj=[], fontObj=[], termObj=[];
+  for(var i=0;i<wizardDados.concorrentes.length;i++) concObj.push({ nome:wizardDados.concorrentes[i], grupo:'—', instagram:'—', facebook:'—', gmn:null, ra:'—', seg:0, eng:0, url:'' });
+  for(var j=0;j<wizardDados.canais.length;j++)      canObj.push({ nome:wizardDados.canais[j], url:'#', rss:'' });
+  for(var k=0;k<wizardDados.fontes.length;k++)      fontObj.push({ nome:wizardDados.fontes[k], url:'#' });
+  for(var l=0;l<wizardDados.termos.length;l++)      termObj.push({ termo:wizardDados.termos[l], volume:0, incremento:0, tendencia:'estável', serie:[10,10,10,10,10,10,10,10,10,10,10,10], url:'https://trends.google.com/trends/explore?q='+encodeURIComponent(wizardDados.termos[l])+'&geo=BR' });
+  var novo = {
+    id: slug, nome: wizardDados.segmento+' · '+wizardDados.cidade+' ('+wizardDados.estado+')',
+    setor: wizardDados.setor, segmento: wizardDados.segmento, cidade: wizardDados.cidade, estado: wizardDados.estado,
+    periodo: { de: fmt(hoje), ate: fmt(mais30) },
+    dataUrl: '', atualizadoEm: hoje.toISOString(),
+    concorrentes: concObj, canais: canObj, fontesLegais: fontObj,
+    atosLei: [], noticias: [], movimentacoes: [], termosBusca: termObj
+  };
+  mercados.push(novo); mercadoAtivo = novo.id; wizardDados = null;
+  salvarEstado(); renderTudo(); ativarPainel('resumo'); toast('Mercado criado!');
+}
+
+function sugerirConcorrentes(dados){
+  var seg = (dados.segmento || '').toLowerCase();
+  if(seg.indexOf('oncolog') >= 0) return ['Instituto do Câncer local','Oncoclínicas (rede nacional)','Rede D\'Or','CRIO','ATO Oncologia','Pronutrir','Hospital privado de referência','Rede Kora / Oto','Centro universitário oncológico','Clínica boutique regional'];
+  if(seg.indexOf('odont') >= 0) return ['OdontoCompany','Sorridents','Orthopride','Dental Uni','Neodent Clínicas','Clínica boutique local','Odontoclínica universitária','Grupo Orizonti','Rede Prev Odonto','Clínica de implantes de referência'];
+  if(seg.indexOf('cardiolog') >= 0) return ['Rede D\'Or Cardio','Hospital do Coração local','Instituto de Cardiologia estadual','Kora Saúde','Clínica cardiológica boutique','Hospital universitário','Grupo Hapvida','Rede Amil','Grupo NotreDame','Clínica preventiva local'];
+  return [(dados.segmento||'Player')+' líder local #1',(dados.segmento||'Player')+' líder nacional',(dados.segmento||'Player')+' boutique local','Rede regional consolidada','Grupo verticalizado','Player universitário','Concorrente digital-first','Franquia em expansão','Operador público de referência','Novo entrante disruptivo'];
+}
+function sugerirCanais(dados){
+  var uf = (dados.estado || '').toUpperCase(); var cid = dados.cidade || '';
+  var base = ['G1 '+cid,'UOL','Folha de S.Paulo','Estadão','Valor Econômico','Exame'];
+  if(uf === 'CE') base = base.concat(['Diário do Nordeste','O Povo','Tribuna do Ceará']);
+  else if(uf === 'SP') base = base.concat(['Folha de S.Paulo (SP)','Estadão','Diário de S.Paulo']);
+  else if(uf === 'RJ') base = base.concat(['O Globo','Extra','O Dia']);
+  else base = base.concat(['Jornal local principal','Portal de notícias regional']);
+  return base;
+}
+function sugerirFontesLegais(dados){
+  var uf = (dados.estado || '').toUpperCase();
+  var cid = (dados.cidade || 'Município').replace(/^\s+|\s+$/g,'');
+  var arr = ['DOU (Diário Oficial da União)','DOE-'+uf+' (Diário Oficial do Estado)','DOM '+cid+' (Diário Oficial do Município)','STF','STJ'];
+  var seg = (dados.segmento || '').toLowerCase();
+  if(seg.indexOf('saúde')>=0 || seg.indexOf('oncolog')>=0 || seg.indexOf('odont')>=0 || seg.indexOf('cardio')>=0) arr = arr.concat(['ANS','Anvisa','Ministério da Saúde']);
+  return arr;
+}
+function sugerirTermos(dados){
+  var seg = dados.segmento || 'serviço'; var cid = dados.cidade || '';
+  return [seg+' '+cid,'tratamento de '+seg+' '+cid,'clínica '+seg+' '+cid,'melhor '+seg+' '+cid,seg+' preço '+cid,seg+' particular '+cid,'consulta '+seg+' '+cid,seg+' plano de saúde '+cid];
+}
+
+// ============================================================
+// ATALHOS DE TECLADO
+// ============================================================
+function ligarAtalhos(){
+  var buffer = '';
+  var timer = null;
+  document.addEventListener('keydown', function(e){
+    // ignora se está digitando em campo
+    var tag = (e.target.tagName || '').toUpperCase();
+    if(tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    if(e.key === 't' && (e.ctrlKey || e.metaKey)){ e.preventDefault(); alternarTema(); return; }
+    buffer += e.key;
+    clearTimeout(timer);
+    timer = setTimeout(function(){ buffer = ''; }, 700);
+    var mapa = { 'gr':'resumo','gt':'timeline','gl':'lei','gn':'noticia','gb':'busca','gc':'concorrencia','go':'oportunidades','gs':'setup','gk':'config','ge':'newsletter' };
+    if(mapa[buffer]){ ativarPainel(mapa[buffer]); buffer=''; }
+  });
+}
+
+// ============================================================
+// INICIALIZAÇÃO
+// ============================================================
+function renderTudo(){
+  renderAbas();
+  atualizarFrescor();
+  renderResumo();
+  renderLei();
+  renderNoticia();
+  renderNegocio();
+  renderConcorrencia();
+  renderBusca();
+  renderConfig();
+  renderTimeline();
+  renderOportunidades();
+  aplicarDensidade();
+}
+function iniciar(){
+  carregarEstado();
+  aplicarTema();
+  ligarMenu();
+  ligarAtalhos();
+  renderTudo();
+  aplicarHashInicial();
+  tentarFetchRemoto();
+}
+iniciar();
+</script>
 
 </body>
 </html>
