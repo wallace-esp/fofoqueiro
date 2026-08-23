@@ -1,0 +1,187 @@
+{
+  "executadoEm": "2026-08-23T17:36:53.144Z",
+  "geoPrincipal": "BR-CE",
+  "geoFallback": "BR",
+  "termosCarregados": 17,
+  "lotes": [
+    {
+      "indice": 1,
+      "termos": [
+        "oncologia Fortaleza",
+        "tratamento de câncer Fortaleza",
+        "quimioterapia Fortaleza",
+        "radioterapia Fortaleza",
+        "ICC Fortaleza"
+      ],
+      "tentativas": [
+        {
+          "geo": "BR-CE",
+          "status": "ok",
+          "pontos": 91
+        }
+      ],
+      "geoUsado": "BR-CE",
+      "pontos": 91,
+      "resultadosPorTermo": [
+        {
+          "termo": "oncologia Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "tratamento de câncer Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "quimioterapia Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "radioterapia Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "ICC Fortaleza",
+          "status": "ok",
+          "ultimo": 71
+        }
+      ]
+    },
+    {
+      "indice": 2,
+      "termos": [
+        "Oncoclínicas Fortaleza",
+        "CRIO Fortaleza",
+        "hospital oncológico Fortaleza",
+        "câncer de mama Fortaleza",
+        "câncer de próstata Fortaleza"
+      ],
+      "tentativas": [
+        {
+          "geo": "BR-CE",
+          "status": "ok",
+          "pontos": 91
+        }
+      ],
+      "geoUsado": "BR-CE",
+      "pontos": 91,
+      "resultadosPorTermo": [
+        {
+          "termo": "Oncoclínicas Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "CRIO Fortaleza",
+          "status": "ok",
+          "ultimo": 4
+        },
+        {
+          "termo": "hospital oncológico Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "câncer de mama Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "câncer de próstata Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        }
+      ]
+    },
+    {
+      "indice": 3,
+      "termos": [
+        "biópsia Fortaleza",
+        "imunoterapia Fortaleza",
+        "PET scan Fortaleza",
+        "medicamento oncológico SUS",
+        "plano de saúde oncologia Ceará"
+      ],
+      "tentativas": [
+        {
+          "geo": "BR-CE",
+          "status": "ok",
+          "pontos": 91
+        }
+      ],
+      "geoUsado": "BR-CE",
+      "pontos": 91,
+      "resultadosPorTermo": [
+        {
+          "termo": "biópsia Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "imunoterapia Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "PET scan Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "medicamento oncológico SUS",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "plano de saúde oncologia Ceará",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        }
+      ]
+    },
+    {
+      "indice": 4,
+      "termos": [
+        "onco Ceará",
+        "câncer infantil Fortaleza"
+      ],
+      "tentativas": [
+        {
+          "geo": "BR-CE",
+          "status": "ok",
+          "pontos": 91
+        }
+      ],
+      "geoUsado": "BR-CE",
+      "pontos": 91,
+      "resultadosPorTermo": [
+        {
+          "termo": "onco Ceará",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        },
+        {
+          "termo": "câncer infantil Fortaleza",
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
+        }
+      ]
+    }
+  ],
+  "canary": {
+    "termo": "instagram",
+    "geo": "BR",
+    "pontos": 91,
+    "ultimoValor": 61,
+    "status": "wrapper-ok"
+  },
+  "resumo": {
+    "comDados": 2,
+    "semDados": 0,
+    "semInteresse": 15,
+    "total": 17
+  }
+}

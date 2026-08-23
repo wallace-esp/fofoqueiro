@@ -1,5 +1,92 @@
 {
   "id": "oncologia-fortaleza",
   "_readme": "Snapshots semanais dos indicadores de concorrência. Mantém aproximadamente 5 pontos (30 dias). Snapshots antigos são descartados automaticamente pelo pipeline.",
-  "snapshots": []
+  "snapshots": [
+    {
+      "data": "2026-08-23",
+      "coletadoEm": "2026-08-23T17:37:56.043Z",
+      "concorrentes": [
+        {
+          "nome": "Instituto do Câncer do Ceará",
+          "mencoes30d": 0,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Oncoclínicas Fortaleza",
+          "mencoes30d": 31,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Oncologia D'Or Fujiday",
+          "mencoes30d": 2,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Centro de Oncologia CRIO",
+          "mencoes30d": 2,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Quimioclinic",
+          "mencoes30d": 0,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Hospital Cura d'Ars",
+          "mencoes30d": 1,
+          "interesseTrends": 66,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "ATO Oncologia",
+          "mencoes30d": 3,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Pronutrir Oncologia",
+          "mencoes30d": 0,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "Oncovie",
+          "mencoes30d": 0,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        },
+        {
+          "nome": "OTO Oncologia",
+          "mencoes30d": 0,
+          "interesseTrends": null,
+          "gmnAvaliacao": null,
+          "gmnReviews": null,
+          "instagramFollowers": null
+        }
+      ]
+    }
+  ]
 }

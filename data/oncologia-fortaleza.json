@@ -5,8 +5,12 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-08-23T14:30:08.449Z",
-  "proximaAtualizacao": "diária, 09h UTC",
+  "atualizadoEm": "2026-08-23T17:37:56.045Z",
+  "ultimaExecucao": {
+    "mode": "weekly",
+    "em": "2026-08-23T17:37:56.045Z"
+  },
+  "proximaAtualizacao": "concorrência semanal",
   "noticias": [
     {
       "veiculo": "Google News",
@@ -1290,6 +1294,7 @@
   "termosBusca": [
     {
       "termo": "oncologia Fortaleza",
+      "indiceInteresse": 0,
       "volume": 0,
       "incremento": 0,
       "tendencia": "estável",
@@ -1307,12 +1312,16 @@
         0,
         0
       ],
-      "url": "https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR-CE",
-      "origem": "google-trends",
-      "atualizadoEm": "2026-08-23T14:30:03.251Z"
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:56.241Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR-CE"
     },
     {
       "termo": "tratamento de câncer Fortaleza",
+      "indiceInteresse": 0,
       "volume": 0,
       "incremento": 0,
       "tendencia": "estável",
@@ -1330,12 +1339,16 @@
         0,
         0
       ],
-      "url": "https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR-CE",
-      "origem": "auto",
-      "atualizadoEm": "2026-08-23T14:07:11.706Z"
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:56.241Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR-CE"
     },
     {
       "termo": "quimioterapia Fortaleza",
+      "indiceInteresse": 0,
       "volume": 0,
       "incremento": 0,
       "tendencia": "estável",
@@ -1353,12 +1366,16 @@
         0,
         0
       ],
-      "url": "https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR-CE",
-      "origem": "google-trends",
-      "atualizadoEm": "2026-08-23T14:30:05.096Z"
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:56.241Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR-CE"
     },
     {
       "termo": "radioterapia Fortaleza",
+      "indiceInteresse": 0,
       "volume": 0,
       "incremento": 0,
       "tendencia": "estável",
@@ -1376,151 +1393,1124 @@
         0,
         0
       ],
-      "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE",
-      "origem": "auto",
-      "atualizadoEm": "2026-08-23T14:07:11.706Z"
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:56.241Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "ICC Fortaleza",
+      "indiceInteresse": 71,
+      "volume": 71,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        71
+      ],
+      "geo": "BR-CE",
+      "status": "ok",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:56.241Z",
+      "confiabilidade": "ALTA",
+      "url": "https://trends.google.com/trends/explore?q=ICC%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "Oncoclínicas Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:59.121Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=Oncocl%C3%ADnicas%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "CRIO Fortaleza",
+      "indiceInteresse": 4,
+      "volume": 4,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "geo": "BR-CE",
+      "status": "ok",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:59.121Z",
+      "confiabilidade": "ALTA",
+      "url": "https://trends.google.com/trends/explore?q=CRIO%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "hospital oncológico Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:59.121Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=hospital%20oncol%C3%B3gico%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "câncer de mama Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:59.121Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20mama%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "câncer de próstata Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:36:59.121Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20pr%C3%B3stata%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "biópsia Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:02.042Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=bi%C3%B3psia%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "imunoterapia Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:02.042Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=imunoterapia%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "PET scan Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:02.042Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=PET%20scan%20Fortaleza&geo=BR-CE"
+    },
+    {
+      "termo": "medicamento oncológico SUS",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:02.042Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=medicamento%20oncol%C3%B3gico%20SUS&geo=BR-CE"
+    },
+    {
+      "termo": "plano de saúde oncologia Ceará",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:02.042Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=plano%20de%20sa%C3%BAde%20oncologia%20Cear%C3%A1&geo=BR-CE"
+    },
+    {
+      "termo": "onco Ceará",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:04.780Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=onco%20Cear%C3%A1&geo=BR-CE"
+    },
+    {
+      "termo": "câncer infantil Fortaleza",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR-CE",
+      "status": "sem-interesse-detectado",
+      "fonte": "Google Trends",
+      "coletadoEm": "2026-08-23T17:37:04.780Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20infantil%20Fortaleza&geo=BR-CE"
     }
   ],
   "concorrentes": [
     {
-      "nome": "Instituto do Câncer do Ceará (ICC)",
+      "nome": "Instituto do Câncer do Ceará",
       "grupo": "Rede ICC Saúde",
       "url": "https://www.icc.org.br/",
-      "instagram": "@haroldojuacaba",
-      "facebook": "—",
-      "gmn": 4.6,
-      "ra": "—",
-      "seg": 12000,
-      "eng": 2.1,
-      "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T14:30:08.445Z",
-      "origem": "curado"
+      "instagramHandle": "haroldojuacaba",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 0,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:07.283Z",
+          "confiabilidade": "ALTA",
+          "evidencia": false,
+          "exemplos": []
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Sem interesse detectado no período"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.6,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 12000,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 2.1,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Oncoclínicas Fortaleza",
       "grupo": "Grupo Oncoclínicas",
       "url": "https://oncoclinicas.com/",
-      "instagram": "@grupooncoclinicas",
-      "facebook": "—",
-      "gmn": 4.4,
-      "ra": "—",
-      "seg": 45000,
-      "eng": 1.8,
-      "mencoes30d": 31,
-      "dataAtualizacao": "2026-08-23T14:30:08.446Z",
-      "origem": "curado"
+      "instagramHandle": "grupooncoclinicas",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 31,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:11.875Z",
+          "confiabilidade": "ALTA",
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "Oncoclínicas dispara 12% mesmo com prejuízo de R$ 476 milhões; veja a avaliação do BTG - Estadão",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc2Mwb19QbDhsRmw4eVl0clljSWNNT2JSLTVCUGxUb3hJM0xubU5EOVZLb19pTEU0OHEtN2RUS1RZR2dWV0ZncEp4NmI4UjZTSWRjQUVnQ1RscDJUVGFGRmtPUEF6eGRCalItMXFDRC1WU1VlOENnaktCT3l4UUprSjljc05GR0RpY3phcVBCbXNUR2ljQTBXQWh2VmNIU1FxRHltODlBMEdqQW9rYU9vLWVnUWVoaG5NNm9VNWtLSFlCQ3JaUGxUQkZrZEVpNjBmREVqa3E2Rm0zUmVzcnVRY29IZE4?oc=5",
+              "data": "2026-08-23"
+            },
+            {
+              "titulo": "Recuperação da Oncoclínicas: R$ 33 mi da venda vão a medicamentos - Economic News Brasil",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYndNbWw5VVVMb3c3TzhtNXJmRk5URjVpZUdZTm9VUDNOSnpwZ2p6UVU1bFJ2VVEySlJmN0szTFRWdnUwbG5YNjVNZHJUeERrV19CbUNkbEhaTGp0M3hGOVNIdEpLUmhEVXVTUE80UUEwMVh5dTVaQ2lRTFBXV1pEUjd6bEcxc2tTT3dubmZqdmhNOTRySGJr?oc=5",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "O plano dos minoritários da Oncoclínicas para o pós-julgamento da OPA - O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaurus entra com pedido de arbitragem - InvestNews",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmxjeEpTMVJoVmJ1ckZ1c1EyVERRTEZielB3ZVd5enpfb2cwV3I1MjE2TC12bC1qbWQzZWd5bjZqdTVnWXF4UGxNWXVrM3VUSUpZVUJ5dWVvYmFpbGNMZlgycGQ1X2IwWmpnNmdhUVBsSWxta3FJZUoyM2JicFN5MGNHMNIBiAFBVV95cUxPT0FmNUxwX09RVWR6Y21JNXN6eVpSNm1vMWc0RjhLOVZ2Qk0xRmRlcmxSeE1RZERwV0I2NnhseE9YTGhWQV8wUGpUcVZ1WGFKTzl6QjQydVdnZXNFZldxVC1hZVdkWEJMbWE5SXlZMHNLb212TjhmT2J4MksteVJWbXFEblc3S2hk?oc=5",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "OPA bilionária da Oncoclínicas vai parar em arbitragem às vésperas de decisão da CVM - O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
+              "data": "2026-08-22"
+            }
+          ]
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Trends vazio para marca"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.4,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 45000,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 1.8,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Oncologia D'Or Fujiday",
       "grupo": "Rede D'Or",
       "url": "https://www.rededor.com.br/",
-      "instagram": "@oncologiadorfujiday",
-      "facebook": "—",
-      "gmn": 4.5,
-      "ra": "7.0",
-      "seg": 1800,
-      "eng": 3.2,
-      "mencoes30d": 2,
-      "dataAtualizacao": "2026-08-23T14:30:08.446Z",
-      "origem": "curado"
+      "instagramHandle": "oncologiadorfujiday",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 2,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:16.315Z",
+          "confiabilidade": "ALTA",
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "CRIO movimenta Fortaleza com 11º Summit de Oncologia - Portal IN - Pompeu Vasconcelos - Balada IN",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0ppVDR4YUVRQTRIVGJBelNhNXJMZFp5RUZZTUFZbGFNa3BNOTFubFF3dWVIUUFBLXJsT2NZdXZGa2xsWlVBSzlZb29fTlJIUlN4alh6YUlxeHQ5WmVqcnZiVDZOb3ZrLUVEVG51UDkxcU1wODVWQ2Y0MXBOMWpjdGM0YlluVTVBbjN0NG9mT0tHSmFFOVBF?oc=5",
+              "data": "2026-08-23"
+            },
+            {
+              "titulo": "Agosto Branco: Rede D’Or integra a jornada do paciente de câncer de pulmão em projeto nacional - Estadão",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ1BaVkNxN1VyQXRkSXphUnJHTUo4Qi12M0JlMWo0TUl0RlhhWmZvRmJqemJabTZkUHRJX1BCaVQwRkRYa0ZfODMxR1M2eEhFWjFSdWlNZDJEM1hkWkJwRFFSRFdKZy1WREJaZ3RyN0RISm1teFJEZ3BvNDROS1h4VWRjN2hyQnRZMkwxY1I3WTNWajJtTEdVdWlrdi1PZHZpNTV5RFZzTm9uX2szeUFEQWt2anNWdzJDLUhIbTV1aHl4dWhl0gHKAUFVX3lxTE5vamgybnZja0oyckdNNHNJME83WlM4M3lXb0hHNXY4MnBTY29wNlV6RDRZY3FEUE5YZnBKb2R5WEdGdlNHbUdtalA0OUhUeTA5aXMtNFc2djE2bGpVWWQ5SGlHYllGTUUtLWN0SXhKLW5GMzQ3Q1RGeUhqb19VRmlYc25rZ1VqRnNoZ05odFFxNm1Fcmw5YldveGtqVVRwUk1OVE11MFNfT1ZsemVTOFFzVEtTYVVKTUdSOGRmX0tlVzY3OEVFUmVHc3c?oc=5",
+              "data": "2026-08-23"
+            }
+          ]
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Sem interesse detectado no período"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.5,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 1800,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 3.2,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Centro de Oncologia CRIO",
       "grupo": "CRIO",
       "url": "https://www.crio.med.br/",
-      "instagram": "@centrodeoncologiacrio",
-      "facebook": "—",
-      "gmn": 4.7,
-      "ra": "—",
-      "seg": 29400,
-      "eng": 2.8,
-      "mencoes30d": 2,
-      "dataAtualizacao": "2026-08-23T14:30:08.446Z",
-      "origem": "curado"
+      "instagramHandle": "centrodeoncologiacrio",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 2,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:20.760Z",
+          "confiabilidade": "ALTA",
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "CRIO movimenta Fortaleza com 11º Summit de Oncologia - Portal IN - Pompeu Vasconcelos - Balada IN",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0ppVDR4YUVRQTRIVGJBelNhNXJMZFp5RUZZTUFZbGFNa3BNOTFubFF3dWVIUUFBLXJsT2NZdXZGa2xsWlVBSzlZb29fTlJIUlN4alh6YUlxeHQ5WmVqcnZiVDZOb3ZrLUVEVG51UDkxcU1wODVWQ2Y0MXBOMWpjdGM0YlluVTVBbjN0NG9mT0tHSmFFOVBF?oc=5",
+              "data": "2026-08-23"
+            },
+            {
+              "titulo": "Motorista de transporte escolar perde controle e bate contra muro do Centro Cultural do Cariri",
+              "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/22/motorista-de-transporte-escolar-perde-controle-e-bate-contra-muro-do-centro-cultural-do-cariri.ghtml",
+              "data": "2026-08-22"
+            }
+          ]
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Trends vazio para marca"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.7,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 29400,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 2.8,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Quimioclinic",
       "grupo": "Quimioclinic",
       "url": "https://quimioclinic.com.br/",
-      "instagram": "—",
-      "facebook": "—",
-      "gmn": 4.3,
-      "ra": "—",
-      "seg": 0,
-      "eng": 0,
-      "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T14:30:08.447Z",
-      "origem": "curado"
+      "instagramHandle": null,
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 0,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:25.182Z",
+          "confiabilidade": "ALTA",
+          "evidencia": false,
+          "exemplos": []
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Trends vazio para marca"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Handle Instagram não configurado"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.3,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 0,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 0,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Hospital Cura d'Ars",
       "grupo": "Rede São Camilo",
       "url": "https://www.saocamilo.com/",
-      "instagram": "@saocamilofortaleza",
-      "facebook": "—",
-      "gmn": 4.2,
-      "ra": "—",
-      "seg": 8000,
-      "eng": 1.5,
-      "mencoes30d": 1,
-      "dataAtualizacao": "2026-08-23T14:30:08.447Z",
-      "origem": "curado"
+      "instagramHandle": "saocamilofortaleza",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 1,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:31.559Z",
+          "confiabilidade": "ALTA",
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "Elmano promete radioterapia, hemodinâmica e cirurgia cardíaca no Hospital Regional do Sertão Central - OpiniãoCE",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcDNhX2xaaFFIcFVYTlpENGhBdlFqYkZ3VWl2YmFHSFc4TkVzNkFtekhUREgtRl9xRnAzc3Y0UkVlUWFvdUluaUtQandSSzFHX2xta2R4Z3FreXNQVE40R1RQbmRQT0RiQ1ltVUVac0hBMWZmZ2EzRlVxa094NW5JM2RaVDl5dVBwY1FyUkU4ZGlaWXZQdVdkd3d0eFd0ZzJGcFhNanZubThXWFNmOXl2dXJLSmY1ck5wMGxkWXhZeU4zemFfa3VuOVJJcWJyb3N6bVNOYU9GeFQwRFlvNXZpeUtxSQ?oc=5",
+              "data": "2026-08-22"
+            }
+          ]
+        },
+        "interesseTrends": {
+          "valor": 66,
+          "serie": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            66
+          ],
+          "fonte": "Google Trends",
+          "coletadoEm": "2026-08-23T17:37:31.805Z",
+          "confiabilidade": "MEDIA",
+          "evidencia": true
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.2,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 8000,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 1.5,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "ATO Oncologia",
       "grupo": "ATO Terapias",
       "url": "https://atooncologia.com.br/",
-      "instagram": "@atooncologia",
-      "facebook": "—",
-      "gmn": 4.8,
-      "ra": "—",
-      "seg": 3700,
-      "eng": 4.1,
-      "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T14:30:08.447Z",
-      "origem": "curado"
+      "instagramHandle": "atooncologia",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 3,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:36.041Z",
+          "confiabilidade": "ALTA",
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "Caminhadas, carreata e reunião: veja como foi agenda dos candidatos ao governo do Ceará neste sábado",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/22/caminhadas-carreata-e-reuniao-veja-como-foi-agenda-dos-candidatos-ao-governo-do-ceara-neste-sabado.ghtml",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "Assassinato do fundador de igreja de Lúcifer no Ceará: o que se sabe sobre o caso",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/22/assassinato-do-fundador-de-igreja-de-lucifer-no-ceara-o-que-se-sabe-sobre-o-caso.ghtml",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "Candidatos ao Governo do Ceará intensificaram agendas públicas nesta sexta-feira (21)",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/21/candidatos-ao-governo-do-ceara-intensificaram-agendas-publicas-nesta-sexta-feira-21.ghtml",
+              "data": "2026-08-22"
+            }
+          ]
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Trends vazio para marca"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.8,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 3700,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 4.1,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Pronutrir Oncologia",
       "grupo": "Pronutrir",
       "url": "https://pronutrir.com.br/",
-      "instagram": "@pronutriroficial",
-      "facebook": "—",
-      "gmn": 4.5,
-      "ra": "—",
-      "seg": 5200,
-      "eng": 2.4,
-      "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T14:30:08.448Z",
-      "origem": "curado"
+      "instagramHandle": "pronutriroficial",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 0,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:42.054Z",
+          "confiabilidade": "ALTA",
+          "evidencia": false,
+          "exemplos": []
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Trends vazio para marca"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.5,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 5200,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 2.4,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "Oncovie",
       "grupo": "Oncovie",
       "url": "https://oncovie.com.br/",
-      "instagram": "@clinicaoncovie",
-      "facebook": "—",
-      "gmn": 4.4,
-      "ra": "sem selo",
-      "seg": 2900,
-      "eng": 3,
-      "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T14:30:08.448Z",
-      "origem": "curado"
+      "instagramHandle": "clinicaoncovie",
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 0,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:46.502Z",
+          "confiabilidade": "ALTA",
+          "evidencia": false,
+          "exemplos": []
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Sem interesse detectado no período"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Instagram (Apify) falhou: Apify HTTP 403"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.4,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 2900,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 3,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     },
     {
       "nome": "OTO Oncologia",
-      "grupo": "Rede Oto / Kora Saúde",
+      "grupo": "Rede Oto / Kora",
       "url": "https://www.korasaude.com.br/",
-      "instagram": "via Rede Oto",
-      "facebook": "—",
-      "gmn": 4.3,
-      "ra": "—",
-      "seg": 11000,
-      "eng": 1.9,
-      "mencoes30d": 0,
-      "dataAtualizacao": "2026-08-23T14:30:08.448Z",
-      "origem": "curado"
+      "instagramHandle": null,
+      "googleMapsUrl": null,
+      "indicadores": {
+        "mencoes30d": {
+          "valor": 0,
+          "fonte": "Google News + RSS imprensa (dedup)",
+          "coletadoEm": "2026-08-23T17:37:51.301Z",
+          "confiabilidade": "ALTA",
+          "evidencia": false,
+          "exemplos": []
+        },
+        "interesseTrends": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Trends vazio para marca"
+        },
+        "googleMaps": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Google Maps (Apify) falhou: Apify HTTP 403"
+        },
+        "instagramFollowers": {
+          "valor": null,
+          "fonte": null,
+          "coletadoEm": null,
+          "confiabilidade": "SEM_DADO",
+          "evidencia": false,
+          "motivo": "Handle Instagram não configurado"
+        },
+        "historicoManual": {
+          "gmn": {
+            "valor": 4.3,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "seg": {
+            "valor": 11000,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          },
+          "eng": {
+            "valor": 1.9,
+            "fonte": "seed-manual",
+            "coletadoEm": "histórico",
+            "confiabilidade": "BAIXA",
+            "evidencia": false
+          }
+        }
+      },
+      "evolucao30d": {
+        "status": "historico-insuficiente",
+        "motivo": "Mínimo 2 snapshots necessários"
+      }
     }
   ],
   "canais": [],
@@ -1528,113 +2518,181 @@
   "oportunidades": [
     {
       "titulo": "Adequação regulatória — Anvisa proíbe venda de suplementos e determina apreensão de lote falso de medica",
-      "descricao": "Ato de impacto ALTO publicado por Anvisa. Recomenda-se rodada com jurídico e comunicação para adaptar materiais, contratos e comunicação com pacientes/beneficiários.",
+      "descricao": "Ato de impacto ALTO por Anvisa. Rodada com jurídico e comunicação para adaptar materiais e contratos.",
       "tipo": "adequacao-regulatoria",
       "prioridade": "ALTA",
       "sinais": [
         {
           "fonte": "Anvisa",
-          "ref": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY09STEV6T0xROFlGX0VwT0MwQjc4ZUxqOEptTHpnbjhEUDdUU1hRSmN4RnJKbEp6alJrX1QwVWxoaVdaVEFQMWhPdHZ6bEZLRDZUbl9RRGdZb1NRT0FTV2FsQ1FRRnRfaTFPS1lJanByWmZYSEo2bTNPN0VMUGJZTWNPbWsyejdobEhVZTlyWWF0OFpGaFJPUjItblE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY09STEV6T0xROFlGX0VwT0MwQjc4ZUxqOEptTHpnbjhEUDdUU1hRSmN4RnJKbEp6alJrX1QwVWxoaVdaVEFQMWhPdHZ6bEZLRDZUbl9RRGdZb1NRT0FTV2FsQ1FRRnRfaTFPS1lJanByWmZYSEo2bTNPN0VMUGJZTWNPbWsyejdobEhVZTlyWWF0OFpGaFJPUjItblE?oc=5",
           "data": "2026-08-18"
         }
       ],
-      "recomendacao": "Convocar jurídico + comunicação para revisão de conformidade.",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Janela de posicionamento — OPA: O plano dos minoritários da Oncoclínicas para o pós-julgamen",
-      "descricao": "Movimentação do tipo \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez, continuidade assistencial e diferenciação do cliente MEATO.",
-      "tipo": "posicionamento",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "Google News",
-          "ref": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
-          "data": "2026-08-22"
-        }
-      ],
-      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Janela de posicionamento — OPA: Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaur",
-      "descricao": "Movimentação do tipo \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez, continuidade assistencial e diferenciação do cliente MEATO.",
-      "tipo": "posicionamento",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "Google News",
-          "ref": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmxjeEpTMVJoVmJ1ckZ1c1EyVERRTEZielB3ZVd5enpfb2cwV3I1MjE2TC12bC1qbWQzZWd5bjZqdTVnWXF4UGxNWXVrM3VUSUpZVUJ5dWVvYmFpbGNMZlgycGQ1X2IwWmpnNmdhUVBsSWxta3FJZUoyM2JicFN5MGNHMNIBiAFBVV95cUxPT0FmNUxwX09RVWR6Y21JNXN6eVpSNm1vMWc0RjhLOVZ2Qk0xRmRlcmxSeE1RZERwV0I2NnhseE9YTGhWQV8wUGpUcVZ1WGFKTzl6QjQydVdnZXNFZldxVC1hZVdkWEJMbWE5SXlZMHNLb212TjhmT2J4MksteVJWbXFEblc3S2hk?oc=5",
-          "data": "2026-08-22"
-        }
-      ],
-      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Janela de posicionamento — OPA: OPA bilionária da Oncoclínicas vai parar em arbitragem às vé",
-      "descricao": "Movimentação do tipo \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez, continuidade assistencial e diferenciação do cliente MEATO.",
-      "tipo": "posicionamento",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "Google News",
-          "ref": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
-          "data": "2026-08-22"
-        }
-      ],
-      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Janela de posicionamento — OPA: Goldman Sachs e Centaurus pedem arbitragem no caso da OPA da",
-      "descricao": "Movimentação do tipo \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez, continuidade assistencial e diferenciação do cliente MEATO.",
-      "tipo": "posicionamento",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "Google News",
-          "ref": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbUtKNFk2OEh0dlVOMnBhUUtWY2tJRWROMWk1bWljeE04YmxjMHJKbmhpT0xzZTJLLXRBdWFIaXFXQy1jTXZmV2FrdEs5bXR5X3REaWRSdkVfWmVTSWc2T19URy1NUFJFVU1rdFJnZUZ0ZjA3aC1TVU1FSThwM0J5NUZQZWZldGM2cVMwRHZtaW93bFVSY09DcnRTcXRZajdIZGJnMzd0NjJQcDZDRE4yRTkwSFQwX1BLOFROc2FUNkVQcWRqVmVJeDkwVWZ0bjQtVGlQTndwLUV2dnoyMlFjbDl5Q3F0dlRjQUNB0gH6AUFVX3lxTE5Ia196T0pHZG56Q1I5M21fekNSeWV3MlBQeEtTcmJUa0hZempoMW50anR0dTVCMExJa3JULUFVQWFaQklTQzQ3NjYxOXJhczFYYTNJVjQtR3Y5dVh5SDBuNFhfZFgyU0prV2U2bGRKSUd4MUlqb1dXclFMVkFhTlZuaEx2OEdMeHQ3eldKVzBmX0hyaG9Qd3VnbnF5YlRQSllJQlQzbXBMeXFIUFV5NGNxandrYVUyaDJfMzNWYVh1WEJ4bjVHMWhPUG1QRjQzc0NfUHdPMmFhQzZNUmtxeklUOE91a0ZWdHVDcWdOeW1oNGJNQ1pnajdET2c?oc=5",
-          "data": "2026-08-22"
-        }
-      ],
-      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Janela de posicionamento — OPA: Antes de decisão da CVM, Centaurus pede arbitragem contra La",
-      "descricao": "Movimentação do tipo \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez, continuidade assistencial e diferenciação do cliente MEATO.",
-      "tipo": "posicionamento",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "Google News",
-          "ref": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaWRlMXBnZnEtUXBDRFFRckNXalNSckJvUVhXaXViYmtUMm9Qc3dTOWpaNFFWNzA4SUZIakpKc3hHUmVFc3pTZGFqRThuQ0dETFJIdjNBNG41T0pOV2tSTi1TTHVBM3dxbnRvZ29kaG1nbHhUWXB0dkZnNlpsRTl5eElEa2VLU2NWdkdMOW1EY2xYcHVMLWQteEdQQWJrMWJXQk9CQzBfQVVHTXh4aWpoS2d4OXVGdElFOVFkR01IYlV4WWN4UTNvYzVlLTFHcjJwUGtLYnNnOHpmOEZ6bnlTY3YxSEhQazZYRHfSAfgBQVVfeXFMUG9Wd0RkZndVdS1UNllWczBlRUdxSHYzbU9rZ0dDX2tSc2JQQ2dwTkw5a2MwWkNOUy1lOUtBMTM2ZHpjS2g3UzFiRUhUdnQzWFdscllTVXdodmJVMFAzS3VYV1QzajhKei1WR0tBWU1PeTRVbENzSVg0aHplYkJzM0l4b0ZROUZ5c2o4ZGtUSXozQXhZTTJFVDFySFZpYmRWbFJES3pRV2VzWmUtbGZuV3NBV0JMMk9zdDZKQTVJa0d1UENkdXQ5RG5reFF5eFdMaWJrOXJvVng4TmNsT2lUMWNBeElRM2RrTWg5Q0pXY2VrR0piNS1xek0?oc=5",
-          "data": "2026-08-22"
-        }
-      ],
-      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
-      "origem": "auto"
+      "recomendacao": "Convocar jurídico + comunicação.",
+      "origem": "auto",
+      "confianca": "ALTA"
     },
     {
       "titulo": "Concorrente ativo — Oncoclínicas Fortaleza",
-      "descricao": "Oncoclínicas Fortaleza (Grupo Oncoclínicas) foi mencionado 31 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
+      "descricao": "Oncoclínicas Fortaleza foi mencionado 31 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
       "tipo": "monitoramento-competitivo",
       "prioridade": "ALTA",
       "sinais": [
         {
           "fonte": "clipping-30d",
-          "ref": "https://oncoclinicas.com/",
-          "mencoes": 31
+          "concorrente": "Oncoclínicas Fortaleza",
+          "mencoes": 31,
+          "exemplos": [
+            {
+              "titulo": "Oncoclínicas dispara 12% mesmo com prejuízo de R$ 476 milhões; veja a avaliação do BTG - Estadão",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc2Mwb19QbDhsRmw4eVl0clljSWNNT2JSLTVCUGxUb3hJM0xubU5EOVZLb19pTEU0OHEtN2RUS1RZR2dWV0ZncEp4NmI4UjZTSWRjQUVnQ1RscDJUVGFGRmtPUEF6eGRCalItMXFDRC1WU1VlOENnaktCT3l4UUprSjljc05GR0RpY3phcVBCbXNUR2ljQTBXQWh2VmNIU1FxRHltODlBMEdqQW9rYU9vLWVnUWVoaG5NNm9VNWtLSFlCQ3JaUGxUQkZrZEVpNjBmREVqa3E2Rm0zUmVzcnVRY29IZE4?oc=5",
+              "data": "2026-08-23"
+            },
+            {
+              "titulo": "Recuperação da Oncoclínicas: R$ 33 mi da venda vão a medicamentos - Economic News Brasil",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYndNbWw5VVVMb3c3TzhtNXJmRk5URjVpZUdZTm9VUDNOSnpwZ2p6UVU1bFJ2VVEySlJmN0szTFRWdnUwbG5YNjVNZHJUeERrV19CbUNkbEhaTGp0M3hGOVNIdEpLUmhEVXVTUE80UUEwMVh5dTVaQ2lRTFBXV1pEUjd6bEcxc2tTT3dubmZqdmhNOTRySGJr?oc=5",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "O plano dos minoritários da Oncoclínicas para o pós-julgamento da OPA - O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaurus entra com pedido de arbitragem - InvestNews",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmxjeEpTMVJoVmJ1ckZ1c1EyVERRTEZielB3ZVd5enpfb2cwV3I1MjE2TC12bC1qbWQzZWd5bjZqdTVnWXF4UGxNWXVrM3VUSUpZVUJ5dWVvYmFpbGNMZlgycGQ1X2IwWmpnNmdhUVBsSWxta3FJZUoyM2JicFN5MGNHMNIBiAFBVV95cUxPT0FmNUxwX09RVWR6Y21JNXN6eVpSNm1vMWc0RjhLOVZ2Qk0xRmRlcmxSeE1RZERwV0I2NnhseE9YTGhWQV8wUGpUcVZ1WGFKTzl6QjQydVdnZXNFZldxVC1hZVdkWEJMbWE5SXlZMHNLb212TjhmT2J4MksteVJWbXFEblc3S2hk?oc=5",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "OPA bilionária da Oncoclínicas vai parar em arbitragem às vésperas de decisão da CVM - O GLOBO",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
+              "data": "2026-08-22"
+            }
+          ]
         }
       ],
-      "recomendacao": "Battlecard atualizado + monitorar tom e frequência das menções.",
-      "origem": "auto"
+      "recomendacao": "Battlecard atualizado + acompanhar tom e frequência.",
+      "origem": "auto",
+      "confianca": "ALTA"
+    },
+    {
+      "titulo": "Concorrente ativo — ATO Oncologia",
+      "descricao": "ATO Oncologia foi mencionado 3 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
+      "tipo": "monitoramento-competitivo",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "clipping-30d",
+          "concorrente": "ATO Oncologia",
+          "mencoes": 3,
+          "exemplos": [
+            {
+              "titulo": "Caminhadas, carreata e reunião: veja como foi agenda dos candidatos ao governo do Ceará neste sábado",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/22/caminhadas-carreata-e-reuniao-veja-como-foi-agenda-dos-candidatos-ao-governo-do-ceara-neste-sabado.ghtml",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "Assassinato do fundador de igreja de Lúcifer no Ceará: o que se sabe sobre o caso",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/22/assassinato-do-fundador-de-igreja-de-lucifer-no-ceara-o-que-se-sabe-sobre-o-caso.ghtml",
+              "data": "2026-08-22"
+            },
+            {
+              "titulo": "Candidatos ao Governo do Ceará intensificaram agendas públicas nesta sexta-feira (21)",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/21/candidatos-ao-governo-do-ceara-intensificaram-agendas-publicas-nesta-sexta-feira-21.ghtml",
+              "data": "2026-08-22"
+            }
+          ]
+        }
+      ],
+      "recomendacao": "Battlecard atualizado + acompanhar tom e frequência.",
+      "origem": "auto",
+      "confianca": "ALTA"
+    },
+    {
+      "titulo": "Janela de posicionamento — OPA: O plano dos minoritários da Oncoclínicas para o pós-julgamen",
+      "descricao": "Movimentação \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez e diferenciação.",
+      "tipo": "posicionamento",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
+          "data": "2026-08-22"
+        }
+      ],
+      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
+      "origem": "auto",
+      "confianca": "MEDIA"
+    },
+    {
+      "titulo": "Janela de posicionamento — OPA: Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaur",
+      "descricao": "Movimentação \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez e diferenciação.",
+      "tipo": "posicionamento",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmxjeEpTMVJoVmJ1ckZ1c1EyVERRTEZielB3ZVd5enpfb2cwV3I1MjE2TC12bC1qbWQzZWd5bjZqdTVnWXF4UGxNWXVrM3VUSUpZVUJ5dWVvYmFpbGNMZlgycGQ1X2IwWmpnNmdhUVBsSWxta3FJZUoyM2JicFN5MGNHMNIBiAFBVV95cUxPT0FmNUxwX09RVWR6Y21JNXN6eVpSNm1vMWc0RjhLOVZ2Qk0xRmRlcmxSeE1RZERwV0I2NnhseE9YTGhWQV8wUGpUcVZ1WGFKTzl6QjQydVdnZXNFZldxVC1hZVdkWEJMbWE5SXlZMHNLb212TjhmT2J4MksteVJWbXFEblc3S2hk?oc=5",
+          "data": "2026-08-22"
+        }
+      ],
+      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
+      "origem": "auto",
+      "confianca": "MEDIA"
+    },
+    {
+      "titulo": "Janela de posicionamento — OPA: OPA bilionária da Oncoclínicas vai parar em arbitragem às vé",
+      "descricao": "Movimentação \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez e diferenciação.",
+      "tipo": "posicionamento",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
+          "data": "2026-08-22"
+        }
+      ],
+      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
+      "origem": "auto",
+      "confianca": "MEDIA"
+    },
+    {
+      "titulo": "Janela de posicionamento — OPA: Goldman Sachs e Centaurus pedem arbitragem no caso da OPA da",
+      "descricao": "Movimentação \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez e diferenciação.",
+      "tipo": "posicionamento",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbUtKNFk2OEh0dlVOMnBhUUtWY2tJRWROMWk1bWljeE04YmxjMHJKbmhpT0xzZTJLLXRBdWFIaXFXQy1jTXZmV2FrdEs5bXR5X3REaWRSdkVfWmVTSWc2T19URy1NUFJFVU1rdFJnZUZ0ZjA3aC1TVU1FSThwM0J5NUZQZWZldGM2cVMwRHZtaW93bFVSY09DcnRTcXRZajdIZGJnMzd0NjJQcDZDRE4yRTkwSFQwX1BLOFROc2FUNkVQcWRqVmVJeDkwVWZ0bjQtVGlQTndwLUV2dnoyMlFjbDl5Q3F0dlRjQUNB0gH6AUFVX3lxTE5Ia196T0pHZG56Q1I5M21fekNSeWV3MlBQeEtTcmJUa0hZempoMW50anR0dTVCMExJa3JULUFVQWFaQklTQzQ3NjYxOXJhczFYYTNJVjQtR3Y5dVh5SDBuNFhfZFgyU0prV2U2bGRKSUd4MUlqb1dXclFMVkFhTlZuaEx2OEdMeHQ3eldKVzBmX0hyaG9Qd3VnbnF5YlRQSllJQlQzbXBMeXFIUFV5NGNxandrYVUyaDJfMzNWYVh1WEJ4bjVHMWhPUG1QRjQzc0NfUHdPMmFhQzZNUmtxeklUOE91a0ZWdHVDcWdOeW1oNGJNQ1pnajdET2c?oc=5",
+          "data": "2026-08-22"
+        }
+      ],
+      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
+      "origem": "auto",
+      "confianca": "MEDIA"
+    },
+    {
+      "titulo": "Janela de posicionamento — OPA: Antes de decisão da CVM, Centaurus pede arbitragem contra La",
+      "descricao": "Movimentação \"OPA\" em 2026-08-22. Momento de reforçar mensagens de solidez e diferenciação.",
+      "tipo": "posicionamento",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaWRlMXBnZnEtUXBDRFFRckNXalNSckJvUVhXaXViYmtUMm9Qc3dTOWpaNFFWNzA4SUZIakpKc3hHUmVFc3pTZGFqRThuQ0dETFJIdjNBNG41T0pOV2tSTi1TTHVBM3dxbnRvZ29kaG1nbHhUWXB0dkZnNlpsRTl5eElEa2VLU2NWdkdMOW1EY2xYcHVMLWQteEdQQWJrMWJXQk9CQzBfQVVHTXh4aWpoS2d4OXVGdElFOVFkR01IYlV4WWN4UTNvYzVlLTFHcjJwUGtLYnNnOHpmOEZ6bnlTY3YxSEhQazZYRHfSAfgBQVVfeXFMUG9Wd0RkZndVdS1UNllWczBlRUdxSHYzbU9rZ0dDX2tSc2JQQ2dwTkw5a2MwWkNOUy1lOUtBMTM2ZHpjS2g3UzFiRUhUdnQzWFdscllTVXdodmJVMFAzS3VYV1QzajhKei1WR0tBWU1PeTRVbENzSVg0aHplYkJzM0l4b0ZROUZ5c2o4ZGtUSXozQXhZTTJFVDFySFZpYmRWbFJES3pRV2VzWmUtbGZuV3NBV0JMMk9zdDZKQTVJa0d1UENkdXQ5RG5reFF5eFdMaWJrOXJvVng4TmNsT2lUMWNBeElRM2RrTWg5Q0pXY2VrR0piNS1xek0?oc=5",
+          "data": "2026-08-22"
+        }
+      ],
+      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
+      "origem": "auto",
+      "confianca": "MEDIA"
     }
   ],
   "noticiasCuradas": [],
   "origem": {
     "motor": "ingest.mjs",
-    "versao": "2.0"
+    "versao": "2.1",
+    "mode": "weekly"
   }
 }
