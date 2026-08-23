@@ -1,0 +1,44 @@
+name: Fofoqueiro — ingestão semanal
+
+# Rodada pesada, uma vez por semana (segunda 10h UTC = 07h Fortaleza).
+# Coleta: Google Trends (batched), concorrência (menções, interesse por marca),
+# snapshot semanal (history) e oportunidades cruzadas com dados frescos.
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest-weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run weekly ingestion
+        env:
+          # Se definido em Settings → Secrets → APIFY_API_TOKEN, ativa
+          # coleta real de Google Maps e Instagram via Apify (opt-in).
+          # Sem o secret, esses indicadores ficam como SEM_DADO — nada quebra.
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: node scripts/ingest.mjs --mode=weekly
+
+      - name: Commit updated data + history
+        run: |
+          git config user.name  "fofoqueiro-bot"
+          git config user.email "bot@meato.consulting"
+          git add data/*.json
+          git diff --cached --quiet || git commit -m "chore(data): weekly deep ingest $(date -u +%Y-%m-%d)"
+          git push
