@@ -5,13 +5,57 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-08-23T17:37:56.045Z",
+  "atualizadoEm": "2026-08-24T10:59:25.601Z",
   "ultimaExecucao": {
-    "mode": "weekly",
-    "em": "2026-08-23T17:37:56.045Z"
+    "mode": "daily",
+    "em": "2026-08-24T10:59:25.601Z"
   },
-  "proximaAtualizacao": "concorrência semanal",
+  "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
+    {
+      "veiculo": "Google News",
+      "titulo": "De vagas remotas a concurso para professores: confira oportunidades de emprego e estudo no Ceará nesta segunda-feira (24) - G1",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOU1RnekFjNTBSbHQ0U1hiY0FFLXZwQXUteDdfT3RadzBlUnBsY193UlRDLUxzX0pRU0g5ZDFlR3hRUktXRjFSQzZ6VG4zV1lzbWJJdko0ZVE4d0xrVUVTZ3FvVE5rSTI4bzVqMHQ0d3dlSHVCdHdxaXFXUDhlU0tJbHpoc3VSMjVzdDhLNHZFSy1KQ1hTMERqOTExOHpIMGpINFNxYVUzWVZndXhOTmw5Y2FJcTM1MFpFcnk3Q092VE14TUtMRUdncXRVeUlnMmcwTHNYaUpPMnUwU0xiSURNYW1UOEx4b0FCajFNRUpFamp0aDZleVo2WXZEczJhUVFxQmNLMC1FTlA4M1djWmpMbXdVUG52d2pFQlp6d1hIb9IBnwJBVV95cUxOU1RnekFjNTBSbHQ0U1hiY0FFLXZwQXUteDdfT3RadzBlUnBsY193UlRDLUxzX0pRU0g5ZDFlR3hRUktXRjFSQzZ6VG4zV1lzbWJJdko0ZVE4d0xrVUVTZ3FvVE5rSTI4bzVqMHQ0d3dlSHVCdHdxaXFXUDhlU0tJbHpoc3VSMjVzdDhLNHZFSy1KQ1hTMERqOTExOHpIMGpINFNxYVUzWVZndXhOTmw5Y2FJcTM1MFpFcnk3Q092VE14TUtMRUdncXRVeUlnMmcwTHNYaUpPMnUwU0xiSURNYW1UOEx4b0FCajFNRUpFamp0aDZleVo2WXZEczJhUVFxQmNLMC1FTlA4M1djWmpMbXdVUG52d2pFQlp6d1hIbw?oc=5",
+      "data": "2026-08-24",
+      "termo": "plano de saúde oncologia Ceará",
+      "veiculos": [
+        "Google News",
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ceará tem 53 cidades com alerta de ventos intensos nesta segunda (24): confira lista",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/24/ceara-tem-cidades-com-alerta-de-ventos-intensos-nesta-segunda-24-confira-lista.ghtml",
+      "data": "2026-08-24",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Acusado de ameaçar e extorquir vendedores da Beira Mar de Fortaleza é condenado a 24 anos de prisão",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/24/acusado-de-ameacar-e-extorquir-vendedores-da-beira-mar-de-fortaleza-e-condenado-a-24-anos-de-prisao.ghtml",
+      "data": "2026-08-24",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
     {
       "veiculo": "Google News",
       "titulo": "CRIO movimenta Fortaleza com 11º Summit de Oncologia - Portal IN - Pompeu Vasconcelos - Balada IN",
@@ -28,48 +72,17 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Agosto Branco: Rede D’Or integra a jornada do paciente de câncer de pulmão em projeto nacional - Estadão",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ1BaVkNxN1VyQXRkSXphUnJHTUo4Qi12M0JlMWo0TUl0RlhhWmZvRmJqemJabTZkUHRJX1BCaVQwRkRYa0ZfODMxR1M2eEhFWjFSdWlNZDJEM1hkWkJwRFFSRFdKZy1WREJaZ3RyN0RISm1teFJEZ3BvNDROS1h4VWRjN2hyQnRZMkwxY1I3WTNWajJtTEdVdWlrdi1PZHZpNTV5RFZzTm9uX2szeUFEQWt2anNWdzJDLUhIbTV1aHl4dWhl0gHKAUFVX3lxTE5vamgybnZja0oyckdNNHNJME83WlM4M3lXb0hHNXY4MnBTY29wNlV6RDRZY3FEUE5YZnBKb2R5WEdGdlNHbUdtalA0OUhUeTA5aXMtNFc2djE2bGpVWWQ5SGlHYllGTUUtLWN0SXhKLW5GMzQ3Q1RGeUhqb19VRmlYc25rZ1VqRnNoZ05odFFxNm1Fcmw5YldveGtqVVRwUk1OVE11MFNfT1ZsemVTOFFzVEtTYVVKTUdSOGRmX0tlVzY3OEVFUmVHc3c?oc=5",
+      "veiculo": "G1 Ceará",
+      "titulo": "Suspeito de importunar adolescente de 14 anos em show no Ceará é preso antes de fugir em voo",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/23/suspeito-de-importunar-adolescente-de-14-anos-em-show-no-ceara-e-preso-antes-de-fugir-em-voo.ghtml",
       "data": "2026-08-23",
-      "termo": "Rede D'Or oncologia",
       "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 4,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas dispara 12% mesmo com prejuízo de R$ 476 milhões; veja a avaliação do BTG - Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc2Mwb19QbDhsRmw4eVl0clljSWNNT2JSLTVCUGxUb3hJM0xubU5EOVZLb19pTEU0OHEtN2RUS1RZR2dWV0ZncEp4NmI4UjZTSWRjQUVnQ1RscDJUVGFGRmtPUEF6eGRCalItMXFDRC1WU1VlOENnaktCT3l4UUprSjljc05GR0RpY3phcVBCbXNUR2ljQTBXQWh2VmNIU1FxRHltODlBMEdqQW9rYU9vLWVnUWVoaG5NNm9VNWtLSFlCQ3JaUGxUQkZrZEVpNjBmREVqa3E2Rm0zUmVzcnVRY29IZE4?oc=5",
-      "data": "2026-08-23",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
+        "G1 Ceará"
       ],
       "origem": "auto",
       "incluir": true,
       "score": 3,
       "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Agosto Branco: o perfil do tumor orienta o tratamento - Estadão",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaDdMOVM0NHhWQ3FDY1Nhak9pZ0FIVGFWSWhzejVEZjMyNnpuUVU0QWlUWUhUa1RQakRreGdXV1MwRmJTdm5PVVVuLXotclpUVlJ6eEhuYXRSSW5ZNjdCajJfdG92MEtiemVFWFVMRC1XVGpSR2gxSmRhV1pIQ2o5Q0xVNE1uekpnTWdsRXFVNNIBlAFBVV95cUxQUnUyZXZRWVB0X2pPbDVWYVNPUWtKMm9xYVVhLTdDczdrOGRhdGx5Zl82SnZzZWxHTVdCaFRNUlRWZGF1TUVRN3NPSm96Sm1zekhJNmdQbnExUGxZc0t1WHk0MlVyc0Q1Wm5nTGxGSW5RM0x3LVZvYVdFVjNjTUJvY0ZsTDM3Y1NURXVVT1RGNWV4T0NF?oc=5",
-      "data": "2026-08-23",
-      "termo": "Rede D'Or oncologia",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "oncologia",
       "tom": "Neutro"
     },
     {
@@ -85,6 +98,34 @@
       "score": 3,
       "tema": "saúde",
       "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Caminhada, adesivaço e ato político: veja como foi agenda dos candidatos ao governo do Ceará neste domingo",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/23/caminhada-adesivaco-e-ato-politico-veja-como-foi-agenda-dos-candidatos-ao-governo-do-ceara-neste-domingo.ghtml",
+      "data": "2026-08-23",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "População saqueia carga de caminhão enquanto veículo pega fogo no Ceará; motorista morreu",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/23/populacao-saqueia-carga-de-caminhao-enquanto-veiculo-pega-fogo-no-ceara-motorista-morreu.ghtml",
+      "data": "2026-08-23",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
     },
     {
       "veiculo": "G1 Ceará",
@@ -130,10 +171,40 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Recuperação da Oncoclínicas: R$ 33 mi da venda vão a medicamentos - Economic News Brasil",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYndNbWw5VVVMb3c3TzhtNXJmRk5URjVpZUdZTm9VUDNOSnpwZ2p6UVU1bFJ2VVEySlJmN0szTFRWdnUwbG5YNjVNZHJUeERrV19CbUNkbEhaTGp0M3hGOVNIdEpLUmhEVXVTUE80UUEwMVh5dTVaQ2lRTFBXV1pEUjd6bEcxc2tTT3dubmZqdmhNOTRySGJr?oc=5",
+      "titulo": "Deputada pede inclusão de medicamento para câncer de mama no SUS - Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTUtScTBORE5BcjVHMUVveXBuSkR0YVR5THhRZUtYTklrelZqRFFWUzh3OUtkU2tpT0lsQW1WUzBvYnBQNnJjYU85UEFMMHcwOVdQMnVwOG1BOHN6UExzNUtwTW5malVfNDJVNFE5WHNkenljREFzb2liM2ttdy00dElINl9ZMVB0WUZWa0hoaVp0NTJpVkZaZ3pIQUlOdHFwbjFjRnZTalVWbF9MX2pDYnhCSHI4c0R5NHc?oc=5",
       "data": "2026-08-22",
-      "termo": "Oncoclínicas",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 8,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "SUS pode incorporar medicamento para tratamento do câncer de mama inicial - Fala Você Notícias",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRTFiZWdJVUVXQlAwbmo4cGhHLUpLRmUwZEVFZDB1d0ZiMF8zUTFhRms5b2txV05fZGlQZlMxYXA0SWZrRWI4SzNfdDZ1WUdzNWxjREJrNmw5Q3Rjamc3dXFLbThBUy12SE9iVTBFTllSeHpGVzJpUkVlQ2xRTDJiZ2NkTmhwcVA3alJBTmxMNFBlX09VdS1hbGIwV2pGUS1ZeUIwd3pRQU5yanBZeDhrajhFejFoZmJBV1ZGN0l4X0ZzZ3pa?oc=5",
+      "data": "2026-08-22",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 8,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Plano de Elmano propõe Distrito de IA, expansão da saúde no interior e reforço no combate ao crime organizado - Repórter Ceará",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNXh3NnRSdVFISzB3RHN6NmJDQzR4eG1hYzBKMUJWUmtyM0VscXhfYl84ekhnWlBPbW5aMXZmeHlnUDVCVjYyT1VUOHJrTWplSUtEQkowMVAwaDR6WDQxRi0xOERPTEtXcjVDVDVCdzY1em42NXFDdWFZcWpTWk5ZRldkX2dkeFRUTGxNWDFGUVNxRmFFNzdfUzVVVmxUUHFoQlV3Mmotc3FTcmtGTThGNzhidFpPS0JtZ3Q5dWlkekkwYm5TVWpUd0k5OE1KVm5hMTVKTTI3YWt0STR5Y1FTRVhPajJBUjVPQnRz0gHrAUFVX3lxTE81eHc2dFJ1UUhLMHdEc3o2YkNDNHh4bWFjMEoxQlZSa3IzRWxxeF9iXzh6SGdaUE9tbloxdmZ4eWdQNUJWNjJPVVQ4cmtNamVJS0RCSjAxUDBoNHpYNDFGLTE4RE9MS1dyNUNUNUJ3NjV6bjY1cUN1YVlxalNaTllGV2RfZ2R4VFRMbE1YMUZRU3FGYUU3N19TNVVWbFRQcWhCVXcyai1zcVNya0ZNOEY3OGJ0Wk9LQm1ndDl1aWR6STBiblNValR3STk4TUpWbmExNUpNMjdha3RJNHljUVNFWE9qMkFSNU9CdHM?oc=5",
+      "data": "2026-08-22",
+      "termo": "plano de saúde oncologia Ceará",
       "veiculos": [
         "Google News"
       ],
@@ -141,97 +212,7 @@
       "incluir": true,
       "score": 6,
       "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "O plano dos minoritários da Oncoclínicas para o pós-julgamento da OPA - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaurus entra com pedido de arbitragem - InvestNews",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmxjeEpTMVJoVmJ1ckZ1c1EyVERRTEZielB3ZVd5enpfb2cwV3I1MjE2TC12bC1qbWQzZWd5bjZqdTVnWXF4UGxNWXVrM3VUSUpZVUJ5dWVvYmFpbGNMZlgycGQ1X2IwWmpnNmdhUVBsSWxta3FJZUoyM2JicFN5MGNHMNIBiAFBVV95cUxPT0FmNUxwX09RVWR6Y21JNXN6eVpSNm1vMWc0RjhLOVZ2Qk0xRmRlcmxSeE1RZERwV0I2NnhseE9YTGhWQV8wUGpUcVZ1WGFKTzl6QjQydVdnZXNFZldxVC1hZVdkWEJMbWE5SXlZMHNLb212TjhmT2J4MksteVJWbXFEblc3S2hk?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "OPA bilionária da Oncoclínicas vai parar em arbitragem às vésperas de decisão da CVM - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Goldman Sachs e Centaurus pedem arbitragem no caso da OPA da Oncoclínicas - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbUtKNFk2OEh0dlVOMnBhUUtWY2tJRWROMWk1bWljeE04YmxjMHJKbmhpT0xzZTJLLXRBdWFIaXFXQy1jTXZmV2FrdEs5bXR5X3REaWRSdkVfWmVTSWc2T19URy1NUFJFVU1rdFJnZUZ0ZjA3aC1TVU1FSThwM0J5NUZQZWZldGM2cVMwRHZtaW93bFVSY09DcnRTcXRZajdIZGJnMzd0NjJQcDZDRE4yRTkwSFQwX1BLOFROc2FUNkVQcWRqVmVJeDkwVWZ0bjQtVGlQTndwLUV2dnoyMlFjbDl5Q3F0dlRjQUNB0gH6AUFVX3lxTE5Ia196T0pHZG56Q1I5M21fekNSeWV3MlBQeEtTcmJUa0hZempoMW50anR0dTVCMExJa3JULUFVQWFaQklTQzQ3NjYxOXJhczFYYTNJVjQtR3Y5dVh5SDBuNFhfZFgyU0prV2U2bGRKSUd4MUlqb1dXclFMVkFhTlZuaEx2OEdMeHQ3eldKVzBmX0hyaG9Qd3VnbnF5YlRQSllJQlQzbXBMeXFIUFV5NGNxandrYVUyaDJfMzNWYVh1WEJ4bjVHMWhPUG1QRjQzc0NfUHdPMmFhQzZNUmtxeklUOE91a0ZWdHVDcWdOeW1oNGJNQ1pnajdET2c?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Antes de decisão da CVM, Centaurus pede arbitragem contra Latache para evitar OPA da Oncoclínicas - Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaWRlMXBnZnEtUXBDRFFRckNXalNSckJvUVhXaXViYmtUMm9Qc3dTOWpaNFFWNzA4SUZIakpKc3hHUmVFc3pTZGFqRThuQ0dETFJIdjNBNG41T0pOV2tSTi1TTHVBM3dxbnRvZ29kaG1nbHhUWXB0dkZnNlpsRTl5eElEa2VLU2NWdkdMOW1EY2xYcHVMLWQteEdQQWJrMWJXQk9CQzBfQVVHTXh4aWpoS2d4OXVGdElFOVFkR01IYlV4WWN4UTNvYzVlLTFHcjJwUGtLYnNnOHpmOEZ6bnlTY3YxSEhQazZYRHfSAfgBQVVfeXFMUG9Wd0RkZndVdS1UNllWczBlRUdxSHYzbU9rZ0dDX2tSc2JQQ2dwTkw5a2MwWkNOUy1lOUtBMTM2ZHpjS2g3UzFiRUhUdnQzWFdscllTVXdodmJVMFAzS3VYV1QzajhKei1WR0tBWU1PeTRVbENzSVg0aHplYkJzM0l4b0ZROUZ5c2o4ZGtUSXozQXhZTTJFVDFySFZpYmRWbFJES3pRV2VzWmUtbGZuV3NBV0JMMk9zdDZKQTVJa0d1UENkdXQ5RG5reFF5eFdMaWJrOXJvVng4TmNsT2lUMWNBeElRM2RrTWg5Q0pXY2VrR0piNS1xek0?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Goldman Sachs e Centaurus pedem arbitragem contra pagamento de OPA da Oncoclínicas à Latache - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSGtfek9KR2RuekNSOTNtX3pDUnlldzJQUHhLU3JiVGtIWXpqaDFudGp0dHU1QjBMSWtyVC1BVUFhWkJJU0M0NzY2MTlyYXMxWGEzSVY0LUd2OXVYeUgwbjRYX2RYMlNKa1dlNmxkSklHeDFJam9XV3JRTFZBYU5WbmhMdjhHTHh0N3pXSlcwZl9IcmhvUHd1Z25xeWJUUEpZSUJUM21wTHlxSFBVeTRjcWp3a2FVMmgyXzMzVmFYdVhCeG41RzFoT1BtUEY0M3NDX1B3TzJhYUM2TVJrcXpJVDhPdWtGVnR1Q3FnTnltaDRiTUNaZ2o3RE9n0gH6AUFVX3lxTE5Ia196T0pHZG56Q1I5M21fekNSeWV3MlBQeEtTcmJUa0hZempoMW50anR0dTVCMExJa3JULUFVQWFaQklTQzQ3NjYxOXJhczFYYTNJVjQtR3Y5dVh5SDBuNFhfZFgyU0prV2U2bGRKSUd4MUlqb1dXclFMVkFhTlZuaEx2OEdMeHQ3eldKVzBmX0hyaG9Qd3VnbnF5YlRQSllJQlQzbXBMeXFIUFV5NGNxandrYVUyaDJfMzNWYVh1WEJ4bjVHMWhPUG1QRjQzc0NfUHdPMmFhQzZNUmtxeklUOE91a0ZWdHVDcWdOeW1oNGJNQ1pnajdET2c?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
+      "tom": "Positivo"
     },
     {
       "veiculo": "Google News",
@@ -246,36 +227,6 @@
       "incluir": true,
       "score": 4,
       "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Fundo pede arbitragem para evitar oferta pública de ações de mais de R$ 6 bilhões da Oncoclínicas - Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2tPc1dsTDhBU2dEWno2NDVRbzhpMzMwM2R2V3FiX2tWeFFsYWs5NEdyelhDQmlxelBVSmo5WWNHckEzTjRITkQ0WXlKU2dNak8wbXVRX3pxdDRaOUlWR2F1Y0lNUEtUdkVpV244VFEzMExEMkVkMXBOQUhLcFo0ajAzdWtCSlZwRHdnVnNGTVdqMUstNGZTMkM3WHdnWXJhZGJSbkxpM0lQb2szbTBkTHVvelM5Q0lUUXNlNGlUa2hjREV1M2FZWkJtVXVyNFI2dWc4Y0hpN2pfSzM3ZkY3UQ?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Goldman Sachs e Centaurus reconhecem derrota no caso Oncoclínicas - Brasil 247",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNWFFSXVwRHFhWGpoMEtLTnpmWnk4dUFvMkZwU2FOSXZHdkxSXzRmaVdzVFplN3lDdEtCMlFJUFB6OTg5SVE5RTNSc185RFZsYTRhTUxrQ3ViQ196cF94bXl0dzh3eHpmb1lNSlpYTWtyZWQ2VGZJb0ZfYzVPdGZZdXNRYmpTc0Jpdi1RLXBnT0s3QTZqb0J3cFdDTGlWOXEza084?oc=5",
-      "data": "2026-08-22",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
       "tom": "Neutro"
     },
     {
@@ -378,6 +329,21 @@
       "tom": "Neutro"
     },
     {
+      "veiculo": "Google News",
+      "titulo": "Nos 163 anos de Cajazeiras, Cícero destaca compromissos com a saúde, causa animal e a duplicação da BR-230 - Diário do Sertão",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdGswQUsyNnhlcmtoOTZhdklINWpmYmhmNTJ3QXNZeVRpekR2UnBSTXMyYlFuQnVhNmVqY2dpZnFCMFpTLTNNRkxzMVByQTJHZDh2NDFaQ0JxQ2Rjb3l2S3JIUWQwZ0diZ0RwX3k5MmRiN3R4cHd6SzJPRkllLUVldmFqUUp5VUVieGh0RzlxZk5VX3pTdXRvcE03X1hGbzdCcTFZSWhEcHJZT2pZS3RFRzNLWDV5RzdLdy1JMjRYSzItcXJGQ3FQV2VjdTVocHEtV1NUQkFkRldDT2pNeTNNTWw5aDFvU2FoaHRRakxwYjlVLUpVSzBr?oc=5",
+      "data": "2026-08-22",
+      "termo": "plano de saúde oncologia Ceará",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 1,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
       "veiculo": "G1 Ceará",
       "titulo": "Motorista preso suspeito de jogar ônibus contra delegado é solto após Justiça considerar prisão como ilegal",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/22/motorista-preso-suspeito-de-jogar-onibus-contra-delegado-e-solto-apos-justica-considerar-prisao-como-ilegal.ghtml",
@@ -449,318 +415,33 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "O colegiado da CVM vai avaliar na próxima semana a discussão sobre oferta pública de aquisição (OPA) na Oncoclínicas. O tema entrou na pauta da reunião do dia 25 de agosto, próxima terça-feira. Link para a matéria completa na bio #PipeNegócios - instagram.com",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QR0ZXMUdfNno2WGtRTWFWYmY0QUxHMlRjbmJMRWVfSTZwWW44dmNSczA4RmgwM2FQSzFnemdnUld2VXJHSm9XUHFaWFUwREV4bnc?oc=5",
+      "titulo": "Rede ICC Saúde abre inscrições para Mestrado em Oncologia voltado à formação de profissionais que buscam ampliar atuação e carreira - Repórter Ceará",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSVdjSGNzYjBjbllMOWFsSGp1Tm5qSGZHQl9HSEg5SWNwVFdkTHdFSTZETHB0ZTUtblBld3BCZzUyc2M5dzNpcnVBbHhvU3BGcGM4UE0xMzVIclR2emNRX1lqVFZzdG1UWTRmWUtLU0x2N3hTVU02eDdaNkhxRWc1dW9zb1Q1NGE3NEdmci1EM01SdTB6Z1dfRXRFUVJuZWs2cXVlYWxpMkF2ZkZ4aldueU5sekUydTEtTEpLU2NuUTdQMHNkUk1pZks1SlZJSF9XdEdMVFJMS2lwem91ZVo5aHZpSTBEQUo5M0NocWRyRGkzaE9yOUxhQkhTeHhCQTMyNHfSAYICQVVfeXFMUElXY0hjc2IwY25ZTDlhbEhqdU5uakhmR0JfR0hIOUljcFRXZEx3RUk2RExwdGU1LW5QZXdwQmc1MnNjOXczaXJ1QWx4b1NwRnBjOFBNMTM1SHJUdnpjUV9ZalRWc3RtVFk0ZllLS1NMdjd4U1VNNng3WjZIcUVnNXVvc29UNTRhNzRHZnItRDNNUnUwemdXX0V0RVFSbmVrNnF1ZWFsaTJBdmZGeGpXbnlObHpFMnUxLUxKS1NjblE3UDBzZFJNaWZLNUpWSUhfV3RHTFRSTEtpcHpvdWVaOWh2aUkwREFKOTNDaHFkckRpM2hPcjlMYUJIU3h4QkEzMjR3?oc=5",
       "data": "2026-08-21",
-      "termo": "Oncoclínicas",
+      "termo": "plano de saúde oncologia Ceará",
       "veiculos": [
         "Google News"
       ],
       "origem": "auto",
       "incluir": true,
-      "score": 7,
-      "tema": "negócio",
-      "tom": "Neutro"
+      "score": 8,
+      "tema": "oncologia",
+      "tom": "Positivo"
     },
     {
       "veiculo": "Google News",
-      "titulo": "Em recuperação extrajudicial, Oncoclínicas vende fatia em empresa na Arábia Saudita - Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQjVZZVJYbkZoeDdpTTNuZjl2dDdtcDBhWFhXTnlqLU0zWmlmOWhTU20weUEzOUQtVWdsZ3RlR0xXYlRETmVMelVoVHY5ejhwZWRlVFg2T1BVbkVBSXBsUXp5OUJJUkl6WVlWTFA2VlNHOTlRQVZTY3ZUUkk1d2RUd29WaFVVYmdaLXBwZmZ4aEFTZkUyRXZxaUkzc2NpME45aXE4bWNYUmR2RzljTFJtQ1JvLVVhcUFBX192eDlhXzFQLTV2aU5iZjVWZ0UtVlBpVENJTHFiR0HSAd4BQVVfeXFMTnBLZ2tjcEI0RTRScE1LQllCMnRZT042bWJHNTRFZzVUNzExaGJvemNyTmpoR2c0eXR0NXluOEV1a0p1cGR4bzhPTWo5d0lzY0haeDJoWEZhQjBhSWJoNHBlWjFkZDdFTW05c1JPRDF4SEFVLUN2TGlEblFYMGRlbUpNUzZzRGNWTHVnd2FPZ2wyeC15TWVzdVFuZGpPaE9TU25TRU5XZzhwakoyREZPTzd4Skd3VUZQU3BvckxjQUhvcjh2a1Y3OHpXTUFyeURlQmFvVi15LS1SYnZwS3NR?oc=5",
+      "titulo": "Empresário morre durante 'lifting facial' em clínica de Fortaleza - UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWkc2ME9CNkhZNGZOUTRuTm5rT2dhclZRTlB2Q1NyZ0ZIcS1CbUxrTXYyQmRrZnJyS2o1a2dUaWVrZ1hYanFlWnA0S2ZFb0lLOWgyRmk0OTlDVnBOclRIRzRXSkVoOUhCWjhsWWVVZFhCMC1Mb3ZZOEt5Z2tydDRCZms2N2hMbU44aFNKeWxjNERpRHpEQ241a0RZakFjWHJOeUlVSDVwMFUwTjhhTzZ6bWNlR0REZlNxb3ZicjhDampGQ3lWaFF6SXFTSTdTeXBhMFBpalZvNHE?oc=5",
       "data": "2026-08-21",
-      "termo": "Oncoclínicas",
+      "termo": "Oncoclínicas Fortaleza",
       "veiculos": [
         "Google News"
       ],
       "origem": "auto",
       "incluir": true,
-      "score": 5,
-      "tema": "negócio",
+      "score": 3,
+      "tema": "saúde",
       "tom": "Negativo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões - Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXNEdEliTnFORUt0S09GbHU2UmVuc1EwQjY4WGs2QW0ydkcxc2JzRk5kdzV3QVZwTC1GM1F2R0Z6R2wxd1M5YWo0S2M0NHhQcnBKUm5QX3c2LWVJakxoMm5iUnRGUVpPc0xLbEJFMnppMGowMWoyeXpOc09WazdyWl85WF92MTFqelpQSF9oYWpMaEFVX2NZcU5POW5JdWIzUkxFbmNsOF9pNWtPSHNBd3FoZG1BRW5PRGpDVm1FSkRHTjNz?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas sobe 11% com julgamento de OPA pelo colegiado da CVM marcado para dia 25 - Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ2tnUnZoQVQwb0l3U0k4MWxkdTdZb2dwZml6N2x2WUFWNUpHVWdzdTZCMjhEQkQ2VXNPUThnR2ROcm01VFhvZk1nVGhBYjIzNzdOOXFQUDVWSnhEUERNQTlQbnpMbWNid1EzSE1BSEFqVHkyUDVMNUxyQVBKRHdyeEstRzNzSHN1MS0wSVlRZWhrQURWdzVJRFJUUkNBMDZwMUZrUFItVEFRY3hLVVFxNmFJMFAxVnFRSHA2N2QyNWxFeUk1RG1EeDVOWG8xaXJIVV80Slk1aXJILTFGeFNkd2VSUVpscFJPdXpGV1hUd1ZFd9IB8gFBVV95cUxPZ2tnUnZoQVQwb0l3U0k4MWxkdTdZb2dwZml6N2x2WUFWNUpHVWdzdTZCMjhEQkQ2VXNPUThnR2ROcm01VFhvZk1nVGhBYjIzNzdOOXFQUDVWSnhEUERNQTlQbnpMbWNid1EzSE1BSEFqVHkyUDVMNUxyQVBKRHdyeEstRzNzSHN1MS0wSVlRZWhrQURWdzVJRFJUUkNBMDZwMUZrUFItVEFRY3hLVVFxNmFJMFAxVnFRSHA2N2QyNWxFeUk1RG1EeDVOWG8xaXJIVV80Slk1aXJILTFGeFNkd2VSUVpscFJPdXpGV1hUd1ZFdw?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões - Forbes Brasil",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0FOSG04M05QSVZUN2JvZUEwOWkwSkI4VlJfRHk3cFBsOENJTkRkQlBPVXVWdVVEcGc1eGw3NjM0eUM2bEtWMFdiTVlFNC1PVmhvay1GMmFyWVhiZWd3QkFvN2Z3OUdNOUEyVUVyM2l0QUctMS1OZXUtUTRYNFRFZzdPZmxqOWJmbkRTUg?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões - InvestNews",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVk9tYktfeXVMRTN0U01mRW4zTVFiOWdNTEVHRUxpOERiaHp5SVd6ZHRrd2dUWkVnOF8xcW01WTV0VXQzeC1pbE0wYmFRZXRsV3JYZ0QzaVpSZ3NzcVFBRlpNVE4temt0QmRham5Ib281MnRETzh0TFJCek03M3ZBWFhnUWZVcXJ3b0t6OGJPaVdSekhSN3dfWndaM3ZCSk85YzBweVhaQ2NoVl9pTHRzcFdiSE9PeWlJUEZiYnNYb9IBxAFBVV95cUxPY1RqaTNuNElmUXQ3TGpyd0Z6NTdHX3pxYUtRZDdGZE96WG9fYndJcWRUMVZWM1FLUDJJQWNHNXBjcHktNWZVcjFrbE1YTzRDc3YwblFGS0xNYWg3Y3o4amdmS3k1ZnRaZXR5SkRnd0dTMS1Ub2hDdUZJYW1iMHk5QjZVV19rUl9VcEFMbzF4dGNjWEhlY1ZqdFZJUEl1YVBuSGVrclg0ZHllSU5fUWdmd2ZWYWUwRTlKSmJ6ZjBMNlRPejVi?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas (ONCO3) conclui venda de participação em joint venture por US$ 6,55 milhões - Investidor10",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeW4xY3Z0ZFhmb0lhbFUwRVM0cy1WbDRFRTBjMmlyejFSaTRDZXlQbGFYN1FWSDNhdHV2N1JuZXlXaXJpNFRiMlZDRDRfbFRIZXpXQjVzYmItb1VDZmdNMHNERV9yTGoxbnpoVjQweEY0UTdpU0hxS0s5WlkxYnU3dzVpWG1JcmJySW9qX3h1RVdaWVI5c3luUG5hV0hCSjlkY0pDVFJSUGtNUzVvamNzckpWdGhPN1RHeGtQUnFGbzRHVGt3N2hwZHQ3cU9WYzTSAc8BQVVfeXFMUHluMWN2dGRYZm9JYWxVMEVTNHMtVmw0RUUwYzJpcnoxUmk0Q2V5UGxhWDdRVkgzYXR1djdSbmV5V2lyaTRUYjJWQ0Q0X2xUSGV6V0I1c2JiLW9VQ2ZnTTBzREVfckxqMW56aFY0MHhGNFE3aVNIcUtLOVpZMWJ1N3c1aVhtSXJicklval94dUVXWllSOXN5blBuYVdIQko5ZGNKQ1RSUlBrTVM1b2pjc3JKVnRoTzdUR3hrUFJxRm80R1RrdzdocGR0N3FPVmM0?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CVM confirma data para julgamento sobre OPA da Oncoclínicas - timesbrasil.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV09GQWdnRHR1UC1tVjFaN0paTFNvNW1LeVduZlVWTGV3ZjlydjYyaVdnbUxxUVFXSklYaVltRHkyTmdETmdRMVlHNFhpd3VfU1pNRUFEaEZPbkI3VVQyRlBIb0wwbFl6Wjh4eDVKTUVrVWs2bTlQU2M4NnpqWFV1aFMxc3FJVnBuNWZCWHRFa1M3a0k0Z2hNbFlFZ1JuVzZya2pEQnFWdmtQSms?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CVM analisa regra dos 15% no caso Oncoclínicas e OPA pode chegar a R$ 17 por ação - Brasil 247",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWWVtMzk1RzQ1cG5GbDVEYUJBLW1iSlU3SEFXQjJmWmdiR3FQLWxHVmRsSDJmdGFZLVpqU0cxMnlBVkVRRFFyakFYNjZJVXRDNHV3aVhyR2xIQjVUcUhuczdQSGVfUUlMT3NNOXdCYmFTdW1wbUstbVozWWhrb0xfSHFBcmIyc2I1Y3RQVzdMdzJnZ2ZrT1NyV2hYUkZWMFZ5QXlVd1F6MnczZlZzT2J6cW11NENTZw?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CVM marca julgamento que pode mexer com ONCO3 e definir futuro de OPA na Oncoclínicas - Guia do Investidor",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb0xQeDdjWUxqX0dfQjR1eHUzSWlxaWR2VjVyT3hUcnVVY1ZGY3hJVEF3RXFLeFJJMzViZ1h5aUQzbUxLMGloSW9PNU03U0swbkotZWNEWUc1MVdKVXZ6T2xjSUV4Sk4yTF9YYWM1cU1qUWNSNGpiR1dNNTZiWlJpczd1djkxWmRhU1k2Yi10OWUzNGxYOGtUeTFZQUZCRnppU2dkaGdWRFVFUEpvd1NuVVRZZzNtQ0gxeGY4M09LZktxbXNa?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "negócio",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CVM caminha para decisão favorável aos minoritários da Oncoclínicas - VEJA",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOemdOY0V5VmhuVXA2MFI1aWN2T3JfQjIySU5aRjJBSzByZDRKU2FuWmluSHQxVGl6Q1M0U1ZRdWZfcXFSeXFmUHducGw3NVhzVGl5bFY5SzRPTk53cFpKY2ktR3hFUkEzdF9wM3BNaGQ1THdPY0ltZnFwQ1JyektIZG9GcGJ5cW9ybWROVk1IT3liVllrd0FIMnZlMk9EMXRxcWVTcWt3?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Vale, Ser, Embraer, Axia, Oncoclínicas e mais ações para acompanhar hoje - InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeUUwSWNUaS1iVUhsd1pHT29lOW04YVF1SWJiTTl1U1AwQ2FPdlJLaFpxU3V0VDV6OExQLUdUYUdvZGtzNTQxZ3U3N3djckw3Njl5T3hHRi1feEpjb2VheFh4YjFDQWlnWlRRc2wzUDdQT1laZTVIVzZZY1NsTnN1blIwRWJ5aU5ncWl6QkhJcElNNVhpWEpJLWs1WDVra2l3NVYzOUkxVlRuOUnSAbABQVVfeXFMT2ZJSEFuMnlxSEVwbFVTeHFvUUJ5X2xaVjRGUDRsTzJHcU1tbFU5N1hEVWpfcmF0WjlEaERJSmJ2Z21CUG0tdUVIT3pVSnAwNEs1WlRaTUI2R2NvWmh4VVJUNGJseDJ0ZXB5YnRJd0ZNdGlvNlppYkNTY1NRNkd4RWpIQnFwdy1OcVZ2bHRHWkRVRndfYndoV21MeDBJdEg4WXJ0ZXNta1lkU3RQNUJCZTg?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas (ONCO11) - trademap.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yUGRzUmpwNkdFcnZhWTlZRGZ2VHl2NzQwTHNvb21ZTmNvOFRMUkdKQ3RNbzd5RXFrbVRJbGROM1pyV19SYWpEVXBFR1RKQQ?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas (ONCO3) abre programa de recompra de até 52 milhões de ações; saiba mais - Estadão",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbGl5UHg2WllBSlFmamZIazRuMkZvbFQxSEY1WmJGNmdrRnhvaFRfS3hCQ0k4TnJjZ1Foc0dDRU9ZUldPMGJHTXMxVEZmV0gtRUxkSS14X2FFaHY0VUk4d3RPSmNhRjFPclhyN19ERWJEMHd5WVhRVFBabkVobkVkWGpZMENXbXdJaGxwX191UzN3X19ONjZ3MmNiaFJTaVcyaWVfU0V4Y9IBrAFBVV95cUxON3JDRkhkSmxjOVpZWWtrZkgzV3FUY21qaUZfci1wenBsNGkySld0dTl1cDJTT1dvQXdIX08tTGcySlpMeVU2bkk5UEllR3FCUTRlSFpOcnhLSGt2UG9jOUJMODhVYmRhZ0tESDFxN0hKSWt5Sjc1VFdmZE9FX3lLb3JPc1I0cl82VlkyeXVvQ3g4cUVYTW45bjZYeFUxVWRyUDhDdUpZcUpRNTNS?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CVM confirma julgamento do caso Oncoclínicas para o dia 25 - Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNlJNeXZIM3BoR1pqU2xLUm1Jemt0N0pQdUFYVS15OGpQS0ZzYmZOMmVUcFFWMWdXcHhDRE5mcmx3WFhnWlBJZTc0Mkhuc2d4Q3RESWc0YnY1Nml2T1dnU0kwb0xVa21vZ2tmamVkSjNRd1NCOTR6RUxvbFhhRkpSdzl5aFFEREZVMy1qVXBPRThxRk5CVEd0U3Fwa2l1WkxvcWxuaGxYNWJwQ3VNYTBwQ3BQWlhPd9IBxAFBVV95cUxOZlgxRlpPazNncUNIZzYyZm9JN2p1ZFdZempMUFg3dUNQeTRTN1RWb1lJc0tHY01WVE00c1ZkTjBCSmZjYy1LVURiZUdrTFdaRm1zaWJHczlpNkQ1dENLYlRtMl90SGNVbnBOd1hVOThIcF8tRlNfbTBmakVxVm9QOVpPcFFZemZQYTNKd2puQkthcTFfZFNjRlFBU0FqUWFoQjk3a3ZnMV8wQzg4MzdUN3dYbEp1bjR1V19oNEJfcjlIMThp?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Colegiado da CVM pauta recurso da Latache em Oncoclínicas - Pipeline",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2MtaGRvaEszWW5hNkVVRkgtaUNPMUJNZFRqYkR0SXZZaW53ZFp5Vi1yZjZqaHFjLU9zM2tzVXlHQnBXd2h0UzhPM0xRZzBEZ2JmdVhSNEo3RXhKWlp6U3ZLVDFFSjlZUmQ4TGE2cHdHMnpaX2RGWFFGN2RmbnhFVmFUNWxwS0FGMDExeFpBeThwSXE0MWRLSlN0LU8yemhXMC1nNDFnR0l3VDhUV09BUzFn0gHAAUFVX3lxTFBrMVZCVVB5dGIzX09oZTd1VDU0Z2VOb1ptLV9LeHRSdzQ1THZLalpRQ2VBbVhST3VkWnoyS0Q1R2U2dTdMcWRwQzE0VkdOcldqV3ZMQjFnR0xPb0MzamJRTllTaDJfQ2xzUTl0ci0zWlc3OTFoQkx5ZEtkMWEyMzhjdFNvbXFyVW1sZTUyWi1TYlZiRzJsQXh2Y3J4YTQwRl9EZTQwVGYxUmdkNVotYzN4by1UVl90M2hpSWRxMnZFVA?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "O julgamento da Oncoclínicas - O Bastidor",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ILUZSa0xmenRVdF9fdjBPQjg3VjY4Z0Nuem1DcEZfUzlrSHhodEhHRTFSYWhDSVhtN05nX0lqVHdFME9aZTlEQTMzWlVIcTZKWDNJM1IzY1hPcmhxSVB4ckVKdWZJQnNNWERjV1BYOEs?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas vende participação na Arábia Saudita por R$ 33,2 milhões - ADVFN",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcThJTWlfX1BZajhQUWJQSldkUHpud0NCeXJpRDQ2TFVtUUVmcUdkeHJ2cWt3Mjh6aWZOZndHbEhObFpTYmlvR0ttT1VCMDhQZkhJbTlCTU1BS2dkam9zZlZ1eURQN2JvVS1COHpTN0xGSWdRbXRZdkYzWHhpVUktdVB4RUJDbm5pbDQwZTZUeEs0Nzd1M05XWkJjcG5YS1FCVGFHam16MA?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas vende participação em empresa saudita por R$ 33,23 milhões - Pequenas Empresas & Grandes Negócios",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUXJKYWFKS2JZQ01mUGhldnNIVVVLZVQwakZXNUpkbTlxQlBLZGN6OGZOQURNUFVmeE5pdV9GM0pUQU9BOVlpZG5EOGFsRGhiYXlwcG4xcVVNempaLVZudkhidDNhaGl4VG9RYVFlMThoQ3ltd181X1dteDBhRHREdHVoTVZzMG5PX1pXTzZLT3R3XzdPWmxLNkVaM0dXaU5XSmtwMUJMYjZuN0FyakJibHY1MkJiYWJCLUJUaWxobmxPNHIyMzlwc0dB0gHYAUFVX3lxTE5XRGFPU2w3cjBkLWQtVTJjcFV1VTFmekJIMTVNV0U0ZDJxR0lKRWlCMENreGlJMUZzTEhhT2hSd2llUk5kVWtuWVYwWGx4dC1Zcmhmbk85QnpnNlZpcFp2VDY3WmpaMmNNZDhYZXNZWHBnZ2tEdFFlZ3EwZk1jVkxNZ3dYRURrWWcxVWNpVnJGS1BzT0wxNEljbVVXclRELTY3YjN6SGsyQ1J6d2N1Sk1aNzcyb053bEFjcE44M0RXRl9PcUNCZGgzZE80cFAzYnh4SElLc3RjTA?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CVM define julgamento do caso Oncoclínicas para dia 25 - Brasil 247",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTTVrXzY2NTFzM3ZQdVBnOGNMU2pWRmpnS2VTeDZKZHZ1NmdtUnJza01NejdMdmg2MWlxRkw5UXNjUk1SWTFjODltQU4yZUNQR0VVMFJTRmx3QmkyS1NPSk83cnRKcmpWVl9DSDUtZ1ZjVzgyU2NrTG9iNFZCRkFEWFc3SGRERDBTaVZuZFZTUmtFTENn?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Oncoclínicas (ONCO3) vende participação na Arábia Saudita por R$ 33,3 milhões e avança na reestruturação - Guia do Investidor",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTklNSTRWN2tBRllBcm1mT1BzeVpvYmJLMVZOdHNrZ0EwbEZtZFVwcXZqeF9CeUJtTHc1Zzg5OW5OMlpKX1VWcHdmTkM5RVVGYy1xZmtyalA5NzdibjFrZHF6ZzJmVV9nZGpQaWV4NU9IZVRpWlo1VnlpNFpubUdPRHlHckdjSDJKd2Rtb2l2VXI1dFBkOTB4czJiS2xuZ1NBTDg1U2Y0bEZhRnVielZDT05pS09nUVp2bF9kalFrelRIMUUxN182WjRtdm1jMFp1MDVmbnhBYWQ?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
     },
     {
       "veiculo": "G1 Ceará",
@@ -833,6 +514,22 @@
       "tom": "Neutro"
     },
     {
+      "veiculo": "Google News",
+      "titulo": "Empresário morto durante procedimento estético participou de vídeo publicitário da clínica há 1 ano - G1",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMjR4UEE4eFJqMzFTU3hGVXZxcHdNOUtMbUVUUzJndGgtRHlNMC1QMnhMRkVGRUt3UGxlSUZCaDNMb1RQZWE3LU1Pc0Z0RVZTNVJKelE3cS0wTjRYVm1Sb21nY0xHb096cjFQeUN4Q3V2Nkx0ZW1IVTRncnJkZkhqbDU2MkNaRnFGeTAyUmgyM3BNaHFaLTRITm9ha2t4WTJGd2ZUejNrTG1CRVQxekxBd25acnFCcENPQ0FVVnVjMUhULTItSVA1VGxjVTJwLU9hWlhldlNiUHJZdVFabnFjTVFleEVUQTB3NnfSAfgBQVVfeXFMTy1vT3lXQ0JmaDBqZFJReVJoNExBV3hyNmRqSEJyM3Boa3c2MWhNUlpEM2xLWTMxQk9PYW5aRjlvb0pOOU8yRVZQYlpLdHFFSjdCTUFoWjJoTWtLOUctT043NTY5ZC1QcUhTVWpPZXN3SVlKcktCX2dJZzV0RHRFNmNrOVJXVTZDaXk5LThoODN5bDhKT2JmQUlJaTA5SVNzUFN6cHJVd2tnQVpLQ2MxeWdhd2xZVkJFamVieG0zZlJVQWExeFNQZ19GQzVjTjMyX0JiT2hkMURLQlk3TUNiaXVoMlQ5QmE4WkxUUzNTXzVnUTFjWTRpMWU?oc=5",
+      "data": "2026-08-21",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News",
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
       "veiculo": "G1 Ceará",
       "titulo": "Homem morre após ser atropelado por ônibus em Fortaleza",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/homem-morre-apos-ser-atropelado-por-onibus-em-fortaleza.ghtml",
@@ -887,13 +584,587 @@
       "score": 2,
       "tema": "local",
       "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ceará tem 55 cidades com alerta de ventos intensos no sábado (22): confira lista",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/ceara-tem-55-cidades-com-alerta-de-ventos-intensos-no-sabado-22-confira-lista.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Três homens morrem em intervenção policial no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/tres-homens-morrem-em-intervencao-policial-no-ceara.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Quem era o fundador de igreja de Lúcifer assassinado a tiros em oficina mecânica em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/quem-era-o-fundador-de-igreja-de-lucifer-assassinado-a-tiros-em-oficina-mecanica-em-fortaleza.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem morre após sofrer descarga elétrica em poste em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/homem-morre-apos-sofrer-descarga-eletrica-em-poste-em-fortaleza.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Lançamentos de comitês, panfletagem e entrevistas: veja como foi o quinto dia de campanha dos candidatos ao governo do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/20/lancamentos-de-comites-panfletagem-e-entrevistas-veja-como-foi-o-quinto-dia-de-campanha-dos-candidatos-ao-governo-do-ceara.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Elmano de Freitas lança comitê central de campanha em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/20/elmano-de-freitas-lanca-comite-central-de-campanha-em-fortaleza.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ciro Gomes participa de mini carreata e inauguração de comitê em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/20/ciro-gomes-participa-de-mini-carreata-e-inauguracao-de-comite-em-fortaleza.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "negócio",
+      "tom": "Positivo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem é condenado a 19 anos de prisão por matar personal trainer a mando de chefe de facção",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/homem-e-condenado-a-19-anos-de-prisao-por-matar-personal-trainer-a-mando-de-chefe-de-faccao.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Lula retira deputado aliado de Ciro Gomes da vice-liderança do governo na Câmara ",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/21/lula-pede-desligamento-de-vice-lider-do-governo-na-camara-aliado-de-ciro-gomes.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Positivo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem tenta assaltar restaurante, entra em luta com idoso e é preso; vídeo",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/homem-tenta-assaltar-restaurante-entra-em-luta-com-idoso-e-e-preso-video.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Estátua de 11 metros do Diabo: MP e Polícia Civil apuram denúncia de intolerância religiosa cometida por prefeito",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/estatua-de-11-metros-do-diabo-mp-e-policia-civil-apuram-denuncia-de-intolerancia-religiosa-cometida-por-prefeito.ghtml",
+      "data": "2026-08-21",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "ICC abre inscrições para mestrado em oncologia - O POVO",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT2VIbkRZVEdSRVJJWVVRRWFDUV9mcXNWM1BQaVZrTU5mTHB5djBXQnZZdTVXOGZCRFNnQloxNGFxbWxwR1UxZWljUFBVcE5QUGlTbUdHNHNPWVFfT2N3Z0NQbWxzb2ZIcFplU2dMcnNaYXdmeDBwN3h3cUdYZGhMWF9CWGNIa0xfR2xKeTYtNWFEZGdrSUdfRy1QX0s2b1BveHpCb2NKcUJVQQ?oc=5",
+      "data": "2026-08-20",
+      "termo": "oncologia Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 5,
+      "tema": "oncologia",
+      "tom": "Positivo"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Clínica de estética onde empresário morreu em Fortaleza diz ter adotado ‘condutas médicas cabíveis’ - Diário do Nordeste",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYUlweUxXdnI4TEdYUXJwSGxPRzNUbWF4b3I3cVJsdXFGNU4yQmVoN2RJTURXdzRxU01RT1hBbE9jU2I2Z3FqN1BuWGJzRk9FT0RMNGVQTHRoY09zM0ZHSERaSnRNQUVEcUMtQmVjYk9rMWhaY0FIVmtncnVYQ1ViRlNGMU5LRzBIeXFmc1BHUVRNeUhMUTd4WXI5OHdOUnZVNTEyWU0tVnVoTWhXZjJOeU1LazFhOGRscGlNUUw3UDVlQmlMbXRveEdfOFBmVTMtVFlybnJzWm43b1kyZkNiOGdkMEJKWVVEVkpra0dNejA2R1U?oc=5",
+      "data": "2026-08-20",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 5,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Confiança do consumidor de Fortaleza se mantém acima de 120 pontos em agosto - Fecomércio Ceará",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWg0MEFXdW5hV212dHZoLVhwOVQtby1TYW5RQUlJZlFGX3Y3VnFMVHZyaEI3T3VmMnI2aGdVaUlTdUhpZWVmc09TazR0RE5TTnVxMFFYd3FydDhvbUMxTE9fbWZMa3FWRS1jV2lSalp0NV83eThmbXUyOU9pTXphZmdCdFJZUzFJMm45N2Z3dUkzdy0ydmRyQUw1dVNPZXREUlcyaWF1a0wxRm11X29HNzdlLTNXZw?oc=5",
+      "data": "2026-08-20",
+      "termo": "ICC Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 4,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Empresário morre após ser anestesiado para realizar lifting facial em clínica de Fortaleza (CE) - R7",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1Z3ZTExbU1xaGFYVmJhSVdnbzlkX0V0aWQzNXZpc2pEN0xZT0c2VnEtQllBUGFybmM2RTBTaHlIVW5seTFHOG5oc2swOEYweDJ3RktSeDBRWWNubHV5N0JBM1NXWUlHRjcwVGRNQkppVWFyN0FSVzZCWTRDUUszMFJlN1dfaUt4VGtBTUVIdk5oS2xGWEF6bUI3cElGakVlSEJYSk9jU09EVnhVV01zalA3OWkxdmxqWktiU3EyeFBNeFozMFdsVWE3WUJtNlVvOUxmdjZxTTlvSTg?oc=5",
+      "data": "2026-08-20",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Empresário morre durante procedimento estético em clínica odontológica de Fortaleza - GCMais",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWZXMWZjTWROMV9YS1ZWakdvLWFIN21RQXJtTElKT2ZhcVBpZXFaZDlKOEJTWnBJQmxUQlN0M05zaDZDRVBsVlZKbkp5cllYLWxDTVlFWXkzcWxrMV9FUWVQVE92bTdSb2R0b3NNNzNnRkV2dm9xN1VxYUhWQTRzWjRLdm9IMGFHNTBJTlhtQmlVZVBING9mVTBiUVZZUzNXd0IyQld2VmRvQjlKT2w3XzMwaU1YV1ltUGJRZm9xNmd0Vkk?oc=5",
+      "data": "2026-08-20",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Suspeitos de integrar facção e extorquir agentes políticos são presos no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/suspeitos-de-integrar-faccao-e-extorquir-agentes-politicos-sao-presos-no-interior-do-ceara.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem suspeito de feminicídio no Ceará é preso após tentativa de fuga para a Paraíba ",
+      "url": "https://g1.globo.com/pb/paraiba/noticia/2026/08/20/homem-suspeito-de-feminicidio-no-ceara-e-preso-apos-tentativa-de-fuga-para-a-paraiba.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Governo do Estado anuncia expansão do Vapt Vupt para mais 43 municípios; confira lista",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/governo-do-estado-anuncia-expansao-do-vapt-vupt-para-mais-43-municipios-confira-lista.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "negócio",
+      "tom": "Positivo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Dupla é capturada pela polícia por suspeita de matar idoso de 90 anos durante assalto no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/20/dupla-e-capturada-pela-policia-por-suspeita-de-matar-idoso-de-90-anos-durante-assalto-no-interior-do-ceara.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Clínica onde empresário morreu durante procedimento estético afirma que adotou condutas médicas cabíveis - G1",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQakdVcFVyUWZmZ25ZaHdyNlhFV0FScmk5ZUdXZHpUcGFaZjhHZG9TMHc0ZEdOMGhuTGlHcEVTT1VaZjlTSUVQRWw3NGNQdU5hZ2U0Z1FybXhGUzNWZ3d0Zm04aERzcVZDYUR2RnNvTnNvS1FSNVROVmRhRVJUeFc2WTFsUzFGaGh4dy1xN3daSFhWQlY3UW1HTWVGSUZaWWZNNHA2dlV5N3BveXh5TURGcFJSSklvN1pGVldRUlNBNGdKWXZpalNYX0JyTnFEWmpib01xYXpkUEZWQm1tZmRPOGhGT2RyZ1JfX2R4VldNc3rSAf8BQVVfeXFMTXBYZEpWRDhCVjlfd3RoVDQwVUdXV0FKQndyU0hnUHItSEZHMUdDay11ak53NGtOWm5ZNGRmcVFQbEptQjVaRkY2TWw1RjQ5Q24zUnR6dUVVXzYwNDdEejNtSjFPdmdMeVhUSjJPYmxsRXZxcGJLdVhweTQzajZTd2piNDhqSHhQSDIwMmdKOXp5NlZUNUFEQ295emRueGRuc2hCUWlPYnRMMk1fdGJTcmRvRWVCaXRJaEx4bTJHLUFQZHVuRmhsOWxLTDZzQlh1Z3ljREhzNm1iX0k5aXlady1oUG44RmtFY2JlTnhmVl9oVERTRElmTnUwS3QyeFlF?oc=5",
+      "data": "2026-08-20",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News",
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem assassinado na Avenida 13 de Maio era dono de bares e fundador da igreja de Lúcifer no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/homem-assassinado-na-av-13-de-maio-era-dono-de-bares-e-fundador-de-igreja-de-lucifer-no-ceara.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Joias e moedas estrangeiras furtadas em Fortaleza são recuperadas pela polícia no interior do Estado",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/joias-e-moedas-estrangeiras-furtadas-em-fortaleza-sao-recuperadas-pela-policia-no-interior-do-estado.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Força do vento impede mulher de abrir porta de casa em Fortaleza; vídeo",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/forca-do-vento-impede-mulher-de-abrir-porta-de-casa-em-fortaleza-video.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Cursos com 1,7 mil vagas gratuitas para formação em tecnologia no Ceará têm inscrições até sábado (22)",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/20/cursos-com-17-mil-vagas-gratuitas-para-formacao-em-tecnologia-no-ceara-tem-inscricoes-ate-sabado-22.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Motorista de caminhonete atingida por VLT morre em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/motorista-de-caminhonete-atingida-por-vlt-morre-em-fortaleza.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Sine oferta mais de 850 vagas de emprego durante ação no Vila União nesta quinta-feira (20), em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/20/sine-oferta-mais-de-850-vagas-de-emprego-durante-acao-em-fortaleza.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Mãe e filha de 3 anos morrem em colisão entre moto e caminhão no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/mae-e-filha-de-3-anos-morrem-em-colisao-entre-moto-e-caminhao-no-ceara.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem é assassinado e outro é baleado em oficina na Av. 13 de Maio, em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/homem-e-assassinado-e-outro-e-baleado-em-oficina-na-av-13-de-maio-em-fortaleza.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "'Não é IA, aconteceu comigo', relata jovem derrubada por rajada de vento no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/nao-e-ia-aconteceu-comigo-relata-jovem-derrubada-por-rajada-de-vento-no-ceara.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Caminhada, entrevistas e panfletagem: veja como foi o quarto dia de campanha dos candidatos ao governo do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/19/caminhada-entrevistas-e-panfletagem-veja-como-foi-o-quarto-dia-de-campanha-dos-candidatos-ao-governo-do-ceara.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Proposta visa oferecer succinato de ribociclibe para pacientes com alto risco de recorrência da doença - PDNews",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZmRmT0VYUHE1MHRFakViNjB3OEktSzNUR0lZM2k0cFlEbEtDWWprWmRZSGFEd1pvaGJOdmhnSEU4eG1mUHBFQ3hENzNsdVIxaERsNU5XT05vWmhxZUpYWVhRbHFWQmZ6aWM5QmVDQy1zY2ZFRmZ6aDNJc0JiY0lwb2M5X3k0WXBkb1p1TUN1SVFEeXJXSEQ2b0RvenItYld1WklJSHF4RXZxOWZ6YTY5UHp1Y05wTUljVGFPbmpn0gHDAUFVX3lxTE1RNVRlZFktSnhoSWpOZ1RjaE5WeUk5blhyc2pFN0ZzSTBVbUZCR0RNeVUtdjFYd2g1eUZkc3dEU3pnT1paMlBqX2JidjNYd3VYYmdjclVHLU9yZTJkTGk2LW9ER0RJVU5Vd1BZZzlqem9iUVNYOHppOUo3NWgwSWY5WlhLSExkSUdGMTkwYlRRU3JKOFM2ckc3UlAycWtST3VuX3NZRnJscEdibHpuY0xKRk53Z19ESnJYRWMzakVsWnJ4dw?oc=5",
+      "data": "2026-08-20",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 1,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Unifor promove triagem gratuita para serviços odontológicos neste sábado (22); veja como participar",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/unifor-promove-triagem-gratuita-para-servicos-odontologicos-neste-sabado-22-veja-como-participar.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Elmano propõe reforço na segurança e estabelece novo prazo para concluir Anel Viário",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/20/elmano-propoe-reforco-na-seguranca-e-estabelece-novo-prazo-para-concluir-anel-viario.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Empresário morto durante procedimento estético no rosto: o que se sabe sobre o caso",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/empresario-morto-durante-procedimento-estetico-no-rosto-o-que-se-sabe-sobre-o-caso.ghtml",
+      "data": "2026-08-20",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Empresário morre durante procedimento estético em clínica de Fortaleza - G1",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSFZTejc0VlJwQmZqbHBLQU0zRzJJemI5NlNCWGl4VXU1QllGTFQtLVI1VkJpOXc3R2hJQ2lHc1VwTXJMbnNZa2hfZUVmUGNXU3U1cHJ1MEpiQU9pQTJER2t1aXlHeUF2ZG4wdTJpd052MWlSTXJQUThVblM0Z1l2cmFWY0w1Z3ZUcHh6a1NIXzRWclR3NGJ4UmMtVdIBqgFBVV95cUxOc19iU2ZiVHRpRWlFVENJUlNkZzBJN0ZDb1dYLW9vdks0aktJdThsMjFSZ2lVak0xYmpHX3ZqTEZqUmZob1NrOUlWTG5EazBVWWc0MVdNaXNFbFROWlY4SjJiMFhWdTl6Q2dvZWQ0ZWNBSUlIRlNRQ2dZRzBTQTh5X3NFOV9CY3h4Vk4zZzEzTC1mWVVES1BOMUlieVdhZkFWWmsxdk9VeWFsZw?oc=5",
+      "data": "2026-08-19",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News",
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 4,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Quem era o empresário que morreu durante procedimento estético em clínica de Fortaleza - G1",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTFJfaVhTS1Z0NlVreWZwS2t1Ulh2eFhmRHlrRUVPc0NJSW92Z3dlRE9rTHo4ZXVFNEhyQmtKR3A0cURyeW9XeXFxeGtmZV9JN3BGQURxYXRNVkNfSVNIck5FN1NJVXVMQ1Vkb2dSREI3X3N2TVo1UlMwTUtCMGJnbkQ0cGc2OUwxSXFlb0ZzNE1wcGRDdFd2Zi1wTFA4NHpHNWIzVEt0Uk1sS1FKYVVCaWJXVDY2ZjNhMFJ3VFFXYmFZVWRaUzgySm56Q0xIYTlGZmo2Y2p30gHkAUFVX3lxTFAydlhQMTNaNmRaT0VYbExYWjJFMkgtYWRNOHF4VzJSM1l1TFJONFJRbGlVUUlzallteVBvNjVMMk1iTWU3ZndhMzZBdkd3c1NZaGNyR0h3b0tuQmhpZkZhYndnRk9EVVlLM3Nkd1Y3Rl9kTmNRUlRQWmUtemlVUkw4UE5wRWRWc0twekdjc0hBbmN0RnpyeVNIdTZVVmUwUFlFQ0FPY3BxbFhmSGkwOUpSN2Q5cWdpRHNCclozaVNSUGtPTXEtdGZlWVhCVGpyZUd0ZTMxWVBsQmhmX3VBMTNIWUVCTA?oc=5",
+      "data": "2026-08-19",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News",
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 4,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Candidatos ao governo do Ceará concentraram atos de campanha em Fortaleza nesta terça (18)",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/18/candidatos-ao-governo-do-ceara-concentraram-atos-de-campanha-em-fortaleza-nesta-terca-18.ghtml",
+      "data": "2026-08-19",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 4,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Empresário de 45 anos morre durante procedimento em clínica de estética de Fortaleza - O POVO",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSk1kSk9PSE5obVZvS2Rkal9BSDJjQURTRTY0cWxfYmtzTnM0cFVWaTZ1cHNGZ24xblctVVZpTG0taGJsTnpUMnhMU0MwbmhDWU5TTXdWWjNnd1JZeloyRGo5VmwtTi1ZRzk0ME1OWUh4SHo5NGZ5ZDJsYXpRVXg5VV9jbjZKLTlUSUNNTHFPUUpyRDNHNFIwN1luN3FpOTUyNkdLNk13VnRNMGp6QjZWUERUVF9JSGx6dXkwMHNWX2FyN3E4eUFyaTJOZ0YyM3BLSmV3MUs1aU1KcUxoMFVRbHdjRWsyc1k?oc=5",
+      "data": "2026-08-19",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Empresário de 45 anos morre durante procedimento estético em clínica no Ceará - Terra",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSENRWTFVOVBONkZoTWtwU3A1R0h3d2xKbVZSV0xlT29Tem1aV3NvdlFFNlpRcTRGYnk2cUp0MmhySGFSWGtRZ2hiSmkxcHRHUXJVcTVwV3RNSWZoX2diMHV2eVVNM0k3RUVtRnA1aDdmZ1I3NHRLMEU5Vno2U2l6ZTNROUFnVVZqT01sZk9aLTIxSDRNQ1dFZ1ZvWm5IOFlpcXRKdnAyMGdvU1EzYmd6eXltUzlVV3Rqak1nTkZ2RVFVSXB6c1lTSUdEeHNZQWV3Z3BSQ0ZlQ2NqQnpscC0zVGZpVTlWV0ptVF82d2FqeWllUFF3YnNTQndsZV9NTEkwcHc?oc=5",
+      "data": "2026-08-19",
+      "termo": "Oncoclínicas Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Negativo"
     }
   ],
   "atosLei": [
     {
       "titulo": "Matéria legislativa",
       "fonte": "Senado Federal",
-      "data": "2026-08-23",
+      "data": "2026-08-24",
       "url": "https://www25.senado.leg.br/",
       "tema": "legislativo-federal",
       "impacto": "BAIXO",
@@ -999,15 +1270,6 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa proíbe venda de suplementos, emagrecedores e remédio oncológico - D24AM",
-      "fonte": "Anvisa",
-      "data": "2026-08-17",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSkp5ZVRaNVJMMW1qZFVGTS04cHpUd3VBbWdyNjIwcWUwV21MZEQtRmhvbjkyaUtqVDhDeDhFU3R5N1oyZUREOU5GNGNaOFg2RHZ2SFlvRl9oQkxaQnFzZHJVc0dCdDc0bzVCZl9LM0ZGRGI2MWUyZEk0YnY1eDZsd3lFTXBOcTFGSWZPVV9Rdms1WDNSb05CenBlUQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Ministro da Saúde visita hospital e carreta de imagem em Jundiaí (SP) — Ministério da Saúde - www.gov.br",
       "fonte": "Ministério da Saúde",
       "data": "2026-08-14",
@@ -1022,33 +1284,6 @@
       "data": "2026-08-14",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcG1PWGxnZ0F4T2xMak9aMXI2N2NHZk1mVGlkZ28yckI2RWpGUE9jOFVqMXpMLTZQTE9jT2tpSGo1YmpJdXljLTRBMHpDVEFISEFwek94SURkSnZIQWliYlFSZzR3UDdmb1FOLTVQRzVkRE1qaUZHUkY2RGtTeVp4U0FLa0hRUU5uc24xM0dFMjlIdW9FV1lXNGZNd3Zrdw?oc=5",
       "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Altera a Lei nº 9.656, de 3 de junho de 1998, para considerar nulas de pleno direito as cláusulas que condicionem a rescisão do contrato de plano privado de assistência à saúde ao cumprimento de aviso prévio ou imponham a cobrança de mensalidades ou outros encargos após a manifestação de vontade do contratante. (PL 4998/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-11",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642697",
-      "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Altera a Lei nº 12.732, de 22 de novembro de 2012, para prever o encaminhamento de pacientes do Sistema Único de Saúde a estabelecimento privado quando houver descumprimento dos prazos legais para diagnóstico ou tratamento do câncer. (PL 4929/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-07",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642188",
-      "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Institui o Programa Tratamento Garantido, estabelece o Sistema Nacional de Garantia da Continuidade Assistencial na Saúde Suplementar – SNGCASS; cria o Fundo Garantidor da Assistência à Saúde Suplementar – FGASS; dispõe sobre mecanismos destinados à continuidade da assistência aos beneficiários de planos privados de assistência à saúde nas hipóteses de direção fiscal, liquidação extrajudicial, alienação compulsória de carteira, insolvência ou encerramento das atividades da operadora; altera a Lei nº 9.656, de 3 de junho de 1998, e dá outras providências. (PL 4888/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-05",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641973",
-      "tema": "legislativo-federal",
       "impacto": "BAIXO",
       "origem": "auto"
     },
@@ -1071,28 +1306,10 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - ICL Notícias",
-      "fonte": "Anvisa",
-      "data": "2026-07-29",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jaGdHcEJpNm9ydFJFX1dQRW1uUTA3RDFEb0JfaXR5RkNxQlZKTGNCRWZLMTlmaGpRbk9CS2JwQTZxYm91cXhlZW5NdmZ6cWlZX29QRVZnWkFINFI3Wkp2cXVkYXZpQTd6dUxlN3JEbjN1NjQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Folha da Mata",
       "fonte": "Anvisa",
       "data": "2026-07-29",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV2l3bGJiVjBQTC1JN1JCeWh5YS1CMlNFNGRLTzRNSkdQQXE5c3lwdEt5TE5DTFZUcXJHdTNQdlp5RmpCWWxoMDI1SzZoVWRDYmc2MUhZR2pSMDNyQl9fMkFPM2c0VlJYaXBzSlpuTG40Z2FEZG1TMUgxYjd5Y2Z4V2JMbURTRmtzWFgw?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa aprova novo tratamento para câncer de pulmão avançado no Brasil - JM Online",
-      "fonte": "Anvisa",
-      "data": "2026-07-29",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFhBR0tnV2FkSmZQaHU0YVIxNk5wSUZkc0hqSXNUTm9Xa1J0eElLV1FINnFEdURjV2s5XzRXUVJjVFFWaGNydlZzdG8zc3dIc0VydVV4M3ROdTBlR1ZHVWQ4c3NZVVdHMGhjNnZsNC1yaHllZjFZdl9nUzh5a2dPOTF3djdUbjF0aTZrX1ByYWlkRjkzckF6Y1JlUDF0Z1lLQVRzdnJYcUhFcGM1emfSAbYBQVVfeXFMTnFobENyUF9iZDNyN2Q5cUlOSkpfS2xkREQ4c3dTeUprZ0ZjaUVLbFJVcVZvaWVlUEVkalAyQVlQUlExN29YMmhXNE9NRVVOcmNmZEFMVWJibngzMS00eWtYbXlhT1l1Q283QjRZV3R5SEJSQXBvZ01PZ2s1TEw2QXZoY2tGWklBWElFcEp1NVhLUHhrbXlzZWs3elV5TWNUcG9CdERSYm16N0Z4cjhxMzFnaFhOSnc?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1116,6 +1333,15 @@
       "origem": "auto"
     },
     {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Coluna do Meio",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONmQtVU5GdWZBZUk1TlBycHJlSDMzcnBlbndNQk04WTZDYmtIdXl5eUxrelQtcjhjcjRMQ0VQVG04Q2d0MmVjUWx1cmhpUFBJZmhINnJKSG9EMmVheWFvOWNVaEJ0NWpSSVJUaVhzZmlPR3phb05URWFGNng4dGo2THk5dmFZTTItRHBLRUhjQVgyME94NUMw?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
       "titulo": "Anvisa aprova novo medicamento para câncer de pulmão com mutação genética - CNN Brasil",
       "fonte": "Anvisa",
       "data": "2026-07-28",
@@ -1134,10 +1360,19 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novo medicamento para tratamento de câncer de pulmão avançado - Folha BV",
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Ilustrado Umuarama",
       "fonte": "Anvisa",
       "data": "2026-07-28",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTkNOTFZvMXVqcUR5dWxpTnVleGVqM25BZ0lyMnZ1RjZGaXQyM0RXZkxhLVVpWUNxVW9WUDlJM1ppM1lBMHBMbWlZZzY2cUF0bDk0UzR6U1pWWGV4MmdsR0lUMWxOYXFtUTAwYm1OOGFkR0oyMG43a1FxNDFScDh0NzBFWGNlN3FraGl3djdyX1FGY2dSeU9uTWpkY2Q3RzlJMGlTZHFIeEVJcF9UTk00LTU4eU1QZ0ZFS0hXY0tR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcS1qSkdRN2psdmJwc2p4c19FcWo5U0Z2TlBKa1BxVzcwdUtfdnI4dEh0dS1jTVVuRkZoYlV4MjlHSE00MmRiR18teGd3V0haN2NJVGoxUnlWUDVtdnpBTy1pejNDd0xGRS1vbFJsVk80b3d4VERXNGtfS3JiU01BQk9OSzc?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Clube FM 104.7",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc0ZvWWdvczBIam1fLUJzT19XSWhUakVSdE5BTmNISXBxcGhsa0ZtZk1ENDljM1lOSWtGLXM5R01BQk9HZHgyS0hDN0RqM242VjY4Vkd5NzZZclE2UTJmcWdLWkFGNVN3NVI1elR4RTRxQ2V5ZVl0ZG5mSkZuQXlMRWkybTVDT3FjbENBamF6ODk2NTJrYWQwWEx3?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1152,6 +1387,33 @@
       "origem": "auto"
     },
     {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Correio de Carajás",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbWE1OEtIbmJTSi1tVVpnaEc2TnpkQ292dEg0WnRjRTVxRWtFVDVrb05EM3ZhVlhMNWc1blg5ZFRkczJBN0QxLVBVYW5udkpUOXRWMGpHd1Vmc2cxYklCanFBcUc3LVRweEFSbmpWY3A2eC1UeWc4bmFNak92U1ZpVjBaaUtsWExWT3lNLVdR?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para tratamento de câncer de pulmão avançado - Folha BV",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTkNOTFZvMXVqcUR5dWxpTnVleGVqM25BZ0lyMnZ1RjZGaXQyM0RXZkxhLVVpWUNxVW9WUDlJM1ppM1lBMHBMbWlZZzY2cUF0bDk0UzR6U1pWWGV4MmdsR0lUMWxOYXFtUTAwYm1OOGFkR0oyMG43a1FxNDFScDh0NzBFWGNlN3FraGl3djdyX1FGY2dSeU9uTWpkY2Q3RzlJMGlTZHFIeEVJcF9UTk00LTU4eU1QZ0ZFS0hXY0tR?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova Datroway para tratamento de câncer de pulmão avançado - D24AM",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRmhJS2ZySHRoSFVRbEJWT3dKVXJVNWgwOVc0UEdGWUpCbEhSS0VQTEtRS19WeXk5VE5JMjhxNUFOTUNKbXN4Vm1FTU9kOXR0dl9QUmNJaXFDZDgwZHhiSnJLcWZhRUhUOC12czJ0TklUTGs5ZXFVWVY4bkV0eElrYXBfUG84RXo2NXZTd0o4SnYxVDE0VGRV?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
       "titulo": "Anvisa aprova novos remédios para câncer de pulmão e doenças inflamatórias - viva.com.br",
       "fonte": "Anvisa",
       "data": "2026-07-28",
@@ -1159,47 +1421,32 @@
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - iMaranhense",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVjMyRUFPRE9CbHdhSVN1dlRXVWdFODZZWHotdGlBcmtkZVBmS3dEMU56UlV3RU50aHkzLVM5SXJSUks1ODA4M240ZGdvNlJNTDFzdTZXOV82cllodllsekVpX3dKVU85OWxfbVVQQjJhWXgzZGZvdFpOdmExUmppNUJMS3NMSjVxSDNfQmg1NDROVG45?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
     }
   ],
   "movimentacoes": [
     {
-      "tipo": "OPA",
-      "empresas": "O plano dos minoritários da Oncoclínicas para o pós-julgamento da OPA",
+      "tipo": "Fusão",
+      "empresas": "SUS pode incorporar medicamento para tratamento do câncer de mama inicial",
       "texto": "Google News",
       "data": "2026-08-22",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS0dlbkxfd1RHVDY2aGpyaDJQNUNEdS1aaTlkZk9VMXJucjJXSHExMWtHaEtPdEZCSWlnb1hLeDB4WE5qN1Z0c21WZWkwaUo3aTYwS2d1TWF4ZXZUNG5ULVVnLWF3ako2WHJGYU90cTg5TWZzeG1CS3Z0azJpTHo4RTZfSUVpZHRNN2ptOEhIUzdVUzhONHdZMUtoYzA3aVgtRE9JS25mUDFLTUJSMGVoX2JSZ0xwZzlkOU5WR09PUl83aVNlWFHSAdQBQVVfeXFMT0REM0hBRzhWTnprNUtUazZKa1VMb0NJQ1hXa3BoNEhMTkRoUHR5VDV1c2JqLUVZWXNEd0toY21QY0dsbWtVSUl4Y3B0M1o3YTdZemtDc2hNMmYtSzM5dWN0akFQcnIyTERtSEJncUE1am12c3o3RFVFak9GZkFYUFhRZmNqaUxLSV9wc0xYeG5mVndMU3VSb1BMbkpiajJiOTh1RWloUGgwa0xSZHdrcUhnWDJWSlZ1c1M3SThhaGh0S1d6QjRzbm9BcExoS296OXQtcko?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRTFiZWdJVUVXQlAwbmo4cGhHLUpLRmUwZEVFZDB1d0ZiMF8zUTFhRms5b2txV05fZGlQZlMxYXA0SWZrRWI4SzNfdDZ1WUdzNWxjREJrNmw5Q3Rjamc3dXFLbThBUy12SE9iVTBFTllSeHpGVzJpUkVlQ2xRTDJiZ2NkTmhwcVA3alJBTmxMNFBlX09VdS1hbGIwV2pGUS1ZeUIwd3pRQU5yanBZeDhrajhFejFoZmJBV1ZGN0l4X0ZzZ3pa?oc=5",
       "origem": "auto"
     },
     {
-      "tipo": "OPA",
-      "empresas": "Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaurus entra com pedido de arbitragem",
+      "tipo": "Expansão",
+      "empresas": "Plano de Elmano propõe Distrito de IA, expansão da saúde no interior e reforço no combate ao crime organizado",
       "texto": "Google News",
       "data": "2026-08-22",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUmxjeEpTMVJoVmJ1ckZ1c1EyVERRTEZielB3ZVd5enpfb2cwV3I1MjE2TC12bC1qbWQzZWd5bjZqdTVnWXF4UGxNWXVrM3VUSUpZVUJ5dWVvYmFpbGNMZlgycGQ1X2IwWmpnNmdhUVBsSWxta3FJZUoyM2JicFN5MGNHMNIBiAFBVV95cUxPT0FmNUxwX09RVWR6Y21JNXN6eVpSNm1vMWc0RjhLOVZ2Qk0xRmRlcmxSeE1RZERwV0I2NnhseE9YTGhWQV8wUGpUcVZ1WGFKTzl6QjQydVdnZXNFZldxVC1hZVdkWEJMbWE5SXlZMHNLb212TjhmT2J4MksteVJWbXFEblc3S2hk?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "OPA bilionária da Oncoclínicas vai parar em arbitragem às vésperas de decisão da CVM",
-      "texto": "Google News",
-      "data": "2026-08-22",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN1dvRGN3b0dfNklrUjllQlZjUF9uMTNuODFWMEJyS095WDVYN0Z4Mm8ycER4aGlRalNJR0JsNG9MWEl4NkJoSzc1LXlDVWp6TnE4WnNHRnliOTdUZlZFQUowSnhKTVFjR0MwR0YtOVY0ZnMwcG01OHd1WFZhYU1hU3B4ZDZIUng1Y0d1QUFpb3FXM0haSTFjcU9Jb2ZGNnU2VEhCaWNIako3SHVrbVZSVmdGa25wQkx5UnFDZGxMMjRMOFVCODlQZG9LVnBPT0szTldVRlR4SExuZ9IB6AFBVV95cUxOXzV0YmRMSGZ3MzNsYmFVTkt1TTBGN2RPWkV5aUJqbEpCel80bjBHTEdGeDlIQkdYU2JEc243TXU0N3BfNHdNZ010Rm1OZk9jS0NyN2hzVEFlVVRuaXdqNzczTkNYYzZkaFVEM0EwOGhrMVhuZWdPd1piaDl1SG1ZRnpUMFBYOUNtTlR4TDJtOWVJWTJGemVKR3V0N0dQY0tzZWJSN0ZWOThKVUlmWWZfQmdfMmkzYlpoZlhXZXZ3N0JiRGFwS0tNeFNlVjVyeFB1U0ZPYTFEbFd1Z25pX2twcElVNWhFcF96?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "Goldman Sachs e Centaurus pedem arbitragem no caso da OPA da Oncoclínicas",
-      "texto": "Google News",
-      "data": "2026-08-22",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbUtKNFk2OEh0dlVOMnBhUUtWY2tJRWROMWk1bWljeE04YmxjMHJKbmhpT0xzZTJLLXRBdWFIaXFXQy1jTXZmV2FrdEs5bXR5X3REaWRSdkVfWmVTSWc2T19URy1NUFJFVU1rdFJnZUZ0ZjA3aC1TVU1FSThwM0J5NUZQZWZldGM2cVMwRHZtaW93bFVSY09DcnRTcXRZajdIZGJnMzd0NjJQcDZDRE4yRTkwSFQwX1BLOFROc2FUNkVQcWRqVmVJeDkwVWZ0bjQtVGlQTndwLUV2dnoyMlFjbDl5Q3F0dlRjQUNB0gH6AUFVX3lxTE5Ia196T0pHZG56Q1I5M21fekNSeWV3MlBQeEtTcmJUa0hZempoMW50anR0dTVCMExJa3JULUFVQWFaQklTQzQ3NjYxOXJhczFYYTNJVjQtR3Y5dVh5SDBuNFhfZFgyU0prV2U2bGRKSUd4MUlqb1dXclFMVkFhTlZuaEx2OEdMeHQ3eldKVzBmX0hyaG9Qd3VnbnF5YlRQSllJQlQzbXBMeXFIUFV5NGNxandrYVUyaDJfMzNWYVh1WEJ4bjVHMWhPUG1QRjQzc0NfUHdPMmFhQzZNUmtxeklUOE91a0ZWdHVDcWdOeW1oNGJNQ1pnajdET2c?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "Antes de decisão da CVM, Centaurus pede arbitragem contra Latache para evitar OPA da Oncoclínicas",
-      "texto": "Google News",
-      "data": "2026-08-22",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaWRlMXBnZnEtUXBDRFFRckNXalNSckJvUVhXaXViYmtUMm9Qc3dTOWpaNFFWNzA4SUZIakpKc3hHUmVFc3pTZGFqRThuQ0dETFJIdjNBNG41T0pOV2tSTi1TTHVBM3dxbnRvZ29kaG1nbHhUWXB0dkZnNlpsRTl5eElEa2VLU2NWdkdMOW1EY2xYcHVMLWQteEdQQWJrMWJXQk9CQzBfQVVHTXh4aWpoS2d4OXVGdElFOVFkR01IYlV4WWN4UTNvYzVlLTFHcjJwUGtLYnNnOHpmOEZ6bnlTY3YxSEhQazZYRHfSAfgBQVVfeXFMUG9Wd0RkZndVdS1UNllWczBlRUdxSHYzbU9rZ0dDX2tSc2JQQ2dwTkw5a2MwWkNOUy1lOUtBMTM2ZHpjS2g3UzFiRUhUdnQzWFdscllTVXdodmJVMFAzS3VYV1QzajhKei1WR0tBWU1PeTRVbENzSVg0aHplYkJzM0l4b0ZROUZ5c2o4ZGtUSXozQXhZTTJFVDFySFZpYmRWbFJES3pRV2VzWmUtbGZuV3NBV0JMMk9zdDZKQTVJa0d1UENkdXQ5RG5reFF5eFdMaWJrOXJvVng4TmNsT2lUMWNBeElRM2RrTWg5Q0pXY2VrR0piNS1xek0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNXh3NnRSdVFISzB3RHN6NmJDQzR4eG1hYzBKMUJWUmtyM0VscXhfYl84ekhnWlBPbW5aMXZmeHlnUDVCVjYyT1VUOHJrTWplSUtEQkowMVAwaDR6WDQxRi0xOERPTEtXcjVDVDVCdzY1em42NXFDdWFZcWpTWk5ZRldkX2dkeFRUTGxNWDFGUVNxRmFFNzdfUzVVVmxUUHFoQlV3Mmotc3FTcmtGTThGNzhidFpPS0JtZ3Q5dWlkekkwYm5TVWpUd0k5OE1KVm5hMTVKTTI3YWt0STR5Y1FTRVhPajJBUjVPQnRz0gHrAUFVX3lxTE81eHc2dFJ1UUhLMHdEc3o2YkNDNHh4bWFjMEoxQlZSa3IzRWxxeF9iXzh6SGdaUE9tbloxdmZ4eWdQNUJWNjJPVVQ4cmtNamVJS0RCSjAxUDBoNHpYNDFGLTE4RE9MS1dyNUNUNUJ3NjV6bjY1cUN1YVlxalNaTllGV2RfZ2R4VFRMbE1YMUZRU3FGYUU3N19TNVVWbFRQcWhCVXcyai1zcVNya0ZNOEY3OGJ0Wk9LQm1ndDl1aWR6STBiblNValR3STk4TUpWbmExNUpNMjdha3RJNHljUVNFWE9qMkFSNU9CdHM?oc=5",
       "origem": "auto"
     },
     {
@@ -1211,83 +1458,19 @@
       "origem": "auto"
     },
     {
-      "tipo": "Aquisição",
-      "empresas": "O colegiado da CVM vai avaliar na próxima semana a discussão sobre oferta pública de aquisição (OPA) na Oncoclínicas. O tema entrou na pauta",
-      "texto": "Google News",
+      "tipo": "Expansão",
+      "empresas": "Ciro Gomes participa de mini carreata e inauguração de comitê em Fortaleza",
+      "texto": "G1 Ceará",
       "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QR0ZXMUdfNno2WGtRTWFWYmY0QUxHMlRjbmJMRWVfSTZwWW44dmNSczA4RmgwM2FQSzFnemdnUld2VXJHSm9XUHFaWFUwREV4bnc?oc=5",
+      "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/20/ciro-gomes-participa-de-mini-carreata-e-inauguracao-de-comite-em-fortaleza.ghtml",
       "origem": "auto"
     },
     {
-      "tipo": "Recuperação Judicial",
-      "empresas": "Em recuperação extrajudicial, Oncoclínicas vende fatia em empresa na Arábia Saudita",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQjVZZVJYbkZoeDdpTTNuZjl2dDdtcDBhWFhXTnlqLU0zWmlmOWhTU20weUEzOUQtVWdsZ3RlR0xXYlRETmVMelVoVHY5ejhwZWRlVFg2T1BVbkVBSXBsUXp5OUJJUkl6WVlWTFA2VlNHOTlRQVZTY3ZUUkk1d2RUd29WaFVVYmdaLXBwZmZ4aEFTZkUyRXZxaUkzc2NpME45aXE4bWNYUmR2RzljTFJtQ1JvLVVhcUFBX192eDlhXzFQLTV2aU5iZjVWZ0UtVlBpVENJTHFiR0HSAd4BQVVfeXFMTnBLZ2tjcEI0RTRScE1LQllCMnRZT042bWJHNTRFZzVUNzExaGJvemNyTmpoR2c0eXR0NXluOEV1a0p1cGR4bzhPTWo5d0lzY0haeDJoWEZhQjBhSWJoNHBlWjFkZDdFTW05c1JPRDF4SEFVLUN2TGlEblFYMGRlbUpNUzZzRGNWTHVnd2FPZ2wyeC15TWVzdVFuZGpPaE9TU25TRU5XZzhwakoyREZPTzd4Skd3VUZQU3BvckxjQUhvcjh2a1Y3OHpXTUFyeURlQmFvVi15LS1SYnZwS3NR?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "Joint Venture",
-      "empresas": "Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXNEdEliTnFORUt0S09GbHU2UmVuc1EwQjY4WGs2QW0ydkcxc2JzRk5kdzV3QVZwTC1GM1F2R0Z6R2wxd1M5YWo0S2M0NHhQcnBKUm5QX3c2LWVJakxoMm5iUnRGUVpPc0xLbEJFMnppMGowMWoyeXpOc09WazdyWl85WF92MTFqelpQSF9oYWpMaEFVX2NZcU5POW5JdWIzUkxFbmNsOF9pNWtPSHNBd3FoZG1BRW5PRGpDVm1FSkRHTjNz?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "Oncoclínicas sobe 11% com julgamento de OPA pelo colegiado da CVM marcado para dia 25",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ2tnUnZoQVQwb0l3U0k4MWxkdTdZb2dwZml6N2x2WUFWNUpHVWdzdTZCMjhEQkQ2VXNPUThnR2ROcm01VFhvZk1nVGhBYjIzNzdOOXFQUDVWSnhEUERNQTlQbnpMbWNid1EzSE1BSEFqVHkyUDVMNUxyQVBKRHdyeEstRzNzSHN1MS0wSVlRZWhrQURWdzVJRFJUUkNBMDZwMUZrUFItVEFRY3hLVVFxNmFJMFAxVnFRSHA2N2QyNWxFeUk1RG1EeDVOWG8xaXJIVV80Slk1aXJILTFGeFNkd2VSUVpscFJPdXpGV1hUd1ZFd9IB8gFBVV95cUxPZ2tnUnZoQVQwb0l3U0k4MWxkdTdZb2dwZml6N2x2WUFWNUpHVWdzdTZCMjhEQkQ2VXNPUThnR2ROcm01VFhvZk1nVGhBYjIzNzdOOXFQUDVWSnhEUERNQTlQbnpMbWNid1EzSE1BSEFqVHkyUDVMNUxyQVBKRHdyeEstRzNzSHN1MS0wSVlRZWhrQURWdzVJRFJUUkNBMDZwMUZrUFItVEFRY3hLVVFxNmFJMFAxVnFRSHA2N2QyNWxFeUk1RG1EeDVOWG8xaXJIVV80Slk1aXJILTFGeFNkd2VSUVpscFJPdXpGV1hUd1ZFdw?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "Joint Venture",
-      "empresas": "Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0FOSG04M05QSVZUN2JvZUEwOWkwSkI4VlJfRHk3cFBsOENJTkRkQlBPVXVWdVVEcGc1eGw3NjM0eUM2bEtWMFdiTVlFNC1PVmhvay1GMmFyWVhiZWd3QkFvN2Z3OUdNOUEyVUVyM2l0QUctMS1OZXUtUTRYNFRFZzdPZmxqOWJmbkRTUg?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "Joint Venture",
-      "empresas": "Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVk9tYktfeXVMRTN0U01mRW4zTVFiOWdNTEVHRUxpOERiaHp5SVd6ZHRrd2dUWkVnOF8xcW01WTV0VXQzeC1pbE0wYmFRZXRsV3JYZ0QzaVpSZ3NzcVFBRlpNVE4temt0QmRham5Ib281MnRETzh0TFJCek03M3ZBWFhnUWZVcXJ3b0t6OGJPaVdSekhSN3dfWndaM3ZCSk85YzBweVhaQ2NoVl9pTHRzcFdiSE9PeWlJUEZiYnNYb9IBxAFBVV95cUxPY1RqaTNuNElmUXQ3TGpyd0Z6NTdHX3pxYUtRZDdGZE96WG9fYndJcWRUMVZWM1FLUDJJQWNHNXBjcHktNWZVcjFrbE1YTzRDc3YwblFGS0xNYWg3Y3o4amdmS3k1ZnRaZXR5SkRnd0dTMS1Ub2hDdUZJYW1iMHk5QjZVV19rUl9VcEFMbzF4dGNjWEhlY1ZqdFZJUEl1YVBuSGVrclg0ZHllSU5fUWdmd2ZWYWUwRTlKSmJ6ZjBMNlRPejVi?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "Joint Venture",
-      "empresas": "Oncoclínicas (ONCO3) conclui venda de participação em joint venture por US$ 6,55 milhões",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeW4xY3Z0ZFhmb0lhbFUwRVM0cy1WbDRFRTBjMmlyejFSaTRDZXlQbGFYN1FWSDNhdHV2N1JuZXlXaXJpNFRiMlZDRDRfbFRIZXpXQjVzYmItb1VDZmdNMHNERV9yTGoxbnpoVjQweEY0UTdpU0hxS0s5WlkxYnU3dzVpWG1JcmJySW9qX3h1RVdaWVI5c3luUG5hV0hCSjlkY0pDVFJSUGtNUzVvamNzckpWdGhPN1RHeGtQUnFGbzRHVGt3N2hwZHQ3cU9WYzTSAc8BQVVfeXFMUHluMWN2dGRYZm9JYWxVMEVTNHMtVmw0RUUwYzJpcnoxUmk0Q2V5UGxhWDdRVkgzYXR1djdSbmV5V2lyaTRUYjJWQ0Q0X2xUSGV6V0I1c2JiLW9VQ2ZnTTBzREVfckxqMW56aFY0MHhGNFE3aVNIcUtLOVpZMWJ1N3c1aVhtSXJicklval94dUVXWllSOXN5blBuYVdIQko5ZGNKQ1RSUlBrTVM1b2pjc3JKVnRoTzdUR3hrUFJxRm80R1RrdzdocGR0N3FPVmM0?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "CVM confirma data para julgamento sobre OPA da Oncoclínicas",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV09GQWdnRHR1UC1tVjFaN0paTFNvNW1LeVduZlVWTGV3ZjlydjYyaVdnbUxxUVFXSklYaVltRHkyTmdETmdRMVlHNFhpd3VfU1pNRUFEaEZPbkI3VVQyRlBIb0wwbFl6Wjh4eDVKTUVrVWs2bTlQU2M4NnpqWFV1aFMxc3FJVnBuNWZCWHRFa1M3a0k0Z2hNbFlFZ1JuVzZya2pEQnFWdmtQSms?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "CVM analisa regra dos 15% no caso Oncoclínicas e OPA pode chegar a R$ 17 por ação",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWWVtMzk1RzQ1cG5GbDVEYUJBLW1iSlU3SEFXQjJmWmdiR3FQLWxHVmRsSDJmdGFZLVpqU0cxMnlBVkVRRFFyakFYNjZJVXRDNHV3aVhyR2xIQjVUcUhuczdQSGVfUUlMT3NNOXdCYmFTdW1wbUstbVozWWhrb0xfSHFBcmIyc2I1Y3RQVzdMdzJnZ2ZrT1NyV2hYUkZWMFZ5QXlVd1F6MnczZlZzT2J6cW11NENTZw?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "OPA",
-      "empresas": "CVM marca julgamento que pode mexer com ONCO3 e definir futuro de OPA na Oncoclínicas",
-      "texto": "Google News",
-      "data": "2026-08-21",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb0xQeDdjWUxqX0dfQjR1eHUzSWlxaWR2VjVyT3hUcnVVY1ZGY3hJVEF3RXFLeFJJMzViZ1h5aUQzbUxLMGloSW9PNU03U0swbkotZWNEWUc1MVdKVXZ6T2xjSUV4Sk4yTF9YYWM1cU1qUWNSNGpiR1dNNTZiWlJpczd1djkxWmRhU1k2Yi10OWUzNGxYOGtUeTFZQUZCRnppU2dkaGdWRFVFUEpvd1NuVVRZZzNtQ0gxeGY4M09LZktxbXNa?oc=5",
+      "tipo": "Expansão",
+      "empresas": "Governo do Estado anuncia expansão do Vapt Vupt para mais 43 municípios; confira lista",
+      "texto": "G1 Ceará",
+      "data": "2026-08-20",
+      "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/governo-do-estado-anuncia-expansao-do-vapt-vupt-para-mais-43-municipios-confira-lista.ghtml",
       "origem": "auto"
     }
   ],
@@ -2693,6 +2876,6 @@
   "origem": {
     "motor": "ingest.mjs",
     "versao": "2.1",
-    "mode": "weekly"
+    "mode": "daily"
   }
 }
