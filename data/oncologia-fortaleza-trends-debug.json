@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-08-23T17:36:53.144Z",
+  "executadoEm": "2026-08-24T11:13:32.241Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 71
+          "ultimo": 18
         }
       ]
     },
@@ -76,12 +76,12 @@
         },
         {
           "termo": "CRIO Fortaleza",
-          "status": "ok",
-          "ultimo": 4
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         },
         {
           "termo": "hospital oncológico Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         },
         {
@@ -117,7 +117,7 @@
       "resultadosPorTermo": [
         {
           "termo": "biópsia Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         },
         {
@@ -175,13 +175,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 61,
+    "ultimoValor": 67,
     "status": "wrapper-ok"
   },
   "resumo": {
-    "comDados": 2,
+    "comDados": 3,
     "semDados": 0,
-    "semInteresse": 15,
+    "semInteresse": 14,
     "total": 17
   }
 }
