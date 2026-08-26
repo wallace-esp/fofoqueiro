@@ -5,13 +5,83 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-08-25T10:17:36.225Z",
+  "atualizadoEm": "2026-08-26T10:58:38.583Z",
   "ultimaExecucao": {
     "mode": "daily",
-    "em": "2026-08-25T10:17:36.225Z"
+    "em": "2026-08-26T10:58:38.583Z"
   },
   "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Panfletagem, caminhadas e promessas para a saúde: candidatos ao governo do Ceará têm mais um dia de agenda na capital",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/panfletagem-caminhadas-e-promessas-para-a-saude-candidatos-ao-governo-do-ceara-tem-mais-um-dia-de-agenda-na-capital.ghtml",
+      "data": "2026-08-26",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Suspeito de matar o próprio pai é preso no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/suspeito-de-matar-o-proprio-pai-e-preso-no-interior-do-ceara.ghtml",
+      "data": "2026-08-26",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Tenente da PM condenado por matar delegado durante discussão em festa é preso no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/26/tenente-da-pm-condenado-por-matar-delegado-durante-discussao-em-festa-e-preso-no-ceara.ghtml",
+      "data": "2026-08-26",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Auditor-fiscal acusado de receber propina em esquema de importação no aeroporto de Fortaleza tentou jogar celular no sanitário durante prisão",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/26/auditor-fiscal-acusado-de-receber-propina-em-esquema-de-importacao-no-aeroporto-de-fortaleza-tentou-jogar-celular-no-sanitario-durante-prisao.ghtml",
+      "data": "2026-08-26",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Soldado carbonizado: elementos da investigação apontam que marido da PM atirou e ateou fogo no corpo da vítima",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/26/soldado-carbonizado-elementos-da-investigacao-apontam-que-marido-da-pm-atirou-e-ateou-fogo-no-corpo-da-vitima.ghtml",
+      "data": "2026-08-26",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
     {
       "veiculo": "G1 Ceará",
       "titulo": "Candidatos ao governo do Ceará promovem atos de campanha em Fortaleza nesta segunda-feira (24)",
@@ -23,6 +93,174 @@
       "origem": "auto",
       "incluir": true,
       "score": 4,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Suspeito de homicídio é preso escondido sob poltrona no Ceará; vídeo",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/suspeito-de-homicidio-e-preso-escondido-sob-poltrona-no-ceara-video.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Vídeo: redemoinho arranca telhado de Câmara Municipal no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/video-redemoinho-arranca-telhado-de-camara-municipal-no-interior-do-ceara.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Auditor-fiscal preso em operação é acusado de receber pelo menos R$ 6,8 milhões de propina em esquema de fraudes no aeroporto de Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/auditor-fiscal-preso-em-operacao-e-acusado-de-receber-pelo-menos-r-68-milhoes-de-propina-em-esquema-de-fraudes-no-aeroporto-de-fortaleza.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Mutirão em Fortaleza oferece 579 vagas na construção civil nesta quinta-feira (27)",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/25/mutirao-em-fortaleza-oferece-579-vagas-na-construcao-civil-nesta-quinta-feira-27.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Conta de luz terá redução média de 5,87% no Ceará a partir desta quarta-feira (26)",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/conta-de-luz-tera-reducao-media-de-587percent-no-ceara-a-partir-desta-quarta-feira-26.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Nova linha de ônibus em Fortaleza começa a circular nesta quarta-feira (26); veja itinerário",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/nova-linha-de-onibus-em-fortaleza-comeca-a-circular-nesta-quarta-feira-26-veja-itinerario.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ciro promete mais leitos psiquiátricos e diminuir urgências na fila de regulação do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/ciro-promete-mais-leitos-psiquiatricos-e-diminuir-urgencias-na-fila-de-regulacao-do-ceara.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Elmano promete concluir três hospitais no interior e criar unidade voltada para idosos no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/elmano-promete-concluir-tres-hospitais-no-interior-e-criar-unidade-voltada-para-idosos-no-ceara.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Auditor do Aeroporto de Fortaleza preso: entenda o esquema de fraude em importação com propina milionária",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/auditor-do-aeroporto-de-fortaleza-preso-entenda-o-esquema-de-fraude-em-importacao-com-propina-milionaria.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Polícia apreende 18 armas irregulares de CACs com registros cancelados no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/policia-apreende-18-armas-irregulares-de-cacs-com-registros-cancelados-no-ceara.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Auditor do Aeroporto de Fortaleza e empresários são presos em esquema de fraudes em importações",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/auditor-do-aeroporto-de-fortaleza-e-preso-suspeito-de-comandar-esquema-de-fraudes-em-importacoes.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "PF faz operação contra esquema de corrupção e lavagem de dinheiro no Aeroporto de Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/pf-faz-operacao-contra-fraudes-em-importacoes-no-aeroporto-de-fortaleza.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
       "tema": "local",
       "tom": "Neutro"
     },
@@ -69,34 +307,101 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Rede ICC Saúde abre inscrições para mestrado acadêmico em Oncologia; veja datas e detalhes - Diário do Nordeste",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZU9neDhUbmcyOUZyZFBDRnhRR1ljRFZXNjBqOXlRUTh2WlJKQXJvV29VeWNhV1JGMkZBNGxfSnNCa2dPX0VmVlIzckRrZzZKdHpPWHp1WUdZZjVXYjRpWmhxU3psaVFvbXlMaXRBQUhjMTU5V1FwYnhsc2hpQTZ6bERRS1EwT1B6Uk42aXVfcmpxeTd5ak15MGUxcHVEdlNnNzdrRjF6SDlnVVZ3RHNJUG1SdWotWGFHWks0WGhlSUJJRVVLTXJfWnBqNWROX3BERUxabVpxODgxRmhVbENiZWRGSmJ0Qk9lS01iYkZn?oc=5",
-      "data": "2026-08-24",
-      "termo": "plano de saúde oncologia Ceará",
+      "veiculo": "G1 Ceará",
+      "titulo": "Justiça nega habeas corpus a policial militar presa por morte de soldado carbonizado",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/justica-nega-habeas-corpus-a-policial-militar-presa-por-morte-de-soldado-carbonizado.ghtml",
+      "data": "2026-08-25",
       "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 8,
-      "tema": "oncologia",
-      "tom": "Positivo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "De vagas remotas a concurso para professores: confira oportunidades de emprego e estudo no Ceará nesta segunda-feira (24) - G1",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOU1RnekFjNTBSbHQ0U1hiY0FFLXZwQXUteDdfT3RadzBlUnBsY193UlRDLUxzX0pRU0g5ZDFlR3hRUktXRjFSQzZ6VG4zV1lzbWJJdko0ZVE4d0xrVUVTZ3FvVE5rSTI4bzVqMHQ0d3dlSHVCdHdxaXFXUDhlU0tJbHpoc3VSMjVzdDhLNHZFSy1KQ1hTMERqOTExOHpIMGpINFNxYVUzWVZndXhOTmw5Y2FJcTM1MFpFcnk3Q092VE14TUtMRUdncXRVeUlnMmcwTHNYaUpPMnUwU0xiSURNYW1UOEx4b0FCajFNRUpFamp0aDZleVo2WXZEczJhUVFxQmNLMC1FTlA4M1djWmpMbXdVUG52d2pFQlp6d1hIb9IBnwJBVV95cUxOU1RnekFjNTBSbHQ0U1hiY0FFLXZwQXUteDdfT3RadzBlUnBsY193UlRDLUxzX0pRU0g5ZDFlR3hRUktXRjFSQzZ6VG4zV1lzbWJJdko0ZVE4d0xrVUVTZ3FvVE5rSTI4bzVqMHQ0d3dlSHVCdHdxaXFXUDhlU0tJbHpoc3VSMjVzdDhLNHZFSy1KQ1hTMERqOTExOHpIMGpINFNxYVUzWVZndXhOTmw5Y2FJcTM1MFpFcnk3Q092VE14TUtMRUdncXRVeUlnMmcwTHNYaUpPMnUwU0xiSURNYW1UOEx4b0FCajFNRUpFamp0aDZleVo2WXZEczJhUVFxQmNLMC1FTlA4M1djWmpMbXdVUG52d2pFQlp6d1hIbw?oc=5",
-      "data": "2026-08-24",
-      "termo": "plano de saúde oncologia Ceará",
-      "veiculos": [
-        "Google News",
         "G1 Ceará"
       ],
       "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "local",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Empresário sofre tentativa de latrocínio, abandona carro e depois volta para buscar malote",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/empresario-sofre-tentativa-de-latrocinio-abandona-carro-e-depois-volta-para-buscar-malote-no-veiculo.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Concurso para Prefeitura de Aracati oferta 127 vagas com salários de até R$ 5,4 mil",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/25/concurso-para-prefeitura-de-aracati-oferta-127-vagas-com-salarios-de-ate-r-54-mil.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Malote com mais de R$ 100 mil de empresa é roubado por dupla em Juazeiro do Norte; vídeo",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/25/malote-com-mais-de-r-100-mil-de-empresa-e-roubado-por-dupla-em-juazeiro-do-norte-video.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "TRE-CE determina que Camilo Santana remova vídeo que liga Ciro Gomes a Flávio Bolsonaro",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/tre-ce-determina-que-camilo-santana-remova-video-que-liga-ciro-gomes-a-flavio-bolsonaro.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Marido de policial monitorou soldado que foi encontrado carbonizado meses antes do crime, aponta investigação",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/marido-de-policial-monitorou-soldado-que-foi-encontrado-carbonizado-meses-antes-do-crime-aponta-investigacao.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Acusado de jogar mulher do 10º andar solto pela Justiça foi ao velório da vítima e chorou abraçado ao caixão",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/acusado-de-jogar-mulher-do-10o-andar-solto-pela-justica-foi-ao-velorio-da-vitima-e-chorou-abracado-ao-caixao.ghtml",
+      "data": "2026-08-25",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
       "tom": "Neutro"
     },
     {
@@ -269,6 +574,20 @@
     },
     {
       "veiculo": "G1 Ceará",
+      "titulo": "De vagas remotas a concurso para professores: confira oportunidades de emprego e estudo no Ceará nesta segunda-feira (24)",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/24/de-vagas-remotas-a-concurso-para-professores-confira-oportunidades-de-emprego-e-estudo-no-ceara-nesta-segunda-feira-24.ghtml",
+      "data": "2026-08-24",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
       "titulo": "Morre José Maria Lucena, desembargador federal e ex-prefeito de Limoeiro do Norte",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/24/morre-jose-maria-lucena-desembargador-federal-e-ex-prefeito-de-limoeiro-do-norte.ghtml",
       "data": "2026-08-24",
@@ -349,21 +668,6 @@
       "incluir": false,
       "score": 0,
       "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CRIO movimenta Fortaleza com 11º Summit de Oncologia - Portal IN - Pompeu Vasconcelos - Balada IN",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY0ppVDR4YUVRQTRIVGJBelNhNXJMZFp5RUZZTUFZbGFNa3BNOTFubFF3dWVIUUFBLXJsT2NZdXZGa2xsWlVBSzlZb29fTlJIUlN4alh6YUlxeHQ5WmVqcnZiVDZOb3ZrLUVEVG51UDkxcU1wODVWQ2Y0MXBOMWpjdGM0YlluVTVBbjN0NG9mT0tHSmFFOVBF?oc=5",
-      "data": "2026-08-23",
-      "termo": "oncologia Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 7,
-      "tema": "oncologia",
       "tom": "Neutro"
     },
     {
@@ -465,66 +769,6 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Deputada pede inclusão de medicamento para câncer de mama no SUS - Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQkxENS1qd0RsLVBBWjVEcHdkLVVfeDd5Zk82dUpqeF9vbnVSclBEMFEwaGFFckZmY3RnOWdLSHRibUlPeDY5aGIxcjZvLXBGLXRwUVpJSFVYOUplQk1uZU5Hb0cwUkp0SkQ1d1JCTDRKTkNDd0hsWVRidEhrYjk0ZHJCazI1YjZDamVxU1lrMWh3a3N5OGVjV0kzb2loWENndXJOYVhjbXhWQlUxY3JyNTZnOFI?oc=5",
-      "data": "2026-08-22",
-      "termo": "medicamento oncológico SUS",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 8,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "SUS pode incorporar medicamento para tratamento do câncer de mama inicial - Fala Você Notícias",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRTFiZWdJVUVXQlAwbmo4cGhHLUpLRmUwZEVFZDB1d0ZiMF8zUTFhRms5b2txV05fZGlQZlMxYXA0SWZrRWI4SzNfdDZ1WUdzNWxjREJrNmw5Q3Rjamc3dXFLbThBUy12SE9iVTBFTllSeHpGVzJpUkVlQ2xRTDJiZ2NkTmhwcVA3alJBTmxMNFBlX09VdS1hbGIwV2pGUS1ZeUIwd3pRQU5yanBZeDhrajhFejFoZmJBV1ZGN0l4X0ZzZ3pa?oc=5",
-      "data": "2026-08-22",
-      "termo": "medicamento oncológico SUS",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 8,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Elmano promete radioterapia, hemodinâmica e cirurgia cardíaca no Hospital Regional do Sertão Central - OpiniãoCE",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcDNhX2xaaFFIcFVYTlpENGhBdlFqYkZ3VWl2YmFHSFc4TkVzNkFtekhUREgtRl9xRnAzc3Y0UkVlUWFvdUluaUtQandSSzFHX2xta2R4Z3FreXNQVE40R1RQbmRQT0RiQ1ltVUVac0hBMWZmZ2EzRlVxa094NW5JM2RaVDl5dVBwY1FyUkU4ZGlaWXZQdVdkd3d0eFd0ZzJGcFhNanZubThXWFNmOXl2dXJLSmY1ck5wMGxkWXhZeU4zemFfa3VuOVJJcWJyb3N6bVNOYU9GeFQwRFlvNXZpeUtxSQ?oc=5",
-      "data": "2026-08-22",
-      "termo": "radioterapia Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 4,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Giordanna Mano inaugura comitê de campanha em Fortaleza neste sábado (22) - OpiniãoCE",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeVlvV3Y4U1RoMUtSNDVxZGpDRWY2MW1uSkJGcWRvTmQxdHZ2M0dZbmtpd0I5OFZDQmFKNThIOTRnc0ZDQm5lbWctbjlDTGF0S0hHQ1lVREFKMVg5X2Q1TzZQX2xRTWpjYU1QWFB3dkZ0NlJRZENuMGVRZ29iVHh1VEEzRWtaY3RBdkYwc2hTRVg1N1NuSm1KV3drc2lJcTctclI3RlU2M3B3S0NvSFJVZG9Lb2RYaHk5MHhzTFpR?oc=5",
-      "data": "2026-08-22",
-      "termo": "radioterapia Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
       "veiculo": "G1 Ceará",
       "titulo": "Caminhadas, carreata e reunião: veja como foi agenda dos candidatos ao governo do Ceará neste sábado",
       "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/22/caminhadas-carreata-e-reuniao-veja-como-foi-agenda-dos-candidatos-ao-governo-do-ceara-neste-sabado.ghtml",
@@ -609,21 +853,6 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Nos 163 anos de Cajazeiras, Cícero destaca compromissos com a saúde, causa animal e a duplicação da BR-230 - Diário do Sertão",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdGswQUsyNnhlcmtoOTZhdklINWpmYmhmNTJ3QXNZeVRpekR2UnBSTXMyYlFuQnVhNmVqY2dpZnFCMFpTLTNNRkxzMVByQTJHZDh2NDFaQ0JxQ2Rjb3l2S3JIUWQwZ0diZ0RwX3k5MmRiN3R4cHd6SzJPRkllLUVldmFqUUp5VUVieGh0RzlxZk5VX3pTdXRvcE03X1hGbzdCcTFZSWhEcHJZT2pZS3RFRzNLWDV5RzdLdy1JMjRYSzItcXJGQ3FQV2VjdTVocHEtV1NUQkFkRldDT2pNeTNNTWw5aDFvU2FoaHRRakxwYjlVLUpVSzBr?oc=5",
-      "data": "2026-08-22",
-      "termo": "plano de saúde oncologia Ceará",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 1,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
       "veiculo": "G1 Ceará",
       "titulo": "Motorista preso suspeito de jogar ônibus contra delegado é solto após Justiça considerar prisão como ilegal",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/22/motorista-preso-suspeito-de-jogar-onibus-contra-delegado-e-solto-apos-justica-considerar-prisao-como-ilegal.ghtml",
@@ -694,36 +923,6 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Rede ICC Saúde abre inscrições para Mestrado em Oncologia voltado à formação de profissionais que buscam ampliar atuação e carreira - Repórter Ceará",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSVdjSGNzYjBjbllMOWFsSGp1Tm5qSGZHQl9HSEg5SWNwVFdkTHdFSTZETHB0ZTUtblBld3BCZzUyc2M5dzNpcnVBbHhvU3BGcGM4UE0xMzVIclR2emNRX1lqVFZzdG1UWTRmWUtLU0x2N3hTVU02eDdaNkhxRWc1dW9zb1Q1NGE3NEdmci1EM01SdTB6Z1dfRXRFUVJuZWs2cXVlYWxpMkF2ZkZ4aldueU5sekUydTEtTEpLU2NuUTdQMHNkUk1pZks1SlZJSF9XdEdMVFJMS2lwem91ZVo5aHZpSTBEQUo5M0NocWRyRGkzaE9yOUxhQkhTeHhCQTMyNHfSAYICQVVfeXFMUElXY0hjc2IwY25ZTDlhbEhqdU5uakhmR0JfR0hIOUljcFRXZEx3RUk2RExwdGU1LW5QZXdwQmc1MnNjOXczaXJ1QWx4b1NwRnBjOFBNMTM1SHJUdnpjUV9ZalRWc3RtVFk0ZllLS1NMdjd4U1VNNng3WjZIcUVnNXVvc29UNTRhNzRHZnItRDNNUnUwemdXX0V0RVFSbmVrNnF1ZWFsaTJBdmZGeGpXbnlObHpFMnUxLUxKS1NjblE3UDBzZFJNaWZLNUpWSUhfV3RHTFRSTEtpcHpvdWVaOWh2aUkwREFKOTNDaHFkckRpM2hPcjlMYUJIU3h4QkEzMjR3?oc=5",
-      "data": "2026-08-21",
-      "termo": "plano de saúde oncologia Ceará",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 8,
-      "tema": "oncologia",
-      "tom": "Positivo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Empresário morre durante 'lifting facial' em clínica de Fortaleza - UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWkc2ME9CNkhZNGZOUTRuTm5rT2dhclZRTlB2Q1NyZ0ZIcS1CbUxrTXYyQmRrZnJyS2o1a2dUaWVrZ1hYanFlWnA0S2ZFb0lLOWgyRmk0OTlDVnBOclRIRzRXSkVoOUhCWjhsWWVVZFhCMC1Mb3ZZOEt5Z2tydDRCZms2N2hMbU44aFNKeWxjNERpRHpEQ241a0RZakFjWHJOeUlVSDVwMFUwTjhhTzZ6bWNlR0REZlNxb3ZicjhDampGQ3lWaFF6SXFTSTdTeXBhMFBpalZvNHE?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Negativo"
-    },
-    {
       "veiculo": "G1 Ceará",
       "titulo": "Policial militar preso por sequestrar família no Ceará também é suspeito de tentativa de homicídio",
       "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/21/policial-militar-preso-por-sequestrar-familia-no-ceara-tambem-e-suspeito-de-tentativa-de-homicidio.ghtml",
@@ -790,22 +989,6 @@
       "origem": "auto",
       "incluir": true,
       "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Empresário morto durante procedimento estético participou de vídeo publicitário da clínica há 1 ano - G1",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMjR4UEE4eFJqMzFTU3hGVXZxcHdNOUtMbUVUUzJndGgtRHlNMC1QMnhMRkVGRUt3UGxlSUZCaDNMb1RQZWE3LU1Pc0Z0RVZTNVJKelE3cS0wTjRYVm1Sb21nY0xHb096cjFQeUN4Q3V2Nkx0ZW1IVTRncnJkZkhqbDU2MkNaRnFGeTAyUmgyM3BNaHFaLTRITm9ha2t4WTJGd2ZUejNrTG1CRVQxekxBd25acnFCcENPQ0FVVnVjMUhULTItSVA1VGxjVTJwLU9hWlhldlNiUHJZdVFabnFjTVFleEVUQTB3NnfSAfgBQVVfeXFMTy1vT3lXQ0JmaDBqZFJReVJoNExBV3hyNmRqSEJyM3Boa3c2MWhNUlpEM2xLWTMxQk9PYW5aRjlvb0pOOU8yRVZQYlpLdHFFSjdCTUFoWjJoTWtLOUctT043NTY5ZC1QcUhTVWpPZXN3SVlKcktCX2dJZzV0RHRFNmNrOVJXVTZDaXk5LThoODN5bDhKT2JmQUlJaTA5SVNzUFN6cHJVd2tnQVpLQ2MxeWdhd2xZVkJFamVieG0zZlJVQWExeFNQZ19GQzVjTjMyX0JiT2hkMURLQlk3TUNiaXVoMlQ5QmE4WkxUUzNTXzVnUTFjWTRpMWU?oc=5",
-      "data": "2026-08-21",
-      "termo": "Oncoclínicas Fortaleza",
-      "veiculos": [
-        "Google News",
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
       "tema": "saúde",
       "tom": "Neutro"
     },
@@ -948,208 +1131,6 @@
       "score": 2,
       "tema": "local",
       "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Ciro Gomes participa de mini carreata e inauguração de comitê em Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/20/ciro-gomes-participa-de-mini-carreata-e-inauguracao-de-comite-em-fortaleza.ghtml",
-      "data": "2026-08-21",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "negócio",
-      "tom": "Positivo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Homem é condenado a 19 anos de prisão por matar personal trainer a mando de chefe de facção",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/homem-e-condenado-a-19-anos-de-prisao-por-matar-personal-trainer-a-mando-de-chefe-de-faccao.ghtml",
-      "data": "2026-08-21",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Lula retira deputado aliado de Ciro Gomes da vice-liderança do governo na Câmara ",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/21/lula-pede-desligamento-de-vice-lider-do-governo-na-camara-aliado-de-ciro-gomes.ghtml",
-      "data": "2026-08-21",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Positivo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Homem tenta assaltar restaurante, entra em luta com idoso e é preso; vídeo",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/homem-tenta-assaltar-restaurante-entra-em-luta-com-idoso-e-e-preso-video.ghtml",
-      "data": "2026-08-21",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Estátua de 11 metros do Diabo: MP e Polícia Civil apuram denúncia de intolerância religiosa cometida por prefeito",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/21/estatua-de-11-metros-do-diabo-mp-e-policia-civil-apuram-denuncia-de-intolerancia-religiosa-cometida-por-prefeito.ghtml",
-      "data": "2026-08-21",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Clínica de estética onde empresário morreu em Fortaleza diz ter adotado ‘condutas médicas cabíveis’ - Diário do Nordeste",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYUlweUxXdnI4TEdYUXJwSGxPRzNUbWF4b3I3cVJsdXFGNU4yQmVoN2RJTURXdzRxU01RT1hBbE9jU2I2Z3FqN1BuWGJzRk9FT0RMNGVQTHRoY09zM0ZHSERaSnRNQUVEcUMtQmVjYk9rMWhaY0FIVmtncnVYQ1ViRlNGMU5LRzBIeXFmc1BHUVRNeUhMUTd4WXI5OHdOUnZVNTEyWU0tVnVoTWhXZjJOeU1LazFhOGRscGlNUUw3UDVlQmlMbXRveEdfOFBmVTMtVFlybnJzWm43b1kyZkNiOGdkMEJKWVVEVkpra0dNejA2R1U?oc=5",
-      "data": "2026-08-20",
-      "termo": "Oncoclínicas Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "saúde",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Confiança do consumidor de Fortaleza se mantém acima de 120 pontos em agosto - Fecomércio Ceará",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWg0MEFXdW5hV212dHZoLVhwOVQtby1TYW5RQUlJZlFGX3Y3VnFMVHZyaEI3T3VmMnI2aGdVaUlTdUhpZWVmc09TazR0RE5TTnVxMFFYd3FydDhvbUMxTE9fbWZMa3FWRS1jV2lSalp0NV83eThmbXUyOU9pTXphZmdCdFJZUzFJMm45N2Z3dUkzdy0ydmRyQUw1dVNPZXREUlcyaWF1a0wxRm11X29HNzdlLTNXZw?oc=5",
-      "data": "2026-08-20",
-      "termo": "ICC Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 4,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Empresário morre após ser anestesiado para realizar lifting facial em clínica de Fortaleza (CE) - R7",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1Z3ZTExbU1xaGFYVmJhSVdnbzlkX0V0aWQzNXZpc2pEN0xZT0c2VnEtQllBUGFybmM2RTBTaHlIVW5seTFHOG5oc2swOEYweDJ3RktSeDBRWWNubHV5N0JBM1NXWUlHRjcwVGRNQkppVWFyN0FSVzZCWTRDUUszMFJlN1dfaUt4VGtBTUVIdk5oS2xGWEF6bUI3cElGakVlSEJYSk9jU09EVnhVV01zalA3OWkxdmxqWktiU3EyeFBNeFozMFdsVWE3WUJtNlVvOUxmdjZxTTlvSTg?oc=5",
-      "data": "2026-08-20",
-      "termo": "Oncoclínicas Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Empresário morre durante procedimento estético em clínica odontológica de Fortaleza - GCMais",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWZXMWZjTWROMV9YS1ZWakdvLWFIN21RQXJtTElKT2ZhcVBpZXFaZDlKOEJTWnBJQmxUQlN0M05zaDZDRVBsVlZKbkp5cllYLWxDTVlFWXkzcWxrMV9FUWVQVE92bTdSb2R0b3NNNzNnRkV2dm9xN1VxYUhWQTRzWjRLdm9IMGFHNTBJTlhtQmlVZVBING9mVTBiUVZZUzNXd0IyQld2VmRvQjlKT2w3XzMwaU1YV1ltUGJRZm9xNmd0Vkk?oc=5",
-      "data": "2026-08-20",
-      "termo": "Oncoclínicas Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Suspeitos de integrar facção e extorquir agentes políticos são presos no interior do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/suspeitos-de-integrar-faccao-e-extorquir-agentes-politicos-sao-presos-no-interior-do-ceara.ghtml",
-      "data": "2026-08-20",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Homem suspeito de feminicídio no Ceará é preso após tentativa de fuga para a Paraíba ",
-      "url": "https://g1.globo.com/pb/paraiba/noticia/2026/08/20/homem-suspeito-de-feminicidio-no-ceara-e-preso-apos-tentativa-de-fuga-para-a-paraiba.ghtml",
-      "data": "2026-08-20",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Governo do Estado anuncia expansão do Vapt Vupt para mais 43 municípios; confira lista",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/20/governo-do-estado-anuncia-expansao-do-vapt-vupt-para-mais-43-municipios-confira-lista.ghtml",
-      "data": "2026-08-20",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "negócio",
-      "tom": "Positivo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Dupla é capturada pela polícia por suspeita de matar idoso de 90 anos durante assalto no interior do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/20/dupla-e-capturada-pela-policia-por-suspeita-de-matar-idoso-de-90-anos-durante-assalto-no-interior-do-ceara.ghtml",
-      "data": "2026-08-20",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Clínica onde empresário morreu durante procedimento estético afirma que adotou condutas médicas cabíveis - G1",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQakdVcFVyUWZmZ25ZaHdyNlhFV0FScmk5ZUdXZHpUcGFaZjhHZG9TMHc0ZEdOMGhuTGlHcEVTT1VaZjlTSUVQRWw3NGNQdU5hZ2U0Z1FybXhGUzNWZ3d0Zm04aERzcVZDYUR2RnNvTnNvS1FSNVROVmRhRVJUeFc2WTFsUzFGaGh4dy1xN3daSFhWQlY3UW1HTWVGSUZaWWZNNHA2dlV5N3BveXh5TURGcFJSSklvN1pGVldRUlNBNGdKWXZpalNYX0JyTnFEWmpib01xYXpkUEZWQm1tZmRPOGhGT2RyZ1JfX2R4VldNc3rSAf8BQVVfeXFMTXBYZEpWRDhCVjlfd3RoVDQwVUdXV0FKQndyU0hnUHItSEZHMUdDay11ak53NGtOWm5ZNGRmcVFQbEptQjVaRkY2TWw1RjQ5Q24zUnR6dUVVXzYwNDdEejNtSjFPdmdMeVhUSjJPYmxsRXZxcGJLdVhweTQzajZTd2piNDhqSHhQSDIwMmdKOXp5NlZUNUFEQ295emRueGRuc2hCUWlPYnRMMk1fdGJTcmRvRWVCaXRJaEx4bTJHLUFQZHVuRmhsOWxLTDZzQlh1Z3ljREhzNm1iX0k5aXlady1oUG44RmtFY2JlTnhmVl9oVERTRElmTnUwS3QyeFlF?oc=5",
-      "data": "2026-08-20",
-      "termo": "Oncoclínicas Fortaleza",
-      "veiculos": [
-        "Google News",
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "saúde",
-      "tom": "Negativo"
     }
   ],
   "atosLei": [
