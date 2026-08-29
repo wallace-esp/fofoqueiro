@@ -5,17 +5,59 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-08-28T21:48:56.950Z",
+  "atualizadoEm": "2026-08-29T09:06:53.049Z",
   "ultimaExecucao": {
     "mode": "daily",
-    "em": "2026-08-28T21:48:56.950Z"
+    "em": "2026-08-29T09:06:53.049Z"
   },
   "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
     {
+      "veiculo": "G1 Ceará",
+      "titulo": "Chefes do CV foragidos no RJ ordenam ameaças a candidatos em campanha eleitoral no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/chefes-do-cv-foragidos-no-rj-ordenam-ameacas-a-candidatos-em-campanha-eleitoral-no-ceara.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Panfletagem e foco na região do Cariri: como foi o dia dos candidatos ao governo do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/28/panfletagem-e-foco-na-regiao-do-cariri-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "TRE-CE autoriza publicação de vídeo em que Camilo Santana chama Ciro Gomes de 'candidato de Flávio Bolsonaro'",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/28/tre-ce-autoriza-publicacao-de-video-em-que-camilo-santana-chama-ciro-gomes-de-candidato-de-flavio-bolsonaro.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
       "veiculo": "Google News",
-      "titulo": "MP/TO garante na Justiça acesso a medicamento não padronizado pelo SUS para paciente com câncer - Conexão Tocantins",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMWNHT1pndTNxOTN1Q2pSWXFNVC1pTlJpVjM5elh4a1lNQ2dJM1c1eXllbms0MVB2RUM5M0o4M2RTZlUzME1BdW9NaTZaSTRFY0dzUDhDQmRKOWZ2d25RN1VWdDVaRHFXb2pGTmxJVFJXRG5tS3ZKWjVwSmFWYWFKdG8wMHM2R2pudlowMExBeU1tUzIwbHV0dy1yODJyQnBEUzU5dml3WWFtTGdkZDRuY095QWFIQjdGQmdVZkc5ZkFBcHlxQzdxMGZR?oc=5",
+      "titulo": "Justiça determina que Estado forneça medicamento não padronizado pelo SUS para paciente com câncer de mama - Conexão Tocantins",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVFljOXAxWWZJMzBCTnd4VG1uTUg3ZkNPZldJRGFyb2lMZzdWWkJvT05JQUtTTEhOTjdIYnJXZk1lSHprM0FiNHNCakhBSDhLbEwzRFFPYlJfNXp4MWxRUm9JNkxCaFdqbkFkcFBicVJwZXB5NFY2NkRaaVlDMEo5dlhTQ2QxaUdCMW1hX3VNOG5QbGVMQzU1TkJfTUs0M2JXMHR4aWhBdkIzcjVxMGQ3Tm5BTkFHMjJ1bWdKdi02ajdndjdSbkM4UUQzMkxjbFFsWUNXZVRSZkhqZw?oc=5",
       "data": "2026-08-28",
       "termo": "medicamento oncológico SUS",
       "veiculos": [
@@ -23,7 +65,7 @@
       ],
       "origem": "auto",
       "incluir": true,
-      "score": 6,
+      "score": 9,
       "tema": "oncologia",
       "tom": "Neutro"
     },
@@ -255,6 +297,20 @@
       "score": 0,
       "tema": "outro",
       "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Operário morre após cair de prédio em Juazeiro do Norte",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/28/operario-morre-apos-cair-de-predio-em-juazeiro-do-norte.ghtml",
+      "data": "2026-08-28",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Negativo"
     },
     {
       "veiculo": "G1 Ceará",
@@ -1083,67 +1139,29 @@
       "score": 0,
       "tema": "outro",
       "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Malote com mais de R$ 100 mil de empresa é roubado por dupla em Juazeiro do Norte; vídeo",
-      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/25/malote-com-mais-de-r-100-mil-de-empresa-e-roubado-por-dupla-em-juazeiro-do-norte-video.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "TRE-CE determina que Camilo Santana remova vídeo que liga Ciro Gomes a Flávio Bolsonaro",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/tre-ce-determina-que-camilo-santana-remova-video-que-liga-ciro-gomes-a-flavio-bolsonaro.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Marido de policial monitorou soldado que foi encontrado carbonizado meses antes do crime, aponta investigação",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/marido-de-policial-monitorou-soldado-que-foi-encontrado-carbonizado-meses-antes-do-crime-aponta-investigacao.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Acusado de jogar mulher do 10º andar solto pela Justiça foi ao velório da vítima e chorou abraçado ao caixão",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/acusado-de-jogar-mulher-do-10o-andar-solto-pela-justica-foi-ao-velorio-da-vitima-e-chorou-abracado-ao-caixao.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
     }
   ],
   "atosLei": [
     {
-      "titulo": "Anvisa aprova novo medicamento injetável para tratamento de câncer no sistema linfático - Bnews",
+      "titulo": "Matéria legislativa",
+      "fonte": "Senado Federal",
+      "data": "2026-08-29",
+      "url": "https://www25.senado.leg.br/",
+      "tema": "legislativo-federal",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Remédio contra câncer de pâncreas é aprovado nos EUA - CNN Brasil",
+      "fonte": "Regulatório (via imprensa)",
+      "data": "2026-08-27",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcG9ubmdtdnVrOC16SHowZzh2S1FZX2hQTG5IZkkzREs1VnNEM1VldVlDb0tQZzhab0g5amVMTjRUeWxfUFNKYlR1dXdYTmhReW5SVkRTcml1WlBnNV9UNXNsN3VCMGJrM245UVRmVmVoTE43M3Rxc3dhcmc2dXpOUTNJSEh0UmFDNnFGdXhwQ1A?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento injetável para tratamento de câncer no sistema linfático - bnews.com.br",
       "fonte": "Anvisa",
       "data": "2026-08-27",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYzJmaktYdmI2b1AxTDY5UFNHb2ZBbi1Ddlg2RDhENWxfSk9yQXltX2dINUFxb0xfekpqV0JnWlRRdzk5UFNrOTd0VHh6LXhlN255aXE3VUNNWVpib0tjeWFXMnB1ZVFOMWRFaThKZ3R5RUEtWE5hdzVUbmt3ZGlnZ0xfU0EtYkVMQmU4dkpOV1ZybFBDaTUwYmxrem5ZUXpEdHlQZFRFWHg2dUdMVEU2VFA0S1J2SmxLd2xoMTNhSFllZC1XcExkSnljaHEyTGQ0RmfSAdIBQVVfeXFMT2MyZmpLWHZiNm9QMUw2OVBTR29mQW4tQ3ZYNkQ4RDVsX0pPckF5bV9nSDVBcW9MX3pKaldCZ1pUUXc5OVBTazk3dFR4ei14ZTdueWlxN1VDTVlaYm9LY3lhVzJwdWVRTjFkRWk4Smd0eUVBLVhOYXc1VG5rd2RpZ2dMX1NBLWJFTEJlOHZKTldWcmxQQ2k1MGJsa3puWVF6RHR5UGRURVh4NnVHTFRFNlRQNEtSdkpsS3dsaDEzYUhZZWQtV3BMZEp5Y2hxMkxkNEZn?oc=5",
@@ -1314,15 +1332,6 @@
       "origem": "auto"
     },
     {
-      "titulo": "Ministério da Saúde regulamenta centrais de diluição da AF-Onco - Futuro da Saúde",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-08-18",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWExiSGRiclpUMHZ1MTdMc1NScHN2NWwxQ0s3T0FZZUVNOXJGNU55THFPRVFrTnBFamgxeG9ZdzBCWENOQ3EyRDE4ZVUyMkVycFFJWkd1S3ZNR2NvS1lSODVCVjZ4U0RhQWJkVUE2dXpPbXhyY2Q0cnZNVWRVeGhqR1VEQmlVUGtlaDNIbjVYZmVVMHphdHZTMw?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "MÉDIO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Altera a Lei nº 9.656, de 3 de junho de 1998, para considerar nulas de pleno direito as cláusulas que condicionem a rescisão do contrato de plano privado de assistência à saúde ao cumprimento de aviso prévio ou imponham a cobrança de mensalidades ou outros encargos após a manifestação de vontade do contratante. (PL 4998/2026)",
       "fonte": "Câmara dos Deputados",
       "data": "2026-08-11",
@@ -1399,15 +1408,6 @@
       "fonte": "Anvisa",
       "data": "2026-07-28",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMDdSLXEwNi1HOThad2xMYkt4MUg4c2lhem9MS0V4TzhueDhTQVRKbnVNQWw2cEhnV0JxWUNFS3BOOERPZ0VTSUIybUhRX19qaXc5Z3JwV0VRbU84MmJheE1VSUxGSHdRTlNlTWVJMnZMS0VhSUFxMFEya2pXblRSVktiUzBjdUg2N3YwN2R4N25OWVNrd0FNeEZiLVV1TVRyQnBjQmtFb9IBtgFBVV95cUxOVFhyVndjcFo1bDdMend2ZmhvX0QzalhWTDgtLXJLWFdjVl9EUnl2ZHRIcG9NOGM4dWJiM1RTZWl0S2NKVkQxd05hR1cyTDFHU2RrUDBXdWVDaUV5S05QM3A0d3llcW5ReFZ0QTdXNjV1cmVJcng4YmxfcXowbE1IeDV3WFdqTVBIRF82MGxkTHBrdkhmNEQwTUl0VEtqWjVCdlhXWHVuMzRJZ1RiNHBIa1VxUFMxQQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão com mutação genética - CNN Brasil",
-      "fonte": "Anvisa",
-      "data": "2026-07-28",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1VNcGNPYnpzN2pSNjZzYlJjajgyd1N5ZVAzdlFQQXJGNGZ5SlRsM3B3bnhJWWxPbjFPaEQ4NTdkZVlvVERweDdIVUhxcm5leWUxYzJxaW0xZWxMaUdmQ0EtcDVzck1iNExiR3JxRGxScTBza2xwRzh2NTFUUC03Qk9ULTBicngyYUV4WTJCQWtwVFRFNW10TnRLUEtubkxpSzlSa1hwcUVlWDZ2X0E?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
