@@ -5,13 +5,168 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-08-29T09:06:53.049Z",
+  "atualizadoEm": "2026-08-30T09:07:28.976Z",
   "ultimaExecucao": {
     "mode": "daily",
-    "em": "2026-08-29T09:06:53.049Z"
+    "em": "2026-08-30T09:07:28.976Z"
   },
   "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Fóssil de 115 milhões de anos batizado em homenagem a Padre Cícero será devolvido dos EUA ao Ceará",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/30/fossil-de-115-milhoes-de-anos-batizado-em-homenagem-a-padre-cicero-sera-devolvido-dos-eua-ao-ceara.ghtml",
+      "data": "2026-08-30",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Paciente com câncer de mama há 12 anos recorre à Justiça para conseguir medicamento não fornecido pelo SUS - Jornal do Tocantins",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbmxDaG12bDJaVnk0QjJlNDF1cEUxZzUwd0k0YlJUOGdvTWtOOWxpODZSOTNJYmpRdEF3Y1dteFNjeFJaVkhfOXlUYW56QmRPY21NNFpNaEIxeTJ2Uk5hR3FCLWxJbmpMbnZmWkQ2dEFPTkhTdlE4SVZ1dy1DLWxRSzdyckw1NkVqdEtpMjlwTkhVckh2Tk03R09YZnU0R3pvendTNUlNWDBMQXJLeUVmMHNTZGZuV3gwbkUwYW1Hb3VWRTlkYlhCX1JiTzJRc0NtTmd1X2ZMc0ZtVjVkREVBRkE3R1c1ZzJZbGVvWmMxSlFzZ00?oc=5",
+      "data": "2026-08-29",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 9,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Maqueiro suspeito de crime sexual contra policial em hospital de Fortaleza deixou o local antes do fim do plantão",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/maqueiro-suspeito-de-crime-sexual-contra-policial-em-hospital-de-fortaleza-deixou-o-local-antes-do-fim-do-plantao.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 4,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Caminhadas e panfletagem: como foi o dia dos candidatos ao governo do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/caminhadas-e-panfletagem-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Facções e extorsões: mais de 10 já foram presos por ameaças contra campanhas eleitorais no Ceará ",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/balanco-presos-ceara-por-ameacas-e-extorsoes-contra-campanhas-eleitorais.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Caminhão carregado de telhas tomba e deixa três mortos em rodovia no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/caminhao-carregado-de-telhas-tomba-e-deixa-tres-mortos-em-rodovia-no-ceara.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Motociclista morre em acidente na Via Expressa, em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/motociclista-morre-em-acidente-na-via-expressa-em-fortaleza.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Três homens são presos por ameaças e extorsões durante campanha eleitoral no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/tres-homens-sao-presos-por-ameacas-e-extorsoes-durante-campanha-eleitoral-no-ceara.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Fotógrafo morre após ser baleado em frente de casa no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/fotografo-morre-apos-ser-baleado-em-frente-de-casa-no-interior-do-ceara.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Casal de comerciantes é morto a tiros enquanto trabalhava em trailer de lanche em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/casal-de-comerciantes-e-morto-a-tiros-enquanto-trabalhava-em-trailer-de-lanche-em-fortaleza.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Eleições 2026: Bom Dia Ceará entrevista candidatos ao Senado Federal",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/eleicoes-2026-bom-dia-ceara-entrevista-candidatos-ao-senado-federal.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
     {
       "veiculo": "G1 Ceará",
       "titulo": "Chefes do CV foragidos no RJ ordenam ameaças a candidatos em campanha eleitoral no Ceará",
@@ -42,6 +197,34 @@
     },
     {
       "veiculo": "G1 Ceará",
+      "titulo": "Fiscalização descobre que padaria furtava energia há 5 anos; dono foi preso",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/dono-padaria-furto-energia-cinco-anos.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ciro diz que vai recorrer de decisão do TRE que liberou vídeo em que Camilo Santana o associa a Flávio Bolsonaro",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/ciro-diz-que-vai-recorrer-de-decisao-do-tre-que-liberou-video-em-que-camilo-santana-o-associa-a-flavio-bolsonaro.ghtml",
+      "data": "2026-08-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
       "titulo": "TRE-CE autoriza publicação de vídeo em que Camilo Santana chama Ciro Gomes de 'candidato de Flávio Bolsonaro'",
       "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/28/tre-ce-autoriza-publicacao-de-video-em-que-camilo-santana-chama-ciro-gomes-de-candidato-de-flavio-bolsonaro.ghtml",
       "data": "2026-08-29",
@@ -56,8 +239,8 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Justiça determina que Estado forneça medicamento não padronizado pelo SUS para paciente com câncer de mama - Conexão Tocantins",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVFljOXAxWWZJMzBCTnd4VG1uTUg3ZkNPZldJRGFyb2lMZzdWWkJvT05JQUtTTEhOTjdIYnJXZk1lSHprM0FiNHNCakhBSDhLbEwzRFFPYlJfNXp4MWxRUm9JNkxCaFdqbkFkcFBicVJwZXB5NFY2NkRaaVlDMEo5dlhTQ2QxaUdCMW1hX3VNOG5QbGVMQzU1TkJfTUs0M2JXMHR4aWhBdkIzcjVxMGQ3Tm5BTkFHMjJ1bWdKdi02ajdndjdSbkM4UUQzMkxjbFFsWUNXZVRSZkhqZw?oc=5",
+      "titulo": "MPTO garante na Justiça o acesso a medicamento não padronizado pelo SUS para paciente com câncer - Atitude Tocantins",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU18xLXRDcy1FU1VTMjZGdW9rclZGZWh6Vk5BVFF6WXpnNGdBcDZvSVpZdGRHbWxJamFhcEM5cDBZZ3JRbVhRb0ZFLWJJeHBDaEpFNWtjZkxEeEx0TlAzei14SXIyTG9TZGMtQXFISTg1dDdhSDVTcEZNdE8yYzhYZUNaV2xJUUllZEJ2dlphWUExQ25idmJyLXhMRGJsQnlkSXV3UDhnZTIwM3VnRFBvMWs3MGZWNlJad1B6QWhpUHRPZ0pPOU5oU2daeVRNdlBJbEd0U1NXM1FkUDhnTkJB?oc=5",
       "data": "2026-08-28",
       "termo": "medicamento oncológico SUS",
       "veiculos": [
@@ -65,7 +248,7 @@
       ],
       "origem": "auto",
       "incluir": true,
-      "score": 9,
+      "score": 6,
       "tema": "oncologia",
       "tom": "Neutro"
     },
@@ -266,36 +449,6 @@
       "incluir": false,
       "score": 2,
       "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Pesquisa Unifor: estudo sobre transplante renal e IA ganha prêmio nacional de medicina - Salete em Sociedade",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGVkNU1rTWZCTktId0lJRnc5RDdTVUJOQlJuZERNT1ZydUdNbUxnLXNoUE9rM0JQTnc3SzEzNmNhYmlfNm5ROXQtLVlwOU4wRmNIb2diUnhYWUt0QkVTSVJja2I4UTNCN21QTDRuRHZNajVMNUFEN1FvZjVWT1luendCTTFvS0JobWsyS2d5WWFVNzNWbWZGTlZhSjRfMkNsWWZrRXRjRTA5S1QwX21BdzlWYzVsNUU?oc=5",
-      "data": "2026-08-28",
-      "termo": "biópsia Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 1,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Concurso EBSERH 2026: HU Brasil tem comissão formada - Estratégia Concursos",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vSm12anhReFBidlJ5LXRTV0lMdER1UFZEWGthc1JYUG1tS092RW1Tck9fN3VFaVJsTmhEX0VSWVdjeEIyOXR4bFFSMXFjdTgyd2pZVXRlOUVLNmhEQXVZRFVtX3RDY0daMXUxVtIBckFVX3lxTE4zUk9iT21UcHpaRHVDSUNMR1gySDlLcUpfVkVJSWtaUVZoQl9yOUNZS0FNajE1bkJOMWd1Wk5ZWjRERHpjR1hjMDhQaU5iLUNfcGpsRmlMVUtvQTEwenR6M1pmZFVDZWpmODNWajVNMThUZw?oc=5",
-      "data": "2026-08-28",
-      "termo": "plano de saúde oncologia Ceará",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
       "tom": "Neutro"
     },
     {
@@ -606,6 +759,21 @@
       "incluir": false,
       "score": 2,
       "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Concurso EBSERH 2026: HU Brasil tem comissão formada - Estratégia Concursos",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vSm12anhReFBidlJ5LXRTV0lMdER1UFZEWGthc1JYUG1tS092RW1Tck9fN3VFaVJsTmhEX0VSWVdjeEIyOXR4bFFSMXFjdTgyd2pZVXRlOUVLNmhEQXVZRFVtX3RDY0daMXUxVtIBckFVX3lxTE4zUk9iT21UcHpaRHVDSUNMR1gySDlLcUpfVkVJSWtaUVZoQl9yOUNZS0FNajE1bkJOMWd1Wk5ZWjRERHpjR1hjMDhQaU5iLUNfcGpsRmlMVUtvQTEwenR6M1pmZFVDZWpmODNWajVNMThUZw?oc=5",
+      "data": "2026-08-27",
+      "termo": "plano de saúde oncologia Ceará",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
       "tom": "Neutro"
     },
     {
@@ -971,181 +1139,13 @@
       "score": 2,
       "tema": "local",
       "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Ciro promete mais leitos psiquiátricos e diminuir urgências na fila de regulação do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/ciro-promete-mais-leitos-psiquiatricos-e-diminuir-urgencias-na-fila-de-regulacao-do-ceara.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Elmano promete concluir três hospitais no interior e criar unidade voltada para idosos no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/25/elmano-promete-concluir-tres-hospitais-no-interior-e-criar-unidade-voltada-para-idosos-no-ceara.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Auditor do Aeroporto de Fortaleza preso: entenda o esquema de fraude em importação com propina milionária",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/auditor-do-aeroporto-de-fortaleza-preso-entenda-o-esquema-de-fraude-em-importacao-com-propina-milionaria.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Polícia apreende 18 armas irregulares de CACs com registros cancelados no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/policia-apreende-18-armas-irregulares-de-cacs-com-registros-cancelados-no-ceara.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Auditor do Aeroporto de Fortaleza e empresários são presos em esquema de fraudes em importações",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/auditor-do-aeroporto-de-fortaleza-e-preso-suspeito-de-comandar-esquema-de-fraudes-em-importacoes.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "PF faz operação contra esquema de corrupção e lavagem de dinheiro no Aeroporto de Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/pf-faz-operacao-contra-fraudes-em-importacoes-no-aeroporto-de-fortaleza.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Prêmio LED Globo: conheça iniciativas do Ceará premiadas; inscrições para edição de 2027 estão abertas",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/premio-led-globo-conheca-iniciativas-do-ceara-premiadas-inscricoes-para-edicao-de-2027-estao-abertas.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Positivo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Saída do batalhão, disparos e corpo carbonizado: veja cronologia da morte de soldado na Grande Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/saida-do-batalhao-disparos-e-corpo-carbonizado-veja-cronologia-da-morte-de-soldado-na-grande-fortaleza.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Carro de luxo é atingido por disparos de arma de fogo em avenida de Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/24/carro-de-luxo-e-atingido-por-disparos-de-arma-de-fogo-em-avenida-de-fortaleza.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Justiça nega habeas corpus a policial militar presa por morte de soldado carbonizado",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/justica-nega-habeas-corpus-a-policial-militar-presa-por-morte-de-soldado-carbonizado.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Empresário sofre tentativa de latrocínio, abandona carro e depois volta para buscar malote",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/25/empresario-sofre-tentativa-de-latrocinio-abandona-carro-e-depois-volta-para-buscar-malote-no-veiculo.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Concurso para Prefeitura de Aracati oferta 127 vagas com salários de até R$ 5,4 mil",
-      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/25/concurso-para-prefeitura-de-aracati-oferta-127-vagas-com-salarios-de-ate-r-54-mil.ghtml",
-      "data": "2026-08-25",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
     }
   ],
   "atosLei": [
     {
       "titulo": "Matéria legislativa",
       "fonte": "Senado Federal",
-      "data": "2026-08-29",
+      "data": "2026-08-30",
       "url": "https://www25.senado.leg.br/",
       "tema": "legislativo-federal",
       "impacto": "BAIXO",
@@ -1156,15 +1156,6 @@
       "fonte": "Regulatório (via imprensa)",
       "data": "2026-08-27",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcG9ubmdtdnVrOC16SHowZzh2S1FZX2hQTG5IZkkzREs1VnNEM1VldVlDb0tQZzhab0g5amVMTjRUeWxfUFNKYlR1dXdYTmhReW5SVkRTcml1WlBnNV9UNXNsN3VCMGJrM245UVRmVmVoTE43M3Rxc3dhcmc2dXpOUTNJSEh0UmFDNnFGdXhwQ1A?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa aprova novo medicamento injetável para tratamento de câncer no sistema linfático - bnews.com.br",
-      "fonte": "Anvisa",
-      "data": "2026-08-27",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYzJmaktYdmI2b1AxTDY5UFNHb2ZBbi1Ddlg2RDhENWxfSk9yQXltX2dINUFxb0xfekpqV0JnWlRRdzk5UFNrOTd0VHh6LXhlN255aXE3VUNNWVpib0tjeWFXMnB1ZVFOMWRFaThKZ3R5RUEtWE5hdzVUbmt3ZGlnZ0xfU0EtYkVMQmU4dkpOV1ZybFBDaTUwYmxrem5ZUXpEdHlQZFRFWHg2dUdMVEU2VFA0S1J2SmxLd2xoMTNhSFllZC1XcExkSnljaHEyTGQ0RmfSAdIBQVVfeXFMT2MyZmpLWHZiNm9QMUw2OVBTR29mQW4tQ3ZYNkQ4RDVsX0pPckF5bV9nSDVBcW9MX3pKaldCZ1pUUXc5OVBTazk3dFR4ei14ZTdueWlxN1VDTVlaYm9LY3lhVzJwdWVRTjFkRWk4Smd0eUVBLVhOYXc1VG5rd2RpZ2dMX1NBLWJFTEJlOHZKTldWcmxQQ2k1MGJsa3puWVF6RHR5UGRURVh4NnVHTFRFNlRQNEtSdkpsS3dsaDEzYUhZZWQtV3BMZEp5Y2hxMkxkNEZn?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1197,19 +1188,19 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novo medicamento para trantamento de câncer linfático - Metrópoles",
+      "titulo": "Anvisa aprova novo medicamento para câncer do sistema linfático - Correio do Povo",
       "fonte": "Anvisa",
       "data": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUJleE1KeGEzZ3VqdHkzOEdpMkk4U1FqLUJHYVpXeTI1eHNQN0sxeHY4Y0Njd3ZMUm5EOU5Gek5Rc0ZKVWltNWYxeDB0blUzb2ZOTFVsZ0tma2JZbDNodi0xUGxtWDd3YmRpQm1rWDBKNl9HVHhPYm4tZFB4cnptSjZla0Nsek1HLWtWbWNleWFDdWFERXpudUE1amhvWU9tTmNZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNFUyZUZybndJT1BYaFhkN1pOLU91RTROcUtzRWlmcGVFdnB3NGxvTlBYVmdycTdDYzA1ckc0SVpLUXJwQWlRbUlEUEJ2bEktclVDVHlRUUVfeW5KMVJFY0Y1RVJzSGZjYVU5X3hxbDBNZU5MWXBCNG1FZDhvNXJoaFJ1YzRjYlpTcUx4eU1mNHlfX3ppa2lEUmlGTmlmaUhqTkVweV9Od240RTdoY3NhTUdjWmZ1Y3ZyUnZ3cFBpamhZdnh2S2JzRkZqZw?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novo medicamento para câncer do sistema linfático - Correio do Povo",
+      "titulo": "Anvisa aprova novo medicamento para trantamento de câncer linfático - Metrópoles",
       "fonte": "Anvisa",
       "data": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNFUyZUZybndJT1BYaFhkN1pOLU91RTROcUtzRWlmcGVFdnB3NGxvTlBYVmdycTdDYzA1ckc0SVpLUXJwQWlRbUlEUEJ2bEktclVDVHlRUUVfeW5KMVJFY0Y1RVJzSGZjYVU5X3hxbDBNZU5MWXBCNG1FZDhvNXJoaFJ1YzRjYlpTcUx4eU1mNHlfX3ppa2lEUmlGTmlmaUhqTkVweV9Od240RTdoY3NhTUdjWmZ1Y3ZyUnZ3cFBpamhZdnh2S2JzRkZqZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUJleE1KeGEzZ3VqdHkzOEdpMkk4U1FqLUJHYVpXeTI1eHNQN0sxeHY4Y0Njd3ZMUm5EOU5Gek5Rc0ZKVWltNWYxeDB0blUzb2ZOTFVsZ0tma2JZbDNodi0xUGxtWDd3YmRpQm1rWDBKNl9HVHhPYm4tZFB4cnptSjZla0Nsek1HLWtWbWNleWFDdWFERXpudUE1amhvWU9tTmNZ?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1233,15 +1224,6 @@
       "origem": "auto"
     },
     {
-      "titulo": "Hospital São Marcos terá R$ 2,3 milhões mensais em novos recursos para manter atendimentos pelo SUS - G1",
-      "fonte": "Regulatório (via imprensa)",
-      "data": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVVhERkVpQi1YQ0tiZWdQS2dzX2xJbHZnRFN0NkpIMXhia3JGNXowZ0V5OG1LYzVmTkJ5aWhFZDZXa3JKUWVPbHplVjU3RjZ3aDhnbkVsclhYTVNqdUZGZzA4SmZoZS1jZWVVSzFXUlhMSUM1ZnBCU2o2Z01OUGoxRHRvSFhoSmpNVUhaczVJSmpBQTNlVE1nM3RGZWxUTGtHS0HSAaIBQVVfeXFMTVVYREZFaUItWENLYmVnUEtnc19sSWx2Z0RTdDZKSDF4YmtyRjV6MGdFeThtS2M1Zk5CeWloRWQ2V2tySlFlT2x6ZVY1N0Y2d2g4Z25FbHJYWE1TanVGRmcwOEpmaGUtY2VlVUsxV1JYTElDNWZwQlNqNmdNTlBqMUR0b0hYaEpqTVVIWnM1SUpqQUEzZVRNZzN0RmVsVExrR0tB?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Governo define aporte mensal de R$ 3,2 milhões para oncologia no Hospital São Marcos - parlamentopiaui.com.br",
       "fonte": "Regulatório (via imprensa)",
       "data": "2026-08-26",
@@ -1251,38 +1233,11 @@
       "origem": "auto"
     },
     {
-      "titulo": "Após suspensão de atendimentos, São Marcos recebe R$ 2,3 milhões de aporte adicional do Governo do Piauí - Portal O Dia",
-      "fonte": "Regulatório (via imprensa)",
-      "data": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOGtDUC1tUTd2N3VncTF4ckRBUWJRZWNJTkVpOG1zYUE4VndKNU1GMzRLWTlOaXlDV1VhQ25qbTBDWWZyZHA5RmlOeGs5SEpmQjJsS0k5NkpCVnVjVlpqVWZScDBsclZ2eU9tVHlhYW9UN0xSbkVEOGpKd2tRSEV1ZzBOZHNtQi03ZWdFcGRqNTZ4eW5XSkNsdnVsVjVmQUNHM0RtM3BkWG9XQ2lzMGYtTloxM2FtdVd3OFI1VnFQUGpOTWhseFAtREFrcVZHZ1BBaXhVMzhlcGU5STVna1ZVV1VTWE9fZl83UHJJ0gHrAUFVX3lxTE04a0NQLW1RN3Y3dWdxMXhyREFRYlFlY0lORWk4bXNhQThWd0o1TUYzNEtZOU5peUNXVWFDbmptMENZZnJkcDlGaU54azlISmZCMmxLSTk2SkJWdWNWWmpVZlJwMGxyVnZ5T21UeWFhb1Q3TFJuRUQ4akp3a1FIRXVnME5kc21CLTdlZ0VwZGo1Nnh5bldKQ2x2dWxWNWZBQ0czRG0zcGRYb1dDaXMwZi1OWjEzYW11V3c4UjVWcVBQak5NaGx4UC1EQWtxVkdnUEFpeFUzOGVwZTlJNWdrVlVXVVNYT19mXzdQckk?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Institui a Política Nacional de Prevenção ao Câncer de Pele e de Atenção Integral à Pessoa com Neoplasia Cutânea. (PL 5175/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-25",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644557",
-      "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Juiz manda plano custear remédio para câncer de próstata metastático - Migalhas",
       "fonte": "Regulatório (via imprensa)",
       "data": "2026-08-25",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQU9CaWstUGpRN25jN3kzU2VXbk5ETU5XQXZnUjRKNFU5X3EyYUhWTEJYSXMxTWRaMXdWcWJMSS1DX3pmZ2hKVzROdV9NZzM0dTdBejlGaGUwSkxlamk0S1RFZTJUUDRHS3dOQWt2d1J3M2l5VDB2MWRDQnFrbjlMQzZzQlJrdHZGaWtZd0xlaDl0ZzdDUVFmYzFVbEVyQm1RS0RxcjJBZ3hOSHJISGNRdw?oc=5",
       "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Estabelece prazo máximo para a realização de avaliação diagnóstica e emissão de laudo relativo aos transtornos de neurodesenvolvimento no âmbito das redes pública e privada de saúde e institui mecanismos de garantia e efetividade temporal do diagnóstico. (PL 5143/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-24",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644343",
-      "tema": "legislativo-federal",
       "impacto": "BAIXO",
       "origem": "auto"
     },
@@ -1328,33 +1283,6 @@
       "data": "2026-08-18",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZnF1dmFCV3EtSDg3ZFJaaHZrb2tsdHBBT0g3cUZGZElzcFVvS2xzNnlvQmk5TS0zWXlIWUVKdmZrLWo5V2czSi1lMmwzQjl3OVZZdExQcXlKcFgxNzQxNEw4ekstM0tPTEZYSWRxOE1mX0FkTmh0djNqaEFOLWRRZGlhRXZDRlhtUUQwdkZTOFBhR0tiWVVUMDREUHZxa25jc182Z0dvUHJoUldvdUx0Vnk5ZkV6Yi0w?oc=5",
       "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Altera a Lei nº 9.656, de 3 de junho de 1998, para considerar nulas de pleno direito as cláusulas que condicionem a rescisão do contrato de plano privado de assistência à saúde ao cumprimento de aviso prévio ou imponham a cobrança de mensalidades ou outros encargos após a manifestação de vontade do contratante. (PL 4998/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-11",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642697",
-      "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Altera a Lei nº 12.732, de 22 de novembro de 2012, para prever o encaminhamento de pacientes do Sistema Único de Saúde a estabelecimento privado quando houver descumprimento dos prazos legais para diagnóstico ou tratamento do câncer. (PL 4929/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-07",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642188",
-      "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Institui o Programa Tratamento Garantido, estabelece o Sistema Nacional de Garantia da Continuidade Assistencial na Saúde Suplementar – SNGCASS; cria o Fundo Garantidor da Assistência à Saúde Suplementar – FGASS; dispõe sobre mecanismos destinados à continuidade da assistência aos beneficiários de planos privados de assistência à saúde nas hipóteses de direção fiscal, liquidação extrajudicial, alienação compulsória de carteira, insolvência ou encerramento das atividades da operadora; altera a Lei nº 9.656, de 3 de junho de 1998, e dá outras providências. (PL 4888/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-08-05",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641973",
-      "tema": "legislativo-federal",
       "impacto": "BAIXO",
       "origem": "auto"
     },
@@ -1408,6 +1336,78 @@
       "fonte": "Anvisa",
       "data": "2026-07-28",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMDdSLXEwNi1HOThad2xMYkt4MUg4c2lhem9MS0V4TzhueDhTQVRKbnVNQWw2cEhnV0JxWUNFS3BOOERPZ0VTSUIybUhRX19qaXc5Z3JwV0VRbU84MmJheE1VSUxGSHdRTlNlTWVJMnZMS0VhSUFxMFEya2pXblRSVktiUzBjdUg2N3YwN2R4N25OWVNrd0FNeEZiLVV1TVRyQnBjQmtFb9IBtgFBVV95cUxOVFhyVndjcFo1bDdMend2ZmhvX0QzalhWTDgtLXJLWFdjVl9EUnl2ZHRIcG9NOGM4dWJiM1RTZWl0S2NKVkQxd05hR1cyTDFHU2RrUDBXdWVDaUV5S05QM3A0d3llcW5ReFZ0QTdXNjV1cmVJcng4YmxfcXowbE1IeDV3WFdqTVBIRF82MGxkTHBrdkhmNEQwTUl0VEtqWjVCdlhXWHVuMzRJZ1RiNHBIa1VxUFMxQQ?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão com mutação genética - CNN Brasil",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1VNcGNPYnpzN2pSNjZzYlJjajgyd1N5ZVAzdlFQQXJGNGZ5SlRsM3B3bnhJWWxPbjFPaEQ4NTdkZVlvVERweDdIVUhxcm5leWUxYzJxaW0xZWxMaUdmQ0EtcDVzck1iNExiR3JxRGxScTBza2xwRzh2NTFUUC03Qk9ULTBicngyYUV4WTJCQWtwVFRFNW10TnRLUEtubkxpSzlSa1hwcUVlWDZ2X0E?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - 96FM Bauru",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaDdSbmVZYXd4NVZ0NEtWdEd4TjM1XzM1TDBqY3VneDlhMmUta3F4YVdnRjQ1NjJwRTlJdWJYVUxPMmdSdWIya0llcEF1YVZJMS1sZm1BWjE4QkotdTRaNFZ1R0t6RmZIX0JlQ19nSERZZndBMmtWZHYtQ0xEc2VMc01ndw?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - iBand CE",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUlZuaHBENmx4MWtkTjJvSWVNeVdYckpBOUFhUFp6TXpJVW40UDZrNjJ4NVNvVFhoQnhidHV5cG9NWWFNOVIwMFFNRVVLLURzWmQxbUxRZ2lyaGR4TlN2TjQxSHBxQ1NoQlN0QWdEdmduc2lXdUh4MjRXNEh4Y0dncktR?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - REDE BRASIL DE TELEVISÃO",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3NvVjVHd2RTXzNXX3hrZG52RjdrQXFpTHR0a1RRMjhMLU9acVhJaXl6djhPYzNPbFY4VUthZjBDNjVnbjRNbWgtSWlkNkJ5MEFCX0l4eWpPcVZWODRsajhGYkpnX1JlWEdIZHlxX2k4UVFjb3ZJOEVXVzN3eUV2cXpUOGhoZUprSjZ3dlhR?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Radar Amazônico",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXpjaVBYVGlOTUVNaWVtRFlHRGo1Z3RmU3dGMHlHYUxJUnNIbWNXMTJCQ2N4bmIySEQtZ19SbGFBT240ZG9CQ3JTel9YQkdGRHBwb2w3M0RDVDZlbkpnQ1hEUjNpV085ZjFja3RJNkoyTW9WTjhBX2ZiMlpjc1BJUGM5VDV5NEdWdmdz?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Novo medicamento para câncer de pulmão é aprovado pela Anvisa - Midiamax",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX085WnlrcHptVFJ1VlhFalpNcmZDM2drNmJlaTZycmpPX2FxdXJZY3lpMFlLWGxDRTZJTnRxWkxLYjVScVpHSV9vcm1vdVpEUzl0bk9hMnVLeFpvNS1URXRZZUNDMUlER25VbnRSM1FpMVhrR3ctREIwNjcwUWRtMDJ0QWhBU1dzVnJWZlM3bw?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa inclui nova indicação de remédio para tratar câncer de pulmão - Rádio Itatiaia",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFlCZ2twcUVhT3htZEhldGEyMU5hcmMwOFR1c2MzUF9DczF1ZzVqamJfdzEyVE9MZjMzS01lRmpQdG94cjRZdXowZFE1bk8xeU1EZVNkWmktMlR1MWtlc0tSUXlTYW1VMzYtWnNqQTdIRkhIMkdKLTB6dF9fbUpXS0FYMEN5dDZNa010czRtRmR1TzJleXR6ZURhc2hLSGh6TldrbU5B?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Jornal Ilustrado",
+      "fonte": "Anvisa",
+      "data": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcS1qSkdRN2psdmJwc2p4c19FcWo5U0Z2TlBKa1BxVzcwdUtfdnI4dEh0dS1jTVVuRkZoYlV4MjlHSE00MmRiR18teGd3V0haN2NJVGoxUnlWUDVtdnpBTy1pejNDd0xGRS1vbFJsVk80b3d4VERXNGtfS3JiU01BQk9OSzc?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
