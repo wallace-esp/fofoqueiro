@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-08-24T11:13:32.241Z",
+  "executadoEm": "2026-08-31T10:02:25.775Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 18
+          "ultimo": 14
         }
       ]
     },
@@ -76,12 +76,12 @@
         },
         {
           "termo": "CRIO Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "ok",
+          "ultimo": 7
         },
         {
           "termo": "hospital oncológico Fortaleza",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
@@ -117,7 +117,7 @@
       "resultadosPorTermo": [
         {
           "termo": "biópsia Fortaleza",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
@@ -152,21 +152,24 @@
         {
           "geo": "BR-CE",
           "status": "ok",
-          "pontos": 91
+          "pontos": 0
+        },
+        {
+          "geo": "BR",
+          "status": "ok-fallback",
+          "pontos": 0
         }
       ],
-      "geoUsado": "BR-CE",
-      "pontos": 91,
+      "geoUsado": "BR",
+      "pontos": 0,
       "resultadosPorTermo": [
         {
           "termo": "onco Ceará",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         },
         {
           "termo": "câncer infantil Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         }
       ]
     }
@@ -175,13 +178,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 67,
+    "ultimoValor": 45,
     "status": "wrapper-ok"
   },
   "resumo": {
-    "comDados": 3,
-    "semDados": 0,
-    "semInteresse": 14,
+    "comDados": 2,
+    "semDados": 2,
+    "semInteresse": 13,
     "total": 17
   }
 }
