@@ -5,12 +5,12 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-09-07T09:14:47.131Z",
+  "atualizadoEm": "2026-09-07T10:04:11.983Z",
   "ultimaExecucao": {
-    "mode": "daily",
-    "em": "2026-09-07T09:14:47.131Z"
+    "mode": "weekly",
+    "em": "2026-09-07T10:04:11.983Z"
   },
-  "proximaAtualizacao": "notícias/leis diárias",
+  "proximaAtualizacao": "concorrência semanal",
   "noticias": [
     {
       "veiculo": "Google News",
@@ -1462,7 +1462,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:29.439Z",
+      "coletadoEm": "2026-09-07T10:03:15.841Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR-CE"
     },
@@ -1489,7 +1489,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:29.439Z",
+      "coletadoEm": "2026-09-07T10:03:15.841Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR-CE"
     },
@@ -1516,7 +1516,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:29.439Z",
+      "coletadoEm": "2026-09-07T10:03:15.841Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR-CE"
     },
@@ -1543,14 +1543,14 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:29.439Z",
+      "coletadoEm": "2026-09-07T10:03:15.841Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE"
     },
     {
       "termo": "ICC Fortaleza",
-      "indiceInteresse": 14,
-      "volume": 14,
+      "indiceInteresse": 18,
+      "volume": 18,
       "incremento": 0,
       "tendencia": "estável",
       "serie": [
@@ -1565,12 +1565,12 @@
         0,
         0,
         0,
-        14
+        18
       ],
       "geo": "BR-CE",
       "status": "ok",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:29.439Z",
+      "coletadoEm": "2026-09-07T10:03:15.841Z",
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=ICC%20Fortaleza&geo=BR-CE"
     },
@@ -1597,14 +1597,14 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:32.396Z",
+      "coletadoEm": "2026-09-07T10:03:18.587Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=Oncocl%C3%ADnicas%20Fortaleza&geo=BR-CE"
     },
     {
       "termo": "CRIO Fortaleza",
-      "indiceInteresse": 7,
-      "volume": 7,
+      "indiceInteresse": 100,
+      "volume": 100,
       "incremento": 0,
       "tendencia": "estável",
       "serie": [
@@ -1619,12 +1619,12 @@
         0,
         0,
         0,
-        7
+        100
       ],
       "geo": "BR-CE",
       "status": "ok",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:32.396Z",
+      "coletadoEm": "2026-09-07T10:03:18.587Z",
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=CRIO%20Fortaleza&geo=BR-CE"
     },
@@ -1655,7 +1655,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=hospital%20oncol%C3%B3gico%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-08-31T10:02:42.956Z",
+      "ultimaTentativa": "2026-09-07T10:03:28.352Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1681,7 +1681,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:32.396Z",
+      "coletadoEm": "2026-09-07T10:03:18.587Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20mama%20Fortaleza&geo=BR-CE"
     },
@@ -1708,7 +1708,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:32.396Z",
+      "coletadoEm": "2026-09-07T10:03:18.587Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20pr%C3%B3stata%20Fortaleza&geo=BR-CE"
     },
@@ -1739,7 +1739,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=bi%C3%B3psia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-08-31T10:02:42.956Z",
+      "ultimaTentativa": "2026-09-07T10:03:28.352Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1762,12 +1762,12 @@
         0,
         0
       ],
-      "geo": "BR-CE",
+      "geo": "BR",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:35.361Z",
+      "coletadoEm": "2026-09-07T10:03:23.178Z",
       "confiabilidade": "BAIXA",
-      "url": "https://trends.google.com/trends/explore?q=imunoterapia%20Fortaleza&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=imunoterapia%20Fortaleza&geo=BR"
     },
     {
       "termo": "PET scan Fortaleza",
@@ -1789,12 +1789,12 @@
         0,
         0
       ],
-      "geo": "BR-CE",
+      "geo": "BR",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:35.361Z",
+      "coletadoEm": "2026-09-07T10:03:23.178Z",
       "confiabilidade": "BAIXA",
-      "url": "https://trends.google.com/trends/explore?q=PET%20scan%20Fortaleza&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=PET%20scan%20Fortaleza&geo=BR"
     },
     {
       "termo": "medicamento oncológico SUS",
@@ -1816,12 +1816,12 @@
         0,
         0
       ],
-      "geo": "BR-CE",
+      "geo": "BR",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:35.361Z",
+      "coletadoEm": "2026-09-07T10:03:23.178Z",
       "confiabilidade": "BAIXA",
-      "url": "https://trends.google.com/trends/explore?q=medicamento%20oncol%C3%B3gico%20SUS&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=medicamento%20oncol%C3%B3gico%20SUS&geo=BR"
     },
     {
       "termo": "plano de saúde oncologia Ceará",
@@ -1843,39 +1843,65 @@
         0,
         0
       ],
-      "geo": "BR-CE",
+      "geo": "BR",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-08-31T10:02:35.361Z",
+      "coletadoEm": "2026-09-07T10:03:23.178Z",
       "confiabilidade": "BAIXA",
-      "url": "https://trends.google.com/trends/explore?q=plano%20de%20sa%C3%BAde%20oncologia%20Cear%C3%A1&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=plano%20de%20sa%C3%BAde%20oncologia%20Cear%C3%A1&geo=BR"
     },
     {
       "termo": "onco Ceará",
-      "indiceInteresse": null,
-      "volume": null,
-      "incremento": null,
-      "tendencia": "indisponível",
-      "serie": [],
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "geo": "BR-CE",
-      "status": "indisponivel",
+      "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": null,
-      "confiabilidade": "SEM_DADO",
+      "coletadoEm": "2026-09-07T10:03:25.850Z",
+      "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=onco%20Cear%C3%A1&geo=BR-CE"
     },
     {
       "termo": "câncer infantil Fortaleza",
-      "indiceInteresse": null,
-      "volume": null,
-      "incremento": null,
-      "tendencia": "indisponível",
-      "serie": [],
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "geo": "BR-CE",
-      "status": "indisponivel",
+      "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": null,
-      "confiabilidade": "SEM_DADO",
+      "coletadoEm": "2026-09-07T10:03:25.851Z",
+      "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20infantil%20Fortaleza&geo=BR-CE"
     }
   ],
@@ -1890,14 +1916,14 @@
         "mencoes30d": {
           "valor": 1,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:02:42.958Z",
+          "coletadoEm": "2026-09-07T10:03:28.355Z",
           "confiabilidade": "ALTA",
           "evidencia": true,
           "exemplos": [
             {
-              "titulo": "Bispo Bruno Leonardo emociona multidão em Fortaleza e anuncia doação de R$ 1 milhão ao Instituto do Câncer do Ceará - Midiamax",
-              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTWdWYk9mejduYWdqd1g3eWNXUlpmLXJxdmFiRFFHRTQxcHQyU0pUV1BqTHM5b2tPeFlxYXRIdmZ1YkxLc3dGLWdtSklMVzFTU1F2OWR4SFpBX3kzMXdYaUpwOGdVRWxHclgxaUtCYU5IRTZfVVJzaUMta2ZkcEI2WHBLYmp6enh3Xzk4UF8zUEx6YnM1RExLblJpY25DT29qWGt5cDZQT2ZOM2lnT2ZmTXZTY2lxZXFER05oRHBlVmJNT3ZNX3VaU1ZHTFJqdFZzOFJSTWR0R0FQZw?oc=5",
-              "data": "2026-08-29"
+              "titulo": "Rede ICC Saúde abre inscrições para Mestrado em Oncologia - OpiniãoCE",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTlJ3UFlkdjlMYUcxNkIza1R3YVdCbGJiNlIxMWFMUWJZZVRZTEk5UXE2RGRpbEtjak53bTJqbURoYVlpMjkxaGdEcTkzMGZIMnRERmhOVWttUklPTmtnOXlaNWtBNWhSZVppbnQ5a1BqNlBBZmdnRHZUSFN0U1pYZXlOWnZVVmpVcm9RWlIyUEtWdkN5YklRNzAtWmNTZEs5cWUzTk90SQ?oc=5",
+              "data": "2026-09-04"
             }
           ]
         },
@@ -1951,12 +1977,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
           "diff": 1,
           "pct": null,
-          "diasEntre": 8
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -1974,7 +2000,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:02:47.925Z",
+          "coletadoEm": "2026-09-07T10:03:32.780Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -1985,7 +2011,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2029,12 +2055,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
           "diff": -31,
           "pct": -100,
-          "diasEntre": 8
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2050,12 +2076,23 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 0,
+          "valor": 2,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:02:52.552Z",
+          "coletadoEm": "2026-09-07T10:03:37.135Z",
           "confiabilidade": "ALTA",
-          "evidencia": false,
-          "exemplos": []
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "Rede ICC Saúde abre inscrições para Mestrado em Oncologia - OpiniãoCE",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTlJ3UFlkdjlMYUcxNkIza1R3YVdCbGJiNlIxMWFMUWJZZVRZTEk5UXE2RGRpbEtjak53bTJqbURoYVlpMjkxaGdEcTkzMGZIMnRERmhOVWttUklPTmtnOXlaNWtBNWhSZVppbnQ5a1BqNlBBZmdnRHZUSFN0U1pYZXlOWnZVVmpVcm9RWlIyUEtWdkN5YklRNzAtWmNTZEs5cWUzTk90SQ?oc=5",
+              "data": "2026-09-04"
+            },
+            {
+              "titulo": "SUS regulamenta Componente da Assistência Farmacêutica em Oncologia — Ministério da Saúde - www.gov.br",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNDFzVzkxZTFfSUs5azc1OWx1c1I2Z1Z5UnJ1VlZ0UUxWem5Gbm90SUM4U2NJTmQycjdnT0Y5LS1EbnpOZF9SeU0zajdTS0pUYWVmR0JoOTJyWGlEcXY4VGhWeXRueDNyNmRTLUJUTW56UTZYZHZ4UXhlTlJMSmg1aXAzeE9vUHV3bk5UWHA4Tm9zUE1NblRzaTU5T21qaDVEZVo3NGI3OWZJTFAwU2Z5dWFsNTU0dW5rSEljeFRjV1l3QTIweEo5WHB0alFkZw?oc=5",
+              "data": "2026-09-02"
+            }
+          ]
         },
         "interesseTrends": {
           "valor": null,
@@ -2063,7 +2100,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends vazio para marca"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -2107,12 +2144,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
-          "diff": -2,
-          "pct": -100,
-          "diasEntre": 8
+          "diff": 0,
+          "pct": 0,
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2128,18 +2165,12 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 1,
+          "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:02:57.197Z",
+          "coletadoEm": "2026-09-07T10:03:41.482Z",
           "confiabilidade": "ALTA",
-          "evidencia": true,
-          "exemplos": [
-            {
-              "titulo": "CRIO reúne pais e filhos em tarde de celebração no Dragon Park - Portal IN - Pompeu Vasconcelos - Balada IN",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMmxLSWU1Nk4wNy1MN1JtNWc5dlA4QVNSSWJHNXdpUDZSaUJUZ1pZeGxneGtjWFVxVVdQLVFtVWRlc2JEejlTUDhuSWd2UnJ6SzFVSnhOZEd3aWF3eTU0blRISUo5NkVsblZHN0x1ZUg4Z0s5OTVSbUZPX0VxaE95c2FhbDJtU2hFU2poSFg2MkZjQlNaZ3IxQWJuVVk3ZHN6TEFQQg?oc=5",
-              "data": "2026-08-30"
-            }
-          ]
+          "evidencia": false,
+          "exemplos": []
         },
         "interesseTrends": {
           "valor": null,
@@ -2147,7 +2178,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2191,12 +2222,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
-          "diff": -1,
-          "pct": -50,
-          "diasEntre": 8
+          "diff": -2,
+          "pct": -100,
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2214,7 +2245,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:03:01.848Z",
+          "coletadoEm": "2026-09-07T10:03:45.869Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2225,7 +2256,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends falhou: Unexpected token '<', \"<html lang\"... is not valid JSON"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2269,12 +2300,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
           "diff": 0,
           "pct": null,
-          "diasEntre": 8
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2290,33 +2321,12 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 4,
+          "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:03:06.251Z",
+          "coletadoEm": "2026-09-07T10:03:50.144Z",
           "confiabilidade": "ALTA",
-          "evidencia": true,
-          "exemplos": [
-            {
-              "titulo": "TRE-CE determina que Elmano de Freitas remova vídeo gravado em canteiro de obras de hospital no Cariri",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/tre-ce-determina-que-elmano-de-freitas-remova-video-gravado-em-canteiro-de-obras-de-hospital-no-cariri.ghtml",
-              "data": "2026-08-30"
-            },
-            {
-              "titulo": "Em carreata em Maranguape, Elmano de Freitas promete construção de Hospital Metropolitano",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/em-carreata-em-maranguape-elmano-de-freitas-promete-construcao-de-hospital-metropolitano.ghtml",
-              "data": "2026-08-30"
-            },
-            {
-              "titulo": "Maqueiro suspeito de crime sexual contra policial em hospital de Fortaleza deixou o local antes do fim do plantão",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/maqueiro-suspeito-de-crime-sexual-contra-policial-em-hospital-de-fortaleza-deixou-o-local-antes-do-fim-do-plantao.ghtml",
-              "data": "2026-08-29"
-            },
-            {
-              "titulo": "Policial denuncia crime sexual cometido por funcionário de hospital após cirurgia em Fortaleza",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/28/policial-denuncia-crime-sexual-apos-cirurgia-em-hospital-de-fortaleza.ghtml",
-              "data": "2026-08-28"
-            }
-          ]
+          "evidencia": false,
+          "exemplos": []
         },
         "interesseTrends": {
           "valor": null,
@@ -2368,12 +2378,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
-          "diff": 3,
-          "pct": 300,
-          "diasEntre": 8
+          "diff": -1,
+          "pct": -100,
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2389,36 +2399,36 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 13,
+          "valor": 10,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:03:11.009Z",
+          "coletadoEm": "2026-09-07T10:03:54.524Z",
           "confiabilidade": "ALTA",
           "evidencia": true,
           "exemplos": [
             {
-              "titulo": "Carreata e adesivaço: como foi o dia dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/carreata-e-adesivaco-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-08-30"
+              "titulo": "Candidatos ao governo do Ceará apostam em carreatas e motocarreata durante agenda de campanha neste domingo",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/06/candidatos-ao-governo-do-ceara-apostam-em-carreatas-e-motocarreata-durante-agenda-de-campanha-neste-domingo.ghtml",
+              "data": "2026-09-06"
             },
             {
-              "titulo": "Caminhadas e panfletagem: como foi o dia dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/caminhadas-e-panfletagem-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Candidatos ao governo do Ceará concentraram atos de campanha em Fortaleza e região metropolitana neste sábado (5)",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/05/candidatos-ao-governo-do-ceara-concentram-atos-de-campanha-em-fortaleza-e-regiao-metropolitana-neste-sabado-5.ghtml",
+              "data": "2026-09-05"
             },
             {
-              "titulo": "Eleições 2026: Bom Dia Ceará entrevista candidatos ao Senado Federal",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/eleicoes-2026-bom-dia-ceara-entrevista-candidatos-ao-senado-federal.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Eventos em Fortaleza e no interior: como foi o dia de campanha dos candidatos ao governo do Ceará",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/04/eventos-em-fortaleza-e-no-interior-como-foi-o-dia-de-campanha-dos-candidatos-ao-governo-do-ceara.ghtml",
+              "data": "2026-09-05"
             },
             {
-              "titulo": "Chefes do CV foragidos no RJ ordenam ameaças a candidatos em campanha eleitoral no Ceará",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/chefes-do-cv-foragidos-no-rj-ordenam-ameacas-a-candidatos-em-campanha-eleitoral-no-ceara.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Suspeito de envolvimento em assassinato de homem na frente da companheira grávida é preso no Ceará",
+              "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/09/04/suspeito-de-envolvimento-em-assassinato-de-homem-na-frente-da-companheira-gravida-e-preso-no-ceara.ghtml",
+              "data": "2026-09-04"
             },
             {
-              "titulo": "Panfletagem e foco na região do Cariri: como foi o dia dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/28/panfletagem-e-foco-na-regiao-do-cariri-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Comitê de candidato a deputado federal é incendiado no interior do Ceará",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/04/comite-de-candidato-a-deputado-federal-e-incendiado-no-interior-do-ceara.ghtml",
+              "data": "2026-09-04"
             }
           ]
         },
@@ -2428,7 +2438,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2472,12 +2482,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
-          "diff": 10,
-          "pct": 333.3,
-          "diasEntre": 8
+          "diff": 7,
+          "pct": 233.3,
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2495,7 +2505,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:03:15.656Z",
+          "coletadoEm": "2026-09-07T10:03:58.912Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2550,12 +2560,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
           "diff": 0,
           "pct": null,
-          "diasEntre": 8
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2573,7 +2583,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:03:20.289Z",
+          "coletadoEm": "2026-09-07T10:04:03.240Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2628,12 +2638,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
           "diff": 0,
           "pct": null,
-          "diasEntre": 8
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2651,7 +2661,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-08-31T10:03:24.930Z",
+          "coletadoEm": "2026-09-07T10:04:07.566Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2706,12 +2716,12 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-23 → 2026-08-31",
-        "diasEntre": 8,
+        "periodo": "2026-08-23 → 2026-09-07",
+        "diasEntre": 15,
         "mencoes": {
           "diff": 0,
           "pct": null,
-          "diasEntre": 8
+          "diasEntre": 15
         },
         "interesseTrends": null,
         "gmnAvaliacao": null,
@@ -2724,78 +2734,40 @@
   "fontesLegais": [],
   "oportunidades": [
     {
-      "titulo": "Concorrente ativo — Hospital Cura d'Ars",
-      "descricao": "Hospital Cura d'Ars foi mencionado 4 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
-      "tipo": "monitoramento-competitivo",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "clipping-30d",
-          "concorrente": "Hospital Cura d'Ars",
-          "mencoes": 4,
-          "exemplos": [
-            {
-              "titulo": "TRE-CE determina que Elmano de Freitas remova vídeo gravado em canteiro de obras de hospital no Cariri",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/tre-ce-determina-que-elmano-de-freitas-remova-video-gravado-em-canteiro-de-obras-de-hospital-no-cariri.ghtml",
-              "data": "2026-08-30"
-            },
-            {
-              "titulo": "Em carreata em Maranguape, Elmano de Freitas promete construção de Hospital Metropolitano",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/em-carreata-em-maranguape-elmano-de-freitas-promete-construcao-de-hospital-metropolitano.ghtml",
-              "data": "2026-08-30"
-            },
-            {
-              "titulo": "Maqueiro suspeito de crime sexual contra policial em hospital de Fortaleza deixou o local antes do fim do plantão",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/maqueiro-suspeito-de-crime-sexual-contra-policial-em-hospital-de-fortaleza-deixou-o-local-antes-do-fim-do-plantao.ghtml",
-              "data": "2026-08-29"
-            },
-            {
-              "titulo": "Policial denuncia crime sexual cometido por funcionário de hospital após cirurgia em Fortaleza",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/28/policial-denuncia-crime-sexual-apos-cirurgia-em-hospital-de-fortaleza.ghtml",
-              "data": "2026-08-28"
-            }
-          ]
-        }
-      ],
-      "recomendacao": "Battlecard atualizado + acompanhar tom e frequência.",
-      "origem": "auto",
-      "confianca": "ALTA"
-    },
-    {
       "titulo": "Concorrente ativo — ATO Oncologia",
-      "descricao": "ATO Oncologia foi mencionado 13 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
+      "descricao": "ATO Oncologia foi mencionado 10 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
       "tipo": "monitoramento-competitivo",
       "prioridade": "ALTA",
       "sinais": [
         {
           "fonte": "clipping-30d",
           "concorrente": "ATO Oncologia",
-          "mencoes": 13,
+          "mencoes": 10,
           "exemplos": [
             {
-              "titulo": "Carreata e adesivaço: como foi o dia dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/carreata-e-adesivaco-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-08-30"
+              "titulo": "Candidatos ao governo do Ceará apostam em carreatas e motocarreata durante agenda de campanha neste domingo",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/06/candidatos-ao-governo-do-ceara-apostam-em-carreatas-e-motocarreata-durante-agenda-de-campanha-neste-domingo.ghtml",
+              "data": "2026-09-06"
             },
             {
-              "titulo": "Caminhadas e panfletagem: como foi o dia dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/caminhadas-e-panfletagem-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Candidatos ao governo do Ceará concentraram atos de campanha em Fortaleza e região metropolitana neste sábado (5)",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/05/candidatos-ao-governo-do-ceara-concentram-atos-de-campanha-em-fortaleza-e-regiao-metropolitana-neste-sabado-5.ghtml",
+              "data": "2026-09-05"
             },
             {
-              "titulo": "Eleições 2026: Bom Dia Ceará entrevista candidatos ao Senado Federal",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/29/eleicoes-2026-bom-dia-ceara-entrevista-candidatos-ao-senado-federal.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Eventos em Fortaleza e no interior: como foi o dia de campanha dos candidatos ao governo do Ceará",
+              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/04/eventos-em-fortaleza-e-no-interior-como-foi-o-dia-de-campanha-dos-candidatos-ao-governo-do-ceara.ghtml",
+              "data": "2026-09-05"
             },
             {
-              "titulo": "Chefes do CV foragidos no RJ ordenam ameaças a candidatos em campanha eleitoral no Ceará",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/29/chefes-do-cv-foragidos-no-rj-ordenam-ameacas-a-candidatos-em-campanha-eleitoral-no-ceara.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Suspeito de envolvimento em assassinato de homem na frente da companheira grávida é preso no Ceará",
+              "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/09/04/suspeito-de-envolvimento-em-assassinato-de-homem-na-frente-da-companheira-gravida-e-preso-no-ceara.ghtml",
+              "data": "2026-09-04"
             },
             {
-              "titulo": "Panfletagem e foco na região do Cariri: como foi o dia dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/28/panfletagem-e-foco-na-regiao-do-cariri-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-08-29"
+              "titulo": "Comitê de candidato a deputado federal é incendiado no interior do Ceará",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/04/comite-de-candidato-a-deputado-federal-e-incendiado-no-interior-do-ceara.ghtml",
+              "data": "2026-09-04"
             }
           ]
         }
@@ -2805,33 +2777,16 @@
       "confianca": "ALTA"
     },
     {
-      "titulo": "Crescimento de mídia — Hospital Cura d'Ars",
-      "descricao": "Menções à Hospital Cura d'Ars passaram de 1 para 4 nos últimos ~8 dias. Sinal de campanha ou acontecimento relevante.",
-      "tipo": "sinal-competitivo",
-      "prioridade": "MÉDIA",
-      "sinais": [
-        {
-          "fonte": "snapshot-comparativo",
-          "inicio": "2026-08-23",
-          "fim": "2026-08-31",
-          "delta": 3
-        }
-      ],
-      "recomendacao": "Investigar causa e considerar resposta comunicacional.",
-      "origem": "auto",
-      "confianca": "ALTA"
-    },
-    {
       "titulo": "Crescimento de mídia — ATO Oncologia",
-      "descricao": "Menções à ATO Oncologia passaram de 3 para 13 nos últimos ~8 dias. Sinal de campanha ou acontecimento relevante.",
+      "descricao": "Menções à ATO Oncologia passaram de 3 para 10 nos últimos ~15 dias. Sinal de campanha ou acontecimento relevante.",
       "tipo": "sinal-competitivo",
       "prioridade": "ALTA",
       "sinais": [
         {
           "fonte": "snapshot-comparativo",
           "inicio": "2026-08-23",
-          "fim": "2026-08-31",
-          "delta": 10
+          "fim": "2026-09-07",
+          "delta": 7
         }
       ],
       "recomendacao": "Investigar causa e considerar resposta comunicacional.",
@@ -2839,15 +2794,15 @@
       "confianca": "ALTA"
     },
     {
-      "titulo": "Janela de posicionamento — Expansão: Primeira escola indígena em tempo integral do Cariri é ofici",
-      "descricao": "Movimentação \"Expansão\" em 2026-08-31. Momento de reforçar mensagens de solidez e diferenciação.",
+      "titulo": "Janela de posicionamento — Fusão: SUS incorpora três novos medicamentos para câncer de pulmão",
+      "descricao": "Movimentação \"Fusão\" em 2026-09-02. Momento de reforçar mensagens de solidez e diferenciação.",
       "tipo": "posicionamento",
       "prioridade": "MÉDIA",
       "sinais": [
         {
-          "fonte": "G1 Ceará",
-          "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/31/primeira-escola-indigena-em-tempo-integral-do-cariri-e-oficialmente-inaugurada-em-brejo-santo.ghtml",
-          "data": "2026-08-31"
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR01iM2VlNjFEUldUNGFmTzk0eGRiR0RGRVd6d05SRXpXZ1gxVmozUWs5dHZuUGU2dDhPNDRybmMtS3oyRkY1YWVyd2VYWnVYU1lhRno1bDNzOExDcGZGTF9NaGU5TlpnQmI4UHpiSWtXX0V3Ym1MTzMwMlpqTllfSVQwUHBMQklsTkxSWGYyOWk1bEpJeUhjX2hlMkRKY1NTRzBoX0hSdw?oc=5",
+          "data": "2026-09-02"
         }
       ],
       "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
@@ -2855,15 +2810,15 @@
       "confianca": "MEDIA"
     },
     {
-      "titulo": "Janela de posicionamento — Fusão: Em adesivaço em Fortaleza, Ciro Gomes diz que estuda incorpo",
-      "descricao": "Movimentação \"Fusão\" em 2026-08-30. Momento de reforçar mensagens de solidez e diferenciação.",
+      "titulo": "Janela de posicionamento — Aquisição: Noiva cearense que comprou vestido por R$ 10 mil em loja acu",
+      "descricao": "Movimentação \"Aquisição\" em 2026-09-02. Momento de reforçar mensagens de solidez e diferenciação.",
       "tipo": "posicionamento",
       "prioridade": "MÉDIA",
       "sinais": [
         {
           "fonte": "G1 Ceará",
-          "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/30/em-adesivaco-em-fortaleza-ciro-gomes-diz-que-estuda-incorporar-cameras-em-fardas-de-policiais-no-ceara.ghtml",
-          "data": "2026-08-30"
+          "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/02/noiva-cearense-que-comprou-vestido-por-r-10-mil-em-loja-acusada-de-nao-entregar-pecas-em-sp-fica-sem-respostas-desesperador.ghtml",
+          "data": "2026-09-02"
         }
       ],
       "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
@@ -2875,6 +2830,6 @@
   "origem": {
     "motor": "ingest.mjs",
     "versao": "2.1",
-    "mode": "daily"
+    "mode": "weekly"
   }
 }

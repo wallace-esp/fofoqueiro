@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-08-31T10:02:25.775Z",
+  "executadoEm": "2026-09-07T10:03:13.280Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 14
+          "ultimo": 18
         }
       ]
     },
@@ -77,7 +77,7 @@
         {
           "termo": "CRIO Fortaleza",
           "status": "ok",
-          "ultimo": 7
+          "ultimo": 100
         },
         {
           "termo": "hospital oncológico Fortaleza",
@@ -109,10 +109,15 @@
         {
           "geo": "BR-CE",
           "status": "ok",
+          "pontos": 0
+        },
+        {
+          "geo": "BR",
+          "status": "ok-fallback",
           "pontos": 91
         }
       ],
-      "geoUsado": "BR-CE",
+      "geoUsado": "BR",
       "pontos": 91,
       "resultadosPorTermo": [
         {
@@ -152,24 +157,21 @@
         {
           "geo": "BR-CE",
           "status": "ok",
-          "pontos": 0
-        },
-        {
-          "geo": "BR",
-          "status": "ok-fallback",
-          "pontos": 0
+          "pontos": 91
         }
       ],
-      "geoUsado": "BR",
-      "pontos": 0,
+      "geoUsado": "BR-CE",
+      "pontos": 91,
       "resultadosPorTermo": [
         {
           "termo": "onco Ceará",
-          "status": "indisponivel"
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         },
         {
           "termo": "câncer infantil Fortaleza",
-          "status": "indisponivel"
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         }
       ]
     }
@@ -178,13 +180,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 45,
+    "ultimoValor": 65,
     "status": "wrapper-ok"
   },
   "resumo": {
     "comDados": 2,
-    "semDados": 2,
-    "semInteresse": 13,
+    "semDados": 0,
+    "semInteresse": 15,
     "total": 17
   }
 }
