@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-09-07T10:03:13.280Z",
+  "executadoEm": "2026-09-14T10:03:50.916Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -35,7 +35,7 @@
         },
         {
           "termo": "quimioterapia Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         },
         {
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 18
+          "ultimo": 11
         }
       ]
     },
@@ -76,8 +76,8 @@
         },
         {
           "termo": "CRIO Fortaleza",
-          "status": "ok",
-          "ultimo": 100
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         },
         {
           "termo": "hospital oncológico Fortaleza",
@@ -109,15 +109,10 @@
         {
           "geo": "BR-CE",
           "status": "ok",
-          "pontos": 0
-        },
-        {
-          "geo": "BR",
-          "status": "ok-fallback",
           "pontos": 91
         }
       ],
-      "geoUsado": "BR",
+      "geoUsado": "BR-CE",
       "pontos": 91,
       "resultadosPorTermo": [
         {
@@ -157,21 +152,24 @@
         {
           "geo": "BR-CE",
           "status": "ok",
-          "pontos": 91
+          "pontos": 0
+        },
+        {
+          "geo": "BR",
+          "status": "ok-fallback",
+          "pontos": 0
         }
       ],
-      "geoUsado": "BR-CE",
-      "pontos": 91,
+      "geoUsado": "BR",
+      "pontos": 0,
       "resultadosPorTermo": [
         {
           "termo": "onco Ceará",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         },
         {
           "termo": "câncer infantil Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         }
       ]
     }
@@ -180,13 +178,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 65,
+    "ultimoValor": 77,
     "status": "wrapper-ok"
   },
   "resumo": {
     "comDados": 2,
-    "semDados": 0,
-    "semInteresse": 15,
+    "semDados": 2,
+    "semInteresse": 13,
     "total": 17
   }
 }
