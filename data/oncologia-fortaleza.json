@@ -5,13 +5,310 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-09-14T10:04:51.521Z",
+  "atualizadoEm": "2026-09-15T09:15:18.305Z",
   "ultimaExecucao": {
-    "mode": "weekly",
-    "em": "2026-09-14T10:04:51.521Z"
+    "mode": "daily",
+    "em": "2026-09-15T09:15:18.305Z"
   },
-  "proximaAtualizacao": "concorrência semanal",
+  "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Feirão de emprego oferta 340 vagas para pessoas com deficiência em Fortaleza nesta quarta-feira (16)",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/09/15/feirao-de-emprego-oferta-340-vagas-para-pessoas-com-deficiencia-em-fortaleza-nesta-quarta-feira-16.ghtml",
+      "data": "2026-09-15",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Grande Fortaleza tem oito mortes em academias em pouco mais de um ano; relembre casos",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/15/grande-fortaleza-tem-oito-mortes-em-academias-em-pouco-mais-de-um-ano-relembre-casos.ghtml",
+      "data": "2026-09-15",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Estudante da UFC sofre facada durante assalto em frente a campus em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/estudante-da-ufc-sofre-facada-durante-assalto-em-frente-a-campus-em-fortaleza.ghtml",
+      "data": "2026-09-15",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Candidatos ao governo do Ceará focam em reuniões e entrevistas nas agendas de campanha desta segunda-feira",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/14/candidatos-ao-governo-do-ceara-focam-em-reunioes-e-entrevistas-nas-agendas-de-campanha-desta-segunda-feira.ghtml",
+      "data": "2026-09-15",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "'A dor maior é de ter perdido meu amor', diz cantora de forró que ficou ferida em acidente que companheiro morreu",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/15/a-dor-maior-e-de-ter-perdido-meu-amor-diz-cantora-de-forro-que-ficou-ferida-em-acidente-que-companheiro-morreu.ghtml",
+      "data": "2026-09-15",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem é preso suspeito de matar mulher a facadas em hotel no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/homem-e-preso-suspeito-de-matar-mulher-a-facadas-em-hotel-no-ceara.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Fortaleza bate o Coritiba e segue líder da Série B - jornaldosmunicipios.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlk5cllENVR6TjZkNXM1eHFTSUZsV1dlakFwUzM4MTc4eXBUZlRaOUJTbGZDVjIxV0VlLTBFdmtyLXBKUThTb1BNUS1jU3hsLUlBb3BQZTBTZFpoVy1TT3pja2dQNjNYQ0gtaGNfVzV4NWZFdlBZWExucTQ1WlV6Um1uMEtBZVY5LXNqUEV6cVZrcUdtLW50NnZoUzdCSjRYYy1ic2hzc1M0Z9IBqgFBVV95cUxPSlk5cllENVR6TjZkNXM1eHFTSUZsV1dlakFwUzM4MTc4eXBUZlRaOUJTbGZDVjIxV0VlLTBFdmtyLXBKUThTb1BNUS1jU3hsLUlBb3BQZTBTZFpoVy1TT3pja2dQNjNYQ0gtaGNfVzV4NWZFdlBZWExucTQ1WlV6Um1uMEtBZVY5LXNqUEV6cVZrcUdtLW50NnZoUzdCSjRYYy1ic2hzc1M0Zw?oc=5",
+      "data": "2026-09-14",
+      "termo": "biópsia Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Oncológicos devem estar no SUS em menos de seis meses, estima Ministério - Futuro da Saúde",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtVk8xUTlIeVpSaE9FN2F3WXMwWUx5UHFMWGZsT0xqdkU5REdZbjZmSkJkanJtN3pMTUNSSWpBcmZiYlN1MXdZNHRjenM3UVJjVHVWZlhWR3RaSjZoYXE3bDY2WEFRQWlKQmZuRjY0U19QMG1tS1I2aVpyUQ?oc=5",
+      "data": "2026-09-14",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Santa Casa de Sobral amplia acesso a medicamentos oncológicos disponibilizados pelo SUS - Sobral em Revista",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcTg3MV81QzlpYjdVZkIwVDQ3ZmdoRk5hTXhzRnVVLW9GeEVpR0VycWpYMHhFY0g4dlJVSVJfM0ZJeVc1WEhER2txaGEzaGF6aF9vUGhNRmpqeUVIUmF6RFRKTkdic2FORFk2TnRTeHQxbjFlTWJ0Y1lSZ0ZKTWxxWEpGOWQ5R1Nqcks1b1ZIYk5hT0JHazB0LVNZVFQ1Qm1WRWN1MzJvS1YxVnI0blJUaF9xOVd3VjdtYjJVb0dtbi1SYW5CSWhUUE13?oc=5",
+      "data": "2026-09-14",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Quem era o professor que morreu após passar mal em academia de Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/quem-era-o-professor-que-morreu-apos-passar-mal-em-academia-de-fortaleza.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Caso Kauã: empresário vai a júri popular em Fortaleza por matar jovem ao avançar preferencial",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/caso-kaua-empresario-vai-a-juri-popular-em-fortaleza-por-morte-de-jovem-em-colisao.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ciro promete habitação mais barata para famílias de baixa renda no Ceará e fundo para moradia popular",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/14/ciro-promete-habitacao-mais-barata-para-familias-de-baixa-renda-no-ceara-e-fundo-para-moradia-popular.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Instituição tem mais de 400 vagas de estágio e aprendizagem abertas no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/09/14/ciee-tem-mais-de-400-vagas-de-estagio-e-aprendizagem-abertas-no-ceara.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Motorista é preso após colidir com entregador que estava parado no semáforo em Fortaleza; vídeo ",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/motorista-e-preso-apos-colidir-com-entregador-que-estava-parado-no-semaforo-em-fortaleza-video.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Vídeo mostra momento em que empresária é assassinada em frente de casa no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/video-mostra-momento-em-que-empresaria-e-assassinada-em-frente-de-casa-no-interior-do-ceara.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Subtenente da PM morre após colidir moto contra animal na Grande Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/subtenente-da-pm-morre-apos-colidir-moto-contra-animal-na-grande-fortaleza.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Elmano pretende investir em tecnologia para criar empregos no Ceará e promete ampliar a Rede Maria da Penha",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/14/elmano-pretende-investir-na-tecnologia-para-criar-empregos-no-ceara-e-promete-ampliar-a-rede-maria-da-penha.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "CE1 entrevista candidatos ao governo do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/ao-vivo/ce1-entrevista-candidatos-ao-governo-do-ceara.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Homem morre após passar mal enquanto se exercitava em academia de Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/homem-morre-apos-passar-enquanto-se-exercitava-em-academia-de-fortaleza.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Companheiro de cantora de forró morre em colisão entre carro e carreta no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/companheiro-de-cantora-de-forro-morre-em-colisao-entre-carro-e-carreta-no-ceara.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Quem era a empresária assassinada a tiros em frente de casa no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/quem-era-a-empresaria-assassinada-a-tiros-em-frente-de-casa-no-interior-do-ceara.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
     {
       "veiculo": "G1 Ceará",
       "titulo": "Confira oportunidades de emprego e concursos com inscrições abertas no Ceará nesta segunda-feira (14)",
@@ -24,6 +321,62 @@
       "incluir": false,
       "score": 2,
       "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Cruzamento será interditado nesta terça (15) para obras do VLT Aeroporto-Castelão; veja mudanças no trânsito e nas linhas de ônibus",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/cruzamento-sera-interditado-nesta-terca-15-para-obras-do-vlt-aeroporto-castelao-veja-mudancas-no-transito-e-nas-linhas-de-onibus.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "‘Milagre do Destino’: jornalista Marina Alves destaca gratidão aflorada ao rever filme inspirado na própria vida",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/14/milagre-do-destino-jornalista-marina-alves-destaca-gratidao-aflorada-ao-rever-filme-inspirado-na-propria-vida.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Unidos da Tijuca escolhe samba para o Carnaval 2027",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/carnaval/2027/noticia/2026/09/14/unidos-da-tijuca-escolhe-samba-para-o-carnaval-2027.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Cid nega que seu objetivo na eleição seja derrotar o irmão: 'quando resolvi apoiar o Elmano, o Ciro nem era candidato'",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/14/cid-nega-que-seu-objetivo-na-eleicao-seja-derrotar-o-irmao-quando-resolvi-apoiar-o-elmano-o-ciro-nem-era-candidato.ghtml",
+      "data": "2026-09-14",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
       "tom": "Neutro"
     },
     {
@@ -478,21 +831,6 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Concurso EBSERH 2026: HU Brasil tem comissão formada - Estratégia Concursos",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vSm12anhReFBidlJ5LXRTV0lMdER1UFZEWGthc1JYUG1tS092RW1Tck9fN3VFaVJsTmhEX0VSWVdjeEIyOXR4bFFSMXFjdTgyd2pZVXRlOUVLNmhEQXVZRFVtX3RDY0daMXUxVtIBckFVX3lxTE4zUk9iT21UcHpaRHVDSUNMR1gySDlLcUpfVkVJSWtaUVZoQl9yOUNZS0FNajE1bkJOMWd1Wk5ZWjRERHpjR1hjMDhQaU5iLUNfcGpsRmlMVUtvQTEwenR6M1pmZFVDZWpmODNWajVNMThUZw?oc=5",
-      "data": "2026-09-11",
-      "termo": "plano de saúde oncologia Ceará",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
       "veiculo": "G1 Ceará",
       "titulo": "Cão Scooby: Justiça confirma decisão e ex-tutora terá de pagar indenização de R$ 7 mil a animal resgatado com 3 kg de sujeira",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/11/cao-scooby-justica-confirma-decisao-e-ex-tutora-tera-de-pagar-indenizacao-de-r-7-mil-a-animal-resgatado-com-3-kg-de-sujeira.ghtml",
@@ -536,7 +874,7 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Hospital lança teleoncologia para facilitar diagnóstico de câncer infantojuvenil no Ceará - O POVO",
+      "titulo": "Hospital lança teleoncologia para facilitar diagnóstico de câncer infantojuvenil no Ceará - mais.opovo.com.br",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd0JNNVZ4VDRsMDNoWWNtVzNCaTdNbF9FRW5DVkhhalhObmxFZVFsUl91TUZiSFNpcGRQVkIxdlJVbGNLRzU5WnNsWV82UFpkN0dFUWYtaUFBcFRJay1vZkozd1hfQ01EbldNbTNjLVppbnlVVVZwM0hId0tod3NFeDRLM0R0RnVRWkNhSG1KR1RaTUhJd2JsalZiUThVQWNaX3V1b1o3UDBBMjEwdzR2RlZJSF9BRmVYV0h0VmZLcnFjNkt4ZVZULWZPbkVPcXJFelRBNUlQeE1VX1JOM01v?oc=5",
       "data": "2026-09-10",
       "termo": "câncer infantil Fortaleza",
@@ -800,369 +1138,50 @@
       "score": 0,
       "tema": "outro",
       "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Educação empreendedora e desenvolvimento das cidades estarão em debate no ConheCER 2026",
-      "url": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ceara/inovacao-e-negocios/noticia/2026/09/10/educacao-empreendedora-e-desenvolvimento-das-cidades-estarao-em-debate-no-conhecer-2026.ghtml",
-      "data": "2026-09-10",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "CRF-CE 65 anos | Assista ao depoimento do Dr. Breno Magalhães Gomes na Categoria Oncologia - CRF-CE",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVHpXQXRxZ2p3UmVUdFJ6SElfejhjQi1DNDV6WUxndmZzb2hfbVgwYVJtRy1VbDUtb1hxVTNXak5neUdnREtCWF9JY3ViWHloekxkNEo5VHpPXzZ0RjdRRWs1MHUyaVhtekt6VTFTZ2ttWFNnVmNPY2ZwVEhXWkNEOHNwMWs3aEFsY0xSWFJ0N211bEJOeXdvMWNYdUpBMEJsTmxOSUpqVFFpRkRjLVk5dWVWX3FGNzNseWlNSQ?oc=5",
-      "data": "2026-09-09",
-      "termo": "onco Ceará",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Receita Federal apreende 60 kg de skunk em pacotes com café, óleo e outros materiais em Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/receita-federal-apreende-60-kg-de-skunk-em-pacotes-com-cafe-oleo-e-outros-materiais-em-fortaleza.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Sine Fortaleza ofertou 31 mil vagas de emprego neste ano, e mais da metade dos trabalhadores foram efetivados",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/sine-fortaleza-ofertou-31-mil-vagas-de-emprego-neste-ano.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Ciro defende 'desconcentrar' economia do Ceará e quer fortalecer empreendedorismo no interior",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/09/ciro-defende-desconcentrar-economia-do-ceara-e-quer-fortalecer-empreendedorismo-no-interior.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Filme pré-selecionado para concorrer ao Oscar 2027 foi gravado em Quixadá, no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/filme-pre-selecionado-para-concorrer-ao-oscar-2027-foi-gravado-em-quixada-no-ceara.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Vídeo mostra momento em que bolsa com coquetéis molotov 'explode' na frente de loja de umbanda em Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/video-mostra-atentado-em-loja-de-umbanda-em-fortaleza.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Operação da polícia bloqueia R$ 13 milhões e prende 13 criminosos no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/operacao-da-policia-bloqueia-r-13-milhoes-e-prende-12-criminosos-no-ceara.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "PF investiga suposto esquema de fraudes em licitações e desvio de recursos públicos em três cidades do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/pf-investiga-suposto-esquema-de-fraudes-em-licitacoes-e-desvio-de-recursos-publicos-em-tres-cidades-do-ceara.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Lojas de artigo de umbanda são alvos de atentado com coquetel molotov no Centro de Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/tres-lojas-de-artigo-de-umbanda-sao-alvos-de-atentado-com-coquetel-molotov-no-centro-de-fortaleza.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Jovem de RO morto em festa no Ceará era apaixonado por futebol e fazia planos para ajudar a família, diz irmão",
-      "url": "https://g1.globo.com/ro/rondonia/noticia/2026/09/09/jovem-de-ro-morto-em-festa-no-ceara-era-apaixonado-por-futebol-e-fazia-planos-para-ajudar-a-familia-diz-irmao.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Padre do Ceará é finalista em disputa de samba-enredo da escola Unidos da Tijuca, que vai homenagear 'A Cabeça do Santo'",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/padre-do-ceara-e-finalista-em-disputa-de-samba-enredo-da-escola-unidos-da-tijuca-que-vai-homenagear-a-cabeca-do-santo.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Jovem morto em linchamento durante festa era ex-sargento do Exército e queria ser policial militar no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/jovem-morto-em-linchamento-durante-festa-era-ex-sargento-do-exercito-e-queria-ser-policial-militar-no-ceara.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Reuniões e panfletagem: veja como foi o dia dos candidatos ao governo do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/08/reunioes-e-panfletagem-veja-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Homem é morto a tiros na frente de presídio em Sobral, no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/08/homem-e-morto-a-tiros-na-frente-de-presidio-em-sobral-no-ceara.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Loja católica é atacada na mesma noite em que comércios de umbanda e recebe ameaça: 'se reabrir, todos morrem'",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/loja-de-produtos-catolicos-e-atacada-na-mesma-noite-que-lojas-de-umbanda.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Negativo"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Elmano promete zerar IPVA para motoristas e entregadores de aplicativo",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/09/elmano-promete-zerar-ipva-para-motoristas-e-entregadores-de-aplicativo.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Instituto oferece mil vagas para curso gratuito de inglês pela internet; saiba como se inscrever",
-      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/09/09/instituto-oferece-mil-vagas-para-curso-gratuito-de-ingles-pela-internet-saiba-como-se-inscrever.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Criminoso rende homem na saída de lotérica, rouba malote e deixa dinheiro espalhado pelo chão; vídeo",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/09/criminoso-rende-homem-na-saida-de-loterica-rouba-malote-e-deixa-dinheiro-espalhado-pelo-chao-video.ghtml",
-      "data": "2026-09-09",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Ciro diz ser contra renovação do contrato com a Enel no Ceará: 'Se depender de mim, vai embora'",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/08/ciro-diz-ser-contra-renovacao-do-contrato-com-a-enel-no-ceara-se-depender-de-mim-vai-embora.ghtml",
-      "data": "2026-09-08",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Empresa que vendia peixe panga como tilápia é interditada e 16 toneladas de pescado são apreendidas em Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/08/empresa-que-vendia-peixe-panga-como-tilapia-e-interditada-e-16-toneladas-de-pescado-sao-apreendidas-em-fortaleza.ghtml",
-      "data": "2026-09-08",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Empresário apontado como membro do esquema criminoso de Bebeto do Choró é preso em Fortaleza",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/08/empresario-apontado-como-membro-do-esquema-criminoso-de-bebeto-do-choro-e-preso-em-fortaleza.ghtml",
-      "data": "2026-09-08",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Cabeça de Santo Antônio no Ceará tem pintura finalizada após estátua ficar incompleta por quase 40 anos ",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/08/cabeca-de-santo-antonio-no-ceara-tem-pintura-finalizada-apos-estatua-ficar-incompleta-por-quase-40-anos.ghtml",
-      "data": "2026-09-08",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Equipamentos sociais em Fortaleza têm mais de mil vagas para cursos gratuitos de formação profissional",
-      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/09/08/equipamentos-sociais-em-fortaleza-tem-mais-de-mil-vagas-para-cursos-gratuitos-de-formacao-profissional.ghtml",
-      "data": "2026-09-08",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
     }
   ],
   "atosLei": [
     {
       "titulo": "Matéria legislativa",
       "fonte": "Senado Federal",
-      "data": "2026-09-14",
+      "data": "2026-09-15",
       "url": "https://www25.senado.leg.br/",
       "tema": "legislativo-federal",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Judicialização na oncologia: o que hospitais e operadoras podem fazer - Medicina S/A",
-      "fonte": "Regulatório (via imprensa)",
-      "data": "2026-09-12",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hVTFVdnFiOEx0NnRfbU9YMDZNVF9NNzRmZHFISUhZV3lES3dOWEQ5UDdPNktNZHl4RldkSDFiT1hnbVEwR2pJNGtEdXB5NkZoV3VyU0hKOFNkTzNPRTltSQ?oc=5",
+      "titulo": "Ministério da Saúde realiza etapa Nordeste do Hackathon SUS e seleciona startups para desafio nacional em oncologia - LEIAGORA",
+      "fonte": "Ministério da Saúde",
+      "data": "2026-09-14",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb01US3dzY19yblpHenR3dE1JS1p4OXF2Sm5fOEcydEg0ZUNOUFd0bDNRcWFpcTBpTi1BaVUya0Vkc3lhNmp3MU12b1hkREFzZk1DNzdXQUVXOHdTdlJqNTl1TzFfZFcwWkFTWnZrRm5HajZ3YjV3SEUxOEQ3LUNobU93NDF3RHBOUUxKcC1NUnFRZHZ5SWlheVcyNlRpQVNEYUY5c1lJM0tmd0VIS2dUWTlHQ3dBS19mNVpGRmpiR3cySU5hN1VLRXhjT0ZYZFkyLVVCNzVrMA?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Câncer de mama: novas indicações de medicamento são aprovadas pela Anvisa - Portal O Dia",
+      "titulo": "Anvisa aprova novo medicamento para câncer colorretal metastático - Biored Brasil",
+      "fonte": "Anvisa",
+      "data": "2026-09-12",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX1ZWUkxwekp2S24wVTQ1T3lCaF9hTEgzc3ZaN2lvblNfeDF5ZDRKYVZOREdodEVCWDExOHdqYlhoTkJJS0lZU3BLSGZEWTVOQzkwRmNLZDNUSjdydG9qU2lNQ2k0T0MzQURRSjlOTk9aRlBUemM3Umk5SDlfeTBRTGZQX2kzZE9u?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Câncer de mama: novas indicações de medicamento são aprovadas pela Anvisa - portalodia.com",
       "fonte": "Anvisa",
       "data": "2026-09-12",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX0E1ZkJrZ3lRYU9ibkE5aTc0cEZ5SXRoTmVUN1BMUkYxeHh4V3QwUWRYcTBWOEh1WjVLM2pWQVZSU1B6cF81LVdRVnF1ejl4UWJqRW1oUVVGdzdyNFN5UklFU0JzSV9SSjNKY01mZkhsOUZUUC1VODZmRUg2RjBoZzBuV0NTM1dZV2tDVVV2MHU1Ylp0ZTVVZVRJN2xRTDliS2dhNHIyQUJrQ3FPbDNGaVlnMENRS2pvRGZfRU9pUFjSAcYBQVVfeXFMUDNLXzJnanN3RzlESFl1Tk43dUp2dlJORlRzQUZCNVdfQTVFbEtlVzVNMV9jUE5TaDR2NHM0N1JTVUw1aWZXTlI3bWRQdzJMY2w3WGthdm1sVE53UGo5VW54alFSTHg3ZjRXVkgzeVc0NGxvNWFoZ1ZIcVBWd3Joc19ETHVDeVA3bzJLVEVGYVRJNC1UNXFGSUlaTlVSNzd2aDhGUzVrTWF3VXI0ZEp6QkNVcEEyS0VSekdaSkhCaGtOYlFqd01R?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novas indicações de medicamento contra câncer de mama - A Notícia do Ceará",
+      "fonte": "Anvisa",
+      "data": "2026-09-11",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaWpRZnk5LTBTNTNJY3dzRGpFZmhGT2pQOVVwNGVhaGhnRW5GaUVtcUNWZGVKbjVZRXZxckJJZHZ5QkwtZXNvT0l0eXh4em13Mlc0NGJ1ZWdFVThRcWVCQkZTWDkxUnRGekMtM29RSi16RmNrclNZUmFrb1dCMVhiaFNLWVc0MVgxVnlsUDloNG43NHNFeWFEdlFHaUIxank5?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1177,15 +1196,6 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novas indicações para medicamento usado contra câncer de mama - Jornal Noroeste",
-      "fonte": "Anvisa",
-      "data": "2026-09-11",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSUUzRUFXSXdObm1XRUUyX1R2b215bXVVbGZ2SlJXYXlYdnJzNmIxT2o4M3B0X1FicnBFZ0ZHNmJ2elo0TGtTbTBZd2tXN0pxb00zbzBUcWRxeUNfY3JlSzFFR1c0cDN1SjlNZURKWmw2WEFmSHNYRDlUUHVZTXlCVmhWc3psTmJDakpIdnY2QVdvME9iazlieGl3VVU5TDZMMzdQZmU2SUt1cHdHYWw3S0Z2VmpRTGtHazFB?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Anvisa amplia uso do Trodelvy no câncer de mama triplo-negativo - soubrasilia.com",
       "fonte": "Anvisa",
       "data": "2026-09-11",
@@ -1195,28 +1205,10 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novas indicações de medicamento contra câncer de mama - Agencia Brasil",
+      "titulo": "Anvisa aprova novas indicações para remédio que trata câncer de mama - ICL Notícias",
       "fonte": "Anvisa",
       "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTnhjeU8zbWlobFZFS2tBejVKV1RuaWpQb2ViLVo0M1hBSi02ZEN2VTBabWJVT3pTZzRPYjNWUE5VZ3ZfNFdwaTU5bkNid1IzZjVtQ0kyTGlZVm8zR2JDX25iVXdSMW9ORW84T3pZOFR5UXYxTUJDUDJPa212NDZRclp0NzFxRk9MaVFxS1FmMVg2cmc0ZEVMLWVTVmpwNktYc2JNNzhIVDlSMjBvQk5ERXRjbFdYVzg4ZnVOdUkzQXRSdWpWRVdrY0xic0w3cmU5cEJka3dNY3FHUQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa aprova novas indicações para remédio que trata câncer de mama - Agencia Brasil",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMUtyODcwUjJxRUVaSm1vTjYyRlpOR09MVlZ0aHBQcVIycm4zaVJIRXNXQ25RMWkyU3d4VXluc3JfTU1wQnZmQ2l0b0pKcU1EMFRJaHQ5dE9kNFFZN0I1Nkgwek11MFRTNXRhakRiVzFuZGtTTS0wUlNubGc0S1hGX0QxWjNGaEZRa1lvM0xyZWpEeGpNUjVoU0hJZW92MVJ2LWxXR1pOYU5uR200R1RyOFlYYnlIV01nM3hNN1ZqdmFRYUVEYzlN?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa aprova novas indicações para medicamento que trata câncer de mama triplo-negativo - Rádio Metrópole",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3FKUUo5MFdMQzhqaHVLOGh3U3JBbWhJZWItUDN4c1RzYk9UckoxdTMzaEprcG9CWndlc3NNQ1lqeklORjNkbUR1WV80WnVEVzJDQzZfRFBZcVdscnpfT2VHX213bFNSUUlGUk5UaWhtR2YtMWRfTW03RUpURTc1bkltR1pzM3lzb3FPRTRhem5DUklVQlJmdFppZ1hjZGw3SzJNOUVHX29jc2JLT0RMZ1NrMU9CMDVVX0tOWmlsTk9oNjVONHhHVnhpVDBDUERpM1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZVA1bW11c2xBQWdseFczS2NROXZkUUVKQi1WUFNNVjQ0UlBnX2pHUHl2M2IzVW9jdWdwOGY2UlhXZEUwTXViWDI2TXd2RDJCMi14SWdOV0VnbHZFTmJZMjhXSXl4Y0g5VUNnM0FkSDBJSXFOUEdSeHByQ0xyQlpTMQ?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1226,6 +1218,15 @@
       "fonte": "Anvisa",
       "data": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVURGZndVN1FhVGJ2dnIwOXQ1Qzlha083M1docUd0UTZremJyX1Nha1ZURFBLT0NyN2lFMXVsS29oS0dYWmFGWnlsOVdjTTBDVDJpMWNCZnBqQWZmUHRtenNJTTQ3d3BadUFOWk9SSnVWSllGRHB3eVE0TFo0a0dhU3d3LVlhNFQ1OXZKZF9aT29UU2JSbFNaYjV0RWZHOEZ3WWtrVGF4cWlBT3Y2bHdud004ZlVxY1RpY0NrRjlnUThLYXpwM2Y5WlBhNXgxWlFzNzFxdW91d9IB3AFBVV95cUxQMVU5Mlg1azZtZ05fS1JlUG1hN0o2MUhpR3dDR3ZBSTk4ZTRLYzhfZHRtbWhqcmVYaGx6Tmx1UXEtVjNmU3RjZXRxWkRSNWxQbklZQWhUVEVNTHVaS29wVjM3Yk9iaThRbGQ4cXZMRWVGSVhVTU1YWVoyc3dqSjFyZnhfa3QyTlhldEVvamRjWk4xXzdXV3kxRGdnVHMtTU9RWXJpQU5Dd3Q2X3UyREZ2NHdXdmpSN0FxcWlvVHA3Z1N6WVdNQUJHdmV4VzFaZ0J4dFRPVzBnanRtWHlK?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novas indicações para medicamento que trata câncer de mama triplo-negativo - Rádio Metrópole",
+      "fonte": "Anvisa",
+      "data": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3FKUUo5MFdMQzhqaHVLOGh3U3JBbWhJZWItUDN4c1RzYk9UckoxdTMzaEprcG9CWndlc3NNQ1lqeklORjNkbUR1WV80WnVEVzJDQzZfRFBZcVdscnpfT2VHX213bFNSUUlGUk5UaWhtR2YtMWRfTW03RUpURTc1bkltR1pzM3lzb3FPRTRhem5DUklVQlJmdFppZ1hjZGw3SzJNOUVHX29jc2JLT0RMZ1NrMU9CMDVVX0tOWmlsTk9oNjVONHhHVnhpVDBDUERpM1E?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1249,7 +1250,7 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novas indicações para tratamento de câncer de mama triplo-negativo - Folha BV",
+      "titulo": "Anvisa aprova novas indicações para tratamento de câncer de mama triplo-negativo - folhabv.com.br",
       "fonte": "Anvisa",
       "data": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYldYMko1OXRfaWU5UmlrSVQxSE9xcEZXZXVUZ2doRUpsbktpMHNCWm5aWUdjelZBdEx5Ni1IZmVUWl85dTkyY1FReWN4SUpIR2s0NFpfbUVIZ09pUTdtS2JpQ0VkTVd4MUJfN3p4RWpnT055WDRnc25xNnJqRnlXclZ4QUhkVDU1UmdWZXNIUDBzVlJ4MmZWRGE0ZklybkFhdWpPZ3lrZk15WE1BMm1vM29jcDZKWFBQYkl3?oc=5",
@@ -1285,15 +1286,6 @@
       "origem": "auto"
     },
     {
-      "titulo": "Saúde: Anvisa amplia uso de remédio contra câncer - Portal Terra da Luz",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeTJ4Qjluc2NKSXF0OUNQdURVUlVpMFR3OHB0U0ZRc3k0ek5sTmtkU0JoMVNWX2dLQWQ1RlpIVHk0d19FQTBKSVYweVVscC1VRWJWMGgyNUdYZWVTbDhUeElrS3VwZXg1Z2VhSmZrbjNKc0xja0xQT0VCeGpGQy1kYTBDdXVfaUU4bHV6TzNsazl1ZXNCVXc?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Anvisa Aprova Novas Indicações Para Medicamento Contra Câncer De Mama - Taktá No AR",
       "fonte": "Anvisa",
       "data": "2026-09-10",
@@ -1306,16 +1298,7 @@
       "titulo": "Anvisa amplia uso de medicamento para câncer de mama agressivo - Portal Piauí Hoje",
       "fonte": "Anvisa",
       "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMnViYVhNd0RjaXFJQWlJekN5TWZCd1M0WmdDZjdlQkJtejlRTkpNd2puU0FrbnplQmtUQmFjLVpUbHBHVTZobjNkdDdfb3pFdmx6bjlSb1FZY0ljb3NSQTdjZlJwUTdiV2ROYkpEbHEyWEF0Q1lfUFdEbnpISVJGc0RYb1JfYW1oc1FYWDVHMjRob3c1XzljdE1fVmQ0TFNkdjI3cnJVbVpzakh1ajdGVmVFZnY1NGtVc3BoQjNB0gHDAUFVX3lxTE5PRnJXOXRUa0ZEVnF3cENnWndZcExMMFBtendMdTY1dkd6a1hoaGNVb3YxYi0tOEVEdnhyTGdpdjA4UlRNRWlIYnVlS29jbDdvQndVNHlWR01ZVVZISUt0SVEtbG9FWXF2ak5rWGZZc2pUMS1xSGhmcWZsQzM1bUhPOTlJQXZMbjZNa09MS1RsRy1Yak5EbHc0eGxOb1hXOTNFel9fZFFKVkhUVmxfQi16Um5pT2w0dGE2YXFMNWxRZ2VpTQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Remédio contra câncer de mama ganha novas indicações da Anvisa - Leouve",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcV9qUU00NDk3anA1U013MEF0WUhUZ0YzUzItX3dfcEpWQ0ZxTzZFdVgwZ2k3ckNKRHpjdzhnUHlJTk9lUnJLMHN3WTJheExzcVFXcnB6a2ZhRXl4YzNlMk10T01VU3UwM0QtSHpiNmxLRTVGRThJSDVleWJteXByTVNNcnItTVJBLTRkeWdzRDZxZmREVDZN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOenhrQmtyZ08wSmVlQTc1V3p2ZHkxNV9aS3d4aVJOLThicm9FWnVack44V3FIY0dENFp3QmtIQmJrejhLWUFKM2M0S2hzY1lqVzRDQkJ6c29HeVZWVWJ3M2dmWHdfRjA3ZThHVjZkZi03YzJlakNjbjlXYl8xVlNBLThMY3VrNDB5V0VubFdsMk13ZEZOR3NEMWM2WHVJWXZ0WVBucThhTGNKaFdoMnk2b9IBtgFBVV95cUxPek90QWpBbTQzU2tEaGtUZWJWZ3A2VnBtNUxQLUNfS2lDSEpvSDZYMkZnbGNycFVZQkNnQl85Ym05dWJSbzJiN1FvUGFjVjkwV3RfNmhJNHVUQVRvUTdLSHUtVUZMVjhjRHhqVWljMXhuNDJOcU5WY285YVRKMFVpZGNkWDlDV3BjWHF4X1JaMlJSd0JkZEJwR21pQk92RTd2blBSQl8yVjc3UV9zMTdIMkE1Q0RIdw?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1330,37 +1313,10 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa aprova novas indicações do Trodelvy para pacientes com câncer de mama - portaltemponovo.com.br",
+      "titulo": "Anvisa aprova novas indicações do Trodelvy para pacientes com câncer de mama - Portal Tempo Novo",
       "fonte": "Anvisa",
       "data": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkt2WU40TlBMLU02aEdkWkVBUmRuTl9Yeld4Z1c1eEdKRkJHWUJUSFVlMDNEdG1SOE9nMkVlR3gwVkljWmZSZnZpdFNmTU5nWjZTcXo3MjNJdkNKbWVLSnVYOEUyOWhjeV84TVkyMzd6UVpFQTQ4aUNYREVDX0NuOWw3RGp1VzVUekhocVpZbG8wdTIyaTFXczZyUTByTjd5cldWNEk2UXZPeEVYZF94dFhn?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa amplia uso de medicamento para câncer de mama triplo-negativo - Portal Salvador FM",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVEp1SG1uR3dFNFBJRGN5bWZJS2JDTmRvTkZqODNHamZTY0pFcWt4elBUMGxxVUY4Q2MtU2lnOThxdmttXzB4ZHE5TXZWb2ZQT2FJcGdXQnJRZDRqT25vRWJBX0R1cVlLWEZJdzdMYmltcXZaSmpSRmlRdGFHckJKQkV4WGE5OVcxNmdkMzFvTW5aLUoyVVUzTGxQazNCSVprZlA4YlNqQjZDNVlxcTg5LWlOdVNoRms?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa aprova novas indicações de remédio usado contra câncer de mama agressivo - Canal Ideal",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbDNHUVp5YnV4Ykt0NHFDZURxWExyUjhSNVNDRkVmTXZRRTlkcG9fUXMtNktTUUVpczlEMEpqTFR2bFlmd3pJSVpsblgxVlFndXN3ak12UzdwQTdWM2JsMk5rVmFnX3FjSDVnLUZ2YVpPcXFlNDJjV0p0aWZIcXUzSzkyUmJPQk1rdWlBNUF6QnFfbnZyUnpIcjl6ek1xZ2JjM2xEMEJ4LXpsVmt6YWdHbENmVQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa amplia uso de medicamento contra câncer de mama - Aqui Notícias",
-      "fonte": "Anvisa",
-      "data": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWtOMnBNUFJrWXlyeHlVUVAxQUNxRXdzNjNHMklfUmNqUC1pTE5YbUgxVENDZXF2VGdDYkVORzg4N3lFVkN1dEZqd3kyNUJoVmpyZk9wSzBMQkFKVHh6WlgwRm0ycTFIMTlPbGtQQjVZSWlpMFdRb1hHTG9RTGtST0dsUnNyaU55NHVsSXFkQ3Uya1lOLW5YOUZpOXhiUWtKMFhzNzIyTVNTVHdL?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1409,23 +1365,60 @@
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para tratar câncer colorretal avançado - record.r7.com",
+      "fonte": "Anvisa",
+      "data": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU3lrY3dOMldQT0lJaDJKNTMzVXJOSC1rQlExSzFFTFZmYkF1QzZUQ0RnaDRadGM0WU9wY21KeTBjc3Y5U0JMa2dQRzlxbGx5b3g4b1ZQTklTS3ZnQXJnd1Y0d213QmJsaXN1VEFDdVZJcXlEejhxbGsxY0NGMkpnMlhmWjJUNXhCX3hYc3F4VDk4US1IVGtvVnU4aFdqejVhR0tEd0lxY2tEajhaakdQS2NHS2tlcXN2eU5r?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova nova opção para câncer colorretal metastático que age sobre vasos usados pelo tumor para crescer - O POVO",
+      "fonte": "Anvisa",
+      "data": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcm1qbHJFWTdpZjhWbzRyVGVkM19sRHVzWThQZWxZa3JpSm1pOXdUamVyYUlPbDlaWDJ3NnF5cFUzeHN5cDEydlA1ZGZWd1ZEX0xOWFdmZUhYcEtraGxTTjdtUDFSZG5VazJNRjg4MS1iX1ZkRTQ3N3hHR0txNFl1Z3lDaHVPYndkZUs4TU83X3MxV3FjRFBuM0xFYlFjNFRObVFJd1c3RWRqbllBVEZYX2c3ZVljMFlqQmhycGZlMHduakphQzNOTDNJUEJuUFBMMHpLc0RoeHl5M00?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "SUS regulamenta Componente da Assistência Farmacêutica em Oncologia - Bahia Na Política",
+      "fonte": "Regulatório (via imprensa)",
+      "data": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNHMyN01MTThnLWFzRl80bGdCeUpOajE3aDRVSHp4UUtmWDhQam12UWpSaWxLOXRhdjBtMTljX3NKZGw4bVp5QjhEb1FZM1pCTW5GbjlpUGNjckNGYWdnSnU2Z2t2dWNYQ2tEWWJvcWZMVFVtYXluc0FkU0ptU1Fab2FRdTFid0R0VkM1elN2UU9US3FUdFhpV3BnWmFBdERs?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "MÉDIO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova medicamento para câncer colorretal; especialista explica - CNN Brasil",
+      "fonte": "Anvisa",
+      "data": "2026-09-02",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vdVMxTUk0Wk1uVjVxSHdFVk4xRFhwbkEwRTZuXy1Ta1NhQlQ0S3pDRDJmZDFSMnAwcDhNOGpzbzdxbWZuQkxwRlR1R1dWdF82SDc5X2lrQUtvYlNUekEwSXA0UldlRE04NzlDTGZR?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Remédio contra câncer de pâncreas é aprovado nos EUA - CNN Brasil",
+      "fonte": "Regulatório (via imprensa)",
+      "data": "2026-09-02",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcG9ubmdtdnVrOC16SHowZzh2S1FZX2hQTG5IZkkzREs1VnNEM1VldVlDb0tQZzhab0g5amVMTjRUeWxfUFNKYlR1dXdYTmhReW5SVkRTcml1WlBnNV9UNXNsN3VCMGJrM245UVRmVmVoTE43M3Rxc3dhcmc2dXpOUTNJSEh0UmFDNnFGdXhwQ1A?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
     }
   ],
   "movimentacoes": [
     {
-      "tipo": "Fusão",
-      "empresas": "SUS incorpora três novos medicamentos para câncer de pulmão",
+      "tipo": "Investimento",
+      "empresas": "Fortaleza bate o Coritiba e segue líder da Série B",
       "texto": "Google News",
-      "data": "2026-09-02",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR01iM2VlNjFEUldUNGFmTzk0eGRiR0RGRVd6d05SRXpXZ1gxVmozUWs5dHZuUGU2dDhPNDRybmMtS3oyRkY1YWVyd2VYWnVYU1lhRno1bDNzOExDcGZGTF9NaGU5TlpnQmI4UHpiSWtXX0V3Ym1MTzMwMlpqTllfSVQwUHBMQklsTkxSWGYyOWk1bEpJeUhjX2hlMkRKY1NTRzBoX0hSdw?oc=5",
-      "origem": "auto"
-    },
-    {
-      "tipo": "Aquisição",
-      "empresas": "Noiva cearense que comprou vestido por R$ 10 mil em loja acusada de não entregar peças em SP fica sem respostas: 'Desesperador'",
-      "texto": "G1 Ceará",
-      "data": "2026-09-02",
-      "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/02/noiva-cearense-que-comprou-vestido-por-r-10-mil-em-loja-acusada-de-nao-entregar-pecas-em-sp-fica-sem-respostas-desesperador.ghtml",
+      "data": "2026-09-14",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlk5cllENVR6TjZkNXM1eHFTSUZsV1dlakFwUzM4MTc4eXBUZlRaOUJTbGZDVjIxV0VlLTBFdmtyLXBKUThTb1BNUS1jU3hsLUlBb3BQZTBTZFpoVy1TT3pja2dQNjNYQ0gtaGNfVzV4NWZFdlBZWExucTQ1WlV6Um1uMEtBZVY5LXNqUEV6cVZrcUdtLW50NnZoUzdCSjRYYy1ic2hzc1M0Z9IBqgFBVV95cUxPSlk5cllENVR6TjZkNXM1eHFTSUZsV1dlakFwUzM4MTc4eXBUZlRaOUJTbGZDVjIxV0VlLTBFdmtyLXBKUThTb1BNUS1jU3hsLUlBb3BQZTBTZFpoVy1TT3pja2dQNjNYQ0gtaGNfVzV4NWZFdlBZWExucTQ1WlV6Um1uMEtBZVY5LXNqUEV6cVZrcUdtLW50NnZoUzdCSjRYYy1ic2hzc1M0Zw?oc=5",
       "origem": "auto"
     }
   ],
@@ -2871,6 +2864,6 @@
   "origem": {
     "motor": "ingest.mjs",
     "versao": "2.1",
-    "mode": "weekly"
+    "mode": "daily"
   }
 }
