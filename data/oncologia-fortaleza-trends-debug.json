@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-09-14T10:03:50.916Z",
+  "executadoEm": "2026-09-21T10:03:23.288Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -35,7 +35,7 @@
         },
         {
           "termo": "quimioterapia Fortaleza",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 11
+          "ultimo": 77
         }
       ]
     },
@@ -86,7 +86,7 @@
         },
         {
           "termo": "câncer de mama Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         },
         {
@@ -178,7 +178,7 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 77,
+    "ultimoValor": 100,
     "status": "wrapper-ok"
   },
   "resumo": {
