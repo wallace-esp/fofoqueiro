@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-09-21T10:03:23.288Z",
+  "executadoEm": "2026-09-28T10:05:19.756Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -40,13 +40,13 @@
         },
         {
           "termo": "radioterapia Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         },
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 77
+          "ultimo": 8
         }
       ]
     },
@@ -76,8 +76,8 @@
         },
         {
           "termo": "CRIO Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "ok",
+          "ultimo": 5
         },
         {
           "termo": "hospital oncológico Fortaleza",
@@ -86,7 +86,7 @@
         },
         {
           "termo": "câncer de mama Fortaleza",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
@@ -109,36 +109,36 @@
         {
           "geo": "BR-CE",
           "status": "ok",
-          "pontos": 91
+          "pontos": 0
+        },
+        {
+          "geo": "BR",
+          "status": "erro-fallback",
+          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
         }
       ],
       "geoUsado": "BR-CE",
-      "pontos": 91,
+      "pontos": 0,
       "resultadosPorTermo": [
         {
           "termo": "biópsia Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         },
         {
           "termo": "imunoterapia Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         },
         {
           "termo": "PET scan Fortaleza",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         },
         {
           "termo": "medicamento oncológico SUS",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         },
         {
           "termo": "plano de saúde oncologia Ceará",
-          "status": "sem-interesse-detectado",
-          "ultimo": 0
+          "status": "indisponivel"
         }
       ]
     },
@@ -151,16 +151,16 @@
       "tentativas": [
         {
           "geo": "BR-CE",
-          "status": "ok",
-          "pontos": 0
+          "status": "erro",
+          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
         },
         {
           "geo": "BR",
-          "status": "ok-fallback",
-          "pontos": 0
+          "status": "erro-fallback",
+          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
         }
       ],
-      "geoUsado": "BR",
+      "geoUsado": "BR-CE",
       "pontos": 0,
       "resultadosPorTermo": [
         {
@@ -178,13 +178,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 100,
+    "ultimoValor": 81,
     "status": "wrapper-ok"
   },
   "resumo": {
-    "comDados": 2,
-    "semDados": 2,
-    "semInteresse": 13,
+    "comDados": 3,
+    "semDados": 7,
+    "semInteresse": 7,
     "total": 17
   }
 }
