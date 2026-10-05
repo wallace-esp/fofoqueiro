@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-09-28T10:05:19.756Z",
+  "executadoEm": "2026-10-05T18:58:15.715Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -40,13 +40,13 @@
         },
         {
           "termo": "radioterapia Fortaleza",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 8
+          "ultimo": 11
         }
       ]
     },
@@ -76,8 +76,8 @@
         },
         {
           "termo": "CRIO Fortaleza",
-          "status": "ok",
-          "ultimo": 5
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         },
         {
           "termo": "hospital oncológico Fortaleza",
@@ -113,11 +113,11 @@
         },
         {
           "geo": "BR",
-          "status": "erro-fallback",
-          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
+          "status": "ok-fallback",
+          "pontos": 0
         }
       ],
-      "geoUsado": "BR-CE",
+      "geoUsado": "BR",
       "pontos": 0,
       "resultadosPorTermo": [
         {
@@ -151,25 +151,27 @@
       "tentativas": [
         {
           "geo": "BR-CE",
-          "status": "erro",
-          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
+          "status": "ok",
+          "pontos": 0
         },
         {
           "geo": "BR",
-          "status": "erro-fallback",
-          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
+          "status": "ok-fallback",
+          "pontos": 91
         }
       ],
-      "geoUsado": "BR-CE",
-      "pontos": 0,
+      "geoUsado": "BR",
+      "pontos": 91,
       "resultadosPorTermo": [
         {
           "termo": "onco Ceará",
-          "status": "indisponivel"
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         },
         {
           "termo": "câncer infantil Fortaleza",
-          "status": "indisponivel"
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         }
       ]
     }
@@ -178,13 +180,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 81,
+    "ultimoValor": 66,
     "status": "wrapper-ok"
   },
   "resumo": {
-    "comDados": 3,
-    "semDados": 7,
-    "semInteresse": 7,
+    "comDados": 1,
+    "semDados": 5,
+    "semInteresse": 11,
     "total": 17
   }
 }

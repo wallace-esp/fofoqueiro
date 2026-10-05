@@ -5,12 +5,12 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-10-05T18:03:56.427Z",
+  "atualizadoEm": "2026-10-05T18:59:19.804Z",
   "ultimaExecucao": {
-    "mode": "daily",
-    "em": "2026-10-05T18:03:56.427Z"
+    "mode": "weekly",
+    "em": "2026-10-05T18:59:19.804Z"
   },
-  "proximaAtualizacao": "notícias/leis diárias",
+  "proximaAtualizacao": "concorrência semanal",
   "noticias": [
     {
       "veiculo": "Google News",
@@ -1527,7 +1527,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-09-28T10:05:23.810Z",
+      "coletadoEm": "2026-10-05T18:58:19.190Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR-CE"
     },
@@ -1554,7 +1554,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-09-28T10:05:23.810Z",
+      "coletadoEm": "2026-10-05T18:58:19.190Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR-CE"
     },
@@ -1585,7 +1585,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-09-28T10:05:39.816Z",
+      "ultimaTentativa": "2026-10-05T18:58:34.387Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1613,12 +1613,15 @@
       "fonte": "Google Trends",
       "coletadoEm": "2026-09-28T10:05:23.810Z",
       "confiabilidade": "ALTA",
-      "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE",
+      "stale": true,
+      "ultimaTentativa": "2026-10-05T18:58:34.387Z",
+      "motivoFalha": "sem-interesse-detectado"
     },
     {
       "termo": "ICC Fortaleza",
-      "indiceInteresse": 8,
-      "volume": 8,
+      "indiceInteresse": 11,
+      "volume": 11,
       "incremento": 0,
       "tendencia": "estável",
       "serie": [
@@ -1631,14 +1634,14 @@
         0,
         0,
         0,
+        66,
         0,
-        0,
-        8
+        11
       ],
       "geo": "BR-CE",
       "status": "ok",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-09-28T10:05:23.810Z",
+      "coletadoEm": "2026-10-05T18:58:19.190Z",
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=ICC%20Fortaleza&geo=BR-CE"
     },
@@ -1665,7 +1668,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-09-28T10:05:27.219Z",
+      "coletadoEm": "2026-10-05T18:58:22.196Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=Oncocl%C3%ADnicas%20Fortaleza&geo=BR-CE"
     },
@@ -1694,7 +1697,10 @@
       "fonte": "Google Trends",
       "coletadoEm": "2026-09-28T10:05:27.219Z",
       "confiabilidade": "ALTA",
-      "url": "https://trends.google.com/trends/explore?q=CRIO%20Fortaleza&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=CRIO%20Fortaleza&geo=BR-CE",
+      "stale": true,
+      "ultimaTentativa": "2026-10-05T18:58:34.387Z",
+      "motivoFalha": "sem-interesse-detectado"
     },
     {
       "termo": "hospital oncológico Fortaleza",
@@ -1723,7 +1729,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=hospital%20oncol%C3%B3gico%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-09-28T10:05:39.816Z",
+      "ultimaTentativa": "2026-10-05T18:58:34.387Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1753,7 +1759,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20mama%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-09-28T10:05:39.816Z",
+      "ultimaTentativa": "2026-10-05T18:58:34.387Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1779,7 +1785,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-09-28T10:05:27.219Z",
+      "coletadoEm": "2026-10-05T18:58:22.196Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20pr%C3%B3stata%20Fortaleza&geo=BR-CE"
     },
@@ -1810,7 +1816,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=bi%C3%B3psia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-09-28T10:05:39.816Z",
+      "ultimaTentativa": "2026-10-05T18:58:34.387Z",
       "motivoFalha": "indisponivel"
     },
     {
@@ -1871,31 +1877,57 @@
     },
     {
       "termo": "onco Ceará",
-      "indiceInteresse": null,
-      "volume": null,
-      "incremento": null,
-      "tendencia": "indisponível",
-      "serie": [],
-      "geo": "BR-CE",
-      "status": "indisponivel",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR",
+      "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": null,
-      "confiabilidade": "SEM_DADO",
-      "url": "https://trends.google.com/trends/explore?q=onco%20Cear%C3%A1&geo=BR-CE"
+      "coletadoEm": "2026-10-05T18:58:31.883Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=onco%20Cear%C3%A1&geo=BR"
     },
     {
       "termo": "câncer infantil Fortaleza",
-      "indiceInteresse": null,
-      "volume": null,
-      "incremento": null,
-      "tendencia": "indisponível",
-      "serie": [],
-      "geo": "BR-CE",
-      "status": "indisponivel",
+      "indiceInteresse": 0,
+      "volume": 0,
+      "incremento": 0,
+      "tendencia": "estável",
+      "serie": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geo": "BR",
+      "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": null,
-      "confiabilidade": "SEM_DADO",
-      "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20infantil%20Fortaleza&geo=BR-CE"
+      "coletadoEm": "2026-10-05T18:58:31.883Z",
+      "confiabilidade": "BAIXA",
+      "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20infantil%20Fortaleza&geo=BR"
     }
   ],
   "concorrentes": [
@@ -1907,12 +1939,18 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 0,
+          "valor": 1,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:05:39.819Z",
+          "coletadoEm": "2026-10-05T18:58:34.389Z",
           "confiabilidade": "ALTA",
-          "evidencia": false,
-          "exemplos": []
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "Rede ICC Saúde abre seleção com 48 vagas para residências em Fortaleza, com bolsas de R$ 4,1 mil - G1",
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdVAxaDdjWFhSSVJxQ1lzV2tXTzd2cE1CeHFEMFRFMDEwWnVJUXhuNW9GQUhRYlk3ako4N3huUWp3cGRaYVNjQmJjZ3FuUi1sajN4U1Z6M0FnUWM1LTdORVpzejdOLTR6X2dmT183MDVEb0ZmUjBINEkwRmRsdTlldHc0dml0UkR4N01SX0l6Rk5HWGYteHdCTUdYSE1MbXFLajRyWndDdGlaS1VTU1p2ZWhQaTcxTzFBeFgzaDFqM2JVMjRUNTZiUjhVLThac3BIZEN3bEE2RURrZC1rdk1vQzNIQ1JkUVUtNGxQUWtJa9IB_gFBVV95cUxPSjFLWjZXMl80QmpNR2xId1ZoVEFqLVVnUlRiV1dyMlB6YlhQRGhNQXBtWG9BNzBGTFQyRkJqNXlSY0VGX01naks0T3lNS09qWUVKb09TajdZME9pdG1uUHctLUlFN0o2NDc3UWtLd3NReEEtNHNVb010ODA4bHVFbjBCYVk0V1d3TlpkaGJTTWkybURoRGhBYWhjRnNWaktkU2ZRY0o1ckRfMU1wLVl4NC02U1Z5N2VKTk5mVUFnekppNEdsMERSTG1OOUNudm9zeVU2elZWR3QwTjR5aE1xckZ1dktpVU1tQXJxazgyRlAxV1hzdk9VWnkzclRtUQ?oc=5",
+              "data": "2026-09-16"
+            }
+          ]
         },
         "interesseTrends": {
           "valor": null,
@@ -1920,7 +1958,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends falhou: Unexpected token '<', \"<html lang\"... is not valid JSON"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -1964,11 +2002,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
-          "diff": -1,
-          "pct": -100,
+          "diff": 0,
+          "pct": 0,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -1987,7 +2025,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:05:44.552Z",
+          "coletadoEm": "2026-10-05T18:58:39.327Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -1998,7 +2036,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends falhou: Unexpected token '<', \"<html lang\"... is not valid JSON"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2042,7 +2080,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2063,9 +2101,9 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 2,
+          "valor": 4,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:05:49.075Z",
+          "coletadoEm": "2026-10-05T18:58:43.942Z",
           "confiabilidade": "ALTA",
           "evidencia": true,
           "exemplos": [
@@ -2078,6 +2116,16 @@
               "titulo": "CRF-CE participa do SOBRAFO CONECTA e reforça valorização da Farmácia Clínica em Oncologia - CRF-CE",
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWdFTjJzNlhDQkhvbGxyRUpRUVJ0bVNudWtWdUoySHZHVDF6ZV92VjFPOVpqTGlSbVJMUnZHU3pmWlFNSVpkRDcyUWNrcUl6eHVSOHE1UU5fRGtUMnBxaHZQdU5YQVN3T0NlSms4NG5tNjRNZDVKenczOXRqTHdTcEV3QU9UMk8xVzV6SmZGUFNMYjhwc3F0dEFVTzRNazl4eGxaWDN4QmY3UHlveGszR1J3dHVvc2VZa29feTdmVnQ?oc=5",
               "data": "2026-09-23"
+            },
+            {
+              "titulo": "Hospital lança teleoncologia para facilitar diagnóstico de câncer infantojuvenil no Ceará - O POVO",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd0JNNVZ4VDRsMDNoWWNtVzNCaTdNbF9FRW5DVkhhalhObmxFZVFsUl91TUZiSFNpcGRQVkIxdlJVbGNLRzU5WnNsWV82UFpkN0dFUWYtaUFBcFRJay1vZkozd1hfQ01EbldNbTNjLVppbnlVVVZwM0hId0tod3NFeDRLM0R0RnVRWkNhSG1KR1RaTUhJd2JsalZiUThVQWNaX3V1b1o3UDBBMjEwdzR2RlZJSF9BRmVYV0h0VmZLcnFjNkt4ZVZULWZPbkVPcXJFelRBNUlQeE1VX1JOM01v?oc=5",
+              "data": "2026-09-10"
+            },
+            {
+              "titulo": "CRF-CE 65 anos | Assista ao depoimento do Dr. Breno Magalhães Gomes na Categoria Oncologia - CRF-CE",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVHpXQXRxZ2p3UmVUdFJ6SElfejhjQi1DNDV6WUxndmZzb2hfbVgwYVJtRy1VbDUtb1hxVTNXak5neUdnREtCWF9JY3ViWHloekxkNEo5VHpPXzZ0RjdRRWs1MHUyaVhtekt6VTFTZ2ttWFNnVmNPY2ZwVEhXWkNEOHNwMWs3aEFsY0xSWFJ0N211bEJOeXdvMWNYdUpBMEJsTmxOSUpqVFFpRkRjLVk5dWVWX3FGNzNseWlNSQ?oc=5",
+              "data": "2026-09-09"
             }
           ]
         },
@@ -2087,7 +2135,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends falhou: Unexpected token '<', \"<html lang\"... is not valid JSON"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -2131,11 +2179,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
           "diff": 2,
-          "pct": null,
+          "pct": 100,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2154,7 +2202,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:05:53.609Z",
+          "coletadoEm": "2026-10-05T18:58:48.507Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2165,7 +2213,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2209,11 +2257,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
-          "diff": -1,
-          "pct": -100,
+          "diff": 0,
+          "pct": null,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2232,18 +2280,27 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:05:58.269Z",
+          "coletadoEm": "2026-10-05T18:58:53.005Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
         },
         "interesseTrends": {
-          "valor": null,
-          "fonte": null,
-          "coletadoEm": null,
-          "confiabilidade": "SEM_DADO",
-          "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "valor": 0,
+          "serie": [
+            0,
+            0,
+            0,
+            0,
+            100,
+            0,
+            0,
+            0
+          ],
+          "fonte": "Google Trends",
+          "coletadoEm": "2026-10-05T18:58:53.272Z",
+          "confiabilidade": "MEDIA",
+          "evidencia": true
         },
         "googleMaps": {
           "valor": null,
@@ -2287,7 +2344,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2308,21 +2365,16 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 2,
+          "valor": 1,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:06:02.768Z",
+          "coletadoEm": "2026-10-05T18:58:57.403Z",
           "confiabilidade": "ALTA",
           "evidencia": true,
           "exemplos": [
             {
-              "titulo": "‘Papai te ama’: homem se emociona ao deixar filho no primeiro dia de estágio em hospital de Fortaleza; vídeo",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/26/papai-te-ama-homem-se-emociona-ao-deixar-filho-no-primeiro-dia-de-estagio-em-hospital-de-fortaleza-video.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Indígena Anacé morre em hospital após buscar atendimento durante surto e ser contido por Guarda Municipal",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/25/indigena-anace-morre-em-hospital-apos-buscar-atendimento-durante-surto-e-ser-contido-por-guarda-municipal.ghtml",
-              "data": "2026-09-25"
+              "titulo": "Hospital lança teleoncologia para facilitar diagnóstico de câncer infantojuvenil no Ceará - O POVO",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd0JNNVZ4VDRsMDNoWWNtVzNCaTdNbF9FRW5DVkhhalhObmxFZVFsUl91TUZiSFNpcGRQVkIxdlJVbGNLRzU5WnNsWV82UFpkN0dFUWYtaUFBcFRJay1vZkozd1hfQ01EbldNbTNjLVppbnlVVVZwM0hId0tod3NFeDRLM0R0RnVRWkNhSG1KR1RaTUhJd2JsalZiUThVQWNaX3V1b1o3UDBBMjEwdzR2RlZJSF9BRmVYV0h0VmZLcnFjNkt4ZVZULWZPbkVPcXJFelRBNUlQeE1VX1JOM01v?oc=5",
+              "data": "2026-09-10"
             }
           ]
         },
@@ -2376,11 +2428,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
-          "diff": -2,
-          "pct": -50,
+          "diff": 1,
+          "pct": null,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2397,38 +2449,12 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 7,
+          "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:06:07.926Z",
+          "coletadoEm": "2026-10-05T18:59:01.963Z",
           "confiabilidade": "ALTA",
-          "evidencia": true,
-          "exemplos": [
-            {
-              "titulo": "Confira como foi a agenda dos candidatos ao governo do Ceará neste sábado (26)",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/26/confira-como-foi-a-agenda-dos-candidatos-ao-governo-do-ceara-neste-sabado-26.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Carreatas e caminhadas: confira como foi a agenda dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/25/carreatas-e-caminhadas-confira-como-foi-a-agenda-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Como se tornar doador de órgãos? Saiba alternativas de formalizar o interesse no ato solidário",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/26/como-se-tornar-doador-de-orgaos-saiba-alternativas-de-formalizar-o-interesse-no-ato-solidario.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Candidatos ao governo do Ceará anunciam propostas para o esporte e dividem agendas entre Fortaleza e interior nesta quinta",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/24/candidatos-ao-governo-do-ceara-anunciam-propostas-para-o-esporte-e-dividem-agendas-entre-fortaleza-e-interior-nesta-quinta-24.ghtml",
-              "data": "2026-09-24"
-            },
-            {
-              "titulo": "Motorista é denunciado por acidente que matou sete membros de time de basquete no Ceará",
-              "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/09/24/motorista-e-denunciado-por-acidente-que-matou-sete-membros-de-time-de-basquete-no-ceara.ghtml",
-              "data": "2026-09-24"
-            }
-          ]
+          "evidencia": false,
+          "exemplos": []
         },
         "interesseTrends": {
           "valor": null,
@@ -2480,11 +2506,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
-          "diff": -6,
-          "pct": -46.2,
+          "diff": -10,
+          "pct": -100,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2503,7 +2529,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:06:12.580Z",
+          "coletadoEm": "2026-10-05T18:59:06.569Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2558,7 +2584,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2581,7 +2607,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:06:17.209Z",
+          "coletadoEm": "2026-10-05T18:59:11.024Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2592,7 +2618,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends vazio para marca"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -2636,7 +2662,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2659,7 +2685,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-09-28T10:06:21.720Z",
+          "coletadoEm": "2026-10-05T18:59:15.436Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2714,7 +2740,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-08-31 → 2026-09-28",
+        "periodo": "2026-09-07 → 2026-10-05",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2748,72 +2774,35 @@
       "confianca": "ALTA"
     },
     {
-      "titulo": "Adequação regulatória — Anvisa determina apreensão de lotes falsificados de medicamento contra o câncer ",
-      "descricao": "Ato de impacto ALTO por Anvisa. Rodada com jurídico e comunicação para adaptar materiais e contratos.",
-      "tipo": "adequacao-regulatoria",
-      "prioridade": "ALTA",
-      "sinais": [
-        {
-          "fonte": "Anvisa",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOUo1SHNUcGlQZGQxUVdSSjhZOWp3R3gzZV9FMm1kVms2dHFjeUxxdHB0N25LLWV5X3U1LUJBRjBZWXgyaU1TMnNDbVJNa2lQTVJBSTNTaTNMZmh0SWh6S2pFX3NQRnlEMmFGak5lekhVOVdqanFKeEIxUnBlNnpBcHJQa25YRmppc1V1eXZDQUVoeTA4S21RaDl1QkFjMmRnZUtLQm1SUzRiVTBhYXBR?oc=5",
-          "data": "2026-09-23"
-        }
-      ],
-      "recomendacao": "Convocar jurídico + comunicação.",
-      "origem": "auto",
-      "confianca": "ALTA"
-    },
-    {
-      "titulo": "Adequação regulatória — Anvisa determina apreensão de medicamento falsificado para câncer de mama - Cart",
-      "descricao": "Ato de impacto ALTO por Anvisa. Rodada com jurídico e comunicação para adaptar materiais e contratos.",
-      "tipo": "adequacao-regulatoria",
-      "prioridade": "ALTA",
-      "sinais": [
-        {
-          "fonte": "Anvisa",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWmI1RmgxQno3UnVsWUlOUVZCYmVrUHJPRmF0dEJHN2c0aThrX2drNU9pVTVZVTR2Sm0xcnlaenNoZ0l2dGoweGpsMHZpTTdKSnNyMFZ3MGwtTHhMY1BlRUpZVnRvallkSTZmT3c4dEFmanRCQVl0VmdBYkgyb0RfZkhTc0llcmlSSlJpOENPZlRBUUFHS0VCRGRETWdpRlpKakxuTTlydlJrNWhRdnRJ?oc=5",
-          "data": "2026-09-21"
-        }
-      ],
-      "recomendacao": "Convocar jurídico + comunicação.",
-      "origem": "auto",
-      "confianca": "ALTA"
-    },
-    {
-      "titulo": "Concorrente ativo — ATO Oncologia",
-      "descricao": "ATO Oncologia foi mencionado 7 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
+      "titulo": "Concorrente ativo — Oncologia D'Or Fujiday",
+      "descricao": "Oncologia D'Or Fujiday foi mencionado 4 vezes na imprensa nos últimos 30 dias. Recomenda-se aprofundar análise de conteúdo e monitorar movimentos.",
       "tipo": "monitoramento-competitivo",
-      "prioridade": "ALTA",
+      "prioridade": "MÉDIA",
       "sinais": [
         {
           "fonte": "clipping-30d",
-          "concorrente": "ATO Oncologia",
-          "mencoes": 7,
+          "concorrente": "Oncologia D'Or Fujiday",
+          "mencoes": 4,
           "exemplos": [
             {
-              "titulo": "Confira como foi a agenda dos candidatos ao governo do Ceará neste sábado (26)",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/26/confira-como-foi-a-agenda-dos-candidatos-ao-governo-do-ceara-neste-sabado-26.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Carreatas e caminhadas: confira como foi a agenda dos candidatos ao governo do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/25/carreatas-e-caminhadas-confira-como-foi-a-agenda-dos-candidatos-ao-governo-do-ceara.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Como se tornar doador de órgãos? Saiba alternativas de formalizar o interesse no ato solidário",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/09/26/como-se-tornar-doador-de-orgaos-saiba-alternativas-de-formalizar-o-interesse-no-ato-solidario.ghtml",
-              "data": "2026-09-26"
-            },
-            {
-              "titulo": "Candidatos ao governo do Ceará anunciam propostas para o esporte e dividem agendas entre Fortaleza e interior nesta quinta",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/24/candidatos-ao-governo-do-ceara-anunciam-propostas-para-o-esporte-e-dividem-agendas-entre-fortaleza-e-interior-nesta-quinta-24.ghtml",
+              "titulo": "CRF-CE informa sobre a nova regulamentação fortalece a Assistência Farmacêutica na Oncologia - CRF-CE",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYU5tWFVJWGdrVjgzS2dxNDVvX2pMQldQLUZ4VTNBeDRnWjg3WS1qajBlMjMwV094ak5TVFh5ZTJ2Q0JoRWJUeUtNQzc0dFIyUmZIR0k4Vmd0dzJDRzFYbS1JM1JBOUxkR09jWC1lZ0JNQ2ZGNi1PWDdLeUhCVzJMcktTMnFMQ0tEM0hkMVkzWURmXy0tQXhRdGFrRUlnMVlpd3JPMFF0dl9rWkxsZE5KczdKWjFuVV9yUXNneEJuVjJiaHc?oc=5",
               "data": "2026-09-24"
             },
             {
-              "titulo": "Motorista é denunciado por acidente que matou sete membros de time de basquete no Ceará",
-              "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/09/24/motorista-e-denunciado-por-acidente-que-matou-sete-membros-de-time-de-basquete-no-ceara.ghtml",
-              "data": "2026-09-24"
+              "titulo": "CRF-CE participa do SOBRAFO CONECTA e reforça valorização da Farmácia Clínica em Oncologia - CRF-CE",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWdFTjJzNlhDQkhvbGxyRUpRUVJ0bVNudWtWdUoySHZHVDF6ZV92VjFPOVpqTGlSbVJMUnZHU3pmWlFNSVpkRDcyUWNrcUl6eHVSOHE1UU5fRGtUMnBxaHZQdU5YQVN3T0NlSms4NG5tNjRNZDVKenczOXRqTHdTcEV3QU9UMk8xVzV6SmZGUFNMYjhwc3F0dEFVTzRNazl4eGxaWDN4QmY3UHlveGszR1J3dHVvc2VZa29feTdmVnQ?oc=5",
+              "data": "2026-09-23"
+            },
+            {
+              "titulo": "Hospital lança teleoncologia para facilitar diagnóstico de câncer infantojuvenil no Ceará - O POVO",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd0JNNVZ4VDRsMDNoWWNtVzNCaTdNbF9FRW5DVkhhalhObmxFZVFsUl91TUZiSFNpcGRQVkIxdlJVbGNLRzU5WnNsWV82UFpkN0dFUWYtaUFBcFRJay1vZkozd1hfQ01EbldNbTNjLVppbnlVVVZwM0hId0tod3NFeDRLM0R0RnVRWkNhSG1KR1RaTUhJd2JsalZiUThVQWNaX3V1b1o3UDBBMjEwdzR2RlZJSF9BRmVYV0h0VmZLcnFjNkt4ZVZULWZPbkVPcXJFelRBNUlQeE1VX1JOM01v?oc=5",
+              "data": "2026-09-10"
+            },
+            {
+              "titulo": "CRF-CE 65 anos | Assista ao depoimento do Dr. Breno Magalhães Gomes na Categoria Oncologia - CRF-CE",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVHpXQXRxZ2p3UmVUdFJ6SElfejhjQi1DNDV6WUxndmZzb2hfbVgwYVJtRy1VbDUtb1hxVTNXak5neUdnREtCWF9JY3ViWHloekxkNEo5VHpPXzZ0RjdRRWs1MHUyaVhtekt6VTFTZ2ttWFNnVmNPY2ZwVEhXWkNEOHNwMWs3aEFsY0xSWFJ0N211bEJOeXdvMWNYdUpBMEJsTmxOSUpqVFFpRkRjLVk5dWVWX3FGNzNseWlNSQ?oc=5",
+              "data": "2026-09-09"
             }
           ]
         }
@@ -2823,15 +2812,31 @@
       "confianca": "ALTA"
     },
     {
-      "titulo": "Janela de posicionamento — Investimento: Debate para o governo do Ceará: Ciro e Elmano discutem inves",
-      "descricao": "Movimentação \"Investimento\" em 2026-09-24. Momento de reforçar mensagens de solidez e diferenciação.",
+      "titulo": "Janela de posicionamento — Investimento: SUS terá três novos remédios para câncer de pulmão; investim",
+      "descricao": "Movimentação \"Investimento\" em 2026-08-31. Momento de reforçar mensagens de solidez e diferenciação.",
       "tipo": "posicionamento",
       "prioridade": "MÉDIA",
       "sinais": [
         {
-          "fonte": "G1 Ceará",
-          "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/debate-para-o-governo-do-ceara-ciro-e-elmano-discutem-investimentos-em-saude-educacao-e-geracao-de-emprego.ghtml",
-          "data": "2026-09-24"
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTUc0dGZXZWxQemxsZDgxcmlxYkJ1dnJzazJNT1RWZTltNzY2czViLVcyVFJBWG5WT1NONW9UT0Zxb0JvRDZPU0tFRklMdGUzN1JYS3pWS2IzSG1WSXFibndsWk5SNWlQcmhiMzU1S0hNUzZTdmJaS293RGVVdkd1czg0ZVlaUWxsa0xheW5wZTQ1ZlR5bV8wRGJPTXpnZHlISXRyU1FvQU5vbUVGSEc0X1ZqczlPWTFhcVJjX1ItWk1YWTdGU1RJWg?oc=5",
+          "data": "2026-08-31"
+        }
+      ],
+      "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
+      "origem": "auto",
+      "confianca": "MEDIA"
+    },
+    {
+      "titulo": "Janela de posicionamento — Expansão: Plano de Elmano propõe Distrito de IA, expansão da saúde no ",
+      "descricao": "Movimentação \"Expansão\" em 2026-08-22. Momento de reforçar mensagens de solidez e diferenciação.",
+      "tipo": "posicionamento",
+      "prioridade": "MÉDIA",
+      "sinais": [
+        {
+          "fonte": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdTlMSWlHLXVqMHNEZzY4UTNpMWd2STNKaEhZeWpSSDZzYV9CM0VIQ3dnMjdqb0h1NnBxYVJxdXBDa1hZVDJNYnpiRGlrMG9mN2huUk5zRE9lLUNVNXJRSXhQZkFxMlhvb2JvaU1xSGxqRW42elEtakgtNmNzdmFwVXdYclRfRkQ5SFV2dU42bmlrZ0JfT29VOG51ME9xbVVEbWxoSHJ3MENpcVE3LWVVMHQyQm9XX0pwbzVBeTRCVXVxaVhDbGxWQnludkJzRk85SjFtU2FydUttTEVESTdFcmttZ9IB4wFBVV95cUxQdTlMSWlHLXVqMHNEZzY4UTNpMWd2STNKaEhZeWpSSDZzYV9CM0VIQ3dnMjdqb0h1NnBxYVJxdXBDa1hZVDJNYnpiRGlrMG9mN2huUk5zRE9lLUNVNXJRSXhQZkFxMlhvb2JvaU1xSGxqRW42elEtakgtNmNzdmFwVXdYclRfRkQ5SFV2dU42bmlrZ0JfT29VOG51ME9xbVVEbWxoSHJ3MENpcVE3LWVVMHQyQm9XX0pwbzVBeTRCVXVxaVhDbGxWQnludkJzRk85SjFtU2FydUttTEVESTdFcmttZw?oc=5",
+          "data": "2026-08-22"
         }
       ],
       "recomendacao": "Pauta de conteúdo reforçando atributos comparativos.",
@@ -2843,6 +2848,6 @@
   "origem": {
     "motor": "ingest.mjs",
     "versao": "2.1",
-    "mode": "daily"
+    "mode": "weekly"
   }
 }
