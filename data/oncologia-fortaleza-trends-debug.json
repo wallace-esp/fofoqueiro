@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-10-19T16:41:46.867Z",
+  "executadoEm": "2026-10-26T16:21:52.248Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 11
+          "ultimo": 15
         }
       ]
     },
@@ -76,8 +76,8 @@
         },
         {
           "termo": "CRIO Fortaleza",
-          "status": "ok",
-          "ultimo": 100
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         },
         {
           "termo": "hospital oncológico Fortaleza",
@@ -108,11 +108,16 @@
       "tentativas": [
         {
           "geo": "BR-CE",
-          "status": "ok",
+          "status": "erro",
+          "erro": "resposta não-JSON (HTML/erro): <html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial"
+        },
+        {
+          "geo": "BR",
+          "status": "ok-fallback",
           "pontos": 91
         }
       ],
-      "geoUsado": "BR-CE",
+      "geoUsado": "BR",
       "pontos": 91,
       "resultadosPorTermo": [
         {
@@ -178,13 +183,13 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 93,
+    "ultimoValor": 100,
     "status": "wrapper-ok"
   },
   "resumo": {
-    "comDados": 2,
+    "comDados": 1,
     "semDados": 2,
-    "semInteresse": 13,
+    "semInteresse": 14,
     "total": 17
   }
 }
