@@ -5,13 +5,228 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-10-30T15:40:11.769Z",
+  "atualizadoEm": "2026-10-31T15:09:51.472Z",
   "ultimaExecucao": {
     "mode": "daily",
-    "em": "2026-10-30T15:40:11.769Z"
+    "em": "2026-10-31T15:09:51.472Z"
   },
   "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
+    {
+      "veiculo": "Google News",
+      "titulo": "Novos medicamentos contra o câncer estarão disponíveis pelo SUS - G1",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWWF6eERFRy1GdWlKR3J2c1JLczJmNnk3Wk1YSHNIN21XVHlJQ1Z6aDJVS09XMkdQLUUtd2ZNc0tDa04wMlFyellmUDdZZFp6LTh1VU5HYThka2gweXBXRXE1V3VidGlQV0h4UElLZ2VtTTNmVGlqX0t5bDYyTURESkU2X0RxTEZVUHNpVloxR09oQlpvamZTY1d5dXF5OUZ0Yk1ub1hxMGtrbU9sZklkSm5vbzQyaEpWQ2xMc9IBywFBVV95cUxPRzJpOURteVlPYXdCd0ZsZGktOWhlX1FTTVJ3SDd1Z3lNV0w0UnI2Vm1aVHVrV2lCRnFCWTlyYlIzaW52azJOaWRWRmxTS0ZyRVU3T2pEZWRzVXpFZGZsTWd5QVpudTRGZkhkeC1uUGp3aEo1R2xEZDBOTk1vbXMxZHJoM1VJbG0zbEFrSFZpNng0UnFzOHYwN1VxcF9iejhNU3Z2VWJtN0JPU0hveElaQXlXMXVPUTNGRWJQTjQzb0ZEdjA5akstTjlpOA?oc=5",
+      "data": "2026-10-31",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 5,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "SUS amplia oferta de medicamentos contra o câncer - Folha do Povo Itatiaiuçu",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZzZDTkRScDNxd3FjRnREdlhiWm1TZDhueUZ3NzM2M3cyeVNlaE92Y0c1dzNuTmFKTGdHeERYN3NidTF1Y0o4OWRxRkt3UDc2bkMwWHpTRVN4eUpPbkhOTmNtM2hZWGt4NHpqTG9ET0dhS3RpYVJ0QmNIem1UeGlyeTAwNmpsQWRYX09OZnE3d3Fnc3RZ?oc=5",
+      "data": "2026-10-31",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 5,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "SUS amplia oferta de nove medicamentos contra diferentes tipos de câncer - O Diário de Mogi",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdkI5WWNXeVROTmRRd2xlTS1EeWZpUFNLODhwbXJPMlp6RS1oXzFxcUI1WXZ1QmhTcWxJYnZmTmprTURqVlNtam8yd0RnbFVoQnpuTWVyRE1Dc1c1VTI4Snc2b1ZyZWJlZlN4aFJOaWFWMjZhY0dZTXJ5V2czSTJXaWQ4SWIzTmhTTkJoTEdCTThBMWtKcTBOTDJOYW5JSWRMcERzWEtaWGlydnZ6cm9ZOG9sRXBKZmxwTGc?oc=5",
+      "data": "2026-10-31",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 5,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Filmado no Ceará e indicado para representar o Brasil em disputa por vaga no Oscar, 'Feito Pipa' tem pré-estreia em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/31/feito-pipa-tem-pre-estreia-em-fortaleza.ghtml",
+      "data": "2026-10-31",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 4,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Trio especializado em arrombamento de cofres e caixas eletrônicos é preso após série de furtos no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/10/31/trio-especializado-em-arrombamento-de-cofres-e-caixas-eletronicos-e-preso-apos-serie-de-furtos-no-ceara.ghtml",
+      "data": "2026-10-31",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Com quase 24 toneladas, rapadura feita em Cascavel, no Ceará, é eleita a maior do Brasil",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/31/com-quase-24-toneladas-rapadura-feita-em-cascavel-no-ceara-e-eleita-a-maior-do-brasil.ghtml",
+      "data": "2026-10-31",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Previsão do tempo hoje para Fortaleza (CE): dia de sol com algumas nuvens e névoa ao amanhecer; noite com poucas nuvens",
+      "url": "https://g1.globo.com/ce/ceara/previsao-do-tempo/noticia/2026/10/31/previsao-do-tempo-hoje-para-fortaleza-ce-sol-com-muitas-nuvens-durante-o-dia-e-periodos-de-ceu-nublado-noite-com-muitas-nuvens.ghtml",
+      "data": "2026-10-31",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Expoece começa neste sábado (31) com exposição de animais, premiação, shows e mais; saiba o que esperar ",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/31/expoece-comeca-neste-sabado-31-com-exposicao-de-animais-premiacao-shows-e-mais-saiba-o-que-esperar.ghtml",
+      "data": "2026-10-31",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Quem é Didi, a mulher que venceu um câncer de mama, enfrenta o segundo, e dedica a vida ao Fortaleza há 27 anos - URB News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU01vN1pKaXVnV0VIMnNfa3NLV2o1cnlKUzVDcEdoVG42NHEzd1JBbU1RbWhBZ1JLTjNYd01UMldtaHozSklTSVRyaGxXTGdPdGtGb0Y2MFhRdEhoaUJnRWg0dnBSNkNPX3lTeXhpLVB5RHlUNlE0SjVERE1UZFI3elpwcDBLNS1hUWFjNVI5ekNPOE1GTy0zcjVadTJlMGJxMnIwSm51QzhPNTdmU2VUTmtSNFVoek5iWFlrbE12Y0haY0VibHlZZDhyd3ZScEFUVWhIMWRxanlYS3M?oc=5",
+      "data": "2026-10-30",
+      "termo": "câncer de mama Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 8,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "Demarest lança e-book sobre desafios da inovação contra o câncer - Migalhas",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUVdGWWMtUzhCaHoybEJxR29HZjNvYUVvWWRfa203eEVMRGxubG5FQ3o2N0FYYjEwdTB0aDE2cUtJOEhYRHhXVFI2Z2hNSFpXS0l3dFBRVkZpYW1CUjBocXhBTDZpNWdwQXdQdE9DcEFXY2p6UE4tYUhQX05VWG9RbGZPUzkyclZjeHV6eGNIbVF0X1VYSzhSblc3aVpUWlI3QnR4eVBaMFNLb00?oc=5",
+      "data": "2026-10-30",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "oncologia",
+      "tom": "Positivo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Justiça manda reintegrar 22 funcionários demitidos por motivo eleitoral no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/empresa-e-obrigada-a-reintegrar-22-funcionarios-apos-denuncia-de-discriminacao-politica-no-ceara.ghtml",
+      "data": "2026-10-30",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Colisão entre micro-ônibus e poste deixa feridos e atinge rede elétrica em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/colisao-entre-micro-onibus-e-poste-deixa-feridos-e-atinge-rede-eletrica-em-fortaleza.ghtml",
+      "data": "2026-10-30",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Fortaleza recebe réplica oficial de Nossa Senhora de Fátima, que fará peregrinação até o Cariri; confira programação",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/fortaleza-recebe-replica-oficial-de-nossa-senhora-de-fatima-que-fara-peregrinacao-ate-o-cariri-confira-programacao.ghtml",
+      "data": "2026-10-30",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Refis 2026: confira como pagar débitos com desconto de até 100% no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/refis-2026-confira-como-pagar-debitos-com-desconto-de-ate-100percent-no-ceara.ghtml",
+      "data": "2026-10-30",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Mulher é morta a facadas no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/mulher-e-morta-a-facadas-no-interior-do-ceara.ghtml",
+      "data": "2026-10-30",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
     {
       "veiculo": "G1 Ceará",
       "titulo": "Polícia flagra assalto a posto de combustíveis, atira e prende os criminosos em Fortaleza; vídeo",
@@ -325,8 +540,134 @@
     },
     {
       "veiculo": "G1 Ceará",
+      "titulo": "20ª Cres - Coordenadoria Regional de Saúde - Crato, 27ª zona eleitoral: resultado da votação em Crato (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/20a-cres-coordenadoria-regional-de-saude-crato-27a-zona-eleitoral-resultado-da-votacao-em-crato-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 1,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "16ª. Coordenadoria Regional de Saúde - Cres, 32ª zona eleitoral: resultado da votação em Camocim (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/16a-coordenadoria-regional-de-saude-cres-32a-zona-eleitoral-resultado-da-votacao-em-camocim-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 1,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "E. 1º Grau Carlos Ferreira Barbosa, 97ª zona eleitoral: resultado da votação em Trairi (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/e-1o-grau-carlos-ferreira-barbosa-97a-zona-eleitoral-resultado-da-votacao-em-trairi-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Escola de 1º Grau Francisco Teodorico Teixeira Lima, 29ª zona eleitoral: resultado da votação em Limoeiro do Norte (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/escola-de-1o-grau-francisco-teodorico-teixeira-lima-29a-zona-eleitoral-resultado-da-votacao-em-limoeiro-do-norte-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Escola Municipal de 1º.Grau Manoel Carloto Pinheiro, 72ª zona eleitoral: resultado da votação em Jaguaretama (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/escola-municipal-de-1o-grau-manoel-carloto-pinheiro-72a-zona-eleitoral-resultado-da-votacao-em-jaguaretama-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Escola de 1º Grau Sinfrônio Pinto Araujo (Salão Comunitário), 17ª zona eleitoral: resultado da votação em Itapipoca (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/escola-de-1o-grau-sinfronio-pinto-araujo-salao-comunitario-17a-zona-eleitoral-resultado-da-votacao-em-itapipoca-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
       "titulo": "Escola de 1º Grau Francisco Araujo Chaves, 41ª zona eleitoral: resultado da votação em Irauçuba (CE) no 1º turno",
       "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/escola-de-1o-grau-francisco-araujo-chaves-41a-zona-eleitoral-resultado-da-votacao-em-iraucuba-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "18ª Crede - Coordenadoria Regional de Desenv. da Educação, 27ª zona eleitoral: resultado da votação em Crato (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/18a-crede-coordenadoria-regional-de-desenv-da-educacao-27a-zona-eleitoral-resultado-da-votacao-em-crato-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "CAMPUS Provisório da Uece (Antiga Esc. de 2º Tempo José Freire Frei), 33ª zona eleitoral: resultado da votação em Canindé (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/campus-provisorio-da-uece-antiga-esc-de-2o-tempo-jose-freire-frei-33a-zona-eleitoral-resultado-da-votacao-em-caninde-ce-no-1o-turno.ghtml",
+      "data": "2026-10-29",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Centro da 1ª Infância (Polo Eduardo Sá - Abc), 88ª zona eleitoral: resultado da votação em Eusébio (CE) no 1º turno",
+      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/centro-da-1a-infancia-polo-eduardo-sa-abc-88a-zona-eleitoral-resultado-da-votacao-em-eusebio-ce-no-1o-turno.ghtml",
       "data": "2026-10-29",
       "veiculos": [
         "G1 Ceará"
@@ -383,6 +724,21 @@
       "veiculo": "Google News",
       "titulo": "SUS passa a oferecer nove medicamentos de alta tecnologia para tratar diferentes tipos de câncer - Gazeta de São Paulo",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeGRPc1IyMTF6VlIzME9XcmpTcTUyaVFiT21pNUxkYTlJUGJ2QkZEN1NYWlpQb3V3NXo3c1Y3Tjlhd1ZiVzdpc0ZPbHJMWldTV2p5bWd5cjRRN0wtMHpselNQUEdtNWV6WHBESHhqejdiUzVHYWdyQW1rZ3hDOVVDTGI3YUYwOEhocHRmOGhKR2dCeW80MG1Da0VQbDk5VU5sUDY0azlQSlREbVRmSzJuZnFnd3Z2bkh6V1dFRG9VbzdySHRQLS0yM0NTSjd3djBo?oc=5",
+      "data": "2026-10-28",
+      "termo": "medicamento oncológico SUS",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 5,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "SUS inicia oferta de nove medicamentos contra o câncer e prepara novo rastreamento - Diário Tocantinense",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGljT1J4blRmV05oNTRXZXhUamJOcGk5cGNsTTVLTlhiblVBMFBpUWRST01ZUFM0Ung2bndQUGNYV3h1WkxUS1dBaGEyMGNMRVJZOEw5UEV2aTZieVc1TEFEek05YVZWNWNDUXhCaFV1bFdpT2poRktmbUE2UHpQZkdjVDBuaW1TOGZlV0hXM3RMRHBEOFJzMEN1S3A3N1dIUFNqSXQ3UmdwUFJXdFlNaTNoWEM1Zkx5a1NMWGxneEdwdUNWa2U4?oc=5",
       "data": "2026-10-28",
       "termo": "medicamento oncológico SUS",
       "veiculos": [
@@ -690,10 +1046,10 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Nove medicamentos contra o câncer chegam ao SUS; veja lista comentada por especialista - Olhar Digital",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWWJGYTJLYThrcU5HbHBJVWhqdkstNjZCY09SV3IxZ2RQNWVxRmdtcVNpajJ0ZGZ5bHJ4NjNPejJsbVRqWjhZc0hLUEhrck9BVENmZ3J0YXVEZkZMNU1LR3FFRGxyQjBzUnBZRHdxR1lfQmVJaHlXZ3QyN093eWpxNGw1X0xOaWhpNTI2aENOd1pwcFd4RU5jel9ubEk2akdjZ2lQQXlSX3RxOTNHcy10TGFFTTMyNG8ySW1tbGRCTlZPMkx5dGxxVlhHX1lPaEh4NjdyQWEyS0s4QQ?oc=5",
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão metastático - O POVO",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnItNDd2NU8tNHNJRXFwWHdVR09VRlBoc3dHSndkLXdHVGZfTGZXZXRWOWk2LTRITlRYY3MyUUdJSFN5cDhPdlB0T0UwajhPQXYwNldnV250aUU1U1pPYkpzTTlKQWhvQXNqWVd0V2txWFlaejNxT3hRNmtfWDlIZGFSVHZzZTVhZW9NU3ZPYmhmNG8tdExlQWRVRHlkejdfSzlqNmNLV0JyU2dNNzhzR2pNNGF5VWpKRk1yVGlR?oc=5",
       "data": "2026-10-27",
-      "termo": "medicamento oncológico SUS",
+      "termo": "quimioterapia Fortaleza",
       "veiculos": [
         "Google News"
       ],
@@ -705,8 +1061,8 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "SUS amplia oferta de medicamentos contra o câncer - Folha do Povo Itatiaiuçu",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVBJVlc3LXRDV1B4QjNUaWd6VHl5Y1lST3RIT2pocU9DRDNGRDJaV09RQnVSSVRpVmV5aE1QdThhT3JTY2oyRUN2dUhzY0czWjRmWVVla3VabllUcy1oemU0N0VGNFQ4MlFlbVJLcG9pSkV2dFQ2N3J4MXFTU1kxUXZXeUFhVWw2VlVCSnZB?oc=5",
+      "titulo": "Nove medicamentos contra o câncer chegam ao SUS; veja lista comentada por especialista - Olhar Digital",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWWJGYTJLYThrcU5HbHBJVWhqdkstNjZCY09SV3IxZ2RQNWVxRmdtcVNpajJ0ZGZ5bHJ4NjNPejJsbVRqWjhZc0hLUEhrck9BVENmZ3J0YXVEZkZMNU1LR3FFRGxyQjBzUnBZRHdxR1lfQmVJaHlXZ3QyN093eWpxNGw1X0xOaWhpNTI2aENOd1pwcFd4RU5jel9ubEk2akdjZ2lQQXlSX3RxOTNHcy10TGFFTTMyNG8ySW1tbGRCTlZPMkx5dGxxVlhHX1lPaEh4NjdyQWEyS0s4QQ?oc=5",
       "data": "2026-10-27",
       "termo": "medicamento oncológico SUS",
       "veiculos": [
@@ -776,358 +1132,8 @@
     },
     {
       "veiculo": "G1 Ceará",
-      "titulo": "Unidade Básica de Saúde - Ubs - Rita Aprígio de Farias (Dona Missanta), 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/unidade-basica-de-saude-ubs-rita-aprigio-de-farias-dona-missanta-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 1,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
       "titulo": "21ª zona eleitoral de Ipu (CE): votos por local de votação no 2º turno",
       "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/21a-zona-eleitoral-de-ipu-ce-votos-por-local-de-votacao-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. José Firmino Barros, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-jose-firmino-barros-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Antonio Ferreira Lima, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-antonio-ferreira-lima-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Pedro Camelo da Silva, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-pedro-camelo-da-silva-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Francisco Peres Martins, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-francisco-peres-martins-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Venceslau Ferreira Chaves, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-venceslau-ferreira-chaves-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "EEF Teresa Odete - Ceja, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/eef-teresa-odete-ceja-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "UBS Maria Clotilde Carlos Paz, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/ubs-maria-clotilde-carlos-paz-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.E.F. Raimundo Balaco, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-e-f-raimundo-balaco-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Maria Laura Sampaio, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-maria-laura-sampaio-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Sindicato dos Trabalhadores Rurais de Ipu, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/sindicato-dos-trabalhadores-rurais-de-ipu-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Abilio Martins, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-abilio-martins-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "EMEB Monsenhor Gonçalo de Oliveira Lima, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/emeb-monsenhor-goncalo-de-oliveira-lima-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "EEMTI Auton Aragao, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/eemti-auton-aragao-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "EEF Duque de Caxias, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/eef-duque-de-caxias-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Antonio Alves Ferreira, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-antonio-alves-ferreira-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Escola de Ensino Medio Dep Murilo Rocha Aguiar, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/escola-de-ensino-medio-dep-murilo-rocha-aguiar-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Francisco Assis Torquato, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-francisco-assis-torquato-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Crianca Esperanca, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-crianca-esperanca-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Profa. Maria Valdemira Coelho Mello, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-profa-maria-valdemira-coelho-mello-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Melquiades Camelo Timbo, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-melquiades-camelo-timbo-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Predio da Receita Federal de Ipu, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/predio-da-receita-federal-de-ipu-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "EEMTI Delmiro Gouveia, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/eemti-delmiro-gouveia-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Assembleia de Deus, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/assembleia-de-deus-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
-      "data": "2026-10-27",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "E.M.E.F. Conrado de Araujo Chaves, 21ª zona eleitoral: resultado da votação em Ipu (CE) no 2º turno",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/27/e-m-e-f-conrado-de-araujo-chaves-21a-zona-eleitoral-resultado-da-votacao-em-ipu-ce-no-2o-turno.ghtml",
       "data": "2026-10-27",
       "veiculos": [
         "G1 Ceará"
@@ -1143,7 +1149,7 @@
     {
       "titulo": "Matéria legislativa",
       "fonte": "Senado Federal",
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "url": "https://www25.senado.leg.br/",
       "tema": "legislativo-federal",
       "impacto": "BAIXO",
@@ -1159,46 +1165,10 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende lotes de medicamentos contra o câncer e solução de reidratação - Âncora 1",
-      "fonte": "Anvisa",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZmVaUEtlSDVHWDZCU0tWdER1bGNFenVkM2F4VEZFRnVoVGhFdU1XaUc5dVBJa1JNNmJZVGJDWXB6d0ZaOFI4cWdNLURpSWRJUjdyNnlwa1RYb2V4WTBXa2Uxd1BMZHk0RnE0cHZGSEhGRUY4RURSNEVjVU01bnNjZ2QyQldVcThyN1NWd01SdDR2RFo2UE5jNGQyMEdGUXRNWGEzRw?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa: recolhimento voluntário de lotes dos medicamentos Simbeva e Abevmy utilizados no tratamento do câncer - PFARMA.com.br",
-      "fonte": "Anvisa",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR190M1UxVU1ZLTNvWXUzWGpWU0F0VmZxR2syQlIyeEJPYkU3ZnJ1SWxwR2hJX3hFd3Z4R0lrNjJJenpGWk9GWjJpbTl2Mnh5NjZPR3BOUlNHSzNIRnhIYU5UOWJRUnZpZGUtQWNteVpTak5kUExpa2pLUXhOWWFxaGJsT1RsS1d6UktYWEs4eUo2MlBmMUgwMGNTakZZUTlNbVpPbC02OTd5Q253Sno5MFNOdFpSTm1QMHdyMUo5dmc5WVVlWmtISEkyNVNzbkx3eDVNc1NCZzJmOWI5V21JemV6UQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Anvisa recolhe lotes de dois medicamentos contra o câncer após falhas em testes - Farol da Bahia",
-      "fonte": "Anvisa",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQTgtaDVTMWZfUEZDdF9NN2hfbDZvY1FwbDVENjh1N1RMNTEwU2tiN3V1WG9jM2U4WENmRWtlcGRGcG1ldFRxZXhBUzlXTXRRazVfY0FsSUpiTUgzcXRTcFg5ekRSYWYwR0lKcTdnR2djUXJmOU4xSkg1OFFvUnZ5SllxYW5wZjNLM0pEblp0aUFCRENSOFNqSWJpTlZicU1MUjExeVlyR251NDdncUh6dW5WTmFFcHo3akJj?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Lula 4: O que deve avançar na saúde e quais as demandas do setor - Futuro da Saúde",
       "fonte": "Regulatório (via imprensa)",
       "data": "2026-10-29",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzVKRGJFbTBDOE1ISmVrX2lScDBNMS1tRXF3b040MzF6cW45bzZ1NVZpRlVieDQweTNQckFPLXlLQ3pKMTBwOHhRbTdHR1VSVVVGNUM4bjhidXdQb2MyVWllVGQxVVJ2eVZFXy1uNjZQSkhXZWpTSnRLRkM0TFpURmhzbHF0UXlHaVVjMFVYTlFJR3JrQnJUWg?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde atualiza 18 protocolos para tratamento do câncer no SUS - Fala Você Notícias",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeE53SmdBV3JhZ3FQVjEtRldDLXZ3bDBkUVpkZVhpWGpSalRMdzVXcFFIWTV0NU1jbVZ0YWQxdHRpdDN1cEc1NmpVNzdMQW9ST3E5UDU0a2xFWERIdUwxNXZnWmZQY21sRDl3cWNOTzJ6VFdpTjVTeVlDZjM1aGRPRmtjWGNJYTZkRFlKWVM2UVdFVTZnTldiU0RwWUNKb1A0c1lTMVpWckl3a3puU3NZZ0lGYUhVaVVNWkxVSnR6UzN0WjFqaVVVZw?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1213,64 +1183,10 @@
       "origem": "auto"
     },
     {
-      "titulo": "Ministério da Saúde cria código de registro do pertuzumabe na tabela do SUS e reajusta procedimentos de câncer de mama HER-2 - atlaspublico.com.br",
+      "titulo": "Ministério da Saúde atualiza 18 protocolos para tratamento do câncer no SUS - Fala Você Notícias",
       "fonte": "Ministério da Saúde",
       "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR1NRQUxIM1NUUXNGU2NCdnFhMVM2YzVSbnNpaHQ4aXozR1l2dko0MWNUaWZMam8taDhkTVRCWEo0dC1SV3R0OUoycDdpazdEZmMyZTdOZURmdEQ1S0FIaEw5bmRzdG51a0Qtd2RIZldWTERURGo1VHRaWHFmVGpLdE82REdxNW9ha0VWNERZNl9HdEpZbHdXZFFpQWVmakxTV0VV?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde cria na Tabela do SUS procedimento para registrar a dispensação de rituximabe - atlaspublico.com.br",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSnlaVERWbEtZWFlVOGxZbkRtWHRldkx2bUFQTmxHbERlYjBsaWhLQUo2ejJCRExpa1RCZTBVWm1GMFM1N3c0VHhSbXZTaUE4WGhIN3ZXeWcxM3VZS0J5Y1BfbTdfU2REbHY5YktVYkRRT1k1bFBRTHA2NUtPZ1BoODFxSUFWNUhWUGJoa0dIcmpjaG40NmlrYWhKVlA2SkF6aUl4bg?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde cria registro da dispensação de imatinibe e dobra valor de quimioterapia para LMC e GIST no SUS - atlaspublico.com.br",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONlVWVDZ6WkVkU3czWDU0NlVSYTRsQUNWTE11cjBIZ2tBTHUtMUQwLW1KN1NEa1VyTDJlc1A4bXB5dGI0U1JVemhmcTR3TDVWU0ZOazhyS2VzOXdBYTVGVlFOWHNsUk9BckRCUHRYeU1MWlRRM0R3eENtb3JRTmJXUHR6V2ZzOFJWYllvdGF5b0p3dHV1dE1pRTlR?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde inclui na tabela do SUS procedimento para câncer de estômago HER2+ e registro do trastuzumabe - atlaspublico.com.br",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0t6bVNnY2xZanBQVEVIcGpPM3I5aGZVOU1SUVBPTHFHWWs4b1FRLUVIcFNvN2tGdzlVMjVxYWtyRUVjdzNwcFRWYmV5aUI4cTB5SVl3N2F3eU1OcVNBRnJmR191azA2a2dKdVZPdUxucFFvNjk3VTdvWEZMQ3VPR1hwVHF3MHFHU3puOVMyeU1kQUxxVFU5Qm1Tem1ZWXkt?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde cria procedimentos e custeio de R$ 141 milhões para abiraterona no câncer de próstata - atlaspublico.com.br",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3JCOUYyeFdGZW9YV0VaQ205dWNWN18xQXI4bjJNRHpTb3NIVGFhS0YtRzhsYkYwNlhCR09OcnB6WXZUYU50TzdudlZnbkVRaG1XSXR0RXc2WDdwdDgzZEgtdzVoX25YQ2JQeHIwUjdlODUxRHEyTkk3elRfTm1RU09rSGNZQlVNRmpVeUlNRzdLLW9pd21LcUxGd2F4N1BNVGVj?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde inclui quimioterapia com sunitinibe para tumor gastrointestinal na tabela do SUS - atlaspublico.com.br",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYWNVeGZHMTkzb1VoWENGX2xsbTZaOEFkWWlNdmdiUmoxYlVjbW1iaVEwTEdZYkRGTkhORDRmc0FvZEFFa2VxanhhYXZLbWlENGdldEZqZkJ2bHg3eXBUczF6WUx0bHlQVjBXUVlTaHZ0dWtyRFNoZTI2UVlkM3ltOHRnNFhUdTA4V3Z5SHhaR0FSRF9yR2tTNFJxZzJ5bW8?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde inclui pazopanibe para câncer renal na tabela do SUS e reduz para 5 anos a idade mínima de procedimento - atlaspublico.com.br",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLXgzUm54MUVTLV9xQ1BmQlNSQ3E4VFBnUm5hVVFWRXN2Y3VTVFFMSmEwOG16U0pCNl9nN2dIRFM2YjR1UjdiQkdib28wdlRYUmt3Y05xemlaSmhVRF9TaFZMYVNuTjl4MGxlc05ORUd0eURjaXczYS1kSUEyVEFzU3ByLUtuX2h2NWIyVVphaTVwOFZrS3NZa0ZzSU82akdfYjc0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeE53SmdBV3JhZ3FQVjEtRldDLXZ3bDBkUVpkZVhpWGpSalRMdzVXcFFIWTV0NU1jbVZ0YWQxdHRpdDN1cEc1NmpVNzdMQW9ST3E5UDU0a2xFWERIdUwxNXZnWmZQY21sRDl3cWNOTzJ6VFdpTjVTeVlDZjM1aGRPRmtjWGNJYTZkRFlKWVM2UVdFVTZnTldiU0RwWUNKb1A0c1lTMVpWckl3a3puU3NZZ0lGYUhVaVVNWkxVSnR6UzN0WjFqaVVVZw?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1294,15 +1210,6 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende uso de lotes de medicamentos oncológicos - Afya | Home",
-      "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLW1tNHBMNDlEVG9aWWdlY2JxWWZiSzhqRjVMWWFwX1BaWkgtelZSdWJwSmhPLVdhZHZxNFVZNk5wLW82UEdtNWE4QS1raGFtUjBZbmw0aF9rYlN0bFNDUEJJMUpQMjFsQkd0WkJGVGcxQlpPT2VqR3BuLTNvRjRGRDB2cHdYTFhDZlhRdmxMMG9Tanc?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
       "titulo": "Anvisa Suspende Lotes de Dois Medicamentos Para Câncer e de Solução para Reidratação - Forbes Brasil",
       "fonte": "Anvisa",
       "data": "2026-10-28",
@@ -1321,10 +1228,10 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende lotes de três medicamentos usados no tratamento de câncer - BPMoney",
+      "titulo": "Anvisa recolhe remédios usados nos tratamentos de câncer; veja quais - A TARDE",
       "fonte": "Anvisa",
       "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lNUh5RFp2T2VBdzRTZ0Y5M3kyY0Z3c1FHNUQtek4tdDU4bWJ0QW5jc0RndWhmVjJ4M05aOE1ZemZ0UHhQRmg0UmphbHRkTXRScUhEcUNDQWhIV3V6ZExnX2d5WWNhRF9qb3UyWEFoQ3BkVU5PYnFmWnJKc0lfb28?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYjc4YVJ0bUtjOWNsRXZUM1lNeDk0OEF5RHo2WEpLNHJjSUNMWWtrai03UUtzOWdEZzJnLWtlZERXYndCR3MzZmMzTUwtRmxFLVNwTC1FY21IZzVjRlduRFVrYzB5M0hOdW4tQlRYMXFUVFFieHA1WVg3U1cxUlFIZS04Z2dDd3Vhd2NKc0U3a1RrLVZOR3NBN9IBoAFBVV95cUxPQXFYdTU2X3JXSTFuVlBOZENOQTR1dmgzbDh5VjN0eFU4eE9FRElqYW5TV0pxbVRfNjN4ak1NeDJ5Q3FWRkNvOTUxNTFvcy02X2VGdDNXQTRzQzVNYUhOLXVlVUd0ZTZjcjdfLXFrM08yTkNDMlJJTVJ2WVV6WG1LZWQ3ZFhCd2xleG1Ga2VLSFlLaEtJeHpLTElwV2tuVEhH?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1339,73 +1246,172 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende lotes de medicamentos oncológicos e solução intravenosa - JE Online",
-      "fonte": "Anvisa",
+      "titulo": "Teste para detecção precoce do câncer do colo do útero já está disponível em 26 estados do país - GOV.BR",
+      "fonte": "Regulatório (via imprensa)",
       "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR196NTdaTy1CbUttTmlYSWNHa0JTT1VacDRLam9JWnAxNThLdUZYbEdOREtBdk9iQ2ZBT0VyMGktYnVxSTEzUjRBNkxsRTljZGhGdHNSU1lfc2FDamVVZlZ6TGprdEJMdnJ5eFQ2UEk3VWxBR2hvdG4tUTh6YmdEUzdJcUVCcmx3ZDd5aA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNTdzWm8zU3plcm5YUzRVQVpnVWtLRjZxLVpsN0JzaDh0am1wSE1jZHFlUE9Bc0NiekZETUFadEMzbEhHcEhzNjJHbHdMQUhBY3RTWGF2MFZqNk1qYXFhZHZQVTBSUVEzYWkxYlU5MUNOdUVJaWwyM1NiY3VYQUpuR3MxbzRjOFJVTVp2U21QYkNJTFlDSlhwWmsxRk91TW1oM3FkUllJMHJiZ2ZnaHVaNDloeDdTaFRjMkFiNkFmd0x4Rm9yNG9YUGFjSE1Wakx6bU1EUUkwSDV4WjFzeWVQR2FFZjcweV9aWDA1cjhB?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa recolhe lotes de medicamentos para câncer e de solução para reidratação; veja lista - Diário do Nordeste",
-      "fonte": "Anvisa",
+      "titulo": "Ministério aprova diretrizes nacionais para rastrear câncer de intestino no SUS - Folha MS",
+      "fonte": "Ministério da Saúde",
       "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRWNLRlE5am4tY0xyWDZMSEphc2txMzZSZ0pvbUJENmI3dWtOcTVRV0hBVjJvYXI4TWFrNTRaT1pkTEZaM085OTNFUXJWVGhQd1pDVENWUmRIVkNWWHpMNmRWTzktRUljbWdNb0FkMmd4S0taMnJhR1NHN2pBSmhRR0VhSEdZX0xrbG1vRjZwOWRzUGVqYjM4WkoxaUt2OWVOU2F6RnoxY0dJZVQwbGQxS3Zib2JFaVBleGdiRGxCUWt5T1lGd2RtSHBROG5OMk9lTkhWOWI1c1BseEpVOHkxeGI2bzNZMUZO?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkd5dHZJRFVhTkliQWFCOVdvc2VaMHJmai14Q28teUpweDIwNk5PV253QWhUbk91RmVKTG1CNVNMdXVzVF96OExhYS1Da0RBT2J3cmR5eWo2ZDBJY19zQzZxNTNiVm9rb0lTQkxYYUVwdkYyT3Fvd09zZzZWSnBMZ0l4ZU5RWHB1TWFPWk8xcUR1dXBq?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa recolhe medicamentos contra câncer e solução para reidratação - Rádio Metrópole",
+      "titulo": "Altera a Lei nº 9.797, de 6 de maio de 1999, para instituir o Kit de Reabilitação Pós-Mastectomia no âmbito do Sistema Único de Saúde (SUS), com o fornecimento de sutiã adaptado, prótese mamária externa, micropigmentação do complexo aréolo-mamilar e malha de compressão (PL 5664/2026)",
+      "fonte": "Câmara dos Deputados",
+      "data": "2026-10-27",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648940",
+      "tema": "legislativo-federal",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa autoriza novo medicamento contra câncer de pulmão avançado - Metrópoles",
       "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV0NuN1JTc0JkbXRFVUdqem4tZXdSVXljQmRHT3cwX1NSc3pScHVXOEh6aTRTWW02YWdORnpWWWY3cmtCTzRtX3V2NG4tSkpyRmhMelNjMHRhd3kwWDBsemxORm5MNzIwMGZRZE5jT2VTdnpDV3UtZlpuMjkxVzZ2bDUtSVdfX09ldjdJMUhUeDRkMzRmTmRva0REN0pJR2F3c1FRLXV5WUJEVmJteW5Galo1TzdBNk0?oc=5",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd2hhSGl5bXFhQVRMRkFQczNyMmZJVjJJa3ExdzA1U1BDUEQ4dVptMl8taUVRRTVYOVRnQkktdXRVUFF3dWJpRng1R2l1cmhDNlNXU2tXTXhsRHlWeHpGSWp1emM0cTR2RXZjZ0U0V2FveGE3UjhkNWZlV180VVZuZjhDZ1pCOFNqdHMzU1JHbmI3Z196RFNzcXZjcGNpQ0U?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa recolhe remédios usados nos tratamentos de câncer; veja quais - A TARDE",
+      "titulo": "Anvisa libera remédio para câncer de pulmão avançado - UOL Notícias",
       "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYjc4YVJ0bUtjOWNsRXZUM1lNeDk0OEF5RHo2WEpLNHJjSUNMWWtrai03UUtzOWdEZzJnLWtlZERXYndCR3MzZmMzTUwtRmxFLVNwTC1FY21IZzVjRlduRFVrYzB5M0hOdW4tQlRYMXFUVFFieHA1WVg3U1cxUlFIZS04Z2dDd3Vhd2NKc0U3a1RrLVZOR3NBN9IBoAFBVV95cUxPQXFYdTU2X3JXSTFuVlBOZENOQTR1dmgzbDh5VjN0eFU4eE9FRElqYW5TV0pxbVRfNjN4ak1NeDJ5Q3FWRkNvOTUxNTFvcy02X2VGdDNXQTRzQzVNYUhOLXVlVUd0ZTZjcjdfLXFrM08yTkNDMlJJTVJ2WVV6WG1LZWQ3ZFhCd2xleG1Ga2VLSFlLaEtJeHpLTElwV2tuVEhH?oc=5",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX0VlaHJ1enI4WW5hMmRhSWxpUWREMjl0V0dSMlI4REEzb09pWlpIQURUU0twNG93QlI4Z1pvcUZEem5OQ3dob1VhWGhTM2RWeW5lWTJGTURuUmFlUWgyREQwYnNjTnpnQzFXV1lNbThjWjBVSWtWYU5lMVhOcFVqU1RnOWpYajJkMXJyeWthSFFiSFhwQVlCeU82ODlBS1pBeC0xMm9KLWZoWEZuVjBUZWk1VWt5ZnJONkd4VTh6aFBTaWNuUlE?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende lotes de medicamentos contra câncer e soluções intravenosas - Midiamax",
+      "titulo": "Anvisa aprova novo medicamento para tratar câncer de pulmão em estágio avançado - Âncora 1",
       "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ1VOWXZlZFAza3pQNVoyM1BYeHVGR2JfUmhOa1p4d1VSSy14NFhwS2RWdUVpU3RSLU02WG5JS2pVaF9Tb3BCRm83RHJISmt3aWl3MXJ3X2ZWd3dHZmN6dkhiOWp3cm5RZk9rTGN4d3ZsZVlzQ2xvei1EQ0tWWmpqV3ZrSzI3X2U1X0JjRWthTHM2VDlpb2FuVHVteFJZT1FTSm4wTHJ1WXBjYjl0eVJj?oc=5",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmE5RFlOSGFNT3djbkxwLVFvSndqaW43dVRXNTg4ZWhzNUpkbXBITldwTXREb2lmcm5OOFBSQlE0ZE1CNE5VOEs1V0FpNTZHTmNZVHFyTFNuc29FbVk0eXBRTk9XQTk0VG5JRXVEODhvMnJpQXRoYjA3M3pKMkU0eEk3bG9vMzdLVnV6alVDaW1GYlJ2UjZPYk9Jbm9WVUhvQ2tsaTdXNA?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Medicamentos para câncer e solução de reidratação são recolhidos pela Anvisa - Portal iG",
+      "titulo": "JP1: Anvisa aprova novo medicamento para câncer de pulmão - sampi.net.br",
       "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5lQkQzb1NkeXhXcEhjdEZES20xX3J5Q0s5UG5CWl9MMjhkYmRhYVV4SHFTdmxKZUJXQnFXcFhDcjk0SFlPb2ktbl8wX2tJc3lXLXJ4VEkwZzR0TzdqaXJvanhZTGNfd09vMVZybVpiN2NCVmhIT08zazU0Zw?oc=5",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU3FJYkVpelFUY2l6N08ydkFEa0pyMkk3S1QwcW5ZMzctTlljUEFYRnA4U2dvOUp3RHhDV0VHT2hpWE1ma2tPeklKNWs5RXppVXJKb0xGUVpBUllKQlVCakZVRFJCbnNDVTVPc3FZWlNyZ0lRLWctU2lJMVRabjFBSGl0T3pkTjdXenlkV1p1cF94bjJ6QmMzTVNvQjBuQTM1WkJEVDN6ZXZoT3lZSHp3UnF0dHE2RG8?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa manda recolher lotes de remédios contra câncer e solução de reidratação - ncnews.com.br",
+      "titulo": "Novo medicamento para câncer de pulmão é aprovado pela Anvisa - querenciaonline.com",
       "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hcy13aXV6SVFMTjJSc3gxWU1DWVhPSGd0Z3ZHTHNCRjRSWWE5Wm1uQWE2cEJkMm5VbEQ4ck5hYy1lRUJDdnZhRnA0TjU3clJaWHlYQkYtbGlOOXBzZnplZDlFdnZBWWtQQmtOY1VMMFh2N05LSzI2SEhR?oc=5",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3lyUU5tNHplaDFaMXY2LXZlYlo5YTBVUklIdGdDZ2hjSFNDZlNYVFRKeUlCc1NJNDBWbUdCWkQ4WFFObzF4Y0JFaFhvMDF0NE9HZXg4MlJrNUlvNmhVU0VXSzdzOFptaUNuNVMxT21mdUVQOHJjZlI4cEZNVnRWVVlOVTRDdFJ5T0xPVC0zTXdWbUtoOGdKRGZ6LVF5c3VrMFBHTXhn?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa recolhe lotes de remédio contra câncer e de soro intravenoso - TV Sim Brasil",
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão metastático - O POVO",
       "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMjRBOW1XRkMybUJvNHh6LS16UDN4clkyU1BaeVRBZGJCOFg5eHFVRUpGNkJnRTAzcnp3dFVhd25WWXQ2Y09ET0VISmV2d21QMVpEeEh3YWgyUkJkQVNFeWN5aFRZLVZDUHlHazM2SDY4bUZ4WFJxbTlYaGxIMEFqZXE0MGNmeFpDZF9WbThZSGZRZWVZX1ZWX2tRM2tpUzNyd1JYaGtHV2NMYWhVMGlZdQ?oc=5",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnItNDd2NU8tNHNJRXFwWHdVR09VRlBoc3dHSndkLXdHVGZfTGZXZXRWOWk2LTRITlRYY3MyUUdJSFN5cDhPdlB0T0UwajhPQXYwNldnV250aUU1U1pPYkpzTTlKQWhvQXNqWVd0V2txWFlaejNxT3hRNmtfWDlIZGFSVHZzZTVhZW9NU3ZPYmhmNG8tdExlQWRVRHlkejdfSzlqNmNLV0JyU2dNNzhzR2pNNGF5VWpKRk1yVGlR?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova medicamento para tratamento inicial de câncer de pulmão metastático - Em Tempo Notícias",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTHF0V1NTUVJtYm1jRTJLZEl5UXdIY1Q5QVRDamZxNzl2Z05KSlZqQkp1bnhjS1JaTm5kb3JXU2hJS2c1d2RkX0JlaXgyM2NuSVFmZ1Q2TjhKcjlIU3Y5NjkzVDlWTUtLcGxrM3RXZUtEZUNOcXg3TXRkOFZ3eVgzNlYzRHNWRUdGRDA5T0ExQTVmSUhlMjFkWnVZMkRFQV92d3Rja3JoYkVHRUxmRXg3ZVhXU2t6QVNoR3RQS0tUbHJMbnpTTzdYbQ?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para tratamento de câncer de pulmão no Brasil - Portal Tri Notícias",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdFVqMmYyNzdlV2JPM2JTbWVQSVNpQmhTQjZhU2JDU3RTTUlORk1ydUZKeXVSbVZOam9EUTlJOGZwczRsdl9Rc2RXZTlUTHJmZVRERkRnVEY5a3BwZEZ3VlBSU3hvMUszYXl1MTBJRms4WlRUZHVSVkJPSllVZktGUFBDME5tcE5sbzV1SmdUWldzZWVVSWl4amZydVFvWmFaT1dRTldGQjE5WG8ydGtIRHFGVjNOVWRjblF5RA?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo remédio para câncer de pulmão avançado - DOL",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaUFIa2NCYUFaZDBVV1hUQVlLOFl5V0tRWFJDN0FpdFRraEJvYjVKS2F0Z0ctREhOTHNVZUpudWczY1pkZWNyNjBENHNGaUFnSXVKa3phOEhlTHZocDI1ckFrSk4wMmFJYnJ5Z2pwSGpKM2R0QjFTeS1TNjY0cm9SN0FKWHVMd0hHbTNqamhPcW5sZGtuUWV0dGY4MkR2NENfcUFj0gGrAUFVX3lxTFBMSHVtOWh1Y0s5WkxvYkd6Tmp2ajM1bm5PUk4wMGdaVWg4dWdPdnZ5cUJ4Q0RKZGNCSjNsVjlwbDBxbWRSeXBJZFY1VHNnTEJSUVhmMXJ4THpkazh3MTY2RDJCeW5uYTdEMTBDdTFLTW1LcUpuSzZtY0JiVWVCYVNUNmkxNmh5RHJNQTJSSmtCNFVfdzNvYUxNdEZLdVdIQXpGOW9MLWRYSDNOQQ?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão - Folha do Estado da Bahia",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNXzM0bG5CdVIyTHVGckt2cXc5S19ZR3RCaThQQ0hVak13TVJGS2Rsa3JIU2FNTWczVEt5dWdCYzd6RmxBZTdhcWdEMnpvMW81dzhWVmgtbU5pMmZ2YzhkMXZESFBNRWpLVjRiTGJxRlhoWHEtTmc3SFdEZG94WDRwQzcyTklSZElSc0VneTg5VUxNQlJtS3Zvc2VDaw?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo remédio para câncer de pulmão avançado - PAIPEE -",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTGlFOFRia2oxSWdxR29KODJPdkdOSERPS0Z1Y0hUc2RvUW82NnpMQmlzUWt0RUd1UmQ1MU1lSER4VzRFLV9sRTBLZ1hNQ3llalVCY1RFQXpuaU42V09vUjd6UlNOWVdOeHNUZnBLZnZGeVJwRG1zNkJqU0hhWHAwVlIxaTJCa1JZUnp4TUZzUDd0TmswbUE?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova novo imunoterápico para o tratamento do câncer de pulmão avançado no Brasil - Correio do Interior",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcElyUTI2QzVkaU9wSHNBS08wWkd6empTT05JZmw1TzNILWY0SmlaY1FmelJxUUpCbmx4bF9ld2VZMkxNNWlFTlIzc3RoRDdvUXY0cVFhbk9EWUlRajkzQ2JEYWpHZ3N0UUpIenU3M0dkaDJQek5fV3cwMlRLeThnb0FRdWZXR2VmYVM5eElUSGhxbFBSejI3OVh1MWZzbHZvTXJyenBaWnZ5SkJqSUJPUW5BNWZCRzdmSFp2WEdpVVRJVTNZelE?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova registro do medicamento Cejemly para tratamento de câncer de pulmão avançado - Porto Alegre 24 Horas",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQmh2TmlLQU1tbkNrLU9Ycmx1TElwNnAzMTVUOXpsRW1MY3BIMkMtUjBxYVpYa292NlJuZm9jajYwME8tOUZmbkZvMkZkN0xIQ29hVEFZWVloRng0cTlPRGg2R2RFV0tEaUpvQUhjT3poUTdfWDlkZjVUcVE5a2JkQ0tBSmhXTGw1b3lmVTVZMmNteHhMcldFWUdIdVM5eVkwcWszVlYyeDVycGZ4ck40aXFubmltc2NUbHpocWhjY3FGRDUzajZid01ENA?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa autoriza novo tratamento para pacientes com câncer de pulmão avançado - Portal de Prefeitura",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSXhHY0ZYWkREOTVSZDVIUUxFRjcycklOcUw4X0JwVGxpYlBMMnd1M3NybENoTkduUGItNnN2RjhhZHEzTVB1N3JuY1lzX1VPdG5tandkdndWaGZ6RksxNjZxdGhRNEtQb3o2LTFYcFdsT0ktLUc3bzNQXzFSMWhOV0plWk04dENWNk9NR3RWdHM4aXdxaktuODhTQ1o1X0NWZV9VLUwycG9Eby1NOU9VejZsRG9WZw?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova sugemalimabe para tratamento inicial de câncer de pulmão metastático - BH 24 Horas",
+      "fonte": "Anvisa",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMl8tNzVGOUpHb29HTVowRWUycWpzR3p6QmZmOUU1c3E2RnUwYnVZVWhfQlkxVXAyS2VuLWFyRlVPWHBLcUUwSzVNeGpYSmRPSzFhNW9mTjl3ckJsYW9PQnVqWmQxdzJlTlJoLUVUcVkweklyRk5xd2NsTUlIQmRydlQ2Qjc1THBfemJFcW1TUjNtVWZtMjhwZzJLMVV3eFg5eUN5WjI5cDBKemZjMmVNOHBNR20?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Ministro da Saúde visita Unicamp e conhece tecnologia inédita para diagnóstico de câncer na América Latina - Governo Federal",
+      "fonte": "Ministério da Saúde",
+      "data": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSG5MQVpLMVNDWlBEN2gtTFVkekpOaVJLckN4OF9lVlE4aXFBc01HcGFsRzVHVm4wOGU4YVJKVU01dHJsZ2NmOTNTZWxuazFpSG9iSHBPb204ZWRrOUxuUjBOU2JZaldPVktELVA3RG1YeUR1ZG9TOUkyQ1NQcEk3WU1yN2t1TEUxU0dzUXVpMloySGxBUi1mTHRZUkFyMHZmc3dSeExmQi1SS1NwbmxyYVNMUE93QUJmdHV1cnZFSE9PWTA5R3VRdWZIalZqM1l4bjVSUzdjdURfVUtKZWlfWkVyZGxLVGRBSEo5aW5QWFY5Uk1kd0dGakVSU1hOdjBh?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
