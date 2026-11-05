@@ -5,13 +5,168 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-11-04T16:55:58.326Z",
+  "atualizadoEm": "2026-11-05T17:11:07.590Z",
   "ultimaExecucao": {
     "mode": "daily",
-    "em": "2026-11-04T16:55:58.326Z"
+    "em": "2026-11-05T17:11:07.590Z"
   },
   "proximaAtualizacao": "notícias/leis diárias",
   "noticias": [
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Chega a 10 o número de integrantes do CV presos após ameaças levarem à suspensão da venda de água mineral no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/quatro-suspeitos-de-ameacar-comerciantes-de-venda-de-agua-em-banabuiu-sao-presos.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Neta transforma segredo passado entre gerações da família em marca de café artesanal cultivado 100% no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/neta-transforma-segredo-passado-entre-geracoes-da-familia-em-marca-de-cafe-artesanal-cultivado-100percent-no-ceara.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Suspensão de venda de água mineral por ameaça de facção já afeta bairros de Fortaleza e cidades do interior",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/suspensao-de-venda-de-agua-mineral-por-ameaca-de-faccao-ja-afeta-bairros-de-fortaleza-e-cidades-do-interior.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 3,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "IBGE oferece 1.527 vagas temporárias para recenseador no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/11/05/ibge-oferece-1527-vagas-temporarias-para-recenseador-no-ceara.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Técnica em enfermagem morre após capotar o carro em rodovia no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/tecnica-em-enfermagem-morre-apos-capotar-o-carro-em-rodovia-no-ceara.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Idosa é vítima de feminicídio no interior do Ceará",
+      "url": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/11/05/idosa-e-vitima-de-feminicidio-no-interior-do-ceara.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Previsão do tempo hoje para Fortaleza (CE): muitas nuvens o dia todo, com aberturas de sol",
+      "url": "https://g1.globo.com/ce/ceara/previsao-do-tempo/noticia/2026/11/05/previsao-do-tempo-hoje-para-fortaleza-ce-sol-com-algumas-nuvens-nao-chove.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Quem é o brasileiro preso na Itália suspeito de tráfico internacional de drogas",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/quem-e-o-brasileiro-preso-na-italia-suspeito-de-trafico-internacional-de-drogas.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 1,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Refis 2026: mais de 800 mil contribuintes podem obter descontos de até 100% em multas e juros",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/refis-2026-mais-de-800-mil-contribuintes-podem-obter-descontos-de-ate-100percent-em-multas-e-juros.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Negativo"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Ranking das 10 pessoas mais velhas do mundo inclui três brasileiros; um deles é cearense de 114 anos",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/05/longeviquest-ranking-pessoas-mais-velhas-do-mundo-cearense-nordestinas.ghtml",
+      "data": "2026-11-05",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "Google News",
+      "titulo": "CMFor promove ação de prevenção ao câncer de próstata no Novembro Azul - Câmara Municipal de Fortaleza",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMVNQR2FPd0VrdkZIY3lGQ1pVS3BPWndCd3VKOHhlbkgxbkhiZjFka1NvbmJRb2tWX19xMGZKQzB4VF9MVHNqWmZjOW1EdmlRMGxoaWtadjZDcFh2OEZDRVZkOVRhdVVaRjFPYzFmdkltdDhvcHU3bm1MWlNvelBBaHA5M2U5aGlUSkNCaFhaUTNnVVZOZFpCQmJwR3lFZUZNajMwN2Ezbll0OWI1aTk0ZDV5UEJTS3JSQ0lB?oc=5",
+      "data": "2026-11-04",
+      "termo": "câncer de próstata Fortaleza",
+      "veiculos": [
+        "Google News"
+      ],
+      "origem": "auto",
+      "incluir": true,
+      "score": 8,
+      "tema": "oncologia",
+      "tom": "Neutro"
+    },
     {
       "veiculo": "Google News",
       "titulo": "Novembro Azul alerta para prevenção do câncer de próstata e importância do diagnóstico precoce - GCMais",
@@ -71,8 +226,8 @@
     },
     {
       "veiculo": "Google News",
-      "titulo": "Após shows cancelados no Nordeste, Jorge & Mateus enfrentam onda de críticas - Folha PE",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaEFQbTJ5NU5xbkFDdmhYbm1qaEhkOHczSTViV0pYUGtkY2pBRGZNSTNMNXpzbm9SNUZGZVNaSnYySkMyNXBLdGhaYUFtSC1iV3QtREJXV0duS2Z4Vm1DaEhaYmdTdGk3aHhEZEM1S09IRGFab0UyX0pGX25IOGVwLUx0UEVHaTE2ZDc3TDV6clV4MHBhMzgzeVVINlluZDR5M1JHNTB3TjhKVjBBMnfSAbMBQVVfeXFMT3dyUGlaSWRRNmlqcHk4U1BFRzdzSFNVZkJRQXZiQ1Job1hSRzRCdVpIM3BSMnBTMVNTMTVCcW1mVDJxd1RNYlZyNWNIUTZKLWdhM053bDZCMktoOVZzN3RVNnFBNUhOVUxNV2FLS29EUVA3NVh3TTZDWUJVbHRZYnhTUC1ndWxoY25aOXRGRFY2c1VRWmZ3M2piMGFnYXNIUC0yUmEtb01kenhhckt2eVJCSWs?oc=5",
+      "titulo": "Shows de Jorge e Mateus são cancelados no Recife e em Fortaleza; entenda - viva.com.br",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd2dDbVotbWdIU2VkOE5EY2RQY1dYMjI1QTg3dUpVNFB1NnI3VGxabXRidzM3UU80NklKVzkwTXBsbWIzdFVHNTZQWm82c3JnYXlYMnRJRFIyLXhqTjBCb2ltbVNHbFdnOTVqcDNGeGhZa1FjX0dGa21vTlJXdms4QlM0QzV6TzkxYk9FYzctSHlYajh2RFQxdElmTDUtUkhqaXNweEF6cVcwLU00TEZ5c0dn?oc=5",
       "data": "2026-11-04",
       "termo": "câncer de próstata Fortaleza",
       "veiculos": [
@@ -116,7 +271,49 @@
     },
     {
       "veiculo": "G1 Ceará",
-      "titulo": "De ameça de facção a falta de água mineral: entenda o que levou à venda de garrafões sob escolta policial no Ceará",
+      "titulo": "PF prende servidores públicos e bloqueia R$ 2 milhões em operação contra tráfico e lavagem de dinheiro no Pará e Ceará",
+      "url": "https://g1.globo.com/pa/para/noticia/2026/11/04/pf-prende-servidores-publicos-e-bloqueia-r-2-milhoes-em-operacao-contra-trafico-e-lavagem-de-dinheiro-no-para-e-ceara.ghtml",
+      "data": "2026-11-04",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Seis supermercados são autuados por venda de alimentos vencidos em Fortaleza",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/04/seis-supermercados-sao-autuados-por-venda-de-alimentos-vencidos-em-fortaleza.ghtml",
+      "data": "2026-11-04",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Comerciantes voltam a vender garrafões de água em município que teve ameaça de facção no Ceará",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/04/comerciantes-voltam-a-vender-garrafoes-de-agua-em-municipio-que-teve-ameaca-de-faccao-no-ceara.ghtml",
+      "data": "2026-11-04",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 2,
+      "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "De ameaça de facção a falta de água mineral: entenda o que levou à venda de garrafões sob escolta policial no Ceará",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/04/de-ameca-de-faccao-a-falta-de-agua-mineral-entenda-o-que-levou-a-venda-de-garrafoes-sob-escolta-policial-no-ceara.ghtml",
       "data": "2026-11-04",
       "veiculos": [
@@ -154,6 +351,34 @@
       "incluir": false,
       "score": 2,
       "tema": "local",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Cearense é preso na Itália suspeito de tráfico internacional de drogas",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/04/cearense-e-preso-na-italia-suspeito-de-trafico-internacional-de-drogas.ghtml",
+      "data": "2026-11-04",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 1,
+      "tema": "saúde",
+      "tom": "Neutro"
+    },
+    {
+      "veiculo": "G1 Ceará",
+      "titulo": "Chacina do Curió: advogado apresenta atestado, e novo júri é adiado",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/04/chacina-do-curio-novo-juri-com-reus-que-tiveram-sentenca-anulada-e-adiada.ghtml",
+      "data": "2026-11-04",
+      "veiculos": [
+        "G1 Ceará"
+      ],
+      "origem": "auto",
+      "incluir": false,
+      "score": 0,
+      "tema": "outro",
       "tom": "Neutro"
     },
     {
@@ -865,20 +1090,6 @@
     },
     {
       "veiculo": "G1 Ceará",
-      "titulo": "Previsão do tempo hoje para Fortaleza (CE): muitas nuvens o dia todo, com aberturas de sol",
-      "url": "https://g1.globo.com/ce/ceara/previsao-do-tempo/noticia/2026/10/31/previsao-do-tempo-hoje-para-fortaleza-ce-sol-com-muitas-nuvens-durante-o-dia-e-periodos-de-ceu-nublado-noite-com-muitas-nuvens.ghtml",
-      "data": "2026-10-31",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
       "titulo": "Expoece começa neste sábado (31) com exposição de animais, premiação, shows e mais; saiba o que esperar ",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/31/expoece-comeca-neste-sabado-31-com-exposicao-de-animais-premiacao-shows-e-mais-saiba-o-que-esperar.ghtml",
       "data": "2026-10-31",
@@ -907,21 +1118,6 @@
       "tom": "Neutro"
     },
     {
-      "veiculo": "Google News",
-      "titulo": "Demarest lança e-book sobre desafios da inovação contra o câncer - Migalhas",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUVdGWWMtUzhCaHoybEJxR29HZjNvYUVvWWRfa203eEVMRGxubG5FQ3o2N0FYYjEwdTB0aDE2cUtJOEhYRHhXVFI2Z2hNSFpXS0l3dFBRVkZpYW1CUjBocXhBTDZpNWdwQXdQdE9DcEFXY2p6UE4tYUhQX05VWG9RbGZPUzkyclZjeHV6eGNIbVF0X1VYSzhSblc3aVpUWlI3QnR4eVBaMFNLb00?oc=5",
-      "data": "2026-10-30",
-      "termo": "medicamento oncológico SUS",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "oncologia",
-      "tom": "Positivo"
-    },
-    {
       "veiculo": "G1 Ceará",
       "titulo": "Justiça manda reintegrar 22 funcionários demitidos por motivo eleitoral no Ceará",
       "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/empresa-e-obrigada-a-reintegrar-22-funcionarios-apos-denuncia-de-discriminacao-politica-no-ceara.ghtml",
@@ -948,213 +1144,33 @@
       "score": 2,
       "tema": "local",
       "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Fortaleza recebe réplica oficial de Nossa Senhora de Fátima, que fará peregrinação até o Cariri; confira programação",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/fortaleza-recebe-replica-oficial-de-nossa-senhora-de-fatima-que-fara-peregrinacao-ate-o-cariri-confira-programacao.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Refis 2026: confira como pagar débitos com desconto de até 100% no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/refis-2026-confira-como-pagar-debitos-com-desconto-de-ate-100percent-no-ceara.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Mulher é morta a facadas no interior do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/mulher-e-morta-a-facadas-no-interior-do-ceara.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Polícia flagra assalto a posto de combustíveis, atira e prende os criminosos em Fortaleza; vídeo",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/policia-flagra-assalto-a-posto-de-combustiveis-atira-e-prende-os-criminosos-em-fortaleza-video.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Crimes contra provedores de internet em cidade do Ceará teriam sido ordenados por chefes de facção escondidos no RJ, aponta investigação",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/crimes-contra-provedores-de-internet-em-cidade-do-ceara-teriam-sido-ordenados-por-chefes-de-faccao-escondidos-no-rj.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Dia de Finados: veja os horários das missas em Fortaleza e Região Metropolitana",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/dia-de-finados-veja-os-horarios-das-missas-em-fortaleza-e-regiao-metropolitana.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Quem era o influenciador assassinado a tiros dentro de apartamento enquanto jantava no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/quem-era-o-influenciador-assassinado-a-tiros-dentro-de-apartamento-enquanto-jantava-no-ceara.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Polícia resgata aves silvestres de cativeiro irregular e galos em situação de maus-tratos no interior do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/29/policia-resgata-aves-silvestres-de-cativeiro-irregular-e-galos-em-situacao-de-maus-tratos-no-interior-do-ceara.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Construtora abre seleção para mais de 60 vagas em Fortaleza e região metropolitana; veja oportunidades",
-      "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/10/29/construtora-abre-selecao-vagas-em-fortaleza-e-regiao-metropolitana.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 2,
-      "tema": "local",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Justiça absolve coronel aposentado da PM acusado de estuprar o próprio filho",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/30/justica-absolve-coronel-aposentado-da-pm-acusado-de-estuprar-o-proprio-filho.ghtml",
-      "data": "2026-10-30",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": false,
-      "score": 0,
-      "tema": "outro",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "Acolhimento e prevenção marcam roda de conversa sobre câncer de mama na Câmara de Fortaleza - Câmara Municipal de Fortaleza",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdEJWZXVHSGVBWTRwQm80Vkh3NWwzOURaTUVhNWVETldoSzFvMG1ydWx2TDA1RHh0ZXNvZjRjN3p4ZTlRRG5mdmhDMGNscmMyamZjS0xDZS1NVm9fOHg5Y3FTWHRjZFBFeVVwdDlVa0owbkUyM0ppM0Zobk82amdwdDdUS2ZBbFNFdl9CczV2bFB3MU55RnFoTUhMMzZSSS1kdzVlWjFjTkNNbW83Nkp2YnRhaWNSRHYxVk4wa092ZXJRY3JvTG8zS3c1a0w5Z1ZINDg1aU4wYw?oc=5",
-      "data": "2026-10-29",
-      "termo": "tratamento de câncer Fortaleza",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 8,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "Google News",
-      "titulo": "SUS terá três novos medicamentos contra o câncer de pulmão - TV Jaguari",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdlAyUEFZNVhhTE9nMDg0cUhVNS1qV0R6SlQ3THhIRWNyUk95VXdST3p1NWZfM2NONFJtano0bFNmdFBORWotQlp1ZVVOdF85Zmp3LXlxZDBReVBjUjBwb2trckRHZ2lQWWRZcUJvTFljMGEyWjZZVWo5aGVuNDJ6N2JLSF8wN0tPbk9hWHFwTnJqRG54?oc=5",
-      "data": "2026-10-29",
-      "termo": "medicamento oncológico SUS",
-      "veiculos": [
-        "Google News"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 5,
-      "tema": "oncologia",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Suspeito de cometer crimes sexuais contra enteada e sobrinhas é preso no interior do Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/29/suspeito-de-cometer-crimes-sexuais-contra-enteada-e-sobrinhas-e-preso-no-interior-do-ceara.ghtml",
-      "data": "2026-10-29",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
-    },
-    {
-      "veiculo": "G1 Ceará",
-      "titulo": "Operação prende três policiais e informante suspeitos de integrar organização criminosa no Ceará",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/29/operacao-prende-tres-policiais-e-informante-suspeitos-de-integrar-organizacao-criminosa-no-ceara.ghtml",
-      "data": "2026-10-29",
-      "veiculos": [
-        "G1 Ceará"
-      ],
-      "origem": "auto",
-      "incluir": true,
-      "score": 3,
-      "tema": "saúde",
-      "tom": "Neutro"
     }
   ],
   "atosLei": [
     {
       "titulo": "Matéria legislativa",
       "fonte": "Senado Federal",
-      "data": "2026-11-04",
+      "data": "2026-11-05",
       "url": "https://www25.senado.leg.br/",
       "tema": "legislativo-federal",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa libera remédio para o tratamento do câncer de mama - Diário dos Campos",
+      "fonte": "Anvisa",
+      "data": "2026-11-05",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR1E0dGlNUUNxR1JCM2IwNjRtbUYwNXpMUzVSY0xLcVk5Q1U5TXBhdUYtdDlWTjY1OHNHSGYxVjhOT2l3VW9FdzNFdHdiX1ZPVlVGbWhQazUyeEJCMmtFY3JhamhyMEhlbGZXUU1NUzFrZDhqclEtQnp5dnJBSlNxX3ctRDc1OXd6NWtrNDZYTWXSAZYBQVVfeXFMTl9oNFZaTnhQbGcyV2xHb1l6SnRCX3BTRmlsNEdTclRfZE5ZNE9OcGMyNHVDajVLYU8wNXZUaGNSZ0tLeXc1OTRoOERaZVFLRm9jelNGdWZjeVlBd0kxa3R5YzlzOE1HSWdMTlVNS3pSNk42SUswTl92SXFIQlJNWUpFangtMDhHdWktaTZ1WjRfZW84TU5R?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova primeiro biossimilar de pertuzumabe para câncer de mama HER2-positivo - RCN 67",
+      "fonte": "Anvisa",
+      "data": "2026-11-05",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM2ZUSzZzU0pGNHpwaDdkZ2xWUHNWSmFDWVd2VTlraV94SW1DbTdqdTd0eTdSUTd4QkhEWWRScV91TVYwTDh6Z0lZVjBEY1RRRjhjS1prMnB5WVpaMEo2QkxfVmNHN3BpaWJnc1JablFxWnpmaHM2ejhjYzVKc1ZlQkJfVDZ1YnU4Sjh0Y25R?oc=5",
+      "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
@@ -1172,6 +1188,24 @@
       "fonte": "Anvisa",
       "data": "2026-11-04",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORTVwY0VxRHZkbWE2WFV6WUtxLTlNazZreUVVTW9XcG9tdHBicnV0Y1NpekFXd0hzZ016Y3Bhakh3WTRtZWNUb1N3eGZ6RU84ODJqMmpsdXhYanlxUWVpNjBsRmY2NU5WcE03eGhBYzNZNG9telBzOEQ0SmF5QWdWMjNPYVZxTFo4RTZhYXc3V0J0ck1RRHNxZWNn?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "Anvisa aprova primeiro medicamento de GLP-1 oral para obesidade - Mais Minas",
+      "fonte": "Anvisa",
+      "data": "2026-11-04",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFc3R2lvRGk4aEFJeVFqRFBkUGZ3WFhib2psallISzB6UXYtVHprZ1BXS1lBUHpPa2FpeGt1VW14eXBTa2l6UlF2X3MzekIyZXdVc2wxSE82eVV1a2lubDUzZXd4d1phN3RTN1pjX0xGNF84M04zQTlRbERXX0VjTDlOS1pVcU1BTkM5T3EtbVYtVC1JcktGUGoxQQ?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
+      "titulo": "São João de Deus integra o Projeto Super Centro Brasil, que busca agilizar diagnósticos de câncer pelo SUS - Portal Gerais",
+      "fonte": "Regulatório (via imprensa)",
+      "data": "2026-11-04",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORkh3Wk1rZ2s4MEhVdDVQeDd4eURhbmpYMC1GZk1scHRzZFEyQUZhcWNLU1RkLUVfa1ZWQ09KVllDUjdMY0EySGc5djdzaDdmbWNKYjJuRC1uWmJMQzV5R3NDUHFSRWxHSDRoTkM0bVVPaU01MVk5QVk5RFBBQXJuQzZ4SGJnYThFNG5sUnlISFI4SWNKRXp0WHQwdFJ6Vno5RklBektpbUpDRW5GVkwyZ29kaHV0cFNCVVN2Yzd6ZFBtUkpNS2NWQWl0aw?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1213,6 +1247,15 @@
       "origem": "auto"
     },
     {
+      "titulo": "Incêndio na Oncologia reacende suspeitas de sabotagem e expõe anos de disputas no Ministério da Saúde - evidencias.co.mz",
+      "fonte": "Ministério da Saúde",
+      "data": "2026-11-03",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVTFPNG9oVzdqRDlYXy1XUGgxTTVFbGRkZVoybHh1SGNsSXBsN0lmSXVaWmw2cG5sLVRXbTZHSGpJcVVuZlVfTXpWb1B1OXBWT2l2dHFxSGk5YXVqZ2REZnU5S2dLcUtER0lydlRoRnNaQV9XNzIyQ3V3VEdCQTNVR3lXX1ZuSGxGOXByeFZ0VHdKb3ltbkdreDhaYlhxR215b2Q1ZklWc3FTcWR0ZG5zR2xDTFA5VFNaY2hNXzEzamdRSmVqQTZmSTdTdGEyT0F1N2FZQw?oc=5",
+      "tema": "regulatório-noticia",
+      "impacto": "BAIXO",
+      "origem": "auto"
+    },
+    {
       "titulo": "Anvisa aprova medicamento para câncer de pulmão avançado com taxa de resposta de 29,2% em estudo - Jornal Tudo Aqui",
       "fonte": "Anvisa",
       "data": "2026-11-01",
@@ -1240,19 +1283,19 @@
       "origem": "auto"
     },
     {
-      "titulo": "Ministério da Saúde atualiza 18 protocolos para tratamento do câncer no SUS - Fala Você Notícias",
-      "fonte": "Ministério da Saúde",
+      "titulo": "Lula 4: O que deve avançar na saúde e quais as demandas do setor - Futuro da Saúde",
+      "fonte": "Regulatório (via imprensa)",
       "data": "2026-10-29",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeE53SmdBV3JhZ3FQVjEtRldDLXZ3bDBkUVpkZVhpWGpSalRMdzVXcFFIWTV0NU1jbVZ0YWQxdHRpdDN1cEc1NmpVNzdMQW9ST3E5UDU0a2xFWERIdUwxNXZnWmZQY21sRDl3cWNOTzJ6VFdpTjVTeVlDZjM1aGRPRmtjWGNJYTZkRFlKWVM2UVdFVTZnTldiU0RwWUNKb1A0c1lTMVpWckl3a3puU3NZZ0lGYUhVaVVNWkxVSnR6UzN0WjFqaVVVZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzVKRGJFbTBDOE1ISmVrX2lScDBNMS1tRXF3b040MzF6cW45bzZ1NVZpRlVieDQweTNQckFPLXlLQ3pKMTBwOHhRbTdHR1VSVVVGNUM4bjhidXdQb2MyVWllVGQxVVJ2eVZFXy1uNjZQSkhXZWpTSnRLRkM0TFpURmhzbHF0UXlHaVVjMFVYTlFJR3JrQnJUWg?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende lotes de medicamentos contra câncer e soro; veja quais - CNN Brasil",
-      "fonte": "Anvisa",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQckVyU21jQzRxMVJKUk84UkR5MjdRMzJOQzdYdGRpd29vRU41NTN2UFo4TEFwbHJ6S2p4eF8tN2lrOGVaTWJvWkk2SlNCandLS1I2dWlCZGduSHQ4bTBXdlV0c3NUaDJUTnc2NDd0T3hmTVNBNE9HdDNOSTFOLTlhTkxUdnVrSTRuZ2x4QnpDNHQwOEF6ejBJdmptQ1gzUGJKTXBoTlBqS1I?oc=5",
+      "titulo": "Ministério da Saúde atualiza 18 protocolos para tratamento do câncer no SUS - Fala Você Notícias",
+      "fonte": "Ministério da Saúde",
+      "data": "2026-10-29",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeE53SmdBV3JhZ3FQVjEtRldDLXZ3bDBkUVpkZVhpWGpSalRMdzVXcFFIWTV0NU1jbVZ0YWQxdHRpdDN1cEc1NmpVNzdMQW9ST3E5UDU0a2xFWERIdUwxNXZnWmZQY21sRDl3cWNOTzJ6VFdpTjVTeVlDZjM1aGRPRmtjWGNJYTZkRFlKWVM2UVdFVTZnTldiU0RwWUNKb1A0c1lTMVpWckl3a3puU3NZZ0lGYUhVaVVNWkxVSnR6UzN0WjFqaVVVZw?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1267,28 +1310,19 @@
       "origem": "auto"
     },
     {
-      "titulo": "Anvisa suspende lotes de três medicamentos usados no tratamento de câncer - BPMoney",
+      "titulo": "Anvisa suspende lotes de medicamentos contra câncer e soro; veja quais - CNN Brasil",
       "fonte": "Anvisa",
       "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lNUh5RFp2T2VBdzRTZ0Y5M3kyY0Z3c1FHNUQtek4tdDU4bWJ0QW5jc0RndWhmVjJ4M05aOE1ZemZ0UHhQRmg0UmphbHRkTXRScUhEcUNDQWhIV3V6ZExnX2d5WWNhRF9qb3UyWEFoQ3BkVU5PYnFmWnJKc0lfb28?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQckVyU21jQzRxMVJKUk84UkR5MjdRMzJOQzdYdGRpd29vRU41NTN2UFo4TEFwbHJ6S2p4eF8tN2lrOGVaTWJvWkk2SlNCandLS1I2dWlCZGduSHQ4bTBXdlV0c3NUaDJUTnc2NDd0T3hmTVNBNE9HdDNOSTFOLTlhTkxUdnVrSTRuZ2x4QnpDNHQwOEF6ejBJdmptQ1gzUGJKTXBoTlBqS1I?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
     {
-      "titulo": "Teste para detecção precoce do câncer do colo do útero já está disponível em 26 estados do país - Governo Federal",
+      "titulo": "Teste para detecção precoce do câncer do colo do útero já está disponível em 26 estados do país - GOV.BR",
       "fonte": "Regulatório (via imprensa)",
       "data": "2026-10-28",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNTdzWm8zU3plcm5YUzRVQVpnVWtLRjZxLVpsN0JzaDh0am1wSE1jZHFlUE9Bc0NiekZETUFadEMzbEhHcEhzNjJHbHdMQUhBY3RTWGF2MFZqNk1qYXFhZHZQVTBSUVEzYWkxYlU5MUNOdUVJaWwyM1NiY3VYQUpuR3MxbzRjOFJVTVp2U21QYkNJTFlDSlhwWmsxRk91TW1oM3FkUllJMHJiZ2ZnaHVaNDloeDdTaFRjMkFiNkFmd0x4Rm9yNG9YUGFjSE1Wakx6bU1EUUkwSDV4WjFzeWVQR2FFZjcweV9aWDA1cjhB?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério aprova diretrizes nacionais para rastrear câncer de intestino no SUS - Folha MS",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-28",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkd5dHZJRFVhTkliQWFCOVdvc2VaMHJmai14Q28teUpweDIwNk5PV253QWhUbk91RmVKTG1CNVNMdXVzVF96OExhYS1Da0RBT2J3cmR5eWo2ZDBJY19zQzZxNTNiVm9rb0lTQkxYYUVwdkYyT3Fvd09zZzZWSnBMZ0l4ZU5RWHB1TWFPWk8xcUR1dXBq?oc=5",
       "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
@@ -1299,15 +1333,6 @@
       "data": "2026-10-27",
       "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648940",
       "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministro da Saúde visita Unicamp e conhece tecnologia inédita para diagnóstico de câncer na América Latina - Governo Federal",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-10-27",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQaTA5MGMyUU9mcDVQbzNWOE9PbE4tX2VUUlhIZ19EOHBjX0h0TEFCWmRFNUhMLTlYOHcyTGh2ZkxYOF9BY0xERHlLSTkxMU9qU2VjVy02aTRFcFo4QzBOYUQ0eHZ1U05sMVQ1RHR0RlBwa0prTnJqMzdiOWJ6YzNyOVdNb0FxM0lYWmtCZi1yUnpXbzd4YXppTmpnQ1F6QzlGcGpTbGctZzRFdWtsRWZ4SlZhMm0wTWo0YWJkVHBtdnk5OFRCNkV5eV9zRmplR2taMkYyODF2X21MaHBiXzRqT2RVUElEbW14VlBMWUppNTR6LVNDbmhKMHVmVFk?oc=5",
-      "tema": "regulatório-noticia",
       "impacto": "BAIXO",
       "origem": "auto"
     },
@@ -1388,33 +1413,6 @@
       "fonte": "Câmara dos Deputados",
       "data": "2026-09-29",
       "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647194",
-      "tema": "legislativo-federal",
-      "impacto": "BAIXO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "CRF-CE INFORMA: NOVA REGULAMENTAÇÃO FORTALECE A ASSISTÊNCIA FARMACÊUTICA NA ONCOLOGIA - CRF-CE",
-      "fonte": "Regulatório (via imprensa)",
-      "data": "2026-09-24",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYU5tWFVJWGdrVjgzS2dxNDVvX2pMQldQLUZ4VTNBeDRnWjg3WS1qajBlMjMwV094ak5TVFh5ZTJ2Q0JoRWJUeUtNQzc0dFIyUmZIR0k4Vmd0dzJDRzFYbS1JM1JBOUxkR09jWC1lZ0JNQ2ZGNi1PWDdLeUhCVzJMcktTMnFMQ0tEM0hkMVkzWURmXy0tQXhRdGFrRUlnMVlpd3JPMFF0dl9rWkxsZE5KczdKWjFuVV9yUXNneEJuVjJiaHc?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "MÉDIO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Ministério da Saúde regulamenta Centrais de Diluição de medicamentos de altíssimo custo em oncologia - Biored Brasil",
-      "fonte": "Ministério da Saúde",
-      "data": "2026-09-23",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN1gzS3BPOUgtZDh2MUJrYS1IY0IxY1lIM1c2Z01zc256OUZ6M1BkYnZ0bXJLZV80R1ZoR0phWE5VdXJ1UklNeEpFSEZpV2pUN2E3SkpzSmJPVEJKNTBsbnd5VGJ3azJob2pPTGxWUF85QTZ4MWVYOTU1R0pEMEdDdUpPbThlZmpIMkE3dVVrbEd5eXl3dXZMU3NjeDFmekpxeHAzbWthZm1IcjNXWW1mT1RjaGQ5MGlrUEkzWDEwTG5MVUZORW51NFVQdXAtQQ?oc=5",
-      "tema": "regulatório-noticia",
-      "impacto": "MÉDIO",
-      "origem": "auto"
-    },
-    {
-      "titulo": "Altera a Lei nº 13.675, de 11 de junho de 2018, para dispor sobre a assistência suplementar de saúde no âmbito do Programa Pró-Vida, e a Lei nº 13.756, de 12 de dezembro de 2018, para disciplinar os limites e as condicionantes orçamentárias de aplicação dos recursos do Fundo Nacional de Segurança Pública (FNSP). (PL 5422/2026)",
-      "fonte": "Câmara dos Deputados",
-      "data": "2026-09-21",
-      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2646872",
       "tema": "legislativo-federal",
       "impacto": "BAIXO",
       "origem": "auto"
