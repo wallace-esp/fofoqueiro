@@ -5,12 +5,12 @@
   "segmento": "Oncologia",
   "cidade": "Fortaleza",
   "estado": "CE",
-  "atualizadoEm": "2026-11-09T19:35:38.153Z",
+  "atualizadoEm": "2026-11-09T20:17:36.678Z",
   "ultimaExecucao": {
-    "mode": "daily",
-    "em": "2026-11-09T19:35:38.153Z"
+    "mode": "weekly",
+    "em": "2026-11-09T20:17:36.678Z"
   },
-  "proximaAtualizacao": "notícias/leis diárias",
+  "proximaAtualizacao": "concorrência semanal",
   "noticias": [
     {
       "veiculo": "G1 Ceará",
@@ -1442,7 +1442,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:52:57.174Z",
+      "coletadoEm": "2026-11-09T20:16:36.971Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=oncologia%20Fortaleza&geo=BR-CE"
     },
@@ -1469,7 +1469,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:52:57.175Z",
+      "coletadoEm": "2026-11-09T20:16:36.971Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=tratamento%20de%20c%C3%A2ncer%20Fortaleza&geo=BR-CE"
     },
@@ -1500,7 +1500,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=quimioterapia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-11-02T19:53:08.374Z",
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1530,19 +1530,20 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=radioterapia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-11-02T19:53:08.374Z",
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
       "termo": "ICC Fortaleza",
-      "indiceInteresse": 2,
-      "volume": 2,
+      "indiceInteresse": 9,
+      "volume": 9,
       "incremento": 0,
       "tendencia": "estável",
       "serie": [
         0,
         0,
         0,
+        96,
         0,
         0,
         0,
@@ -1550,13 +1551,12 @@
         0,
         0,
         0,
-        0,
-        2
+        9
       ],
       "geo": "BR-CE",
       "status": "ok",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:52:57.175Z",
+      "coletadoEm": "2026-11-09T20:16:36.971Z",
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=ICC%20Fortaleza&geo=BR-CE"
     },
@@ -1583,7 +1583,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:53:00.046Z",
+      "coletadoEm": "2026-11-09T20:16:39.940Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=Oncocl%C3%ADnicas%20Fortaleza&geo=BR-CE"
     },
@@ -1612,7 +1612,10 @@
       "fonte": "Google Trends",
       "coletadoEm": "2026-11-02T19:53:00.046Z",
       "confiabilidade": "ALTA",
-      "url": "https://trends.google.com/trends/explore?q=CRIO%20Fortaleza&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=CRIO%20Fortaleza&geo=BR-CE",
+      "stale": true,
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
+      "motivoFalha": "sem-interesse-detectado"
     },
     {
       "termo": "hospital oncológico Fortaleza",
@@ -1641,7 +1644,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=hospital%20oncol%C3%B3gico%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-11-02T19:53:08.374Z",
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1671,7 +1674,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20mama%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-11-02T19:53:08.374Z",
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1697,7 +1700,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:53:00.046Z",
+      "coletadoEm": "2026-11-09T20:16:39.940Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20de%20pr%C3%B3stata%20Fortaleza&geo=BR-CE"
     },
@@ -1728,7 +1731,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=bi%C3%B3psia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-11-02T19:53:08.374Z",
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1758,7 +1761,7 @@
       "confiabilidade": "ALTA",
       "url": "https://trends.google.com/trends/explore?q=imunoterapia%20Fortaleza&geo=BR-CE",
       "stale": true,
-      "ultimaTentativa": "2026-11-02T19:53:08.374Z",
+      "ultimaTentativa": "2026-11-09T20:16:50.256Z",
       "motivoFalha": "sem-interesse-detectado"
     },
     {
@@ -1784,7 +1787,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:53:02.986Z",
+      "coletadoEm": "2026-11-09T20:16:42.883Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=PET%20scan%20Fortaleza&geo=BR-CE"
     },
@@ -1811,7 +1814,7 @@
       "geo": "BR-CE",
       "status": "sem-interesse-detectado",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:53:02.986Z",
+      "coletadoEm": "2026-11-09T20:16:42.883Z",
       "confiabilidade": "BAIXA",
       "url": "https://trends.google.com/trends/explore?q=medicamento%20oncol%C3%B3gico%20SUS&geo=BR-CE"
     },
@@ -1840,60 +1843,37 @@
       "fonte": "Google Trends",
       "coletadoEm": "2026-11-02T19:53:02.986Z",
       "confiabilidade": "ALTA",
-      "url": "https://trends.google.com/trends/explore?q=plano%20de%20sa%C3%BAde%20oncologia%20Cear%C3%A1&geo=BR-CE"
+      "url": "https://trends.google.com/trends/explore?q=plano%20de%20sa%C3%BAde%20oncologia%20Cear%C3%A1&geo=BR-CE",
+      "stale": true,
+      "ultimaTentativa": "2026-11-09T20:16:50.257Z",
+      "motivoFalha": "sem-interesse-detectado"
     },
     {
       "termo": "onco Ceará",
-      "indiceInteresse": 0,
-      "volume": 0,
-      "incremento": 0,
-      "tendencia": "estável",
-      "serie": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "indiceInteresse": null,
+      "volume": null,
+      "incremento": null,
+      "tendencia": "indisponível",
+      "serie": [],
       "geo": "BR-CE",
-      "status": "sem-interesse-detectado",
+      "status": "indisponivel",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:53:05.872Z",
-      "confiabilidade": "BAIXA",
+      "coletadoEm": null,
+      "confiabilidade": "SEM_DADO",
       "url": "https://trends.google.com/trends/explore?q=onco%20Cear%C3%A1&geo=BR-CE"
     },
     {
       "termo": "câncer infantil Fortaleza",
-      "indiceInteresse": 0,
-      "volume": 0,
-      "incremento": 0,
-      "tendencia": "estável",
-      "serie": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "indiceInteresse": null,
+      "volume": null,
+      "incremento": null,
+      "tendencia": "indisponível",
+      "serie": [],
       "geo": "BR-CE",
-      "status": "sem-interesse-detectado",
+      "status": "indisponivel",
       "fonte": "Google Trends",
-      "coletadoEm": "2026-11-02T19:53:05.872Z",
-      "confiabilidade": "BAIXA",
+      "coletadoEm": null,
+      "confiabilidade": "SEM_DADO",
       "url": "https://trends.google.com/trends/explore?q=c%C3%A2ncer%20infantil%20Fortaleza&geo=BR-CE"
     }
   ],
@@ -1906,12 +1886,18 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 0,
+          "valor": 1,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:08.376Z",
+          "coletadoEm": "2026-11-09T20:16:50.258Z",
           "confiabilidade": "ALTA",
-          "evidencia": false,
-          "exemplos": []
+          "evidencia": true,
+          "exemplos": [
+            {
+              "titulo": "Grupo suspeito de facilitar a entrada de celulares e canetas em presídios do Ceará é alvo de operação da Ficco",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/06/grupo-suspeito-de-facilitar-a-entrada-de-celulares-em-presidios-do-ceara-e-alvo-de-operacao.ghtml",
+              "data": "2026-11-06"
+            }
+          ]
         },
         "interesseTrends": {
           "valor": null,
@@ -1919,7 +1905,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -1963,11 +1949,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
-          "diff": -1,
-          "pct": -100,
+          "diff": 0,
+          "pct": 0,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -1986,7 +1972,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:13.162Z",
+          "coletadoEm": "2026-11-09T20:16:55.151Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2041,7 +2027,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2064,14 +2050,14 @@
         "mencoes30d": {
           "valor": 1,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:17.797Z",
+          "coletadoEm": "2026-11-09T20:16:59.816Z",
           "confiabilidade": "ALTA",
           "evidencia": true,
           "exemplos": [
             {
-              "titulo": "Diretor da Maternidade de Quixadá lança livro sobre oncologia reunindo autores de sete países - Revista Central",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFVDWDU2VUY2ZEJKSGNnNnhoM2Z6RWt4NmFHZ3ZJUGxzdXVXQ1dDVlhESFNvNTk5bjRvZ3VyanZuUE85VjR0eXI5VHExS2RkejhQSGJNZnhwdGR1RkdMRFlyYV93ZDVpdE4xR2F2Vmgxc1RpNTEzVUt2anh6WHNCR0xGQlJDVkh0NHI2NUJTTWc1MEJYY1Jwa3RyWDJZb1BtdjI5VFFueTFqMzJhVVQxZ2I1YVVQYTBRdFFpT3NHeGlCdw?oc=5",
-              "data": "2026-10-30"
+              "titulo": "HUC registra mais de 6 mil procedimentos cirúrgicos no serviço de oncologia - Governo do Estado do Ceará",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ3Ryek8zQXhDem5xdUJIQkJaM21OdE1Kd2gxakN0OFE1WkhaenppV3BxV1YwdDZWTlRhVWNyaXpQaDhiT2FCT0ZsUmRTU19hSU9MQWRrOTJGZVgyVEtwT3lUVHRrV1RmMzROZ3Y1NGo3R0dqVTFvbzQ3T0pmeEVzbXY3RjNXY0VLMWJBRzFLYUMtdkJuM3IteTN6Vkk4bEVTaXl1M1FqVldaZWQ4bHRieFI1SW84dw?oc=5",
+              "data": "2026-11-05"
             }
           ]
         },
@@ -2125,11 +2111,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
-          "diff": -3,
-          "pct": -75,
+          "diff": 0,
+          "pct": 0,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2146,18 +2132,12 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 1,
+          "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:22.463Z",
+          "coletadoEm": "2026-11-09T20:17:04.445Z",
           "confiabilidade": "ALTA",
-          "evidencia": true,
-          "exemplos": [
-            {
-              "titulo": "Centro da 1ª Infância (Polo Eduardo Sá - Abc), 88ª zona eleitoral: resultado da votação em Eusébio (CE) no 1º turno",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/centro-da-1a-infancia-polo-eduardo-sa-abc-88a-zona-eleitoral-resultado-da-votacao-em-eusebio-ce-no-1o-turno.ghtml",
-              "data": "2026-10-29"
-            }
-          ]
+          "evidencia": false,
+          "exemplos": []
         },
         "interesseTrends": {
           "valor": null,
@@ -2165,7 +2145,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends vazio para marca"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -2209,11 +2189,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
-          "diff": 1,
-          "pct": null,
+          "diff": -1,
+          "pct": -100,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2232,7 +2212,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:27.086Z",
+          "coletadoEm": "2026-11-09T20:17:09.097Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2287,7 +2267,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2308,26 +2288,29 @@
       "googleMapsUrl": null,
       "indicadores": {
         "mencoes30d": {
-          "valor": 1,
+          "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:31.606Z",
+          "coletadoEm": "2026-11-09T20:17:13.604Z",
           "confiabilidade": "ALTA",
-          "evidencia": true,
-          "exemplos": [
-            {
-              "titulo": "Criança fica em estado grave após picada de escorpião e é transferida de helicóptero para hospital de Fortaleza ",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/02/crianca-fica-em-estado-grave-apos-picada-de-escorpiao-e-e-transferida-de-helicoptero-para-hospital-de-fortaleza.ghtml",
-              "data": "2026-11-02"
-            }
-          ]
+          "evidencia": false,
+          "exemplos": []
         },
         "interesseTrends": {
-          "valor": null,
-          "fonte": null,
-          "coletadoEm": null,
-          "confiabilidade": "SEM_DADO",
-          "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "valor": 79,
+          "serie": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            79
+          ],
+          "fonte": "Google Trends",
+          "coletadoEm": "2026-11-09T20:17:13.924Z",
+          "confiabilidade": "MEDIA",
+          "evidencia": true
         },
         "googleMaps": {
           "valor": null,
@@ -2371,11 +2354,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
-          "pct": 0,
+          "pct": null,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2394,34 +2377,34 @@
         "mencoes30d": {
           "valor": 5,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:36.372Z",
+          "coletadoEm": "2026-11-09T20:17:18.290Z",
           "confiabilidade": "ALTA",
           "evidencia": true,
           "exemplos": [
             {
-              "titulo": "Polícia resgata aves silvestres de cativeiro irregular e galos em situação de maus-tratos no interior do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/29/policia-resgata-aves-silvestres-de-cativeiro-irregular-e-galos-em-situacao-de-maus-tratos-no-interior-do-ceara.ghtml",
-              "data": "2026-10-30"
+              "titulo": "Vídeo flagra emboscada que resultou no assassinato de ex-subtenente da PM no Ceará",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/08/video-flagra-emboscada-que-resultou-no-assassinato-de-ex-subtenente-da-pm-no-ceara.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "Cursos técnicos do IFCE: Justiça suspende regra que eliminava candidatos reprovados na heteroidentificação",
-              "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/10/29/cursos-tecnicos-do-ifce-justica-suspende-regra-que-eliminava-candidatos-reprovados-na-heteroidentificacao.ghtml",
-              "data": "2026-10-29"
+              "titulo": "Candidatos vão a local de prova do Enem em Fortaleza de mototáxi e chegam segundos antes de fecharem os portões",
+              "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/11/08/candidatos-vao-a-local-de-prova-do-enem-em-fortaleza-de-mototaxi-e-chegam-segundos-antes-de-fecharem-os-portoes.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "20ª Cres - Coordenadoria Regional de Saúde - Crato, 27ª zona eleitoral: resultado da votação em Crato (CE) no 1º turno",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/20a-cres-coordenadoria-regional-de-saude-crato-27a-zona-eleitoral-resultado-da-votacao-em-crato-ce-no-1o-turno.ghtml",
-              "data": "2026-10-29"
+              "titulo": "Candidatos do Enem enfrentam calor e procuram sombras de árvores enquanto aguardam prova em Fortaleza",
+              "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/11/08/candidatos-do-enem-enfrentam-calor-e-procuram-sombras-de-arvores-enquanto-aguardam-prova-em-fortaleza.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "18ª Crede - Coordenadoria Regional de Desenv. da Educação, 27ª zona eleitoral: resultado da votação em Crato (CE) no 1º turno",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/18a-crede-coordenadoria-regional-de-desenv-da-educacao-27a-zona-eleitoral-resultado-da-votacao-em-crato-ce-no-1o-turno.ghtml",
-              "data": "2026-10-29"
+              "titulo": "Igreja em Fortaleza faz missa para abençoar canetas de candidatos do Enem",
+              "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/11/08/igreja-em-fortaleza-faz-missa-para-abencoar-canetas-de-candidatos-do-enem.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "Dupla é presa por suspeita de assassinato de casal em São Gonçalo do Amarante, no Ceará",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/28/dupla-e-presa-por-suspeita-de-assassinato-de-casal-em-sao-goncalo-do-amarante-no-ceara.ghtml",
-              "data": "2026-10-28"
+              "titulo": "Capote atolado: aprenda a fazer receita com pirão e carne de capote",
+              "url": "https://g1.globo.com/ce/ceara/receitas/noticia/2026/11/08/capote-atolado-aprenda-a-fazer-receita-com-pirao-e-carne-de-capote.ghtml",
+              "data": "2026-11-08"
             }
           ]
         },
@@ -2475,11 +2458,11 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
-          "diff": 5,
-          "pct": null,
+          "diff": 4,
+          "pct": 400,
           "diasEntre": 28
         },
         "interesseTrends": null,
@@ -2498,7 +2481,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:41.036Z",
+          "coletadoEm": "2026-11-09T20:17:22.804Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2509,7 +2492,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends vazio para marca"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -2553,7 +2536,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2576,7 +2559,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:45.635Z",
+          "coletadoEm": "2026-11-09T20:17:27.292Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2587,7 +2570,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Trends vazio para marca"
+          "motivo": "Sem interesse detectado no período"
         },
         "googleMaps": {
           "valor": null,
@@ -2631,7 +2614,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2654,7 +2637,7 @@
         "mencoes30d": {
           "valor": 0,
           "fonte": "Google News + RSS imprensa (dedup)",
-          "coletadoEm": "2026-11-02T19:53:50.170Z",
+          "coletadoEm": "2026-11-09T20:17:31.827Z",
           "confiabilidade": "ALTA",
           "evidencia": false,
           "exemplos": []
@@ -2665,7 +2648,7 @@
           "coletadoEm": null,
           "confiabilidade": "SEM_DADO",
           "evidencia": false,
-          "motivo": "Sem interesse detectado no período"
+          "motivo": "Trends vazio para marca"
         },
         "googleMaps": {
           "valor": null,
@@ -2709,7 +2692,7 @@
       },
       "evolucao30d": {
         "status": "ok",
-        "periodo": "2026-10-05 → 2026-11-02",
+        "periodo": "2026-10-12 → 2026-11-09",
         "diasEntre": 28,
         "mencoes": {
           "diff": 0,
@@ -2754,29 +2737,29 @@
           "mencoes": 5,
           "exemplos": [
             {
-              "titulo": "Polícia resgata aves silvestres de cativeiro irregular e galos em situação de maus-tratos no interior do Ceará",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/29/policia-resgata-aves-silvestres-de-cativeiro-irregular-e-galos-em-situacao-de-maus-tratos-no-interior-do-ceara.ghtml",
-              "data": "2026-10-30"
+              "titulo": "Vídeo flagra emboscada que resultou no assassinato de ex-subtenente da PM no Ceará",
+              "url": "https://g1.globo.com/ce/ceara/noticia/2026/11/08/video-flagra-emboscada-que-resultou-no-assassinato-de-ex-subtenente-da-pm-no-ceara.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "Cursos técnicos do IFCE: Justiça suspende regra que eliminava candidatos reprovados na heteroidentificação",
-              "url": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/10/29/cursos-tecnicos-do-ifce-justica-suspende-regra-que-eliminava-candidatos-reprovados-na-heteroidentificacao.ghtml",
-              "data": "2026-10-29"
+              "titulo": "Candidatos vão a local de prova do Enem em Fortaleza de mototáxi e chegam segundos antes de fecharem os portões",
+              "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/11/08/candidatos-vao-a-local-de-prova-do-enem-em-fortaleza-de-mototaxi-e-chegam-segundos-antes-de-fecharem-os-portoes.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "20ª Cres - Coordenadoria Regional de Saúde - Crato, 27ª zona eleitoral: resultado da votação em Crato (CE) no 1º turno",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/20a-cres-coordenadoria-regional-de-saude-crato-27a-zona-eleitoral-resultado-da-votacao-em-crato-ce-no-1o-turno.ghtml",
-              "data": "2026-10-29"
+              "titulo": "Candidatos do Enem enfrentam calor e procuram sombras de árvores enquanto aguardam prova em Fortaleza",
+              "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/11/08/candidatos-do-enem-enfrentam-calor-e-procuram-sombras-de-arvores-enquanto-aguardam-prova-em-fortaleza.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "18ª Crede - Coordenadoria Regional de Desenv. da Educação, 27ª zona eleitoral: resultado da votação em Crato (CE) no 1º turno",
-              "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/29/18a-crede-coordenadoria-regional-de-desenv-da-educacao-27a-zona-eleitoral-resultado-da-votacao-em-crato-ce-no-1o-turno.ghtml",
-              "data": "2026-10-29"
+              "titulo": "Igreja em Fortaleza faz missa para abençoar canetas de candidatos do Enem",
+              "url": "https://g1.globo.com/ce/ceara/educacao/noticia/2026/11/08/igreja-em-fortaleza-faz-missa-para-abencoar-canetas-de-candidatos-do-enem.ghtml",
+              "data": "2026-11-08"
             },
             {
-              "titulo": "Dupla é presa por suspeita de assassinato de casal em São Gonçalo do Amarante, no Ceará",
-              "url": "https://g1.globo.com/ce/ceara/noticia/2026/10/28/dupla-e-presa-por-suspeita-de-assassinato-de-casal-em-sao-goncalo-do-amarante-no-ceara.ghtml",
-              "data": "2026-10-28"
+              "titulo": "Capote atolado: aprenda a fazer receita com pirão e carne de capote",
+              "url": "https://g1.globo.com/ce/ceara/receitas/noticia/2026/11/08/capote-atolado-aprenda-a-fazer-receita-com-pirao-e-carne-de-capote.ghtml",
+              "data": "2026-11-08"
             }
           ]
         }
@@ -2787,15 +2770,15 @@
     },
     {
       "titulo": "Crescimento de mídia — ATO Oncologia",
-      "descricao": "Menções à ATO Oncologia passaram de 0 para 5 nos últimos ~28 dias. Sinal de campanha ou acontecimento relevante.",
+      "descricao": "Menções à ATO Oncologia passaram de 1 para 5 nos últimos ~28 dias. Sinal de campanha ou acontecimento relevante.",
       "tipo": "sinal-competitivo",
       "prioridade": "MÉDIA",
       "sinais": [
         {
           "fonte": "snapshot-comparativo",
-          "inicio": "2026-10-05",
-          "fim": "2026-11-02",
-          "delta": 5
+          "inicio": "2026-10-12",
+          "fim": "2026-11-09",
+          "delta": 4
         }
       ],
       "recomendacao": "Investigar causa e considerar resposta comunicacional.",
@@ -2823,6 +2806,6 @@
   "origem": {
     "motor": "ingest.mjs",
     "versao": "2.1",
-    "mode": "daily"
+    "mode": "weekly"
   }
 }
