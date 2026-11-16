@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-11-09T20:16:33.737Z",
+  "executadoEm": "2026-11-16T19:55:45.796Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -86,7 +86,7 @@
         },
         {
           "termo": "câncer de mama Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         },
         {
@@ -152,24 +152,21 @@
         {
           "geo": "BR-CE",
           "status": "ok",
-          "pontos": 0
-        },
-        {
-          "geo": "BR",
-          "status": "ok-fallback",
-          "pontos": 0
+          "pontos": 91
         }
       ],
-      "geoUsado": "BR",
-      "pontos": 0,
+      "geoUsado": "BR-CE",
+      "pontos": 91,
       "resultadosPorTermo": [
         {
           "termo": "onco Ceará",
-          "status": "indisponivel"
+          "status": "ok",
+          "ultimo": 0
         },
         {
           "termo": "câncer infantil Fortaleza",
-          "status": "indisponivel"
+          "status": "sem-interesse-detectado",
+          "ultimo": 0
         }
       ]
     }
@@ -178,12 +175,12 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 80,
+    "ultimoValor": 81,
     "status": "wrapper-ok"
   },
   "resumo": {
-    "comDados": 1,
-    "semDados": 2,
+    "comDados": 3,
+    "semDados": 0,
     "semInteresse": 14,
     "total": 17
   }
