@@ -1,5 +1,5 @@
 {
-  "executadoEm": "2026-11-16T19:55:45.796Z",
+  "executadoEm": "2026-11-23T21:48:28.708Z",
   "geoPrincipal": "BR-CE",
   "geoFallback": "BR",
   "termosCarregados": 17,
@@ -46,7 +46,7 @@
         {
           "termo": "ICC Fortaleza",
           "status": "ok",
-          "ultimo": 9
+          "ultimo": 10
         }
       ]
     },
@@ -86,12 +86,12 @@
         },
         {
           "termo": "câncer de mama Fortaleza",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
           "termo": "câncer de próstata Fortaleza",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         }
       ]
@@ -137,7 +137,7 @@
         },
         {
           "termo": "plano de saúde oncologia Ceará",
-          "status": "sem-interesse-detectado",
+          "status": "ok",
           "ultimo": 0
         }
       ]
@@ -152,15 +152,20 @@
         {
           "geo": "BR-CE",
           "status": "ok",
+          "pontos": 0
+        },
+        {
+          "geo": "BR",
+          "status": "ok-fallback",
           "pontos": 91
         }
       ],
-      "geoUsado": "BR-CE",
+      "geoUsado": "BR",
       "pontos": 91,
       "resultadosPorTermo": [
         {
           "termo": "onco Ceará",
-          "status": "ok",
+          "status": "sem-interesse-detectado",
           "ultimo": 0
         },
         {
@@ -175,7 +180,7 @@
     "termo": "instagram",
     "geo": "BR",
     "pontos": 91,
-    "ultimoValor": 81,
+    "ultimoValor": 80,
     "status": "wrapper-ok"
   },
   "resumo": {
